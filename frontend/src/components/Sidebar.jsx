@@ -1,74 +1,157 @@
-import {
-    FaPlus,
-    FaFilePdf,
-    FaShieldAlt,
-    FaTools,
-    FaFolderOpen
-} from "react-icons/fa";
+import { useContext, useState } from "react";
+import { FaBars } from "react-icons/fa";
+
+import { ChatContext } from "../context/ChatContext";
+
+import SidebarHeader from "../sidebar/SidebarHeader";
+import NewChatButton from "../sidebar/NewChatButton";
+import ChatList from "../sidebar/ChatList";
+import KnowledgeExplorer from "../sidebar/KnowledgeExplorer";
+import SidebarFooter from "../sidebar/SidebarFooter";
+import FloatingMenu from "../sidebar/FloatingMenu";
 
 function Sidebar() {
 
+    const {
+        chatSessions,
+        currentChatId,
+        setCurrentChatId,
+        createChat,
+        renameChat,
+        deleteChat,
+        pinChat
+    } = useContext(ChatContext);
+
+    const [sidebarOpen, setSidebarOpen] = useState(true);
+
+    const [menuOpen, setMenuOpen] = useState(null);
+
+    const [menuPosition, setMenuPosition] = useState({
+        x: 0,
+        y: 0
+    });
+
+    const selectedChat =
+        chatSessions.find(chat => chat.id === menuOpen);
+
     return (
+        <>
 
-        <div className="w-72 bg-slate-800 border-r border-slate-700 flex flex-col">
+            {
+                !sidebarOpen &&
 
-            <button
-                className="m-4 p-3 rounded-xl bg-cyan-600 hover:bg-cyan-700 transition"
+                <button
+                    onClick={() => setSidebarOpen(true)}
+                    className="
+                        fixed
+                        top-4
+                        left-4
+                        z-50
+                        p-3
+                        rounded-xl
+                        bg-slate-800
+                        hover:bg-slate-700
+                        transition
+                        shadow-xl
+                    "
+                >
+                    <FaBars />
+                </button>
+            }
+
+            <aside
+
+                onClick={() => setMenuOpen(null)}
+
+                className={`
+                    h-screen
+                    bg-slate-900
+                    border-r
+                    border-slate-700
+                    flex
+                    flex-col
+                    transition-all
+                    duration-300
+                    overflow-hidden
+                    ${sidebarOpen ? "w-72" : "w-0"}
+                `}
             >
-                <FaPlus className="inline mr-2" />
 
-                New Chat
+                <SidebarHeader
+                    sidebarOpen={sidebarOpen}
+                    setSidebarOpen={setSidebarOpen}
+                />
 
-            </button>
+                <div
+                className="
+                    flex-1
+                    overflow-y-auto
+                    sidebar-scroll
+                "
+            >
 
-            <div className="px-5 mt-3">
+                <NewChatButton
+                    createChat={createChat}
+                />
 
-                <h2 className="text-gray-400 text-sm mb-3">
+                <ChatList
+                    chatSessions={chatSessions}
+                    currentChatId={currentChatId}
+                    setCurrentChatId={setCurrentChatId}
+                    menuOpen={menuOpen}
+                    setMenuOpen={setMenuOpen}
+                    setMenuPosition={setMenuPosition}
+                />
 
-                    Knowledge Base
-
-                </h2>
-
-                <div className="space-y-4">
-
-                    <div className="flex gap-3 items-center">
-
-                        <FaFilePdf />
-
-                        Manuals
-
-                    </div>
-
-                    <div className="flex gap-3 items-center">
-
-                        <FaShieldAlt />
-
-                        Safety
-
-                    </div>
-
-                    <div className="flex gap-3 items-center">
-
-                        <FaTools />
-
-                        Maintenance
-
-                    </div>
-
-                    <div className="flex gap-3 items-center">
-
-                        <FaFolderOpen />
-
-                        Uploaded Files
-
-                    </div>
-
-                </div>
+                <KnowledgeExplorer />
 
             </div>
 
-        </div>
+            <SidebarFooter />
+            </aside>
 
+            <FloatingMenu
+
+                chat={selectedChat}
+
+                position={menuPosition}
+
+                onRename={(chat) => {
+
+                    const title = window.prompt(
+                        "Rename chat",
+                        chat.title
+                    );
+
+                    if (title && title.trim()) {
+
+                        renameChat(
+                            chat.id,
+                            title.trim()
+                        );
+
+                    }
+
+                }}
+
+                onPin={pinChat}
+
+                onDelete={deleteChat}
+
+                onDuplicate={(chatId) => {
+
+                    console.log(
+                        "Duplicate:",
+                        chatId
+                    );
+
+                }}
+
+                onClose={() => setMenuOpen(null)}
+
+            />
+
+        </>
     );
 
 }

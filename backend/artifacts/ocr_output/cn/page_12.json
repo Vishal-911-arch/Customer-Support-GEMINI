@@ -1,0 +1,888 @@
+{
+    "document": "cn",
+    "page": "page_12",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\HAL-AI-Customer-Support\\backend\\artifacts\\rendered_pages\\cn\\page_12.png",
+    "text": "Caching: > When a server asks for a mapping from another server and receives the response, it stores this information in its cache memory before sending it to the client. > Ifthe same or another client asks for the same mapping, it can check its cache memory( server marks the response as unauthoritative )and solve the problem. Problems: lf a server caches a mapping for a long time, it may send an outdated mapping to the client. To counter this, the authoritative server adds TTL to the mapping.",
+    "words": [
+        {
+            "text": "Caching:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 97,
+                "top": 198,
+                "width": 427,
+                "height": 114
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 108,
+                "top": 415,
+                "width": 72,
+                "height": 82
+            }
+        },
+        {
+            "text": "When",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 247,
+                "top": 414,
+                "width": 286,
+                "height": 89
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 5.0,
+            "bbox": {
+                "left": 537,
+                "top": 408,
+                "width": 54,
+                "height": 127
+            }
+        },
+        {
+            "text": "server",
+            "confidence": 5.0,
+            "bbox": {
+                "left": 654,
+                "top": 442,
+                "width": 295,
+                "height": 61
+            }
+        },
+        {
+            "text": "asks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 982,
+                "top": 413,
+                "width": 207,
+                "height": 91
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1224,
+                "top": 413,
+                "width": 140,
+                "height": 90
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1395,
+                "top": 442,
+                "width": 51,
+                "height": 61
+            }
+        },
+        {
+            "text": "mapping",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1482,
+                "top": 414,
+                "width": 424,
+                "height": 115
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1941,
+                "top": 412,
+                "width": 229,
+                "height": 91
+            }
+        },
+        {
+            "text": "another",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2208,
+                "top": 414,
+                "width": 366,
+                "height": 90
+            }
+        },
+        {
+            "text": "server",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2606,
+                "top": 442,
+                "width": 296,
+                "height": 62
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2932,
+                "top": 414,
+                "width": 173,
+                "height": 89
+            }
+        },
+        {
+            "text": "receives",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3142,
+                "top": 414,
+                "width": 395,
+                "height": 89
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3570,
+                "top": 414,
+                "width": 144,
+                "height": 89
+            }
+        },
+        {
+            "text": "response,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3753,
+                "top": 442,
+                "width": 448,
+                "height": 87
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 74.0,
+            "bbox": {
+                "left": 4244,
+                "top": 414,
+                "width": 61,
+                "height": 89
+            }
+        },
+        {
+            "text": "stores",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4338,
+                "top": 428,
+                "width": 281,
+                "height": 75
+            }
+        },
+        {
+            "text": "this",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4650,
+                "top": 414,
+                "width": 174,
+                "height": 89
+            }
+        },
+        {
+            "text": "information",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 252,
+                "top": 635,
+                "width": 567,
+                "height": 91
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 860,
+                "top": 636,
+                "width": 84,
+                "height": 87
+            }
+        },
+        {
+            "text": "its",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 986,
+                "top": 636,
+                "width": 104,
+                "height": 89
+            }
+        },
+        {
+            "text": "cache",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1125,
+                "top": 636,
+                "width": 273,
+                "height": 90
+            }
+        },
+        {
+            "text": "memory",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1436,
+                "top": 664,
+                "width": 395,
+                "height": 86
+            }
+        },
+        {
+            "text": "before",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1872,
+                "top": 635,
+                "width": 307,
+                "height": 91
+            }
+        },
+        {
+            "text": "sending",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2215,
+                "top": 636,
+                "width": 377,
+                "height": 115
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2631,
+                "top": 636,
+                "width": 58,
+                "height": 89
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2722,
+                "top": 651,
+                "width": 93,
+                "height": 74
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2847,
+                "top": 636,
+                "width": 145,
+                "height": 90
+            }
+        },
+        {
+            "text": "client.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3028,
+                "top": 635,
+                "width": 290,
+                "height": 91
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 108,
+                "top": 860,
+                "width": 72,
+                "height": 81
+            }
+        },
+        {
+            "text": "Ifthe",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 250,
+                "top": 857,
+                "width": 253,
+                "height": 91
+            }
+        },
+        {
+            "text": "same",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 540,
+                "top": 886,
+                "width": 243,
+                "height": 62
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 818,
+                "top": 887,
+                "width": 101,
+                "height": 60
+            }
+        },
+        {
+            "text": "another",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 952,
+                "top": 858,
+                "width": 365,
+                "height": 90
+            }
+        },
+        {
+            "text": "client",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1349,
+                "top": 858,
+                "width": 267,
+                "height": 90
+            }
+        },
+        {
+            "text": "asks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1650,
+                "top": 858,
+                "width": 208,
+                "height": 90
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1893,
+                "top": 858,
+                "width": 139,
+                "height": 89
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2062,
+                "top": 859,
+                "width": 147,
+                "height": 89
+            }
+        },
+        {
+            "text": "same",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2246,
+                "top": 886,
+                "width": 243,
+                "height": 62
+            }
+        },
+        {
+            "text": "mapping,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2529,
+                "top": 858,
+                "width": 448,
+                "height": 115
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3019,
+                "top": 858,
+                "width": 59,
+                "height": 89
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3112,
+                "top": 885,
+                "width": 170,
+                "height": 63
+            }
+        },
+        {
+            "text": "check",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3309,
+                "top": 855,
+                "width": 283,
+                "height": 93
+            }
+        },
+        {
+            "text": "its",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3634,
+                "top": 858,
+                "width": 106,
+                "height": 90
+            }
+        },
+        {
+            "text": "cache",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 3773,
+                "top": 858,
+                "width": 273,
+                "height": 90
+            }
+        },
+        {
+            "text": "memory(",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 4084,
+                "top": 864,
+                "width": 433,
+                "height": 109
+            }
+        },
+        {
+            "text": "server",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4566,
+                "top": 887,
+                "width": 295,
+                "height": 61
+            }
+        },
+        {
+            "text": "marks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 248,
+                "top": 1075,
+                "width": 292,
+                "height": 90
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 575,
+                "top": 1074,
+                "width": 145,
+                "height": 90
+            }
+        },
+        {
+            "text": "response",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 757,
+                "top": 1103,
+                "width": 421,
+                "height": 87
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1211,
+                "top": 1103,
+                "width": 100,
+                "height": 61
+            }
+        },
+        {
+            "text": "unauthoritative",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 1349,
+                "top": 1075,
+                "width": 746,
+                "height": 89
+            }
+        },
+        {
+            "text": ")and",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 2137,
+                "top": 1075,
+                "width": 204,
+                "height": 109
+            }
+        },
+        {
+            "text": "solve",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2378,
+                "top": 1075,
+                "width": 251,
+                "height": 89
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2665,
+                "top": 1074,
+                "width": 144,
+                "height": 90
+            }
+        },
+        {
+            "text": "problem.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2844,
+                "top": 1075,
+                "width": 425,
+                "height": 117
+            }
+        },
+        {
+            "text": "Problems:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 101,
+                "top": 1298,
+                "width": 474,
+                "height": 88
+            }
+        },
+        {
+            "text": "lf",
+            "confidence": 72.0,
+            "bbox": {
+                "left": 104,
+                "top": 1515,
+                "width": 65,
+                "height": 92
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 227,
+                "top": 1547,
+                "width": 23,
+                "height": 62
+            }
+        },
+        {
+            "text": "server",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 285,
+                "top": 1547,
+                "width": 294,
+                "height": 62
+            }
+        },
+        {
+            "text": "caches",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 611,
+                "top": 1519,
+                "width": 322,
+                "height": 90
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 966,
+                "top": 1547,
+                "width": 52,
+                "height": 62
+            }
+        },
+        {
+            "text": "mapping",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1054,
+                "top": 1519,
+                "width": 421,
+                "height": 115
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1512,
+                "top": 1518,
+                "width": 139,
+                "height": 91
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1683,
+                "top": 1548,
+                "width": 52,
+                "height": 61
+            }
+        },
+        {
+            "text": "long",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1772,
+                "top": 1519,
+                "width": 212,
+                "height": 115
+            }
+        },
+        {
+            "text": "time,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2015,
+                "top": 1520,
+                "width": 242,
+                "height": 105
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2301,
+                "top": 1520,
+                "width": 57,
+                "height": 88
+            }
+        },
+        {
+            "text": "may",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2394,
+                "top": 1548,
+                "width": 202,
+                "height": 86
+            }
+        },
+        {
+            "text": "send",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2632,
+                "top": 1520,
+                "width": 221,
+                "height": 93
+            }
+        },
+        {
+            "text": "an",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2888,
+                "top": 1547,
+                "width": 112,
+                "height": 62
+            }
+        },
+        {
+            "text": "outdated",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3034,
+                "top": 1519,
+                "width": 416,
+                "height": 90
+            }
+        },
+        {
+            "text": "mapping",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 3485,
+                "top": 1519,
+                "width": 424,
+                "height": 115
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3943,
+                "top": 1534,
+                "width": 91,
+                "height": 75
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4067,
+                "top": 1520,
+                "width": 146,
+                "height": 89
+            }
+        },
+        {
+            "text": "client.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4249,
+                "top": 1519,
+                "width": 289,
+                "height": 90
+            }
+        },
+        {
+            "text": "To",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 96,
+                "top": 1738,
+                "width": 123,
+                "height": 87
+            }
+        },
+        {
+            "text": "counter",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 254,
+                "top": 1751,
+                "width": 365,
+                "height": 75
+            }
+        },
+        {
+            "text": "this,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 650,
+                "top": 1736,
+                "width": 202,
+                "height": 105
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 889,
+                "top": 1736,
+                "width": 144,
+                "height": 90
+            }
+        },
+        {
+            "text": "authoritative",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1069,
+                "top": 1736,
+                "width": 612,
+                "height": 90
+            }
+        },
+        {
+            "text": "server",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1719,
+                "top": 1763,
+                "width": 295,
+                "height": 63
+            }
+        },
+        {
+            "text": "adds",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2045,
+                "top": 1736,
+                "width": 222,
+                "height": 90
+            }
+        },
+        {
+            "text": "TTL",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2297,
+                "top": 1736,
+                "width": 222,
+                "height": 89
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2544,
+                "top": 1747,
+                "width": 96,
+                "height": 78
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2674,
+                "top": 1736,
+                "width": 145,
+                "height": 89
+            }
+        },
+        {
+            "text": "mapping.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2856,
+                "top": 1736,
+                "width": 443,
+                "height": 115
+            }
+        }
+    ]
+}

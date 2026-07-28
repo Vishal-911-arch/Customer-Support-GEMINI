@@ -1,0 +1,858 @@
+{
+    "document": "cn",
+    "page": "page_5",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\HAL-AI-Customer-Support\\backend\\artifacts\\rendered_pages\\cn\\page_5.png",
+    "text": "Domain Name System (DNS) > DNS translates human-readable domain names (e.g., www.google.com) into machine-readable IP addresses (e.g., 142.250.190.14), enabling internet communication. > It enables computers to locate and communicate with each other on the internet. > Functions as a hierarchical, distributed database. S SL Alc: Comm. > Queries pass through multiple levels: | | Root server S18) (Es Oe be) OT op-Level Domain (TLD) server > Authoritative server (stores the specific IP address). eEnsures seamless website access using easy-to-remember names instead of numerical IP addresses.",
+    "words": [
+        {
+            "text": "Domain",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1942,
+                "top": 92,
+                "width": 383,
+                "height": 88
+            }
+        },
+        {
+            "text": "Name",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2363,
+                "top": 94,
+                "width": 282,
+                "height": 86
+            }
+        },
+        {
+            "text": "System",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2688,
+                "top": 94,
+                "width": 347,
+                "height": 112
+            }
+        },
+        {
+            "text": "(DNS)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3073,
+                "top": 94,
+                "width": 321,
+                "height": 105
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 76.0,
+            "bbox": {
+                "left": 151,
+                "top": 325,
+                "width": 71,
+                "height": 84
+            }
+        },
+        {
+            "text": "DNS",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 292,
+                "top": 327,
+                "width": 232,
+                "height": 87
+            }
+        },
+        {
+            "text": "translates",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 579,
+                "top": 325,
+                "width": 460,
+                "height": 90
+            }
+        },
+        {
+            "text": "human-readable",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1091,
+                "top": 325,
+                "width": 781,
+                "height": 90
+            }
+        },
+        {
+            "text": "domain",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1925,
+                "top": 325,
+                "width": 361,
+                "height": 90
+            }
+        },
+        {
+            "text": "names",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 2340,
+                "top": 353,
+                "width": 305,
+                "height": 62
+            }
+        },
+        {
+            "text": "(e.g.,",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 2695,
+                "top": 331,
+                "width": 243,
+                "height": 109
+            }
+        },
+        {
+            "text": "www.google.com)",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2992,
+                "top": 325,
+                "width": 895,
+                "height": 115
+            }
+        },
+        {
+            "text": "into",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3946,
+                "top": 325,
+                "width": 181,
+                "height": 89
+            }
+        },
+        {
+            "text": "machine-readable",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4179,
+                "top": 325,
+                "width": 862,
+                "height": 90
+            }
+        },
+        {
+            "text": "IP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 5098,
+                "top": 327,
+                "width": 102,
+                "height": 85
+            }
+        },
+        {
+            "text": "addresses",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 289,
+                "top": 547,
+                "width": 464,
+                "height": 90
+            }
+        },
+        {
+            "text": "(e.g.,",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 787,
+                "top": 553,
+                "width": 241,
+                "height": 109
+            }
+        },
+        {
+            "text": "142.250.190.14),",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1079,
+                "top": 549,
+                "width": 817,
+                "height": 106
+            }
+        },
+        {
+            "text": "enabling",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1932,
+                "top": 547,
+                "width": 418,
+                "height": 115
+            }
+        },
+        {
+            "text": "internet",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2390,
+                "top": 547,
+                "width": 364,
+                "height": 90
+            }
+        },
+        {
+            "text": "communication.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2788,
+                "top": 547,
+                "width": 780,
+                "height": 93
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 151,
+                "top": 809,
+                "width": 72,
+                "height": 83
+            }
+        },
+        {
+            "text": "It",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 292,
+                "top": 810,
+                "width": 69,
+                "height": 88
+            }
+        },
+        {
+            "text": "enables",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 395,
+                "top": 808,
+                "width": 362,
+                "height": 90
+            }
+        },
+        {
+            "text": "computers",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 791,
+                "top": 823,
+                "width": 505,
+                "height": 100
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1331,
+                "top": 823,
+                "width": 92,
+                "height": 74
+            }
+        },
+        {
+            "text": "locate",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1459,
+                "top": 809,
+                "width": 285,
+                "height": 89
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1778,
+                "top": 809,
+                "width": 171,
+                "height": 89
+            }
+        },
+        {
+            "text": "communicate",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1985,
+                "top": 808,
+                "width": 652,
+                "height": 90
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2675,
+                "top": 808,
+                "width": 213,
+                "height": 89
+            }
+        },
+        {
+            "text": "each",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2922,
+                "top": 808,
+                "width": 220,
+                "height": 90
+            }
+        },
+        {
+            "text": "other",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3177,
+                "top": 809,
+                "width": 250,
+                "height": 92
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3455,
+                "top": 832,
+                "width": 121,
+                "height": 65
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3612,
+                "top": 808,
+                "width": 144,
+                "height": 90
+            }
+        },
+        {
+            "text": "internet.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3796,
+                "top": 808,
+                "width": 386,
+                "height": 90
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 150,
+                "top": 1103,
+                "width": 72,
+                "height": 84
+            }
+        },
+        {
+            "text": "Functions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 292,
+                "top": 1102,
+                "width": 476,
+                "height": 90
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 802,
+                "top": 1131,
+                "width": 98,
+                "height": 61
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 933,
+                "top": 1131,
+                "width": 52,
+                "height": 61
+            }
+        },
+        {
+            "text": "hierarchical,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1021,
+                "top": 1102,
+                "width": 597,
+                "height": 106
+            }
+        },
+        {
+            "text": "distributed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1656,
+                "top": 1102,
+                "width": 516,
+                "height": 91
+            }
+        },
+        {
+            "text": "database.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2210,
+                "top": 1103,
+                "width": 439,
+                "height": 89
+            }
+        },
+        {
+            "text": "S",
+            "confidence": 62.0,
+            "bbox": {
+                "left": 4103,
+                "top": 1075,
+                "width": 153,
+                "height": 131
+            }
+        },
+        {
+            "text": "SL",
+            "confidence": 20.0,
+            "bbox": {
+                "left": 4494,
+                "top": 1076,
+                "width": 185,
+                "height": 162
+            }
+        },
+        {
+            "text": "Alc:",
+            "confidence": 45.0,
+            "bbox": {
+                "left": 3959,
+                "top": 1255,
+                "width": 311,
+                "height": 93
+            }
+        },
+        {
+            "text": "Comm.",
+            "confidence": 55.0,
+            "bbox": {
+                "left": 4335,
+                "top": 1272,
+                "width": 300,
+                "height": 62
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 151,
+                "top": 1394,
+                "width": 71,
+                "height": 80
+            }
+        },
+        {
+            "text": "Queries",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 289,
+                "top": 1392,
+                "width": 375,
+                "height": 108
+            }
+        },
+        {
+            "text": "pass",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 704,
+                "top": 1420,
+                "width": 202,
+                "height": 86
+            }
+        },
+        {
+            "text": "through",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 940,
+                "top": 1392,
+                "width": 375,
+                "height": 114
+            }
+        },
+        {
+            "text": "multiple",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1353,
+                "top": 1392,
+                "width": 398,
+                "height": 114
+            }
+        },
+        {
+            "text": "levels:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1792,
+                "top": 1392,
+                "width": 299,
+                "height": 89
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 45.0,
+            "bbox": {
+                "left": 3979,
+                "top": 1484,
+                "width": 9,
+                "height": 5
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 40.0,
+            "bbox": {
+                "left": 283,
+                "top": 1719,
+                "width": 8,
+                "height": 39
+            }
+        },
+        {
+            "text": "Root",
+            "confidence": 63.0,
+            "bbox": {
+                "left": 351,
+                "top": 1577,
+                "width": 362,
+                "height": 236
+            }
+        },
+        {
+            "text": "server",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 760,
+                "top": 1639,
+                "width": 294,
+                "height": 138
+            }
+        },
+        {
+            "text": "S18)",
+            "confidence": 23.0,
+            "bbox": {
+                "left": 1103,
+                "top": 1589,
+                "width": 500,
+                "height": 216
+            }
+        },
+        {
+            "text": "(Es",
+            "confidence": 75.0,
+            "bbox": {
+                "left": 3741,
+                "top": 1473,
+                "width": 222,
+                "height": 380
+            }
+        },
+        {
+            "text": "Oe",
+            "confidence": 13.0,
+            "bbox": {
+                "left": 4026,
+                "top": 1473,
+                "width": 254,
+                "height": 380
+            }
+        },
+        {
+            "text": "be)",
+            "confidence": 36.0,
+            "bbox": {
+                "left": 4501,
+                "top": 1473,
+                "width": 222,
+                "height": 380
+            }
+        },
+        {
+            "text": "OT",
+            "confidence": 52.0,
+            "bbox": {
+                "left": 300,
+                "top": 1817,
+                "width": 258,
+                "height": 165
+            }
+        },
+        {
+            "text": "op-Level",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 555,
+                "top": 1852,
+                "width": 432,
+                "height": 116
+            }
+        },
+        {
+            "text": "Domain",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1030,
+                "top": 1853,
+                "width": 386,
+                "height": 89
+            }
+        },
+        {
+            "text": "(TLD)",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1452,
+                "top": 1855,
+                "width": 315,
+                "height": 106
+            }
+        },
+        {
+            "text": "server",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1804,
+                "top": 1880,
+                "width": 295,
+                "height": 62
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 65.0,
+            "bbox": {
+                "left": 315,
+                "top": 2024,
+                "width": 96,
+                "height": 163
+            }
+        },
+        {
+            "text": "Authoritative",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 319,
+                "top": 2028,
+                "width": 818,
+                "height": 155
+            }
+        },
+        {
+            "text": "server",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1172,
+                "top": 2070,
+                "width": 295,
+                "height": 62
+            }
+        },
+        {
+            "text": "(stores",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1502,
+                "top": 2045,
+                "width": 322,
+                "height": 105
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1858,
+                "top": 2043,
+                "width": 146,
+                "height": 89
+            }
+        },
+        {
+            "text": "specific",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2036,
+                "top": 2041,
+                "width": 375,
+                "height": 115
+            }
+        },
+        {
+            "text": "IP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2452,
+                "top": 2044,
+                "width": 102,
+                "height": 85
+            }
+        },
+        {
+            "text": "address).",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 2582,
+                "top": 2042,
+                "width": 426,
+                "height": 108
+            }
+        },
+        {
+            "text": "eEnsures",
+            "confidence": 74.0,
+            "bbox": {
+                "left": 143,
+                "top": 2260,
+                "width": 423,
+                "height": 88
+            }
+        },
+        {
+            "text": "seamless",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 601,
+                "top": 2259,
+                "width": 428,
+                "height": 89
+            }
+        },
+        {
+            "text": "website",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1066,
+                "top": 2258,
+                "width": 369,
+                "height": 90
+            }
+        },
+        {
+            "text": "access",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1469,
+                "top": 2281,
+                "width": 309,
+                "height": 70
+            }
+        },
+        {
+            "text": "using",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1816,
+                "top": 2255,
+                "width": 260,
+                "height": 118
+            }
+        },
+        {
+            "text": "easy-to-remember",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2108,
+                "top": 2258,
+                "width": 882,
+                "height": 115
+            }
+        },
+        {
+            "text": "names",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3026,
+                "top": 2286,
+                "width": 308,
+                "height": 62
+            }
+        },
+        {
+            "text": "instead",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3373,
+                "top": 2258,
+                "width": 335,
+                "height": 90
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3743,
+                "top": 2258,
+                "width": 114,
+                "height": 89
+            }
+        },
+        {
+            "text": "numerical",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3879,
+                "top": 2258,
+                "width": 477,
+                "height": 90
+            }
+        },
+        {
+            "text": "IP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4400,
+                "top": 2260,
+                "width": 101,
+                "height": 86
+            }
+        },
+        {
+            "text": "addresses.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4531,
+                "top": 2258,
+                "width": 484,
+                "height": 90
+            }
+        }
+    ]
+}

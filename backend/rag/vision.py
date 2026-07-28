@@ -1,7 +1,8 @@
 from pathlib import Path
 import json
 import base64
-
+from PIL import Image
+import tempfile
 import cv2
 
 from ollama import Client
@@ -25,7 +26,21 @@ class VisionProcessor:
         self.min_area = 60000
 
     # ---------------------------------------------------------
+    @staticmethod
+    def compress_image(image_path):
 
+        img = Image.open(image_path)
+
+        img.thumbnail((1024,1024))
+
+        temp = tempfile.NamedTemporaryFile(
+            suffix=".png",
+            delete=False
+        )
+
+        img.save(temp.name)
+
+        return temp.name
     def encode_image(self, image):
 
         success, buffer = cv2.imencode(".png", image)
@@ -39,32 +54,33 @@ class VisionProcessor:
 
     def describe_image(self, crop):
 
-        encoded = self.encode_image(crop)
+        temp = tempfile.NamedTemporaryFile(
+            suffix=".png",
+            delete=False
+        )
+
+        cv2.imwrite(temp.name, crop)
+
+        small_img = self.compress_image(temp.name)
+
+        with open(small_img, "rb") as f:
+
+            encoded = base64.b64encode(
+                f.read()
+            ).decode("utf-8")
 
         response = self.client.generate(
 
             model=VISION_MODEL,
 
-            prompt="""
-You are an aviation technical assistant.
+            prompt = """
+Describe this engineering image briefly.
 
-Describe this image.
+Return:
 
-If it is:
-
-- aircraft
-- aircraft component
-- maintenance figure
-- engineering drawing
-- graph
-- chart
-- labelled diagram
-
-explain it carefully.
-
-Mention visible labels.
-
-Do not invent anything.
+1. Image type
+2. Visible labels
+3. Short explanation
 """,
 
             images=[encoded]

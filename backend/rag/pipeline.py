@@ -13,7 +13,7 @@ from rag.prompt import PromptBuilder
 from rag.vision_retriever import VisionRetriever
 from rag.vision_gate import VisionGate
 from rag.figure_retriever import FigureRetriever
-
+from rag.query_router import QueryRouter
 
 class RAGPipeline:
     """
@@ -30,7 +30,9 @@ class RAGPipeline:
     """
 
     def __init__(self):
+        
 
+        self.router = QueryRouter()
         self.graph = GraphRetriever()
 
         self.context_linker = ContextLinker()
@@ -38,7 +40,7 @@ class RAGPipeline:
         self.figure_vision = FigureVision()
 
         self.client = Client(host=OLLAMA_HOST)
-
+        self.client = Client(host=OLLAMA_HOST)
         self.retriever = Retriever()
 
         self.prompt_builder = PromptBuilder()
@@ -54,24 +56,26 @@ class RAGPipeline:
     # =======================================================
 
     def ask(self, question: str):
-
+        total_start = time.time()
         SMALL_TALK = [
 
             "hi",
             "hello",
             "hey",
-            "good morning",
-            "good evening",
             "how are you",
             "who are you",
             "thanks",
             "thank you",
-            "bye"
+            "bye",
+            "help"
 
         ]
-        q = question.lower().strip()
 
-        if any(x == q for x in SMALL_TALK):
+        q = question.lower().strip()
+        print("QUESTION =", q)
+        if any(x in q for x in SMALL_TALK):
+
+            print("\n✓ SMALL TALK DETECTED\n")
 
             response = self.client.chat(
 
@@ -80,13 +84,26 @@ class RAGPipeline:
                 messages=[
 
                     {
-                        "role":"system",
-                        "content":"You are a friendly AI assistant."
+                        "role": "system",
+                        "content":
+                        """
+                        You are a friendly AI assistant.
+
+                        Answer normally.
+
+                        Never use the knowledge base.
+
+                        Never mention documents,
+                        figures,
+                        graphs,
+                        PDFs,
+                        manuals.
+                        """
                     },
 
                     {
-                        "role":"user",
-                        "content":question
+                        "role": "user",
+                        "content": question
                     }
 
                 ]
@@ -95,15 +112,15 @@ class RAGPipeline:
 
             return {
 
-                "answer":response["message"]["content"],
+                "answer": response["message"]["content"],
 
-                "sources":[],
+                "sources": [],
 
-                "vision":[]
+                "vision": [],
+
+                "chat_title": question
 
             }
-        total_start = time.time()
-
         retrieval_time = 0
         vision_time = 0
         prompt_time = 0
@@ -111,6 +128,8 @@ class RAGPipeline:
 
         vision_context = []
         sources = []
+        
+
         graph_context = ""
         print("\nRetrieving relevant documents...\n")
 
@@ -156,36 +175,28 @@ class RAGPipeline:
                 ]
 
             )
-
             return {
 
                 "answer": response["message"]["content"],
 
-                "sources":[
-
+                "sources": [
                     {
-
                         "filename": metadata["document"] + ".pdf",
-
                         "page": metadata["page"],
-
-                        "type":"graph"
-
+                        "type": "graph"
                     }
-
                 ],
 
-                "graph":{
-
-                    "title": metadata.get("title",""),
-
+                "graph": {
+                    "title": metadata.get("title", ""),
                     "summary": graph_text,
-
                     "page": metadata["page"]
+                },
 
-                }
+                "chat_title": question
 
-    }
+            }
+            
 
         # =======================================================
         # STEP 1
@@ -336,18 +347,16 @@ Figure Description :
                 "sources": [
 
                     {
-
                         "filename": figure["document"] + ".pdf",
-
                         "page": figure["page"],
-
                         "type": "figure"
-
                     }
 
                 ],
 
-                "vision": vision_context
+                "vision": vision_context,
+
+                "chat_title": question
 
             }
 
@@ -570,6 +579,11 @@ Figure Description :
 
             "sources": sources,
 
-            "vision": vision_context
+            "vision": vision_context,
+
+            "chat_title": question
+
+
+
 
         }

@@ -1,0 +1,1268 @@
+{
+    "document": "cn",
+    "page": "page_19",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\HAL-AI-Customer-Support\\backend\\artifacts\\rendered_pages\\cn\\page_19.png",
+    "text": "Remote Logging > Remote Login is a process in which user can login into remote computer and use services that are available on the remote computer. It is implemented using Telnet. Example: Students may want to connect to their university computer lab from their home to access application programs for doing homework assignments. > One way is to create a client/server application program for each desired service using FTP or SMTP but it would be impossible to write a specific client/server program for each demand. > Better solution is remote login that lets a user access any application program on a remote computer. After logging on, a user can use the services available on the remote computer and transfer the results back to the local computer.",
+    "words": [
+        {
+            "text": "Remote",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2275,
+                "top": 99,
+                "width": 369,
+                "height": 87
+            }
+        },
+        {
+            "text": "Logging",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2685,
+                "top": 98,
+                "width": 406,
+                "height": 114
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 84,
+                "top": 364,
+                "width": 72,
+                "height": 84
+            }
+        },
+        {
+            "text": "Remote",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 225,
+                "top": 366,
+                "width": 371,
+                "height": 87
+            }
+        },
+        {
+            "text": "Login",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 636,
+                "top": 364,
+                "width": 284,
+                "height": 115
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 57.0,
+            "bbox": {
+                "left": 961,
+                "top": 364,
+                "width": 72,
+                "height": 88
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1067,
+                "top": 392,
+                "width": 52,
+                "height": 61
+            }
+        },
+        {
+            "text": "process",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1155,
+                "top": 392,
+                "width": 359,
+                "height": 86
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 79.0,
+            "bbox": {
+                "left": 1555,
+                "top": 364,
+                "width": 86,
+                "height": 87
+            }
+        },
+        {
+            "text": "which",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1674,
+                "top": 364,
+                "width": 295,
+                "height": 89
+            }
+        },
+        {
+            "text": "user",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2006,
+                "top": 392,
+                "width": 200,
+                "height": 61
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2237,
+                "top": 392,
+                "width": 165,
+                "height": 61
+            }
+        },
+        {
+            "text": "login",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2441,
+                "top": 364,
+                "width": 245,
+                "height": 115
+            }
+        },
+        {
+            "text": "into",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2725,
+                "top": 364,
+                "width": 181,
+                "height": 89
+            }
+        },
+        {
+            "text": "remote",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2941,
+                "top": 378,
+                "width": 331,
+                "height": 75
+            }
+        },
+        {
+            "text": "computer",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3310,
+                "top": 379,
+                "width": 459,
+                "height": 100
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3803,
+                "top": 364,
+                "width": 170,
+                "height": 89
+            }
+        },
+        {
+            "text": "use",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4010,
+                "top": 392,
+                "width": 157,
+                "height": 61
+            }
+        },
+        {
+            "text": "services",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4203,
+                "top": 364,
+                "width": 388,
+                "height": 89
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4624,
+                "top": 364,
+                "width": 182,
+                "height": 89
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4839,
+                "top": 392,
+                "width": 145,
+                "height": 61
+            }
+        },
+        {
+            "text": "available",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 222,
+                "top": 586,
+                "width": 436,
+                "height": 90
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 694,
+                "top": 614,
+                "width": 117,
+                "height": 61
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 846,
+                "top": 586,
+                "width": 144,
+                "height": 90
+            }
+        },
+        {
+            "text": "remote",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1028,
+                "top": 600,
+                "width": 331,
+                "height": 75
+            }
+        },
+        {
+            "text": "computer.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1396,
+                "top": 601,
+                "width": 472,
+                "height": 100
+            }
+        },
+        {
+            "text": "It",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1917,
+                "top": 588,
+                "width": 68,
+                "height": 87
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2024,
+                "top": 586,
+                "width": 72,
+                "height": 89
+            }
+        },
+        {
+            "text": "implemented",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2135,
+                "top": 586,
+                "width": 627,
+                "height": 115
+            }
+        },
+        {
+            "text": "using",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2801,
+                "top": 585,
+                "width": 261,
+                "height": 116
+            }
+        },
+        {
+            "text": "Telnet.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3094,
+                "top": 587,
+                "width": 319,
+                "height": 88
+            }
+        },
+        {
+            "text": "Example:",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 76,
+                "top": 848,
+                "width": 450,
+                "height": 114
+            }
+        },
+        {
+            "text": "Students",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 76,
+                "top": 1070,
+                "width": 414,
+                "height": 89
+            }
+        },
+        {
+            "text": "may",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 548,
+                "top": 1097,
+                "width": 200,
+                "height": 87
+            }
+        },
+        {
+            "text": "want",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 808,
+                "top": 1084,
+                "width": 234,
+                "height": 75
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1096,
+                "top": 1084,
+                "width": 93,
+                "height": 74
+            }
+        },
+        {
+            "text": "connect",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1244,
+                "top": 1084,
+                "width": 376,
+                "height": 75
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1676,
+                "top": 1083,
+                "width": 91,
+                "height": 75
+            }
+        },
+        {
+            "text": "their",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1823,
+                "top": 1069,
+                "width": 222,
+                "height": 90
+            }
+        },
+        {
+            "text": "university",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2101,
+                "top": 1069,
+                "width": 478,
+                "height": 115
+            }
+        },
+        {
+            "text": "computer",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2639,
+                "top": 1083,
+                "width": 460,
+                "height": 104
+            }
+        },
+        {
+            "text": "lab",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3157,
+                "top": 1067,
+                "width": 142,
+                "height": 92
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3357,
+                "top": 1068,
+                "width": 227,
+                "height": 90
+            }
+        },
+        {
+            "text": "their",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3643,
+                "top": 1069,
+                "width": 224,
+                "height": 90
+            }
+        },
+        {
+            "text": "home",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3921,
+                "top": 1070,
+                "width": 266,
+                "height": 89
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4242,
+                "top": 1084,
+                "width": 92,
+                "height": 74
+            }
+        },
+        {
+            "text": "access",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4390,
+                "top": 1097,
+                "width": 308,
+                "height": 62
+            }
+        },
+        {
+            "text": "application",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4753,
+                "top": 1069,
+                "width": 538,
+                "height": 115
+            }
+        },
+        {
+            "text": "programs",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 74,
+                "top": 1314,
+                "width": 455,
+                "height": 87
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 567,
+                "top": 1285,
+                "width": 139,
+                "height": 90
+            }
+        },
+        {
+            "text": "doing",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 739,
+                "top": 1286,
+                "width": 276,
+                "height": 115
+            }
+        },
+        {
+            "text": "homework",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1050,
+                "top": 1287,
+                "width": 515,
+                "height": 89
+            }
+        },
+        {
+            "text": "assignments.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1602,
+                "top": 1286,
+                "width": 612,
+                "height": 115
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 284,
+                "top": 1510,
+                "width": 72,
+                "height": 83
+            }
+        },
+        {
+            "text": "One",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 422,
+                "top": 1510,
+                "width": 200,
+                "height": 88
+            }
+        },
+        {
+            "text": "way",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 677,
+                "top": 1535,
+                "width": 195,
+                "height": 88
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 79.0,
+            "bbox": {
+                "left": 934,
+                "top": 1508,
+                "width": 73,
+                "height": 89
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1059,
+                "top": 1523,
+                "width": 92,
+                "height": 75
+            }
+        },
+        {
+            "text": "create",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1204,
+                "top": 1523,
+                "width": 286,
+                "height": 75
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1544,
+                "top": 1536,
+                "width": 53,
+                "height": 62
+            }
+        },
+        {
+            "text": "client/server",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1649,
+                "top": 1509,
+                "width": 602,
+                "height": 89
+            }
+        },
+        {
+            "text": "application",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2302,
+                "top": 1508,
+                "width": 539,
+                "height": 115
+            }
+        },
+        {
+            "text": "program",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2897,
+                "top": 1535,
+                "width": 406,
+                "height": 88
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3362,
+                "top": 1507,
+                "width": 139,
+                "height": 91
+            }
+        },
+        {
+            "text": "each",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3551,
+                "top": 1509,
+                "width": 220,
+                "height": 89
+            }
+        },
+        {
+            "text": "desired",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3825,
+                "top": 1508,
+                "width": 348,
+                "height": 90
+            }
+        },
+        {
+            "text": "service",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4228,
+                "top": 1509,
+                "width": 340,
+                "height": 89
+            }
+        },
+        {
+            "text": "using",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4626,
+                "top": 1509,
+                "width": 259,
+                "height": 114
+            }
+        },
+        {
+            "text": "FTP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4941,
+                "top": 1510,
+                "width": 205,
+                "height": 86
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 5194,
+                "top": 1537,
+                "width": 100,
+                "height": 61
+            }
+        },
+        {
+            "text": "SMTP",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 426,
+                "top": 1733,
+                "width": 313,
+                "height": 86
+            }
+        },
+        {
+            "text": "but",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 771,
+                "top": 1731,
+                "width": 150,
+                "height": 89
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 960,
+                "top": 1731,
+                "width": 60,
+                "height": 89
+            }
+        },
+        {
+            "text": "would",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1054,
+                "top": 1731,
+                "width": 300,
+                "height": 89
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1393,
+                "top": 1731,
+                "width": 108,
+                "height": 89
+            }
+        },
+        {
+            "text": "impossible",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1541,
+                "top": 1730,
+                "width": 518,
+                "height": 115
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2094,
+                "top": 1745,
+                "width": 93,
+                "height": 75
+            }
+        },
+        {
+            "text": "write",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2222,
+                "top": 1731,
+                "width": 246,
+                "height": 90
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2500,
+                "top": 1758,
+                "width": 55,
+                "height": 64
+            }
+        },
+        {
+            "text": "specific",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2589,
+                "top": 1730,
+                "width": 372,
+                "height": 115
+            }
+        },
+        {
+            "text": "client/server",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2999,
+                "top": 1731,
+                "width": 602,
+                "height": 90
+            }
+        },
+        {
+            "text": "program",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3636,
+                "top": 1758,
+                "width": 404,
+                "height": 87
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4082,
+                "top": 1730,
+                "width": 138,
+                "height": 90
+            }
+        },
+        {
+            "text": "each",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4253,
+                "top": 1731,
+                "width": 218,
+                "height": 89
+            }
+        },
+        {
+            "text": "demand.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4506,
+                "top": 1731,
+                "width": 404,
+                "height": 90
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 284,
+                "top": 1948,
+                "width": 72,
+                "height": 83
+            }
+        },
+        {
+            "text": "Better",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 425,
+                "top": 1949,
+                "width": 294,
+                "height": 88
+            }
+        },
+        {
+            "text": "solution",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 785,
+                "top": 1947,
+                "width": 389,
+                "height": 90
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1247,
+                "top": 1947,
+                "width": 71,
+                "height": 89
+            }
+        },
+        {
+            "text": "remote",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1385,
+                "top": 1962,
+                "width": 333,
+                "height": 75
+            }
+        },
+        {
+            "text": "login",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1789,
+                "top": 1947,
+                "width": 245,
+                "height": 115
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2097,
+                "top": 1948,
+                "width": 184,
+                "height": 91
+            }
+        },
+        {
+            "text": "lets",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2350,
+                "top": 1947,
+                "width": 161,
+                "height": 90
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2578,
+                "top": 1975,
+                "width": 52,
+                "height": 62
+            }
+        },
+        {
+            "text": "user",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2698,
+                "top": 1975,
+                "width": 199,
+                "height": 62
+            }
+        },
+        {
+            "text": "access",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2960,
+                "top": 1975,
+                "width": 307,
+                "height": 62
+            }
+        },
+        {
+            "text": "any",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3334,
+                "top": 1975,
+                "width": 169,
+                "height": 87
+            }
+        },
+        {
+            "text": "application",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3573,
+                "top": 1947,
+                "width": 539,
+                "height": 115
+            }
+        },
+        {
+            "text": "program",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4180,
+                "top": 1975,
+                "width": 405,
+                "height": 87
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4655,
+                "top": 1975,
+                "width": 118,
+                "height": 61
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 4840,
+                "top": 1975,
+                "width": 51,
+                "height": 61
+            }
+        },
+        {
+            "text": "remote",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 4958,
+                "top": 1962,
+                "width": 333,
+                "height": 75
+            }
+        },
+        {
+            "text": "computer.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 422,
+                "top": 2184,
+                "width": 474,
+                "height": 100
+            }
+        },
+        {
+            "text": "After",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 961,
+                "top": 2169,
+                "width": 256,
+                "height": 90
+            }
+        },
+        {
+            "text": "logging",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1274,
+                "top": 2169,
+                "width": 368,
+                "height": 115
+            }
+        },
+        {
+            "text": "on,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1697,
+                "top": 2197,
+                "width": 146,
+                "height": 77
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1902,
+                "top": 2197,
+                "width": 55,
+                "height": 65
+            }
+        },
+        {
+            "text": "user",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2006,
+                "top": 2194,
+                "width": 204,
+                "height": 68
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2263,
+                "top": 2197,
+                "width": 165,
+                "height": 62
+            }
+        },
+        {
+            "text": "use",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2486,
+                "top": 2198,
+                "width": 157,
+                "height": 62
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2697,
+                "top": 2169,
+                "width": 148,
+                "height": 90
+            }
+        },
+        {
+            "text": "services",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2902,
+                "top": 2169,
+                "width": 389,
+                "height": 90
+            }
+        },
+        {
+            "text": "available",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3345,
+                "top": 2169,
+                "width": 436,
+                "height": 90
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3838,
+                "top": 2197,
+                "width": 118,
+                "height": 61
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4013,
+                "top": 2170,
+                "width": 144,
+                "height": 89
+            }
+        },
+        {
+            "text": "remote",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4216,
+                "top": 2183,
+                "width": 332,
+                "height": 76
+            }
+        },
+        {
+            "text": "computer",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4606,
+                "top": 2184,
+                "width": 460,
+                "height": 100
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 5119,
+                "top": 2170,
+                "width": 170,
+                "height": 89
+            }
+        },
+        {
+            "text": "transfer",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 422,
+                "top": 2385,
+                "width": 371,
+                "height": 91
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 825,
+                "top": 2386,
+                "width": 147,
+                "height": 90
+            }
+        },
+        {
+            "text": "results",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1007,
+                "top": 2386,
+                "width": 316,
+                "height": 90
+            }
+        },
+        {
+            "text": "back",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1357,
+                "top": 2386,
+                "width": 226,
+                "height": 90
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1616,
+                "top": 2401,
+                "width": 96,
+                "height": 74
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1742,
+                "top": 2383,
+                "width": 148,
+                "height": 96
+            }
+        },
+        {
+            "text": "local",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1926,
+                "top": 2386,
+                "width": 225,
+                "height": 90
+            }
+        },
+        {
+            "text": "computer.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2191,
+                "top": 2401,
+                "width": 472,
+                "height": 100
+            }
+        }
+    ]
+}

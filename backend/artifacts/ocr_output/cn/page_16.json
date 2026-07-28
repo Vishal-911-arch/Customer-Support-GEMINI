@@ -1,0 +1,668 @@
+{
+    "document": "cn",
+    "page": "page_16",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\HAL-AI-Customer-Support\\backend\\artifacts\\rendered_pages\\cn\\page_16.png",
+    "text": "ee ee |] Features. ry Stateless Each request 1s independent. and the server doesn't retain previous interaction information, 7 lext-Based Messages are in plain text. making them readable and debuggable. y Chent-Server Model Follows a chent-server architecture for requesting and serving resources. ry Request-Response. Operates on a request-response cvcle between clients and servers. ry Request Methods. Supports methods like GET. POST, PUT. DELETE tor different actions.",
+    "words": [
+        {
+            "text": "ee",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1608,
+                "top": 414,
+                "width": 595,
+                "height": 346
+            }
+        },
+        {
+            "text": "ee",
+            "confidence": 49.0,
+            "bbox": {
+                "left": 2313,
+                "top": 474,
+                "width": 947,
+                "height": 93
+            }
+        },
+        {
+            "text": "|]",
+            "confidence": 33.0,
+            "bbox": {
+                "left": 1733,
+                "top": 783,
+                "width": 335,
+                "height": 208
+            }
+        },
+        {
+            "text": "Features.",
+            "confidence": 74.0,
+            "bbox": {
+                "left": 93,
+                "top": 1501,
+                "width": 420,
+                "height": 83
+            }
+        },
+        {
+            "text": "ry",
+            "confidence": 64.0,
+            "bbox": {
+                "left": 100,
+                "top": 1678,
+                "width": 63,
+                "height": 70
+            }
+        },
+        {
+            "text": "Stateless",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 239,
+                "top": 1673,
+                "width": 415,
+                "height": 83
+            }
+        },
+        {
+            "text": "Each",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 732,
+                "top": 1672,
+                "width": 230,
+                "height": 85
+            }
+        },
+        {
+            "text": "request",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1005,
+                "top": 1689,
+                "width": 341,
+                "height": 94
+            }
+        },
+        {
+            "text": "1s",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 1393,
+                "top": 1672,
+                "width": 66,
+                "height": 84
+            }
+        },
+        {
+            "text": "independent.",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 1504,
+                "top": 1672,
+                "width": 610,
+                "height": 111
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2155,
+                "top": 1672,
+                "width": 164,
+                "height": 85
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2362,
+                "top": 1671,
+                "width": 139,
+                "height": 86
+            }
+        },
+        {
+            "text": "server",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2542,
+                "top": 1699,
+                "width": 292,
+                "height": 58
+            }
+        },
+        {
+            "text": "doesn't",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 2869,
+                "top": 1672,
+                "width": 332,
+                "height": 85
+            }
+        },
+        {
+            "text": "retain",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3244,
+                "top": 1672,
+                "width": 267,
+                "height": 85
+            }
+        },
+        {
+            "text": "previous",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3554,
+                "top": 1673,
+                "width": 409,
+                "height": 110
+            }
+        },
+        {
+            "text": "interaction",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 4008,
+                "top": 1672,
+                "width": 506,
+                "height": 85
+            }
+        },
+        {
+            "text": "information,",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 4561,
+                "top": 1671,
+                "width": 583,
+                "height": 86
+            }
+        },
+        {
+            "text": "7",
+            "confidence": 18.0,
+            "bbox": {
+                "left": 100,
+                "top": 1955,
+                "width": 63,
+                "height": 39
+            }
+        },
+        {
+            "text": "lext-Based",
+            "confidence": 68.0,
+            "bbox": {
+                "left": 237,
+                "top": 1918,
+                "width": 565,
+                "height": 82
+            }
+        },
+        {
+            "text": "Messages",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 860,
+                "top": 1918,
+                "width": 460,
+                "height": 109
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1358,
+                "top": 1944,
+                "width": 139,
+                "height": 57
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 60.0,
+            "bbox": {
+                "left": 1544,
+                "top": 1916,
+                "width": 80,
+                "height": 84
+            }
+        },
+        {
+            "text": "plain",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1667,
+                "top": 1916,
+                "width": 232,
+                "height": 111
+            }
+        },
+        {
+            "text": "text.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1938,
+                "top": 1933,
+                "width": 202,
+                "height": 69
+            }
+        },
+        {
+            "text": "making",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2184,
+                "top": 1915,
+                "width": 359,
+                "height": 112
+            }
+        },
+        {
+            "text": "them",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2581,
+                "top": 1916,
+                "width": 230,
+                "height": 85
+            }
+        },
+        {
+            "text": "readable",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2857,
+                "top": 1916,
+                "width": 402,
+                "height": 85
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 3299,
+                "top": 1916,
+                "width": 165,
+                "height": 85
+            }
+        },
+        {
+            "text": "debuggable.",
+            "confidence": 74.0,
+            "bbox": {
+                "left": 3507,
+                "top": 1916,
+                "width": 576,
+                "height": 111
+            }
+        },
+        {
+            "text": "y",
+            "confidence": 50.0,
+            "bbox": {
+                "left": 100,
+                "top": 2204,
+                "width": 63,
+                "height": 40
+            }
+        },
+        {
+            "text": "Chent-Server",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 237,
+                "top": 2167,
+                "width": 647,
+                "height": 84
+            }
+        },
+        {
+            "text": "Model",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 932,
+                "top": 2167,
+                "width": 296,
+                "height": 83
+            }
+        },
+        {
+            "text": "Follows",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 1313,
+                "top": 2166,
+                "width": 381,
+                "height": 84
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 1732,
+                "top": 2195,
+                "width": 47,
+                "height": 56
+            }
+        },
+        {
+            "text": "chent-server",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 1817,
+                "top": 2165,
+                "width": 604,
+                "height": 88
+            }
+        },
+        {
+            "text": "architecture",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2458,
+                "top": 2166,
+                "width": 567,
+                "height": 85
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3074,
+                "top": 2166,
+                "width": 128,
+                "height": 84
+            }
+        },
+        {
+            "text": "requesting",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 3243,
+                "top": 2166,
+                "width": 500,
+                "height": 111
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3779,
+                "top": 2166,
+                "width": 166,
+                "height": 85
+            }
+        },
+        {
+            "text": "serving",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3988,
+                "top": 2167,
+                "width": 351,
+                "height": 110
+            }
+        },
+        {
+            "text": "resources.",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 4379,
+                "top": 2194,
+                "width": 473,
+                "height": 58
+            }
+        },
+        {
+            "text": "ry",
+            "confidence": 49.0,
+            "bbox": {
+                "left": 100,
+                "top": 2415,
+                "width": 63,
+                "height": 73
+            }
+        },
+        {
+            "text": "Request-Response.",
+            "confidence": 35.0,
+            "bbox": {
+                "left": 243,
+                "top": 2413,
+                "width": 908,
+                "height": 108
+            }
+        },
+        {
+            "text": "Operates",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1200,
+                "top": 2412,
+                "width": 427,
+                "height": 109
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1666,
+                "top": 2438,
+                "width": 114,
+                "height": 57
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1816,
+                "top": 2439,
+                "width": 48,
+                "height": 57
+            }
+        },
+        {
+            "text": "request-response",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1905,
+                "top": 2428,
+                "width": 809,
+                "height": 94
+            }
+        },
+        {
+            "text": "cvcle",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 2755,
+                "top": 2411,
+                "width": 248,
+                "height": 110
+            }
+        },
+        {
+            "text": "between",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3046,
+                "top": 2411,
+                "width": 394,
+                "height": 85
+            }
+        },
+        {
+            "text": "clients",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3480,
+                "top": 2411,
+                "width": 311,
+                "height": 85
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3829,
+                "top": 2411,
+                "width": 167,
+                "height": 85
+            }
+        },
+        {
+            "text": "servers.",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 4038,
+                "top": 2439,
+                "width": 358,
+                "height": 57
+            }
+        },
+        {
+            "text": "ry",
+            "confidence": 27.0,
+            "bbox": {
+                "left": 100,
+                "top": 2693,
+                "width": 63,
+                "height": 40
+            }
+        },
+        {
+            "text": "Request",
+            "confidence": 40.0,
+            "bbox": {
+                "left": 243,
+                "top": 2657,
+                "width": 375,
+                "height": 108
+            }
+        },
+        {
+            "text": "Methods.",
+            "confidence": 73.0,
+            "bbox": {
+                "left": 666,
+                "top": 2656,
+                "width": 434,
+                "height": 83
+            }
+        },
+        {
+            "text": "Supports",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1155,
+                "top": 2656,
+                "width": 423,
+                "height": 110
+            }
+        },
+        {
+            "text": "methods",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1618,
+                "top": 2655,
+                "width": 402,
+                "height": 85
+            }
+        },
+        {
+            "text": "like",
+            "confidence": 71.0,
+            "bbox": {
+                "left": 2064,
+                "top": 2655,
+                "width": 170,
+                "height": 85
+            }
+        },
+        {
+            "text": "GET.",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 2273,
+                "top": 2656,
+                "width": 246,
+                "height": 86
+            }
+        },
+        {
+            "text": "POST,",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 2570,
+                "top": 2656,
+                "width": 302,
+                "height": 89
+            }
+        },
+        {
+            "text": "PUT.",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 2921,
+                "top": 2656,
+                "width": 234,
+                "height": 86
+            }
+        },
+        {
+            "text": "DELETE",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3205,
+                "top": 2656,
+                "width": 442,
+                "height": 83
+            }
+        },
+        {
+            "text": "tor",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 3698,
+                "top": 2654,
+                "width": 131,
+                "height": 85
+            }
+        },
+        {
+            "text": "different",
+            "confidence": 62.0,
+            "bbox": {
+                "left": 3866,
+                "top": 2654,
+                "width": 408,
+                "height": 86
+            }
+        },
+        {
+            "text": "actions.",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 4314,
+                "top": 2656,
+                "width": 360,
+                "height": 84
+            }
+        }
+    ]
+}

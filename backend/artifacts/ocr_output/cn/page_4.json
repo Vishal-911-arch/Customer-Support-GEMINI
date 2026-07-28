@@ -1,0 +1,868 @@
+{
+    "document": "cn",
+    "page": "page_4",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\HAL-AI-Customer-Support\\backend\\artifacts\\rendered_pages\\cn\\page_4.png",
+    "text": "..AKTU PYQs 11. Define Compression. (AKTU 2023-24) 12. Explain Cryptography. Write about RSA Algorithm with example. (AKTU 2023-24) 13. Explain Asymmetric cryptography. Also, write the steps used in RSA algorithm, demonstrate the transmission of character “F” using RSA. (AKTU 2022-23) 14. List out few email gateways. (AKTU 2016-17) (5. (i) How is TFTP different from FTP? (ii) What three functions can SNMP perform to manage network (AKTU 2018-19) devices? \\¢. What is the difference between a user agent (UA) and a mail transfer agent(MTA)? (AKTU 2018-19)",
+    "words": [
+        {
+            "text": "..AKTU",
+            "confidence": 69.0,
+            "bbox": {
+                "left": 2177,
+                "top": 150,
+                "width": 457,
+                "height": 86
+            }
+        },
+        {
+            "text": "PYQs",
+            "confidence": 77.0,
+            "bbox": {
+                "left": 2680,
+                "top": 150,
+                "width": 295,
+                "height": 105
+            }
+        },
+        {
+            "text": "11.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 212,
+                "top": 450,
+                "width": 127,
+                "height": 84
+            }
+        },
+        {
+            "text": "Define",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 400,
+                "top": 446,
+                "width": 323,
+                "height": 91
+            }
+        },
+        {
+            "text": "Compression.",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 760,
+                "top": 447,
+                "width": 662,
+                "height": 115
+            }
+        },
+        {
+            "text": "(AKTU",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1497,
+                "top": 449,
+                "width": 370,
+                "height": 105
+            }
+        },
+        {
+            "text": "2023-24)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1909,
+                "top": 449,
+                "width": 444,
+                "height": 102
+            }
+        },
+        {
+            "text": "12.",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 212,
+                "top": 671,
+                "width": 127,
+                "height": 86
+            }
+        },
+        {
+            "text": "Explain",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 401,
+                "top": 670,
+                "width": 373,
+                "height": 114
+            }
+        },
+        {
+            "text": "Cryptography.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 808,
+                "top": 670,
+                "width": 698,
+                "height": 114
+            }
+        },
+        {
+            "text": "Write",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1548,
+                "top": 670,
+                "width": 272,
+                "height": 89
+            }
+        },
+        {
+            "text": "about",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1856,
+                "top": 670,
+                "width": 269,
+                "height": 89
+            }
+        },
+        {
+            "text": "RSA",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2162,
+                "top": 671,
+                "width": 228,
+                "height": 87
+            }
+        },
+        {
+            "text": "Algorithm",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2428,
+                "top": 670,
+                "width": 501,
+                "height": 114
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2966,
+                "top": 670,
+                "width": 212,
+                "height": 88
+            }
+        },
+        {
+            "text": "example.",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 3214,
+                "top": 667,
+                "width": 431,
+                "height": 119
+            }
+        },
+        {
+            "text": "(AKTU",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 3692,
+                "top": 672,
+                "width": 371,
+                "height": 105
+            }
+        },
+        {
+            "text": "2023-24)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4103,
+                "top": 671,
+                "width": 444,
+                "height": 103
+            }
+        },
+        {
+            "text": "13.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 213,
+                "top": 888,
+                "width": 126,
+                "height": 88
+            }
+        },
+        {
+            "text": "Explain",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 401,
+                "top": 887,
+                "width": 373,
+                "height": 114
+            }
+        },
+        {
+            "text": "Asymmetric",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 809,
+                "top": 888,
+                "width": 594,
+                "height": 112
+            }
+        },
+        {
+            "text": "cryptography.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1444,
+                "top": 887,
+                "width": 668,
+                "height": 114
+            }
+        },
+        {
+            "text": "Also,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2156,
+                "top": 887,
+                "width": 253,
+                "height": 104
+            }
+        },
+        {
+            "text": "write",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2447,
+                "top": 887,
+                "width": 245,
+                "height": 88
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2727,
+                "top": 887,
+                "width": 145,
+                "height": 88
+            }
+        },
+        {
+            "text": "steps",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2910,
+                "top": 901,
+                "width": 241,
+                "height": 100
+            }
+        },
+        {
+            "text": "used",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3184,
+                "top": 886,
+                "width": 216,
+                "height": 90
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3442,
+                "top": 887,
+                "width": 84,
+                "height": 86
+            }
+        },
+        {
+            "text": "RSA",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3565,
+                "top": 888,
+                "width": 229,
+                "height": 86
+            }
+        },
+        {
+            "text": "algorithm,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3831,
+                "top": 887,
+                "width": 497,
+                "height": 114
+            }
+        },
+        {
+            "text": "demonstrate",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4366,
+                "top": 887,
+                "width": 591,
+                "height": 89
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4992,
+                "top": 887,
+                "width": 147,
+                "height": 88
+            }
+        },
+        {
+            "text": "transmission",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 395,
+                "top": 1109,
+                "width": 614,
+                "height": 89
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1044,
+                "top": 1108,
+                "width": 114,
+                "height": 89
+            }
+        },
+        {
+            "text": "character",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1178,
+                "top": 1109,
+                "width": 444,
+                "height": 89
+            }
+        },
+        {
+            "text": "“F”",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 1656,
+                "top": 1110,
+                "width": 173,
+                "height": 86
+            }
+        },
+        {
+            "text": "using",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1866,
+                "top": 1109,
+                "width": 260,
+                "height": 114
+            }
+        },
+        {
+            "text": "RSA.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2162,
+                "top": 1111,
+                "width": 253,
+                "height": 86
+            }
+        },
+        {
+            "text": "(AKTU",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 2733,
+                "top": 1108,
+                "width": 370,
+                "height": 106
+            }
+        },
+        {
+            "text": "2022-23)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3141,
+                "top": 1108,
+                "width": 448,
+                "height": 106
+            }
+        },
+        {
+            "text": "14.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 243,
+                "top": 1343,
+                "width": 126,
+                "height": 87
+            }
+        },
+        {
+            "text": "List",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 414,
+                "top": 1342,
+                "width": 183,
+                "height": 89
+            }
+        },
+        {
+            "text": "out",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 631,
+                "top": 1356,
+                "width": 153,
+                "height": 75
+            }
+        },
+        {
+            "text": "few",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 821,
+                "top": 1340,
+                "width": 180,
+                "height": 91
+            }
+        },
+        {
+            "text": "email",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1032,
+                "top": 1341,
+                "width": 262,
+                "height": 90
+            }
+        },
+        {
+            "text": "gateways.",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 1334,
+                "top": 1356,
+                "width": 474,
+                "height": 101
+            }
+        },
+        {
+            "text": "(AKTU",
+            "confidence": 71.0,
+            "bbox": {
+                "left": 2027,
+                "top": 1355,
+                "width": 370,
+                "height": 105
+            }
+        },
+        {
+            "text": "2016-17)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2438,
+                "top": 1355,
+                "width": 447,
+                "height": 111
+            }
+        },
+        {
+            "text": "(5.",
+            "confidence": 56.0,
+            "bbox": {
+                "left": 230,
+                "top": 1560,
+                "width": 108,
+                "height": 77
+            }
+        },
+        {
+            "text": "(i)",
+            "confidence": 67.0,
+            "bbox": {
+                "left": 370,
+                "top": 1550,
+                "width": 98,
+                "height": 100
+            }
+        },
+        {
+            "text": "How",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 503,
+                "top": 1550,
+                "width": 217,
+                "height": 80
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 753,
+                "top": 1550,
+                "width": 69,
+                "height": 80
+            }
+        },
+        {
+            "text": "TFTP",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 849,
+                "top": 1550,
+                "width": 214,
+                "height": 79
+            }
+        },
+        {
+            "text": "different",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1159,
+                "top": 1549,
+                "width": 409,
+                "height": 82
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1597,
+                "top": 1549,
+                "width": 226,
+                "height": 82
+            }
+        },
+        {
+            "text": "FTP?",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1859,
+                "top": 1549,
+                "width": 257,
+                "height": 81
+            }
+        },
+        {
+            "text": "(ii)",
+            "confidence": 66.0,
+            "bbox": {
+                "left": 370,
+                "top": 1683,
+                "width": 131,
+                "height": 100
+            }
+        },
+        {
+            "text": "What",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 529,
+                "top": 1683,
+                "width": 266,
+                "height": 81
+            }
+        },
+        {
+            "text": "three",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 823,
+                "top": 1683,
+                "width": 241,
+                "height": 81
+            }
+        },
+        {
+            "text": "functions",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1097,
+                "top": 1683,
+                "width": 434,
+                "height": 82
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1561,
+                "top": 1707,
+                "width": 161,
+                "height": 57
+            }
+        },
+        {
+            "text": "SNMP",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1755,
+                "top": 1683,
+                "width": 313,
+                "height": 81
+            }
+        },
+        {
+            "text": "perform",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2094,
+                "top": 1683,
+                "width": 389,
+                "height": 105
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2514,
+                "top": 1691,
+                "width": 89,
+                "height": 76
+            }
+        },
+        {
+            "text": "manage",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2637,
+                "top": 1705,
+                "width": 364,
+                "height": 83
+            }
+        },
+        {
+            "text": "network",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3034,
+                "top": 1684,
+                "width": 393,
+                "height": 81
+            }
+        },
+        {
+            "text": "(AKTU",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 3739,
+                "top": 1666,
+                "width": 370,
+                "height": 105
+            }
+        },
+        {
+            "text": "2018-19)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4150,
+                "top": 1666,
+                "width": 444,
+                "height": 102
+            }
+        },
+        {
+            "text": "devices?",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 370,
+                "top": 1816,
+                "width": 390,
+                "height": 82
+            }
+        },
+        {
+            "text": "\\¢.",
+            "confidence": 36.0,
+            "bbox": {
+                "left": 226,
+                "top": 2090,
+                "width": 103,
+                "height": 111
+            }
+        },
+        {
+            "text": "What",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 370,
+                "top": 2099,
+                "width": 238,
+                "height": 82
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 641,
+                "top": 2099,
+                "width": 68,
+                "height": 82
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 739,
+                "top": 2099,
+                "width": 129,
+                "height": 82
+            }
+        },
+        {
+            "text": "difference",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 901,
+                "top": 2099,
+                "width": 445,
+                "height": 82
+            }
+        },
+        {
+            "text": "between",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1378,
+                "top": 2099,
+                "width": 367,
+                "height": 82
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1774,
+                "top": 2124,
+                "width": 48,
+                "height": 57
+            }
+        },
+        {
+            "text": "user",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1854,
+                "top": 2121,
+                "width": 185,
+                "height": 63
+            }
+        },
+        {
+            "text": "agent",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2060,
+                "top": 2113,
+                "width": 243,
+                "height": 93
+            }
+        },
+        {
+            "text": "(UA)",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2332,
+                "top": 2100,
+                "width": 231,
+                "height": 99
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2595,
+                "top": 2099,
+                "width": 156,
+                "height": 82
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2782,
+                "top": 2124,
+                "width": 47,
+                "height": 57
+            }
+        },
+        {
+            "text": "mail",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2861,
+                "top": 2099,
+                "width": 186,
+                "height": 82
+            }
+        },
+        {
+            "text": "transfer",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 3084,
+                "top": 2099,
+                "width": 339,
+                "height": 82
+            }
+        },
+        {
+            "text": "agent(MTA)?",
+            "confidence": 50.0,
+            "bbox": {
+                "left": 3450,
+                "top": 2100,
+                "width": 624,
+                "height": 105
+            }
+        },
+        {
+            "text": "(AKTU",
+            "confidence": 53.0,
+            "bbox": {
+                "left": 4305,
+                "top": 2083,
+                "width": 370,
+                "height": 101
+            }
+        },
+        {
+            "text": "2018-19)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4717,
+                "top": 2082,
+                "width": 442,
+                "height": 101
+            }
+        }
+    ]
+}

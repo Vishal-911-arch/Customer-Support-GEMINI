@@ -1,30 +1,39 @@
+import { useState } from "react";
+
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import ChatWindow from "../components/ChatWindow";
 import ChatInput from "../components/ChatInput";
 
 function ChatPage() {
-  return (
-    <div className="h-screen bg-slate-900 flex flex-col">
 
-      <Navbar />
+    const [activeImage, setActiveImage] =
+        useState(null);
 
-      <div className="flex flex-1 overflow-hidden">
+    return (
 
-        <Sidebar />
+        <div className="h-screen bg-slate-900 flex flex-col">
 
-        <div className="flex flex-col flex-1">
+            <Navbar />
 
-          <ChatWindow />
+            <div className="flex flex-1 overflow-hidden">
 
-          <ChatInput />
+                <Sidebar />
+
+                <div className="flex flex-col flex-1">
+<ChatWindow />
+
+<ChatInput
+    activeImage={activeImage}
+    setActiveImage={setActiveImage}
+/>
+
+                </div>
+
+            </div>
 
         </div>
 
-      </div>
-
-    </div>
-  );
+    );
 }
-
 export default ChatPage;

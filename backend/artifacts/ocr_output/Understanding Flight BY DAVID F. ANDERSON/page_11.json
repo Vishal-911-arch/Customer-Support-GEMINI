@@ -1,0 +1,4508 @@
+{
+    "document": "Understanding Flight BY DAVID F. ANDERSON",
+    "page": "page_11",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\HAL-AI-Customer-Support\\backend\\artifacts\\rendered_pages\\Understanding Flight BY DAVID F. ANDERSON\\page_11.png",
+    "text": "Basic Concepts II is measured (P,,,,, in the figure). In the situation in the figure, Alexander Graham Bell was a Pt US the same at both points A and B. In the language of founding member of the Aerial pilots, this is also known as the Pitot pressure, and the figure — Experiment Association (AEA), illustrates a Pitot tube. which was organized to try to The second pressure to consider is the static pressure be the first in flight. It was (Paticd> Which is measured perpendicular to the airflow disbanded in 1908 but had been through a hole in the wall. This is the pressure most often _ partially successful with the referred to when the air pressure is discussed in designs of Glenn Curtiss. aerodynamics. In the figure the static pressure is higher at point A than at point B. The third pressure is the dynamic pressure (Paynamic)> Which is the pressure due to the motion of the air, and is a pressure parallel to the flow of air. The dynamic pressure is proportional to the kinetic energy in the air. Thus the faster the air goes the higher the dynamic pressure. This may seem a little complicated, so let us try to put it all together. The total pressure P.,,,, is the sum of the static and dynamic pressures (P..4¢ aNd Panamicd- We have shown how to measure the total, or Pitot, pressure and the static pressure. How is the dynamic pressure of the air measured? Look at the setup in Figure 1.10. Between the tube that measures the total pressure and the tube that measures the static pressure there is placed a differential pressure gauge. That is a gauge that measures the difference in pressure between the two ports, which is the difference between total and static pressure. Since static plus dynamic pressure is equal to total pressure, this difference between total and static pressures is the dynamic pressure. If no energy is added to the air (by some mechanism such as a propeller) the total pressure remains the same and an increase in dynamic pressure causes a decrease in static pressure. So when one reads that the pressure of air decreases because it is going faster, the pressure referred to is the static pressure. But what if energy is added to the air? In the right-hand corner of Figure 1.9 is the picture of a fan. What has happened to the air pressures at point C? The fan is accelerating the air, and thus has done work on the air. Thus the dynamic pressure has increased. Since the air is not confined, the static pressure is the same as in the surrounding environment and thus has",
+    "words": [
+        {
+            "text": "Basic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1750,
+                "top": 114,
+                "width": 68,
+                "height": 29
+            }
+        },
+        {
+            "text": "Concepts",
+            "confidence": 79.0,
+            "bbox": {
+                "left": 1837,
+                "top": 114,
+                "width": 120,
+                "height": 38
+            }
+        },
+        {
+            "text": "II",
+            "confidence": 44.0,
+            "bbox": {
+                "left": 2012,
+                "top": 111,
+                "width": 32,
+                "height": 31
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 280,
+                "width": 27,
+                "height": 32
+            }
+        },
+        {
+            "text": "measured",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 310,
+                "top": 280,
+                "width": 182,
+                "height": 32
+            }
+        },
+        {
+            "text": "(P,,,,,",
+            "confidence": 71.0,
+            "bbox": {
+                "left": 512,
+                "top": 279,
+                "width": 85,
+                "height": 45
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 613,
+                "top": 280,
+                "width": 35,
+                "height": 31
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 663,
+                "top": 280,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "figure).",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 738,
+                "top": 279,
+                "width": 133,
+                "height": 42
+            }
+        },
+        {
+            "text": "In",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 890,
+                "top": 282,
+                "width": 37,
+                "height": 29
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 942,
+                "top": 280,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "situation",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1017,
+                "top": 280,
+                "width": 163,
+                "height": 32
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1195,
+                "top": 280,
+                "width": 36,
+                "height": 31
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1246,
+                "top": 280,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "figure,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1320,
+                "top": 279,
+                "width": 116,
+                "height": 42
+            }
+        },
+        {
+            "text": "Alexander",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 1490,
+                "top": 291,
+                "width": 136,
+                "height": 28
+            }
+        },
+        {
+            "text": "Graham",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1645,
+                "top": 291,
+                "width": 107,
+                "height": 28
+            }
+        },
+        {
+            "text": "Bell",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1774,
+                "top": 291,
+                "width": 46,
+                "height": 28
+            }
+        },
+        {
+            "text": "was",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1840,
+                "top": 300,
+                "width": 49,
+                "height": 19
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1909,
+                "top": 300,
+                "width": 14,
+                "height": 19
+            }
+        },
+        {
+            "text": "Pt",
+            "confidence": 53.0,
+            "bbox": {
+                "left": 264,
+                "top": 345,
+                "width": 74,
+                "height": 41
+            }
+        },
+        {
+            "text": "US",
+            "confidence": 71.0,
+            "bbox": {
+                "left": 357,
+                "top": 343,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 404,
+                "top": 343,
+                "width": 59,
+                "height": 32
+            }
+        },
+        {
+            "text": "same",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 483,
+                "top": 352,
+                "width": 96,
+                "height": 23
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 599,
+                "top": 347,
+                "width": 33,
+                "height": 28
+            }
+        },
+        {
+            "text": "both",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 650,
+                "top": 343,
+                "width": 86,
+                "height": 32
+            }
+        },
+        {
+            "text": "points",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 754,
+                "top": 343,
+                "width": 117,
+                "height": 40
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 890,
+                "top": 345,
+                "width": 29,
+                "height": 29
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 937,
+                "top": 343,
+                "width": 70,
+                "height": 32
+            }
+        },
+        {
+            "text": "B.",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 1026,
+                "top": 345,
+                "width": 32,
+                "height": 30
+            }
+        },
+        {
+            "text": "In",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1081,
+                "top": 345,
+                "width": 36,
+                "height": 29
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1136,
+                "top": 343,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "language",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1213,
+                "top": 343,
+                "width": 171,
+                "height": 41
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1404,
+                "top": 342,
+                "width": 36,
+                "height": 33
+            }
+        },
+        {
+            "text": "founding",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1491,
+                "top": 353,
+                "width": 120,
+                "height": 38
+            }
+        },
+        {
+            "text": "member",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1631,
+                "top": 353,
+                "width": 112,
+                "height": 28
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1762,
+                "top": 353,
+                "width": 25,
+                "height": 28
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1805,
+                "top": 353,
+                "width": 40,
+                "height": 28
+            }
+        },
+        {
+            "text": "Aerial",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1863,
+                "top": 353,
+                "width": 77,
+                "height": 28
+            }
+        },
+        {
+            "text": "pilots,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 405,
+                "width": 113,
+                "height": 40
+            }
+        },
+        {
+            "text": "this",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 396,
+                "top": 405,
+                "width": 67,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 480,
+                "top": 405,
+                "width": 27,
+                "height": 32
+            }
+        },
+        {
+            "text": "also",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 525,
+                "top": 405,
+                "width": 72,
+                "height": 32
+            }
+        },
+        {
+            "text": "known",
+            "confidence": 79.0,
+            "bbox": {
+                "left": 614,
+                "top": 405,
+                "width": 129,
+                "height": 32
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 760,
+                "top": 414,
+                "width": 37,
+                "height": 23
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 813,
+                "top": 405,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "Pitot",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 886,
+                "top": 406,
+                "width": 87,
+                "height": 31
+            }
+        },
+        {
+            "text": "pressure,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 987,
+                "top": 414,
+                "width": 167,
+                "height": 31
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1173,
+                "top": 405,
+                "width": 68,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1257,
+                "top": 405,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "figure",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1332,
+                "top": 404,
+                "width": 106,
+                "height": 42
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 49.0,
+            "bbox": {
+                "left": 1459,
+                "top": 400,
+                "width": 16,
+                "height": 58
+            }
+        },
+        {
+            "text": "Experiment",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1493,
+                "top": 416,
+                "width": 156,
+                "height": 38
+            }
+        },
+        {
+            "text": "Association",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1665,
+                "top": 416,
+                "width": 151,
+                "height": 28
+            }
+        },
+        {
+            "text": "(AEA),",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1838,
+                "top": 416,
+                "width": 81,
+                "height": 38
+            }
+        },
+        {
+            "text": "illustrates",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 266,
+                "top": 468,
+                "width": 181,
+                "height": 32
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 463,
+                "top": 477,
+                "width": 20,
+                "height": 23
+            }
+        },
+        {
+            "text": "Pitot",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 496,
+                "top": 469,
+                "width": 87,
+                "height": 31
+            }
+        },
+        {
+            "text": "tube.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 598,
+                "top": 468,
+                "width": 86,
+                "height": 32
+            }
+        },
+        {
+            "text": "which",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1490,
+                "top": 478,
+                "width": 77,
+                "height": 28
+            }
+        },
+        {
+            "text": "was",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1587,
+                "top": 487,
+                "width": 49,
+                "height": 19
+            }
+        },
+        {
+            "text": "organized",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1656,
+                "top": 478,
+                "width": 132,
+                "height": 38
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1809,
+                "top": 484,
+                "width": 25,
+                "height": 22
+            }
+        },
+        {
+            "text": "try",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1854,
+                "top": 484,
+                "width": 38,
+                "height": 32
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1912,
+                "top": 484,
+                "width": 25,
+                "height": 22
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 316,
+                "top": 530,
+                "width": 72,
+                "height": 32
+            }
+        },
+        {
+            "text": "second",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 414,
+                "top": 530,
+                "width": 134,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 573,
+                "top": 539,
+                "width": 164,
+                "height": 31
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 762,
+                "top": 534,
+                "width": 35,
+                "height": 28
+            }
+        },
+        {
+            "text": "consider",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 825,
+                "top": 530,
+                "width": 164,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1014,
+                "top": 530,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1068,
+                "top": 530,
+                "width": 60,
+                "height": 32
+            }
+        },
+        {
+            "text": "static",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1153,
+                "top": 531,
+                "width": 104,
+                "height": 31
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1278,
+                "top": 539,
+                "width": 162,
+                "height": 31
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 46.0,
+            "bbox": {
+                "left": 1492,
+                "top": 541,
+                "width": 28,
+                "height": 28
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1541,
+                "top": 541,
+                "width": 41,
+                "height": 28
+            }
+        },
+        {
+            "text": "first",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1602,
+                "top": 541,
+                "width": 53,
+                "height": 28
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1675,
+                "top": 541,
+                "width": 21,
+                "height": 28
+            }
+        },
+        {
+            "text": "flight.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1716,
+                "top": 541,
+                "width": 78,
+                "height": 38
+            }
+        },
+        {
+            "text": "It",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1811,
+                "top": 541,
+                "width": 18,
+                "height": 28
+            }
+        },
+        {
+            "text": "was",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1847,
+                "top": 550,
+                "width": 49,
+                "height": 19
+            }
+        },
+        {
+            "text": "(Paticd>",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 270,
+                "top": 592,
+                "width": 127,
+                "height": 44
+            }
+        },
+        {
+            "text": "Which",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 428,
+                "top": 593,
+                "width": 118,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 575,
+                "top": 593,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "measured",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 632,
+                "top": 593,
+                "width": 189,
+                "height": 32
+            }
+        },
+        {
+            "text": "perpendicular",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 849,
+                "top": 593,
+                "width": 273,
+                "height": 40
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1149,
+                "top": 597,
+                "width": 35,
+                "height": 28
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1213,
+                "top": 593,
+                "width": 60,
+                "height": 32
+            }
+        },
+        {
+            "text": "airflow",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1302,
+                "top": 592,
+                "width": 136,
+                "height": 33
+            }
+        },
+        {
+            "text": "disbanded",
+            "confidence": 70.0,
+            "bbox": {
+                "left": 1491,
+                "top": 603,
+                "width": 138,
+                "height": 28
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1651,
+                "top": 603,
+                "width": 21,
+                "height": 28
+            }
+        },
+        {
+            "text": "1908",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1698,
+                "top": 603,
+                "width": 64,
+                "height": 28
+            }
+        },
+        {
+            "text": "but",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1783,
+                "top": 603,
+                "width": 44,
+                "height": 28
+            }
+        },
+        {
+            "text": "had",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1847,
+                "top": 603,
+                "width": 47,
+                "height": 28
+            }
+        },
+        {
+            "text": "been",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1916,
+                "top": 603,
+                "width": 61,
+                "height": 28
+            }
+        },
+        {
+            "text": "through",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 655,
+                "width": 152,
+                "height": 41
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 437,
+                "top": 664,
+                "width": 19,
+                "height": 23
+            }
+        },
+        {
+            "text": "hole",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 475,
+                "top": 655,
+                "width": 81,
+                "height": 32
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 575,
+                "top": 655,
+                "width": 36,
+                "height": 31
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 629,
+                "top": 655,
+                "width": 60,
+                "height": 32
+            }
+        },
+        {
+            "text": "wall.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 708,
+                "top": 655,
+                "width": 90,
+                "height": 32
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 820,
+                "top": 655,
+                "width": 82,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 922,
+                "top": 655,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 970,
+                "top": 655,
+                "width": 59,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1048,
+                "top": 664,
+                "width": 162,
+                "height": 31
+            }
+        },
+        {
+            "text": "most",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1229,
+                "top": 659,
+                "width": 93,
+                "height": 28
+            }
+        },
+        {
+            "text": "often",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 1342,
+                "top": 654,
+                "width": 96,
+                "height": 33
+            }
+        },
+        {
+            "text": "_",
+            "confidence": 53.0,
+            "bbox": {
+                "left": 1454,
+                "top": 650,
+                "width": 16,
+                "height": 58
+            }
+        },
+        {
+            "text": "partially",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1492,
+                "top": 666,
+                "width": 114,
+                "height": 38
+            }
+        },
+        {
+            "text": "successful",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1625,
+                "top": 666,
+                "width": 130,
+                "height": 28
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1775,
+                "top": 666,
+                "width": 57,
+                "height": 28
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1853,
+                "top": 666,
+                "width": 41,
+                "height": 28
+            }
+        },
+        {
+            "text": "referred",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 717,
+                "width": 151,
+                "height": 33
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 461,
+                "top": 722,
+                "width": 35,
+                "height": 28
+            }
+        },
+        {
+            "text": "when",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 542,
+                "top": 718,
+                "width": 106,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 692,
+                "top": 718,
+                "width": 59,
+                "height": 32
+            }
+        },
+        {
+            "text": "air",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 796,
+                "top": 718,
+                "width": 50,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 889,
+                "top": 727,
+                "width": 164,
+                "height": 31
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1097,
+                "top": 718,
+                "width": 29,
+                "height": 32
+            }
+        },
+        {
+            "text": "discussed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1172,
+                "top": 718,
+                "width": 186,
+                "height": 32
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1402,
+                "top": 718,
+                "width": 36,
+                "height": 31
+            }
+        },
+        {
+            "text": "designs",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1491,
+                "top": 728,
+                "width": 98,
+                "height": 38
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1609,
+                "top": 728,
+                "width": 26,
+                "height": 28
+            }
+        },
+        {
+            "text": "Glenn",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1652,
+                "top": 728,
+                "width": 76,
+                "height": 28
+            }
+        },
+        {
+            "text": "Curtiss.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1749,
+                "top": 728,
+                "width": 100,
+                "height": 28
+            }
+        },
+        {
+            "text": "aerodynamics.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 780,
+                "width": 279,
+                "height": 40
+            }
+        },
+        {
+            "text": "In",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 568,
+                "top": 782,
+                "width": 37,
+                "height": 29
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 624,
+                "top": 780,
+                "width": 59,
+                "height": 32
+            }
+        },
+        {
+            "text": "figure",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 703,
+                "top": 779,
+                "width": 110,
+                "height": 42
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 832,
+                "top": 780,
+                "width": 59,
+                "height": 32
+            }
+        },
+        {
+            "text": "static",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 912,
+                "top": 780,
+                "width": 101,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1031,
+                "top": 789,
+                "width": 163,
+                "height": 31
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1213,
+                "top": 780,
+                "width": 29,
+                "height": 32
+            }
+        },
+        {
+            "text": "higher",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1262,
+                "top": 780,
+                "width": 124,
+                "height": 41
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1405,
+                "top": 784,
+                "width": 33,
+                "height": 28
+            }
+        },
+        {
+            "text": "point",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 843,
+                "width": 97,
+                "height": 40
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 377,
+                "top": 845,
+                "width": 29,
+                "height": 29
+            }
+        },
+        {
+            "text": "than",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 420,
+                "top": 843,
+                "width": 84,
+                "height": 32
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 519,
+                "top": 847,
+                "width": 33,
+                "height": 28
+            }
+        },
+        {
+            "text": "point",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 567,
+                "top": 843,
+                "width": 97,
+                "height": 40
+            }
+        },
+        {
+            "text": "B.",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 680,
+                "top": 845,
+                "width": 32,
+                "height": 30
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 316,
+                "top": 905,
+                "width": 70,
+                "height": 32
+            }
+        },
+        {
+            "text": "third",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 404,
+                "top": 905,
+                "width": 90,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 512,
+                "top": 914,
+                "width": 158,
+                "height": 31
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 689,
+                "top": 905,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 736,
+                "top": 905,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "dynamic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 813,
+                "top": 905,
+                "width": 163,
+                "height": 40
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 990,
+                "top": 914,
+                "width": 157,
+                "height": 31
+            }
+        },
+        {
+            "text": "(Paynamic)>",
+            "confidence": 18.0,
+            "bbox": {
+                "left": 1168,
+                "top": 904,
+                "width": 160,
+                "height": 50
+            }
+        },
+        {
+            "text": "Which",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1349,
+                "top": 905,
+                "width": 116,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1483,
+                "top": 905,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1530,
+                "top": 905,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 977,
+                "width": 158,
+                "height": 31
+            }
+        },
+        {
+            "text": "due",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 439,
+                "top": 968,
+                "width": 67,
+                "height": 32
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 521,
+                "top": 972,
+                "width": 35,
+                "height": 28
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 572,
+                "top": 968,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "motion",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 646,
+                "top": 968,
+                "width": 133,
+                "height": 32
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 795,
+                "top": 967,
+                "width": 35,
+                "height": 33
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 844,
+                "top": 968,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "air,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 918,
+                "top": 968,
+                "width": 54,
+                "height": 36
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 990,
+                "top": 968,
+                "width": 69,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1074,
+                "top": 968,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1119,
+                "top": 977,
+                "width": 19,
+                "height": 23
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1153,
+                "top": 977,
+                "width": 157,
+                "height": 31
+            }
+        },
+        {
+            "text": "parallel",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1326,
+                "top": 968,
+                "width": 139,
+                "height": 40
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1480,
+                "top": 972,
+                "width": 34,
+                "height": 28
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1530,
+                "top": 968,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "flow",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 1029,
+                "width": 81,
+                "height": 33
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 362,
+                "top": 1029,
+                "width": 35,
+                "height": 33
+            }
+        },
+        {
+            "text": "air.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 410,
+                "top": 1030,
+                "width": 54,
+                "height": 32
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 481,
+                "top": 1030,
+                "width": 70,
+                "height": 32
+            }
+        },
+        {
+            "text": "dynamic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 567,
+                "top": 1030,
+                "width": 160,
+                "height": 40
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 741,
+                "top": 1039,
+                "width": 157,
+                "height": 31
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 913,
+                "top": 1030,
+                "width": 27,
+                "height": 32
+            }
+        },
+        {
+            "text": "proportional",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 955,
+                "top": 1030,
+                "width": 234,
+                "height": 40
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1202,
+                "top": 1034,
+                "width": 34,
+                "height": 28
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1251,
+                "top": 1030,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "kinetic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1324,
+                "top": 1030,
+                "width": 125,
+                "height": 32
+            }
+        },
+        {
+            "text": "energy",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1464,
+                "top": 1038,
+                "width": 125,
+                "height": 33
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 1093,
+                "width": 35,
+                "height": 31
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 313,
+                "top": 1093,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "air.",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 384,
+                "top": 1093,
+                "width": 53,
+                "height": 32
+            }
+        },
+        {
+            "text": "Thus",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 453,
+                "top": 1093,
+                "width": 93,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 559,
+                "top": 1093,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "faster",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 631,
+                "top": 1092,
+                "width": 103,
+                "height": 33
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 745,
+                "top": 1093,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "air",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 817,
+                "top": 1093,
+                "width": 48,
+                "height": 32
+            }
+        },
+        {
+            "text": "goes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 877,
+                "top": 1101,
+                "width": 82,
+                "height": 33
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 972,
+                "top": 1093,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "higher",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1043,
+                "top": 1093,
+                "width": 120,
+                "height": 41
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1175,
+                "top": 1093,
+                "width": 57,
+                "height": 32
+            }
+        },
+        {
+            "text": "dynamic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1247,
+                "top": 1093,
+                "width": 160,
+                "height": 40
+            }
+        },
+        {
+            "text": "pressure.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1419,
+                "top": 1102,
+                "width": 166,
+                "height": 31
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 1155,
+                "width": 79,
+                "height": 32
+            }
+        },
+        {
+            "text": "may",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 361,
+                "top": 1164,
+                "width": 79,
+                "height": 31
+            }
+        },
+        {
+            "text": "seem",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 456,
+                "top": 1164,
+                "width": 95,
+                "height": 23
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 551,
+                "top": 1151,
+                "width": 22,
+                "height": 49
+            }
+        },
+        {
+            "text": "little",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 601,
+                "top": 1155,
+                "width": 82,
+                "height": 32
+            }
+        },
+        {
+            "text": "complicated,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 699,
+                "top": 1155,
+                "width": 239,
+                "height": 40
+            }
+        },
+        {
+            "text": "so",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 956,
+                "top": 1164,
+                "width": 38,
+                "height": 23
+            }
+        },
+        {
+            "text": "let",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1010,
+                "top": 1155,
+                "width": 45,
+                "height": 32
+            }
+        },
+        {
+            "text": "us",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1070,
+                "top": 1164,
+                "width": 40,
+                "height": 23
+            }
+        },
+        {
+            "text": "try",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1126,
+                "top": 1159,
+                "width": 51,
+                "height": 36
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1192,
+                "top": 1159,
+                "width": 34,
+                "height": 28
+            }
+        },
+        {
+            "text": "put",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1242,
+                "top": 1159,
+                "width": 61,
+                "height": 36
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1318,
+                "top": 1155,
+                "width": 24,
+                "height": 32
+            }
+        },
+        {
+            "text": "all",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1358,
+                "top": 1155,
+                "width": 43,
+                "height": 32
+            }
+        },
+        {
+            "text": "together.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1416,
+                "top": 1155,
+                "width": 160,
+                "height": 41
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 316,
+                "top": 1218,
+                "width": 72,
+                "height": 32
+            }
+        },
+        {
+            "text": "total",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 412,
+                "top": 1218,
+                "width": 87,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 523,
+                "top": 1227,
+                "width": 164,
+                "height": 31
+            }
+        },
+        {
+            "text": "P.,,,,",
+            "confidence": 32.0,
+            "bbox": {
+                "left": 710,
+                "top": 1220,
+                "width": 76,
+                "height": 41
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 811,
+                "top": 1218,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 865,
+                "top": 1218,
+                "width": 59,
+                "height": 32
+            }
+        },
+        {
+            "text": "sum",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 950,
+                "top": 1227,
+                "width": 80,
+                "height": 23
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1055,
+                "top": 1217,
+                "width": 37,
+                "height": 33
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1115,
+                "top": 1218,
+                "width": 59,
+                "height": 32
+            }
+        },
+        {
+            "text": "static",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1200,
+                "top": 1218,
+                "width": 102,
+                "height": 32
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1327,
+                "top": 1218,
+                "width": 70,
+                "height": 32
+            }
+        },
+        {
+            "text": "dynamic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1423,
+                "top": 1218,
+                "width": 165,
+                "height": 40
+            }
+        },
+        {
+            "text": "pressures",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 265,
+                "top": 1289,
+                "width": 183,
+                "height": 31
+            }
+        },
+        {
+            "text": "(P..4¢",
+            "confidence": 39.0,
+            "bbox": {
+                "left": 472,
+                "top": 1279,
+                "width": 99,
+                "height": 45
+            }
+        },
+        {
+            "text": "aNd",
+            "confidence": 72.0,
+            "bbox": {
+                "left": 590,
+                "top": 1280,
+                "width": 70,
+                "height": 32
+            }
+        },
+        {
+            "text": "Panamicd-",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 678,
+                "top": 1279,
+                "width": 153,
+                "height": 50
+            }
+        },
+        {
+            "text": "We",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 853,
+                "top": 1282,
+                "width": 59,
+                "height": 30
+            }
+        },
+        {
+            "text": "have",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 932,
+                "top": 1280,
+                "width": 90,
+                "height": 32
+            }
+        },
+        {
+            "text": "shown",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1043,
+                "top": 1280,
+                "width": 126,
+                "height": 32
+            }
+        },
+        {
+            "text": "how",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1189,
+                "top": 1280,
+                "width": 82,
+                "height": 32
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1290,
+                "top": 1284,
+                "width": 35,
+                "height": 28
+            }
+        },
+        {
+            "text": "measure",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1346,
+                "top": 1289,
+                "width": 163,
+                "height": 23
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1528,
+                "top": 1280,
+                "width": 60,
+                "height": 32
+            }
+        },
+        {
+            "text": "total,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 1343,
+                "width": 94,
+                "height": 36
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 381,
+                "top": 1352,
+                "width": 37,
+                "height": 23
+            }
+        },
+        {
+            "text": "Pitot,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 436,
+                "top": 1343,
+                "width": 97,
+                "height": 36
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 553,
+                "top": 1352,
+                "width": 158,
+                "height": 31
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 730,
+                "top": 1343,
+                "width": 69,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 817,
+                "top": 1343,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "static",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 895,
+                "top": 1343,
+                "width": 97,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1010,
+                "top": 1352,
+                "width": 166,
+                "height": 31
+            }
+        },
+        {
+            "text": "How",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1198,
+                "top": 1345,
+                "width": 87,
+                "height": 30
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1303,
+                "top": 1343,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1350,
+                "top": 1343,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "dynamic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1428,
+                "top": 1343,
+                "width": 160,
+                "height": 40
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 1414,
+                "width": 164,
+                "height": 31
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 454,
+                "top": 1404,
+                "width": 37,
+                "height": 33
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 513,
+                "top": 1405,
+                "width": 59,
+                "height": 32
+            }
+        },
+        {
+            "text": "air",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 597,
+                "top": 1405,
+                "width": 50,
+                "height": 32
+            }
+        },
+        {
+            "text": "measured?",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 671,
+                "top": 1405,
+                "width": 204,
+                "height": 32
+            }
+        },
+        {
+            "text": "Look",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 902,
+                "top": 1405,
+                "width": 95,
+                "height": 32
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1021,
+                "top": 1409,
+                "width": 34,
+                "height": 28
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1078,
+                "top": 1405,
+                "width": 60,
+                "height": 32
+            }
+        },
+        {
+            "text": "setup",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1164,
+                "top": 1409,
+                "width": 102,
+                "height": 36
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1291,
+                "top": 1405,
+                "width": 36,
+                "height": 31
+            }
+        },
+        {
+            "text": "Figure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1351,
+                "top": 1405,
+                "width": 121,
+                "height": 41
+            }
+        },
+        {
+            "text": "1.10.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1499,
+                "top": 1407,
+                "width": 86,
+                "height": 30
+            }
+        },
+        {
+            "text": "Between",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 1470,
+                "width": 160,
+                "height": 30
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 443,
+                "top": 1468,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "tube",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 519,
+                "top": 1468,
+                "width": 82,
+                "height": 32
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 618,
+                "top": 1468,
+                "width": 73,
+                "height": 32
+            }
+        },
+        {
+            "text": "measures",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 709,
+                "top": 1477,
+                "width": 176,
+                "height": 23
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 903,
+                "top": 1468,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "total",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 978,
+                "top": 1468,
+                "width": 83,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1079,
+                "top": 1477,
+                "width": 157,
+                "height": 31
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1255,
+                "top": 1468,
+                "width": 68,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1340,
+                "top": 1468,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "tube",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1416,
+                "top": 1468,
+                "width": 82,
+                "height": 32
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1516,
+                "top": 1468,
+                "width": 72,
+                "height": 32
+            }
+        },
+        {
+            "text": "measures",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 1539,
+                "width": 181,
+                "height": 23
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 467,
+                "top": 1530,
+                "width": 59,
+                "height": 32
+            }
+        },
+        {
+            "text": "static",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 547,
+                "top": 1530,
+                "width": 101,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 666,
+                "top": 1539,
+                "width": 164,
+                "height": 31
+            }
+        },
+        {
+            "text": "there",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 849,
+                "top": 1530,
+                "width": 97,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 966,
+                "top": 1530,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "placed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1014,
+                "top": 1530,
+                "width": 126,
+                "height": 40
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1160,
+                "top": 1539,
+                "width": 19,
+                "height": 23
+            }
+        },
+        {
+            "text": "differential",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1198,
+                "top": 1529,
+                "width": 214,
+                "height": 42
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1428,
+                "top": 1539,
+                "width": 162,
+                "height": 31
+            }
+        },
+        {
+            "text": "gauge.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 264,
+                "top": 1602,
+                "width": 121,
+                "height": 31
+            }
+        },
+        {
+            "text": "That",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 414,
+                "top": 1593,
+                "width": 88,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 525,
+                "top": 1593,
+                "width": 29,
+                "height": 32
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 579,
+                "top": 1602,
+                "width": 20,
+                "height": 23
+            }
+        },
+        {
+            "text": "gauge",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 622,
+                "top": 1601,
+                "width": 113,
+                "height": 33
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 759,
+                "top": 1593,
+                "width": 75,
+                "height": 32
+            }
+        },
+        {
+            "text": "measures",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 858,
+                "top": 1602,
+                "width": 182,
+                "height": 23
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1064,
+                "top": 1593,
+                "width": 60,
+                "height": 32
+            }
+        },
+        {
+            "text": "difference",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1149,
+                "top": 1592,
+                "width": 192,
+                "height": 33
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1365,
+                "top": 1593,
+                "width": 36,
+                "height": 31
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1424,
+                "top": 1602,
+                "width": 164,
+                "height": 31
+            }
+        },
+        {
+            "text": "between",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 1655,
+                "width": 164,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 448,
+                "top": 1655,
+                "width": 60,
+                "height": 32
+            }
+        },
+        {
+            "text": "two",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 527,
+                "top": 1659,
+                "width": 70,
+                "height": 28
+            }
+        },
+        {
+            "text": "ports,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 618,
+                "top": 1659,
+                "width": 109,
+                "height": 36
+            }
+        },
+        {
+            "text": "which",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 749,
+                "top": 1655,
+                "width": 118,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 887,
+                "top": 1655,
+                "width": 29,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 936,
+                "top": 1655,
+                "width": 59,
+                "height": 32
+            }
+        },
+        {
+            "text": "difference",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1016,
+                "top": 1654,
+                "width": 192,
+                "height": 33
+            }
+        },
+        {
+            "text": "between",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1228,
+                "top": 1655,
+                "width": 164,
+                "height": 32
+            }
+        },
+        {
+            "text": "total",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1411,
+                "top": 1655,
+                "width": 87,
+                "height": 32
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1518,
+                "top": 1655,
+                "width": 70,
+                "height": 32
+            }
+        },
+        {
+            "text": "static",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 267,
+                "top": 1718,
+                "width": 99,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 385,
+                "top": 1727,
+                "width": 170,
+                "height": 31
+            }
+        },
+        {
+            "text": "Since",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 577,
+                "top": 1718,
+                "width": 101,
+                "height": 32
+            }
+        },
+        {
+            "text": "static",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 698,
+                "top": 1718,
+                "width": 100,
+                "height": 32
+            }
+        },
+        {
+            "text": "plus",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 816,
+                "top": 1718,
+                "width": 79,
+                "height": 40
+            }
+        },
+        {
+            "text": "dynamic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 916,
+                "top": 1718,
+                "width": 163,
+                "height": 40
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1098,
+                "top": 1727,
+                "width": 161,
+                "height": 31
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1278,
+                "top": 1718,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "equal",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1327,
+                "top": 1718,
+                "width": 103,
+                "height": 40
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1449,
+                "top": 1722,
+                "width": 34,
+                "height": 28
+            }
+        },
+        {
+            "text": "total",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1503,
+                "top": 1718,
+                "width": 86,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 1789,
+                "width": 174,
+                "height": 31
+            }
+        },
+        {
+            "text": "this",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 462,
+                "top": 1780,
+                "width": 69,
+                "height": 32
+            }
+        },
+        {
+            "text": "difference",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 554,
+                "top": 1779,
+                "width": 192,
+                "height": 33
+            }
+        },
+        {
+            "text": "between",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 767,
+                "top": 1780,
+                "width": 164,
+                "height": 32
+            }
+        },
+        {
+            "text": "total",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 952,
+                "top": 1780,
+                "width": 86,
+                "height": 32
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1060,
+                "top": 1780,
+                "width": 70,
+                "height": 32
+            }
+        },
+        {
+            "text": "static",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1152,
+                "top": 1780,
+                "width": 101,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressures",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1274,
+                "top": 1789,
+                "width": 182,
+                "height": 31
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1478,
+                "top": 1780,
+                "width": 29,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1528,
+                "top": 1780,
+                "width": 60,
+                "height": 32
+            }
+        },
+        {
+            "text": "dynamic",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 267,
+                "top": 1843,
+                "width": 160,
+                "height": 40
+            }
+        },
+        {
+            "text": "pressure.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 441,
+                "top": 1852,
+                "width": 166,
+                "height": 31
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 316,
+                "top": 1904,
+                "width": 27,
+                "height": 32
+            }
+        },
+        {
+            "text": "no",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 361,
+                "top": 1914,
+                "width": 46,
+                "height": 23
+            }
+        },
+        {
+            "text": "energy",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 429,
+                "top": 1913,
+                "width": 126,
+                "height": 33
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 575,
+                "top": 1905,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "added",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 624,
+                "top": 1905,
+                "width": 115,
+                "height": 32
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 758,
+                "top": 1909,
+                "width": 35,
+                "height": 28
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 814,
+                "top": 1905,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "air",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 893,
+                "top": 1905,
+                "width": 49,
+                "height": 32
+            }
+        },
+        {
+            "text": "(by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 965,
+                "top": 1904,
+                "width": 59,
+                "height": 41
+            }
+        },
+        {
+            "text": "some",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1044,
+                "top": 1914,
+                "width": 98,
+                "height": 23
+            }
+        },
+        {
+            "text": "mechanism",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1162,
+                "top": 1905,
+                "width": 221,
+                "height": 32
+            }
+        },
+        {
+            "text": "such",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1403,
+                "top": 1905,
+                "width": 87,
+                "height": 32
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1511,
+                "top": 1914,
+                "width": 37,
+                "height": 23
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1569,
+                "top": 1914,
+                "width": 20,
+                "height": 23
+            }
+        },
+        {
+            "text": "propeller)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 1967,
+                "width": 185,
+                "height": 41
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 475,
+                "top": 1968,
+                "width": 59,
+                "height": 32
+            }
+        },
+        {
+            "text": "total",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 555,
+                "top": 1968,
+                "width": 85,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 661,
+                "top": 1977,
+                "width": 161,
+                "height": 31
+            }
+        },
+        {
+            "text": "remains",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 844,
+                "top": 1968,
+                "width": 151,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1017,
+                "top": 1968,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "same",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1098,
+                "top": 1977,
+                "width": 97,
+                "height": 23
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1217,
+                "top": 1968,
+                "width": 70,
+                "height": 32
+            }
+        },
+        {
+            "text": "an",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1309,
+                "top": 1977,
+                "width": 45,
+                "height": 23
+            }
+        },
+        {
+            "text": "increase",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1375,
+                "top": 1968,
+                "width": 156,
+                "height": 32
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1553,
+                "top": 1968,
+                "width": 35,
+                "height": 31
+            }
+        },
+        {
+            "text": "dynamic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 267,
+                "top": 2030,
+                "width": 160,
+                "height": 40
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 445,
+                "top": 2039,
+                "width": 158,
+                "height": 31
+            }
+        },
+        {
+            "text": "causes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 622,
+                "top": 2039,
+                "width": 122,
+                "height": 23
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 763,
+                "top": 2039,
+                "width": 19,
+                "height": 23
+            }
+        },
+        {
+            "text": "decrease",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 801,
+                "top": 2030,
+                "width": 160,
+                "height": 32
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 980,
+                "top": 2030,
+                "width": 35,
+                "height": 31
+            }
+        },
+        {
+            "text": "static",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1034,
+                "top": 2030,
+                "width": 97,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1149,
+                "top": 2039,
+                "width": 166,
+                "height": 31
+            }
+        },
+        {
+            "text": "So",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1337,
+                "top": 2031,
+                "width": 42,
+                "height": 31
+            }
+        },
+        {
+            "text": "when",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1399,
+                "top": 2030,
+                "width": 104,
+                "height": 32
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1522,
+                "top": 2039,
+                "width": 66,
+                "height": 23
+            }
+        },
+        {
+            "text": "reads",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 2093,
+                "width": 96,
+                "height": 32
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 381,
+                "top": 2093,
+                "width": 71,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 470,
+                "top": 2093,
+                "width": 57,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 545,
+                "top": 2102,
+                "width": 155,
+                "height": 31
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 719,
+                "top": 2092,
+                "width": 35,
+                "height": 33
+            }
+        },
+        {
+            "text": "air",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 771,
+                "top": 2093,
+                "width": 48,
+                "height": 32
+            }
+        },
+        {
+            "text": "decreases",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 837,
+                "top": 2093,
+                "width": 176,
+                "height": 32
+            }
+        },
+        {
+            "text": "because",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1031,
+                "top": 2093,
+                "width": 148,
+                "height": 32
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1197,
+                "top": 2093,
+                "width": 24,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1238,
+                "top": 2093,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "going",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1284,
+                "top": 2093,
+                "width": 102,
+                "height": 41
+            }
+        },
+        {
+            "text": "faster,",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 1404,
+                "top": 2092,
+                "width": 107,
+                "height": 37
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1531,
+                "top": 2093,
+                "width": 57,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 2164,
+                "width": 154,
+                "height": 31
+            }
+        },
+        {
+            "text": "referred",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 433,
+                "top": 2154,
+                "width": 143,
+                "height": 33
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 588,
+                "top": 2159,
+                "width": 34,
+                "height": 28
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 636,
+                "top": 2155,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 677,
+                "top": 2155,
+                "width": 57,
+                "height": 32
+            }
+        },
+        {
+            "text": "static",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 749,
+                "top": 2155,
+                "width": 94,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 856,
+                "top": 2164,
+                "width": 163,
+                "height": 31
+            }
+        },
+        {
+            "text": "But",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1035,
+                "top": 2157,
+                "width": 62,
+                "height": 30
+            }
+        },
+        {
+            "text": "what",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1110,
+                "top": 2155,
+                "width": 92,
+                "height": 32
+            }
+        },
+        {
+            "text": "if",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1216,
+                "top": 2154,
+                "width": 24,
+                "height": 32
+            }
+        },
+        {
+            "text": "energy",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1253,
+                "top": 2163,
+                "width": 122,
+                "height": 33
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1388,
+                "top": 2155,
+                "width": 27,
+                "height": 32
+            }
+        },
+        {
+            "text": "added",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1429,
+                "top": 2155,
+                "width": 112,
+                "height": 32
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1553,
+                "top": 2159,
+                "width": 34,
+                "height": 28
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 2218,
+                "width": 57,
+                "height": 32
+            }
+        },
+        {
+            "text": "air?",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 341,
+                "top": 2218,
+                "width": 61,
+                "height": 32
+            }
+        },
+        {
+            "text": "In",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 423,
+                "top": 2220,
+                "width": 36,
+                "height": 29
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 476,
+                "top": 2218,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "right-hand",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 552,
+                "top": 2218,
+                "width": 195,
+                "height": 41
+            }
+        },
+        {
+            "text": "corner",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 765,
+                "top": 2227,
+                "width": 119,
+                "height": 23
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 902,
+                "top": 2217,
+                "width": 35,
+                "height": 33
+            }
+        },
+        {
+            "text": "Figure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 954,
+                "top": 2218,
+                "width": 115,
+                "height": 41
+            }
+        },
+        {
+            "text": "1.9",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1090,
+                "top": 2220,
+                "width": 51,
+                "height": 30
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1160,
+                "top": 2218,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1206,
+                "top": 2218,
+                "width": 57,
+                "height": 32
+            }
+        },
+        {
+            "text": "picture",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1281,
+                "top": 2218,
+                "width": 129,
+                "height": 40
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1429,
+                "top": 2217,
+                "width": 35,
+                "height": 33
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1481,
+                "top": 2227,
+                "width": 19,
+                "height": 23
+            }
+        },
+        {
+            "text": "fan.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1518,
+                "top": 2217,
+                "width": 67,
+                "height": 33
+            }
+        },
+        {
+            "text": "What",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 2280,
+                "width": 102,
+                "height": 32
+            }
+        },
+        {
+            "text": "has",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 394,
+                "top": 2280,
+                "width": 63,
+                "height": 32
+            }
+        },
+        {
+            "text": "happened",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 484,
+                "top": 2280,
+                "width": 188,
+                "height": 40
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 697,
+                "top": 2284,
+                "width": 35,
+                "height": 28
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 759,
+                "top": 2280,
+                "width": 59,
+                "height": 32
+            }
+        },
+        {
+            "text": "air",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 844,
+                "top": 2280,
+                "width": 49,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressures",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 918,
+                "top": 2289,
+                "width": 179,
+                "height": 31
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1124,
+                "top": 2284,
+                "width": 34,
+                "height": 28
+            }
+        },
+        {
+            "text": "point",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1183,
+                "top": 2280,
+                "width": 99,
+                "height": 40
+            }
+        },
+        {
+            "text": "C?",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1309,
+                "top": 2281,
+                "width": 39,
+                "height": 31
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1377,
+                "top": 2280,
+                "width": 71,
+                "height": 32
+            }
+        },
+        {
+            "text": "fan",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1475,
+                "top": 2279,
+                "width": 58,
+                "height": 33
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1559,
+                "top": 2280,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "accelerating",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 2343,
+                "width": 229,
+                "height": 41
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 515,
+                "top": 2343,
+                "width": 59,
+                "height": 32
+            }
+        },
+        {
+            "text": "air,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 596,
+                "top": 2343,
+                "width": 56,
+                "height": 36
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 676,
+                "top": 2343,
+                "width": 69,
+                "height": 32
+            }
+        },
+        {
+            "text": "thus",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 766,
+                "top": 2343,
+                "width": 81,
+                "height": 32
+            }
+        },
+        {
+            "text": "has",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 869,
+                "top": 2343,
+                "width": 64,
+                "height": 32
+            }
+        },
+        {
+            "text": "done",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 956,
+                "top": 2343,
+                "width": 91,
+                "height": 32
+            }
+        },
+        {
+            "text": "work",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1069,
+                "top": 2343,
+                "width": 97,
+                "height": 32
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1188,
+                "top": 2352,
+                "width": 45,
+                "height": 23
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1254,
+                "top": 2343,
+                "width": 59,
+                "height": 32
+            }
+        },
+        {
+            "text": "air.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1335,
+                "top": 2343,
+                "width": 54,
+                "height": 32
+            }
+        },
+        {
+            "text": "Thus",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1414,
+                "top": 2343,
+                "width": 94,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1529,
+                "top": 2343,
+                "width": 59,
+                "height": 32
+            }
+        },
+        {
+            "text": "dynamic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 267,
+                "top": 2405,
+                "width": 157,
+                "height": 40
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 437,
+                "top": 2414,
+                "width": 154,
+                "height": 31
+            }
+        },
+        {
+            "text": "has",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 605,
+                "top": 2405,
+                "width": 62,
+                "height": 32
+            }
+        },
+        {
+            "text": "increased.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 681,
+                "top": 2405,
+                "width": 183,
+                "height": 32
+            }
+        },
+        {
+            "text": "Since",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 881,
+                "top": 2405,
+                "width": 97,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 991,
+                "top": 2405,
+                "width": 57,
+                "height": 32
+            }
+        },
+        {
+            "text": "air",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1062,
+                "top": 2405,
+                "width": 47,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1122,
+                "top": 2405,
+                "width": 27,
+                "height": 32
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1164,
+                "top": 2409,
+                "width": 59,
+                "height": 28
+            }
+        },
+        {
+            "text": "confined,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1237,
+                "top": 2404,
+                "width": 170,
+                "height": 37
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1422,
+                "top": 2405,
+                "width": 57,
+                "height": 32
+            }
+        },
+        {
+            "text": "static",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1493,
+                "top": 2405,
+                "width": 95,
+                "height": 32
+            }
+        },
+        {
+            "text": "pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 2477,
+                "width": 154,
+                "height": 31
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 437,
+                "top": 2468,
+                "width": 27,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 481,
+                "top": 2468,
+                "width": 57,
+                "height": 32
+            }
+        },
+        {
+            "text": "same",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 557,
+                "top": 2477,
+                "width": 94,
+                "height": 23
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 669,
+                "top": 2477,
+                "width": 36,
+                "height": 23
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 723,
+                "top": 2468,
+                "width": 35,
+                "height": 31
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 774,
+                "top": 2468,
+                "width": 57,
+                "height": 32
+            }
+        },
+        {
+            "text": "surrounding",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 849,
+                "top": 2468,
+                "width": 226,
+                "height": 41
+            }
+        },
+        {
+            "text": "environment",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1092,
+                "top": 2468,
+                "width": 236,
+                "height": 32
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1345,
+                "top": 2468,
+                "width": 68,
+                "height": 32
+            }
+        },
+        {
+            "text": "thus",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1429,
+                "top": 2468,
+                "width": 79,
+                "height": 32
+            }
+        },
+        {
+            "text": "has",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1526,
+                "top": 2468,
+                "width": 61,
+                "height": 32
+            }
+        }
+    ]
+}

@@ -1,67 +1,156 @@
-import { useState, useContext } from "react";
+import { useState, useContext, useEffect } from "react";
 import UploadButton from "./UploadButton";
-import {
-    FaPaperclip,
-    FaImage,
-    FaPaperPlane
-} from "react-icons/fa";
+import { FaPaperPlane } from "react-icons/fa";
 
 import { ChatContext } from "../context/ChatContext";
-
 import { sendMessage } from "../services/api";
 
-function ChatInput() {
+function ChatInput({
+
+    activeImage,
+    setActiveImage
+
+}) {
 
     const [question, setQuestion] = useState("");
 
+    const [useImageContext,
+        setUseImageContext] = useState(true);
+
+    const [previewImage,
+        setPreviewImage] = useState(null);
+
+    // Controls whether thumbnail is shown
+    const [showThumbnail,
+        setShowThumbnail] = useState(true);
+
     const {
-
-    messages,
-
     setMessages,
-
     loading,
+    setLoading,
+    currentChat,
+    renameChat
+    } = useContext(ChatContext);
 
-    setLoading
+    // Whenever a NEW image is uploaded,
+    // show thumbnail again.
+    useEffect(() => {
 
-} = useContext(ChatContext);
+        if (activeImage) {
+
+            setShowThumbnail(true);
+
+        }
+
+    }, [activeImage]);
+
 
     async function handleSend() {
 
-        if (!question.trim()) return;
+        if (!question.trim())
+            return;
+
+        const currentQuestion = question;
+        // Rename only once
+
+        const shouldSendImage =
+
+            activeImage &&
+            useImageContext;
 
         const userMessage = {
+
             role: "user",
-            content: question
+
+            content: currentQuestion,
+
+            image:
+                shouldSendImage
+                    ? activeImage
+                    : null
+
         };
 
-        setMessages(prev => [...prev, userMessage]);
+        setMessages(prev => [
+
+            ...prev,
+            userMessage
+
+        ]);
+
+        setQuestion("");
 
         setLoading(true);
 
         try {
 
-            const response = await sendMessage(question);
+            const response =
+                await sendMessage(
+
+                    currentQuestion,
+
+                    shouldSendImage
+                        ? activeImage.path
+                        : null
+
+                );
+
+            // Rename only once using backend-generated title
+            if (
+
+                currentChat.title === "New Chat" &&
+
+                response.title
+
+            ) {
+
+                renameChat(
+
+                    currentChat.id,
+
+                    response.title
+
+                );
+
+            }
 
             const aiMessage = {
 
                 role: "assistant",
 
-                content: response.answer,
+                content:
+                    response.answer,
 
-                sources: response.sources || [],
+                sources:
+                    response.sources || [],
 
-                graph: response.graph || null,
+                graph:
+                    response.graph || null,
 
-                figure: response.figure || null
+                figure:
+                    response.figure || null
 
             };
 
-            setMessages(prev => [...prev, aiMessage]);
+            setMessages(prev => [
+
+                ...prev,
+                aiMessage
+
+            ]);
+
+            // Hide thumbnail after first image question
+            if (shouldSendImage) {
+
+                setShowThumbnail(false);
+
+            }
 
         }
 
         catch (error) {
+
+            console.log(error);
 
             setMessages(prev => [
 
@@ -71,7 +160,8 @@ function ChatInput() {
 
                     role: "assistant",
 
-                    content: "Unable to connect to backend."
+                    content:
+                        "Unable to connect to backend."
 
                 }
 
@@ -79,57 +169,296 @@ function ChatInput() {
 
         }
 
-        setQuestion("");
-
         setLoading(false);
 
     }
 
     return (
 
-        <div className="border-t border-slate-700 p-5 bg-slate-800">
+        <>
 
-            <div className="max-w-5xl mx-auto flex items-center gap-3">
+            <div className="border-t border-slate-700 p-5 bg-slate-800">
 
-                <UploadButton />
+                {
 
-                <input
+                    activeImage && (
 
-                    value={question}
+                        <div className="max-w-5xl mx-auto mb-3">
 
-                    onChange={(e)=>setQuestion(e.target.value)}
+                            <div
+                                className="
+                                flex
+                                items-center
+                                gap-3
+                                bg-slate-700
+                                px-4
+                                py-2
+                                rounded-lg
+                                w-fit"
+                            >
 
-                    onKeyDown={(e)=>{
+                                {
 
-                        if(e.key==="Enter")
+                                    showThumbnail ? (
 
-                            handleSend();
+                                        <>
 
-                    }}
+                                            <img
 
-                    className="flex-1 bg-slate-700 rounded-xl px-5 py-3 outline-none"
+                                                src={activeImage.preview}
 
-                    placeholder="Ask anything..."
+                                                alt="preview"
 
-                />
+                                                onClick={() =>
+                                                    setPreviewImage(
+                                                        activeImage.preview
+                                                    )
+                                                }
 
-                <button
+                                                className="
+                                                w-10
+                                                h-10
+                                                rounded
+                                                object-cover
+                                                cursor-pointer
+                                                hover:scale-110
+                                                transition"
 
-                    onClick={handleSend}
+                                            />
 
-                    disabled={loading}
+                                            <span
+                                                className="text-sm"
+                                            >
 
-                    className="bg-cyan-600 hover:bg-cyan-700 rounded-xl p-3"
+                                                {
 
+                                                    activeImage.name
+
+                                                }
+
+                                            </span>
+
+                                        </>
+
+                                    ) : (
+
+                                        <span
+                                            className="text-sm font-medium"
+                                        >
+
+                                            🖼 Using Previous Image
+
+                                        </span>
+
+                                    )
+
+                                }
+
+                                <button
+
+                                    onClick={() =>
+
+                                        setUseImageContext(
+
+                                            !useImageContext
+
+                                        )
+
+                                    }
+
+                                    className={
+
+                                        `text-xs px-3 py-1 rounded-lg ${
+
+                                            useImageContext
+
+                                                ?
+
+                                                "bg-green-600"
+
+                                                :
+
+                                                "bg-slate-600"
+
+                                        }`
+
+                                    }
+
+                                >
+
+                                    {
+
+                                        useImageContext
+
+                                            ?
+
+                                            "Using Image ✓"
+
+                                            :
+
+                                            "Image Off"
+
+                                    }
+
+                                </button>
+
+                                <button
+
+                                    onClick={() => {
+
+                                        setActiveImage(null);
+
+                                        setUseImageContext(true);
+
+                                        setShowThumbnail(true);
+
+                                    }}
+
+                                    className="
+                                    text-red-400
+                                    hover:text-red-500"
+
+                                >
+
+                                    ✕
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    )
+
+                }
+
+                <div
+                    className="
+                    max-w-5xl
+                    mx-auto
+                    flex
+                    items-center
+                    gap-3"
                 >
 
-                    <FaPaperPlane/>
+                    <UploadButton
 
-                </button>
+                        setActiveImage={
+                            setActiveImage
+                        }
+
+                    />
+
+                    <input
+
+                        value={question}
+
+                        onChange={(e) =>
+
+                            setQuestion(
+                                e.target.value
+                            )
+
+                        }
+
+                        onKeyDown={(e) => {
+
+                            if (
+
+                                e.key === "Enter"
+
+                            ) {
+
+                                handleSend();
+
+                            }
+
+                        }}
+
+                        className="
+                        flex-1
+                        bg-slate-700
+                        rounded-xl
+                        px-5
+                        py-3
+                        outline-none"
+
+                        placeholder="Ask anything..."
+
+                    />
+
+                    <button
+
+                        onClick={handleSend}
+
+                        disabled={loading}
+
+                        className="
+                        bg-cyan-600
+                        hover:bg-cyan-700
+                        rounded-xl
+                        p-3"
+
+                    >
+
+                        <FaPaperPlane />
+
+                    </button>
+
+                </div>
 
             </div>
 
-        </div>
+            {
+
+                previewImage && (
+
+                    <div
+
+                        onClick={() =>
+                            setPreviewImage(null)
+                        }
+
+                        className="
+                            fixed
+                            inset-0
+                            bg-black/80
+                            flex
+                            justify-center
+                            items-center
+                            z-50
+                            p-8
+                            cursor-pointer
+                        "
+
+                    >
+
+                        <img
+
+                            src={previewImage}
+
+                            alt="Preview"
+
+                            className="
+                                max-w-[90vw]
+                                max-h-[90vh]
+                                rounded-xl
+                                shadow-2xl
+                            "
+
+                            onClick={(e) =>
+                                e.stopPropagation()
+                            }
+
+                        />
+
+                    </div>
+
+                )
+
+            }
+
+        </>
 
     );
 

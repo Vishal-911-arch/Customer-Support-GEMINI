@@ -1,0 +1,998 @@
+{
+    "document": "cn",
+    "page": "page_10",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\HAL-AI-Customer-Support\\backend\\artifacts\\rendered_pages\\cn\\page_10.png",
+    "text": "DNS recursive query: > DNS server, who received your query will do all job of fetching the answer, and giving it back to you. > During this process, the DNS server might also query other DNS servers in the internet on your behalf, for the answer. One DNS server communicates with several other DNS servers to find an IP address and return it to the client. =a | vemer! root DNS Server _ query Ci), POP @ tery answer CB) 0) ome (| DNS Client . Ops Server SS\" TLO ONS Server oe oo | example com DNS SIAGLAS",
+    "words": [
+        {
+            "text": "DNS",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 92,
+                "top": 99,
+                "width": 232,
+                "height": 87
+            }
+        },
+        {
+            "text": "recursive",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 394,
+                "top": 97,
+                "width": 442,
+                "height": 90
+            }
+        },
+        {
+            "text": "query:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 872,
+                "top": 125,
+                "width": 299,
+                "height": 87
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 99,
+                "top": 320,
+                "width": 75,
+                "height": 84
+            }
+        },
+        {
+            "text": "DNS",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 241,
+                "top": 321,
+                "width": 234,
+                "height": 89
+            }
+        },
+        {
+            "text": "server,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 514,
+                "top": 346,
+                "width": 317,
+                "height": 81
+            }
+        },
+        {
+            "text": "who",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 868,
+                "top": 319,
+                "width": 206,
+                "height": 90
+            }
+        },
+        {
+            "text": "received",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1111,
+                "top": 319,
+                "width": 407,
+                "height": 90
+            }
+        },
+        {
+            "text": "your",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1551,
+                "top": 347,
+                "width": 227,
+                "height": 87
+            }
+        },
+        {
+            "text": "query",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1807,
+                "top": 347,
+                "width": 273,
+                "height": 87
+            }
+        },
+        {
+            "text": "will",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2116,
+                "top": 319,
+                "width": 182,
+                "height": 89
+            }
+        },
+        {
+            "text": "do",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2337,
+                "top": 319,
+                "width": 120,
+                "height": 90
+            }
+        },
+        {
+            "text": "all",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2489,
+                "top": 319,
+                "width": 116,
+                "height": 90
+            }
+        },
+        {
+            "text": "job",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2631,
+                "top": 318,
+                "width": 165,
+                "height": 116
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2829,
+                "top": 318,
+                "width": 116,
+                "height": 92
+            }
+        },
+        {
+            "text": "fetching",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2962,
+                "top": 318,
+                "width": 398,
+                "height": 117
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3392,
+                "top": 319,
+                "width": 146,
+                "height": 90
+            }
+        },
+        {
+            "text": "answer,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3572,
+                "top": 347,
+                "width": 367,
+                "height": 80
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3975,
+                "top": 318,
+                "width": 171,
+                "height": 91
+            }
+        },
+        {
+            "text": "giving",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4182,
+                "top": 319,
+                "width": 309,
+                "height": 116
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4528,
+                "top": 318,
+                "width": 61,
+                "height": 91
+            }
+        },
+        {
+            "text": "back",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4623,
+                "top": 319,
+                "width": 226,
+                "height": 90
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4883,
+                "top": 333,
+                "width": 93,
+                "height": 76
+            }
+        },
+        {
+            "text": "you.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 5005,
+                "top": 346,
+                "width": 208,
+                "height": 88
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 99,
+                "top": 542,
+                "width": 75,
+                "height": 109
+            }
+        },
+        {
+            "text": "During",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 241,
+                "top": 536,
+                "width": 341,
+                "height": 160
+            }
+        },
+        {
+            "text": "this",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 613,
+                "top": 541,
+                "width": 176,
+                "height": 90
+            }
+        },
+        {
+            "text": "process,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 824,
+                "top": 569,
+                "width": 388,
+                "height": 88
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1246,
+                "top": 541,
+                "width": 149,
+                "height": 91
+            }
+        },
+        {
+            "text": "DNS",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1430,
+                "top": 543,
+                "width": 234,
+                "height": 89
+            }
+        },
+        {
+            "text": "server",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1704,
+                "top": 569,
+                "width": 297,
+                "height": 63
+            }
+        },
+        {
+            "text": "might",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2035,
+                "top": 541,
+                "width": 280,
+                "height": 116
+            }
+        },
+        {
+            "text": "also",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2348,
+                "top": 541,
+                "width": 194,
+                "height": 90
+            }
+        },
+        {
+            "text": "query",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2574,
+                "top": 569,
+                "width": 275,
+                "height": 88
+            }
+        },
+        {
+            "text": "other",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2883,
+                "top": 541,
+                "width": 252,
+                "height": 90
+            }
+        },
+        {
+            "text": "DNS",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3167,
+                "top": 543,
+                "width": 234,
+                "height": 89
+            }
+        },
+        {
+            "text": "servers",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3442,
+                "top": 569,
+                "width": 340,
+                "height": 94
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3823,
+                "top": 541,
+                "width": 86,
+                "height": 88
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3942,
+                "top": 541,
+                "width": 145,
+                "height": 91
+            }
+        },
+        {
+            "text": "internet",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4128,
+                "top": 541,
+                "width": 365,
+                "height": 91
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4527,
+                "top": 569,
+                "width": 119,
+                "height": 62
+            }
+        },
+        {
+            "text": "your",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4675,
+                "top": 569,
+                "width": 229,
+                "height": 87
+            }
+        },
+        {
+            "text": "behalf,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 240,
+                "top": 756,
+                "width": 327,
+                "height": 110
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 605,
+                "top": 757,
+                "width": 141,
+                "height": 91
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 777,
+                "top": 758,
+                "width": 145,
+                "height": 91
+            }
+        },
+        {
+            "text": "answer.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 957,
+                "top": 785,
+                "width": 359,
+                "height": 64
+            }
+        },
+        {
+            "text": "One",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1359,
+                "top": 760,
+                "width": 198,
+                "height": 88
+            }
+        },
+        {
+            "text": "DNS",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1596,
+                "top": 760,
+                "width": 233,
+                "height": 87
+            }
+        },
+        {
+            "text": "server",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1871,
+                "top": 786,
+                "width": 294,
+                "height": 62
+            }
+        },
+        {
+            "text": "communicates",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2196,
+                "top": 758,
+                "width": 702,
+                "height": 90
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2934,
+                "top": 758,
+                "width": 213,
+                "height": 89
+            }
+        },
+        {
+            "text": "several",
+            "confidence": 44.0,
+            "bbox": {
+                "left": 3182,
+                "top": 756,
+                "width": 334,
+                "height": 110
+            }
+        },
+        {
+            "text": "other",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3556,
+                "top": 758,
+                "width": 251,
+                "height": 90
+            }
+        },
+        {
+            "text": "DNS",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3842,
+                "top": 760,
+                "width": 232,
+                "height": 87
+            }
+        },
+        {
+            "text": "servers",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4117,
+                "top": 786,
+                "width": 341,
+                "height": 62
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4490,
+                "top": 774,
+                "width": 92,
+                "height": 73
+            }
+        },
+        {
+            "text": "find",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4620,
+                "top": 757,
+                "width": 188,
+                "height": 90
+            }
+        },
+        {
+            "text": "an",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4845,
+                "top": 786,
+                "width": 111,
+                "height": 62
+            }
+        },
+        {
+            "text": "IP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4993,
+                "top": 760,
+                "width": 103,
+                "height": 86
+            }
+        },
+        {
+            "text": "address",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 238,
+                "top": 981,
+                "width": 363,
+                "height": 89
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 635,
+                "top": 980,
+                "width": 170,
+                "height": 90
+            }
+        },
+        {
+            "text": "return",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 843,
+                "top": 996,
+                "width": 287,
+                "height": 74
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1171,
+                "top": 981,
+                "width": 58,
+                "height": 88
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1261,
+                "top": 995,
+                "width": 94,
+                "height": 74
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 1388,
+                "top": 980,
+                "width": 145,
+                "height": 90
+            }
+        },
+        {
+            "text": "client.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1569,
+                "top": 980,
+                "width": 289,
+                "height": 90
+            }
+        },
+        {
+            "text": "=a",
+            "confidence": 37.0,
+            "bbox": {
+                "left": 2696,
+                "top": 1221,
+                "width": 1983,
+                "height": 354
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 71.0,
+            "bbox": {
+                "left": 2583,
+                "top": 1611,
+                "width": 4,
+                "height": 4
+            }
+        },
+        {
+            "text": "vemer!",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 3445,
+                "top": 1488,
+                "width": 212,
+                "height": 91
+            }
+        },
+        {
+            "text": "root",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 4117,
+                "top": 1499,
+                "width": 163,
+                "height": 75
+            }
+        },
+        {
+            "text": "DNS",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4330,
+                "top": 1511,
+                "width": 164,
+                "height": 66
+            }
+        },
+        {
+            "text": "Server",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4524,
+                "top": 1515,
+                "width": 310,
+                "height": 64
+            }
+        },
+        {
+            "text": "_",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 854,
+                "top": 1565,
+                "width": 122,
+                "height": 182
+            }
+        },
+        {
+            "text": "query",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1066,
+                "top": 1565,
+                "width": 304,
+                "height": 182
+            }
+        },
+        {
+            "text": "Ci),",
+            "confidence": 24.0,
+            "bbox": {
+                "left": 1551,
+                "top": 1565,
+                "width": 502,
+                "height": 182
+            }
+        },
+        {
+            "text": "POP",
+            "confidence": 28.0,
+            "bbox": {
+                "left": 2579,
+                "top": 1626,
+                "width": 1712,
+                "height": 164
+            }
+        },
+        {
+            "text": "@",
+            "confidence": 26.0,
+            "bbox": {
+                "left": 3366,
+                "top": 1573,
+                "width": 112,
+                "height": 221
+            }
+        },
+        {
+            "text": "tery",
+            "confidence": 45.0,
+            "bbox": {
+                "left": 3661,
+                "top": 1573,
+                "width": 333,
+                "height": 221
+            }
+        },
+        {
+            "text": "answer",
+            "confidence": 72.0,
+            "bbox": {
+                "left": 1026,
+                "top": 1812,
+                "width": 325,
+                "height": 70
+            }
+        },
+        {
+            "text": "CB)",
+            "confidence": 39.0,
+            "bbox": {
+                "left": 1570,
+                "top": 1784,
+                "width": 277,
+                "height": 161
+            }
+        },
+        {
+            "text": "0)",
+            "confidence": 34.0,
+            "bbox": {
+                "left": 2314,
+                "top": 1724,
+                "width": 164,
+                "height": 132
+            }
+        },
+        {
+            "text": "ome",
+            "confidence": 49.0,
+            "bbox": {
+                "left": 2727,
+                "top": 1818,
+                "width": 1555,
+                "height": 127
+            }
+        },
+        {
+            "text": "(|",
+            "confidence": 1.0,
+            "bbox": {
+                "left": 4333,
+                "top": 1717,
+                "width": 346,
+                "height": 256
+            }
+        },
+        {
+            "text": "DNS",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 184,
+                "top": 2014,
+                "width": 217,
+                "height": 84
+            }
+        },
+        {
+            "text": "Client",
+            "confidence": 67.0,
+            "bbox": {
+                "left": 456,
+                "top": 1995,
+                "width": 293,
+                "height": 100
+            }
+        },
+        {
+            "text": ".",
+            "confidence": 57.0,
+            "bbox": {
+                "left": 862,
+                "top": 2086,
+                "width": 10,
+                "height": 14
+            }
+        },
+        {
+            "text": "Ops",
+            "confidence": 52.0,
+            "bbox": {
+                "left": 2085,
+                "top": 1974,
+                "width": 182,
+                "height": 96
+            }
+        },
+        {
+            "text": "Server",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 2307,
+                "top": 1967,
+                "width": 272,
+                "height": 86
+            }
+        },
+        {
+            "text": "SS\"",
+            "confidence": 24.0,
+            "bbox": {
+                "left": 2690,
+                "top": 1926,
+                "width": 1648,
+                "height": 353
+            }
+        },
+        {
+            "text": "TLO",
+            "confidence": 75.0,
+            "bbox": {
+                "left": 4394,
+                "top": 1993,
+                "width": 140,
+                "height": 62
+            }
+        },
+        {
+            "text": "ONS",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4573,
+                "top": 1995,
+                "width": 153,
+                "height": 62
+            }
+        },
+        {
+            "text": "Server",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4763,
+                "top": 1988,
+                "width": 267,
+                "height": 63
+            }
+        },
+        {
+            "text": "oe",
+            "confidence": 38.0,
+            "bbox": {
+                "left": 2670,
+                "top": 1989,
+                "width": 1626,
+                "height": 362
+            }
+        },
+        {
+            "text": "oo",
+            "confidence": 42.0,
+            "bbox": {
+                "left": 4333,
+                "top": 2204,
+                "width": 241,
+                "height": 267
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 42.0,
+            "bbox": {
+                "left": 4618,
+                "top": 2204,
+                "width": 67,
+                "height": 267
+            }
+        },
+        {
+            "text": "example",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 4090,
+                "top": 2503,
+                "width": 386,
+                "height": 112
+            }
+        },
+        {
+            "text": "com",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 4540,
+                "top": 2517,
+                "width": 175,
+                "height": 57
+            }
+        },
+        {
+            "text": "DNS",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 4779,
+                "top": 2505,
+                "width": 190,
+                "height": 73
+            }
+        },
+        {
+            "text": "SIAGLAS",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 4438,
+                "top": 2657,
+                "width": 308,
+                "height": 66
+            }
+        }
+    ]
+}

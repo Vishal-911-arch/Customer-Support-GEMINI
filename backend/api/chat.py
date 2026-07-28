@@ -1,13 +1,10 @@
-from fastapi import APIRouter, HTTPException
-from pydantic import BaseModel
+from fastapi import APIRouter
+from fastapi import HTTPException
 
 from services.chat_service import ChatService
+from chat_schema import ChatRequest
 
 router = APIRouter()
-
-
-class ChatRequest(BaseModel):
-    question: str
 
 
 @router.post("/chat")
@@ -15,25 +12,131 @@ def chat(request: ChatRequest):
 
     try:
 
-        response = ChatService.ask(request.question)
+        print("\n")
+        print("=" * 70)
+        print("CHAT REQUEST")
+        print("=" * 70)
+
+        print("QUESTION :")
+
+        print(request.question)
+
+        print()
+
+        print("IMAGE PATH :")
+
+        print(request.image_path)
+
+        print("=" * 70)
+
+        # ====================================================
+        # IMAGE CHAT
+        # ====================================================
+
+        if request.image_path:
+
+            print("\n✓ IMAGE MODE\n")
+
+            response = ChatService.ask_image(
+
+                request.question,
+
+                request.image_path
+
+            )
+
+        # ====================================================
+        # PDF RAG
+        # ====================================================
+
+        else:
+
+            print("\n✓ PDF RAG MODE\n")
+
+            response = ChatService.ask(
+
+                request.question
+
+            )
+
+        # ====================================================
+        # RESPONSE
+        # ====================================================
 
         return {
 
-            "success": True,
+    "success": True,
 
-            "question": request.question,
+    "question":
 
-            "answer": response.get("answer"),
+        request.question,
 
-            "sources": response.get("sources", []),
+    "answer":
 
-            "graph": response.get("graph"),
+        response.get(
 
-            "vision": response.get("vision", [])
+            "answer",
 
-        }
+            ""
 
+        ),
+
+    "title":
+
+        response.get(
+
+            "title",
+
+            "New Chat"
+
+        ),
+
+    "sources":
+
+        response.get(
+
+            "sources",
+
+            []
+
+        ),
+
+    "graph":
+
+        response.get(
+
+            "graph",
+
+            None
+
+        ),
+
+    "figure":
+
+        response.get(
+
+            "figure",
+
+            None
+
+        ),
+
+    "vision":
+
+        response.get(
+
+            "vision",
+
+            []
+
+        )
+
+}
     except Exception as e:
+
+        import traceback
+
+        traceback.print_exc()
 
         raise HTTPException(
 

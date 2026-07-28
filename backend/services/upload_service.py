@@ -1,14 +1,15 @@
 import shutil
+from PIL import Image
 from pathlib import Path
-
+from utils.upload_status import upload_status
 from config import (
     UPLOADED_DOCUMENTS_DIR,
     UPLOADED_IMAGES_DIR
 )
-
+from utils.upload_status import upload_status
 from indexer import KnowledgeIndexer
 
-from rag.graph_pipeline import GraphPipeline
+
 
 from services.file_hash import FileHasher
 from services.file_registry import FileRegistry
@@ -33,15 +34,199 @@ class UploadService:
     }
 
     # ==========================================================
+    # ==========================================================
+    # Upload Image
+    # ==========================================================
+
+    @staticmethod
+    async def upload_image(file):
+
+        suffix = Path(
+
+            file.filename
+
+        ).suffix.lower()
+
+        if suffix not in UploadService.IMAGE_EXTENSIONS:
+
+            raise ValueError(
+
+                "Unsupported image format."
+
+            )
+
+        # -------------------------------------
+        # Create directory
+        # -------------------------------------
+
+        UPLOADED_IMAGES_DIR.mkdir(
+
+            parents=True,
+
+            exist_ok=True
+
+        )
+
+        destination = (
+
+            UPLOADED_IMAGES_DIR /
+
+            file.filename
+
+        )
+
+        # -------------------------------------
+        # Save file first
+        # -------------------------------------
+
+        with destination.open(
+
+            "wb"
+
+        ) as buffer:
+
+            shutil.copyfileobj(
+
+                file.file,
+
+                buffer
+
+            )
+
+        # -------------------------------------
+        # Resize if image is too large
+        # -------------------------------------
+
+        try:
+
+            img = Image.open(
+
+                str(destination)
+
+            )
+
+            print(
+
+                "Image Size Before :",
+
+                img.size
+
+            )
+
+            if max(
+
+                img.size
+
+            ) > 1500:
+
+                img.thumbnail(
+
+                    (1200, 1200)
+
+                )
+
+                img.save(
+
+                    str(destination)
+
+                )
+
+                print(
+
+                    "Image Size After :",
+
+                    img.size
+
+                )
+
+        except Exception as e:
+
+            print(
+
+                "Image resize failed :", e
+
+            )
+
+        # -------------------------------------
+        # Duplicate Detection
+        # -------------------------------------
+
+        file_hash = FileHasher.sha256(
+
+            destination
+
+        )
+
+        if FileRegistry.contains(
+
+            file_hash
+
+        ):
+
+            return {
+
+                "success": True,
+
+                "type": "image",
+
+                "filename":
+
+                    file.filename,
+
+                "image_path":
+
+                    str(destination),
+
+                "message":
+
+                    "Image already uploaded."
+
+            }
+
+        FileRegistry.add(
+
+            file_hash
+
+        )
+
+        return {
+
+            "success": True,
+
+            "type": "image",
+
+            "filename":
+
+                file.filename,
+
+            "image_path":
+
+                str(destination),
+
+            "message":
+
+                "Image uploaded successfully."
+
+        }
+    
+    # ==========================================================
     # Upload PDF
     # ==========================================================
 
     @staticmethod
     async def upload_pdf(file):
+        upload_status["filename"] = file.filename
+        upload_status["is_processing"] = True
+        upload_status["stage"] = "Uploading PDF..."
+        upload_status["progress"] = 5
 
-        suffix = Path(file.filename).suffix.lower()
+        suffix = Path(
+            file.filename
+        ).suffix.lower()
 
         if suffix not in UploadService.PDF_EXTENSIONS:
+
+            upload_status["is_processing"] = False
 
             raise ValueError(
                 "Only PDF files are supported."
@@ -64,34 +249,91 @@ class UploadService:
                 buffer
             )
 
-        # -------------------------------------
-        # Duplicate Detection
-        # -------------------------------------
+        upload_status["stage"] = (
+            "🔍 Checking duplicate files..."
+        )
+        upload_status["progress"] = 15
 
-        file_hash = FileHasher.sha256(destination)
+        file_hash = FileHasher.sha256(
+            destination
+        )
 
-        if FileRegistry.contains(file_hash):
+        if FileRegistry.contains(
+            file_hash
+        ):
 
-            destination.unlink()
+            upload_status["stage"] = (
+                "PDF already indexed 🤣✅."
+            )
+
+            upload_status["progress"] = 100
+            upload_status["is_processing"] = False
 
             return {
 
-                "success": False,
+                "success": True,
+
+                "type": "pdf",
+
+                "filename":
+                    file.filename,
 
                 "message":
-                "This PDF is already indexed."
+                    "PDF already indexed."
 
             }
 
-        # -------------------------------------
-        # Knowledge Indexing
-        # -------------------------------------
+        print("\n")
+        print("=" * 60)
+        print("INDEXING PDF")
+        print("=" * 60)
+
+        upload_status["stage"] = (
+            "📑 Extracting text..."
+        )
+        upload_status["progress"] = 25
 
         indexer = KnowledgeIndexer()
 
-        stats = indexer.index_file(destination)
+        upload_status["stage"] = (
+            "✂️ Splitting document into chunks..."
+        )
+        upload_status["progress"] = 45
 
-        FileRegistry.add(file_hash)
+        upload_status["stage"] = (
+            "🧠 Generating embeddings..."
+        )
+        upload_status["progress"] = 65
+
+        import asyncio
+        stats = await asyncio.to_thread(
+            indexer.index_file,
+            destination
+        )
+        upload_status["stage"] = (
+            "💾 Updating knowledge base..."
+        )
+        upload_status["progress"] = 90
+
+        FileRegistry.add(
+            file_hash
+        )
+
+        upload_status["stage"] = (
+            "✅ PDF indexed successfully."
+        )
+
+        upload_status["progress"] = 100
+        upload_status["is_processing"] = False
+        upload_status["pages"] = stats.get(
+            "documents",
+            0
+        )
+
+        upload_status["chunks"] = stats.get(
+            "chunks",
+            0
+        )
 
         return {
 
@@ -99,113 +341,19 @@ class UploadService:
 
             "type": "pdf",
 
-            "filename": file.filename,
+            "filename":
+                file.filename,
 
-            "pages": stats["pages"],
+            "documents":
+                stats["documents"],
 
-            "chunks": stats["chunks"],
+            "chunks":
+                stats["chunks"],
 
-            "embeddings": stats["embeddings"],
-
-            "message":
-            "PDF indexed successfully."
-
-        }
-
-    # ==========================================================
-    # Upload Image
-    # ==========================================================
-
-    @staticmethod
-    async def upload_image(file):
-
-        suffix = Path(file.filename).suffix.lower()
-
-        if suffix not in UploadService.IMAGE_EXTENSIONS:
-
-            raise ValueError(
-                "Unsupported image format."
-            )
-
-        UPLOADED_IMAGES_DIR.mkdir(
-
-            parents=True,
-
-            exist_ok=True
-
-        )
-
-        destination = (
-
-            UPLOADED_IMAGES_DIR /
-
-            file.filename
-
-        )
-
-        with destination.open("wb") as buffer:
-
-            shutil.copyfileobj(
-                file.file,
-                buffer
-            )
-
-        # -------------------------------------
-        # Duplicate Detection
-        # -------------------------------------
-
-        file_hash = FileHasher.sha256(destination)
-
-        if FileRegistry.contains(file_hash):
-
-            destination.unlink()
-
-            return {
-
-                "success": False,
-
-                "message":
-                "This image has already been indexed."
-
-            }
-
-        # -------------------------------------
-        # Graph Pipeline
-        # -------------------------------------
-
-        graph = GraphPipeline().analyze(
-
-            image_path=str(destination),
-
-            document=Path(file.filename).stem,
-
-            page=1
-
-            )
-
-        FileRegistry.add(file_hash)
-
-        return {
-
-            "success": True,
-
-            "type": "image",
-
-            "filename": file.filename,
-
-            "title": graph.get("title", ""),
-
-            "domain": graph.get(
-                "engineering_domain",
-                ""
-            ),
-
-            "curve_count": graph.get(
-                "curve_count",
-                0
-            ),
+            "embeddings":
+                stats["embeddings"],
 
             "message":
-            "Image indexed successfully."
+                "PDF indexed successfully."
 
         }

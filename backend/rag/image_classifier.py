@@ -2,7 +2,8 @@ from pathlib import Path
 import json
 import cv2
 import numpy as np
-
+from rag.axis_detector import AxisDetector
+from rag.tick_detector import TickDetector
 from config import (
     RENDERED_PAGES_DIR,
     ARTIFACTS_DIR
@@ -11,43 +12,113 @@ from config import (
 IMAGE_CLASSIFIER_OUTPUT = ARTIFACTS_DIR / "image_classifier"
 IMAGE_CLASSIFIER_OUTPUT.mkdir(parents=True, exist_ok=True)
 
-
 class ImageClassifier:
-
     def __init__(self):
 
         self.min_area = 10000
 
+        self.axis_detector = AxisDetector()
+        self.tick_detector = TickDetector()
+
     # ---------------------------------------------------------
+    def classify_image(
+        self,
+        image_path):
+
+        image = cv2.imread(str(image_path))
+
+        if image is None:
+
+            return "photo"
+
+        return self.classify_region(image)
 
     def classify_region(self, roi):
 
         gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
 
-        edges = cv2.Canny(gray, 50, 150)
-
-        edge_ratio = np.count_nonzero(edges) / edges.size
-
         h, w = gray.shape
 
         aspect = w / h
 
-        # Table
-        if edge_ratio > 0.18 and aspect > 1.2:
+        edges = cv2.Canny(gray, 50, 150)
+
+        edge_ratio = np.count_nonzero(edges) / edges.size
+
+        # --------------------------------------------------
+        # TABLE
+        # --------------------------------------------------
+
+        if edge_ratio > 0.18 and aspect > 1.3:
+
             return "table"
 
-        # Graph
-        if edge_ratio > 0.10:
-            return "graph"
+        # --------------------------------------------------
+        # GRAPH VALIDATION
+        # --------------------------------------------------
 
-        # Diagram
-        if edge_ratio > 0.04:
+        try:
+
+            axes = self.axis_detector.detect(roi)
+
+            if axes is not None:
+
+                ticks = self.tick_detector.detect(
+
+                    roi,
+
+                    original=roi,
+
+                    axes=axes
+
+                )
+
+                x_tick_count = len(ticks["x_ticks"])
+
+                y_tick_count = len(ticks["y_ticks"])
+
+                print(
+
+                    f"Graph Check -> X:{x_tick_count} Y:{y_tick_count}"
+
+                )
+
+                if x_tick_count >= 2 and y_tick_count >= 2:
+
+                    return "graph"
+
+        except Exception as e:
+
+            print("Graph validation failed:", e)
+
+        # --------------------------------------------------
+        # DIAGRAM
+        # --------------------------------------------------
+
+        if edge_ratio > 0.03:
+
             return "diagram"
+
+        # --------------------------------------------------
+        # PHOTO
+        # --------------------------------------------------
 
         return "photo"
 
     # ---------------------------------------------------------
+    def classify_image(
+        self,
+        image_path
+):
 
+        image = cv2.imread(str(image_path))
+
+        if image is None:
+            return "photo"
+
+        return self.classify_region(
+            image
+        )
     def process_page(self, image_path):
 
         image_path = Path(image_path)

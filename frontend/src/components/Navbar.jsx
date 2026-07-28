@@ -11,17 +11,13 @@ function Navbar() {
 
             try {
 
-                const res = await fetch("http://127.0.0.1:8000/health");
+                const res = await fetch(
+                    "http://192.168.172.219:8000/health"
+                );
 
-                if (res.ok)
-                    setOnline(true);
+                setOnline(res.ok);
 
-                else
-                    setOnline(false);
-
-            }
-
-            catch {
+            } catch {
 
                 setOnline(false);
 
@@ -44,25 +40,18 @@ function Navbar() {
             <div className="flex items-center gap-3">
 
                 <FaRobot
-
                     size={26}
-
                     className="text-cyan-400"
-
                 />
 
                 <div>
 
                     <h1 className="font-bold text-xl">
-
-                        HAL AI Customer Support
-
+                        AI Customer Support
                     </h1>
 
                     <p className="text-sm text-gray-400">
-
                         Offline AI Assistant
-
                     </p>
 
                 </div>
@@ -76,9 +65,7 @@ function Navbar() {
                         : "text-red-400"
                 }`}
             >
-
                 ● {online ? "Backend Online" : "Backend Offline"}
-
             </div>
 
         </div>

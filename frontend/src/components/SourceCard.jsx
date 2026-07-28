@@ -1,34 +1,95 @@
-function SourceCard({ source }) {
+function SourceCard({ filename, pages, types }) {
 
     return (
 
-        <div className="mt-2 rounded-lg border border-slate-700 bg-slate-900 p-3">
+        <div
+            className="
+            rounded-xl
+            border
+            border-slate-700
+            bg-slate-900
+            p-4
+            hover:border-cyan-500
+            transition
+            "
+        >
 
-            <div className="flex items-center justify-between">
+            <div
+                className="
+                flex
+                justify-between
+                items-start
+                "
+            >
 
                 <div>
 
-                    <div className="text-cyan-400 font-semibold">
+                    <div
+                        className="
+                        text-cyan-400
+                        font-semibold
+                        text-lg
+                        "
+                    >
 
-                        📄 {source.filename}
+                        📄 {filename}
 
                     </div>
 
-                    <div className="text-sm text-gray-400">
+                    <div
+                        className="
+                        text-sm
+                        text-gray-400
+                        mt-2
+                        "
+                    >
 
-                        Page {source.page}
+                        Pages :
+
+                        {
+
+                            pages.join(", ")
+
+                        }
 
                     </div>
 
                 </div>
 
-                <div>
+                <div
+                    className="
+                    flex
+                    gap-2
+                    flex-wrap
+                    "
+                >
 
-                    <span className="px-2 py-1 rounded bg-cyan-700 text-xs">
+                    {
 
-                        {source.type || "pdf"}
+                        types.map(
 
-                    </span>
+                            (t, i) => (
+
+                                <span
+                                    key={i}
+                                    className="
+                                    px-3
+                                    py-1
+                                    rounded-full
+                                    bg-cyan-700
+                                    text-xs
+                                    "
+                                >
+
+                                    {t}
+
+                                </span>
+
+                            )
+
+                        )
+
+                    }
 
                 </div>
 

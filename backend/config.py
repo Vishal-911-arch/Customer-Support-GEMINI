@@ -1,5 +1,6 @@
 from pathlib import Path
 
+
 # =====================================================
 # PROJECT ROOT
 # =====================================================
@@ -41,7 +42,7 @@ FIGURE_INDEX_DIR = ARTIFACTS_DIR / "figure_index"
 
 CHROMA_DB_PATH = str(BASE_DIR / "chroma_db")
 
-COLLECTION_NAME = "hal_documents"
+COLLECTION_NAME = "customer_documents"
 
 
 

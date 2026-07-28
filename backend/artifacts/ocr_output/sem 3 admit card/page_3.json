@@ -1,0 +1,78 @@
+{
+    "document": "sem 3 admit card",
+    "page": "page_3",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\HAL-AI-Customer-Support\\backend\\artifacts\\rendered_pages\\sem 3 admit card\\page_3.png",
+    "text": "2/16/25, 1:20 PM Admit Card https://exams.aktu.ac.in/WebPages/Examination/DownloadAdmitCard.aspx 3/3",
+    "words": [
+        {
+            "text": "2/16/25,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 101,
+                "top": 69,
+                "width": 117,
+                "height": 29
+            }
+        },
+        {
+            "text": "1:20",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 234,
+                "top": 70,
+                "width": 59,
+                "height": 24
+            }
+        },
+        {
+            "text": "PM",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 307,
+                "top": 70,
+                "width": 45,
+                "height": 24
+            }
+        },
+        {
+            "text": "Admit",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1384,
+                "top": 70,
+                "width": 85,
+                "height": 24
+            }
+        },
+        {
+            "text": "Card",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1480,
+                "top": 69,
+                "width": 68,
+                "height": 25
+            }
+        },
+        {
+            "text": "https://exams.aktu.ac.in/WebPages/Examination/DownloadAdmitCard.aspx",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 102,
+                "top": 3208,
+                "width": 1108,
+                "height": 38
+            }
+        },
+        {
+            "text": "3/3",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2410,
+                "top": 3212,
+                "width": 43,
+                "height": 24
+            }
+        }
+    ]
+}

@@ -1,0 +1,2618 @@
+{
+    "document": "Understanding Flight BY DAVID F. ANDERSON",
+    "page": "page_13",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\HAL-AI-Customer-Support\\backend\\artifacts\\rendered_pages\\Understanding Flight BY DAVID F. ANDERSON\\page_13.png",
+    "text": "Basic Concepts 13 es TY Se at — k == Venturi (Throat on a rocket motor) Fig. 1.11. The venturi or throat. Venturi and Throat Take a look at Figure 1.11. Here the tube has a constriction in it. In a tube this constriction is often referred to as a venturi. If the constric- tion is in a rocket motor, it is called a throat. Off and on in the book we will find occasion to refer to both the venturi and the throat. Other Books The purpose of this book is to give the reader a physically intuitive understanding of flight and of aerodynamics, without the use of com- plicated mathematics. But, at some point one may want to go beyond a merely physical understanding to a level of understanding that does require more mathematics. The authors have found two books very useful in the writing of this book. The first book is Aerodynamics for Naval Aviators by H. H. Hurt, Jr., published by Direction of Commander, Naval Air Systems Command, United States Navy. This book is a wealth of information and insight for those who want to go into greater detail in understanding modern flight. The second book is Introduction to Flight, by John D. Anderson, published by McGraw-Hill. This book is certainly a modern classic in the field of aerodynamics textbooks. Introduction to Flight is a serious college textbook and is geared to those with a good understanding of mathematics. Both are excellent references for those seriously interested in airplanes and aerodynamics. Of the two, Aerodynamics for Naval",
+    "words": [
+        {
+            "text": "Basic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1750,
+                "top": 114,
+                "width": 68,
+                "height": 29
+            }
+        },
+        {
+            "text": "Concepts",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 1837,
+                "top": 114,
+                "width": 120,
+                "height": 38
+            }
+        },
+        {
+            "text": "13",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 2012,
+                "top": 110,
+                "width": 37,
+                "height": 32
+            }
+        },
+        {
+            "text": "es",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 264,
+                "top": 267,
+                "width": 974,
+                "height": 137
+            }
+        },
+        {
+            "text": "TY",
+            "confidence": 36.0,
+            "bbox": {
+                "left": 265,
+                "top": 400,
+                "width": 974,
+                "height": 37
+            }
+        },
+        {
+            "text": "Se",
+            "confidence": 25.0,
+            "bbox": {
+                "left": 265,
+                "top": 434,
+                "width": 973,
+                "height": 48
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 44.0,
+            "bbox": {
+                "left": 1202,
+                "top": 423,
+                "width": 40,
+                "height": 79
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 34.0,
+            "bbox": {
+                "left": 261,
+                "top": 454,
+                "width": 360,
+                "height": 196
+            }
+        },
+        {
+            "text": "k",
+            "confidence": 26.0,
+            "bbox": {
+                "left": 734,
+                "top": 458,
+                "width": 66,
+                "height": 188
+            }
+        },
+        {
+            "text": "==",
+            "confidence": 22.0,
+            "bbox": {
+                "left": 963,
+                "top": 454,
+                "width": 279,
+                "height": 196
+            }
+        },
+        {
+            "text": "Venturi",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 703,
+                "top": 657,
+                "width": 115,
+                "height": 26
+            }
+        },
+        {
+            "text": "(Throat",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 545,
+                "top": 702,
+                "width": 117,
+                "height": 33
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 676,
+                "top": 710,
+                "width": 39,
+                "height": 19
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 729,
+                "top": 710,
+                "width": 16,
+                "height": 19
+            }
+        },
+        {
+            "text": "rocket",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 758,
+                "top": 702,
+                "width": 98,
+                "height": 27
+            }
+        },
+        {
+            "text": "motor)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 869,
+                "top": 702,
+                "width": 107,
+                "height": 33
+            }
+        },
+        {
+            "text": "Fig.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 267,
+                "top": 769,
+                "width": 52,
+                "height": 37
+            }
+        },
+        {
+            "text": "1.11.",
+            "confidence": 71.0,
+            "bbox": {
+                "left": 334,
+                "top": 770,
+                "width": 74,
+                "height": 27
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 427,
+                "top": 770,
+                "width": 57,
+                "height": 27
+            }
+        },
+        {
+            "text": "venturi",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 499,
+                "top": 770,
+                "width": 118,
+                "height": 27
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 633,
+                "top": 778,
+                "width": 35,
+                "height": 20
+            }
+        },
+        {
+            "text": "throat.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 682,
+                "top": 770,
+                "width": 114,
+                "height": 28
+            }
+        },
+        {
+            "text": "Venturi",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 265,
+                "top": 956,
+                "width": 152,
+                "height": 32
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 436,
+                "top": 957,
+                "width": 71,
+                "height": 31
+            }
+        },
+        {
+            "text": "Throat",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 520,
+                "top": 957,
+                "width": 143,
+                "height": 31
+            }
+        },
+        {
+            "text": "Take",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 1036,
+                "width": 84,
+                "height": 32
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 367,
+                "top": 1045,
+                "width": 19,
+                "height": 23
+            }
+        },
+        {
+            "text": "look",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 402,
+                "top": 1036,
+                "width": 81,
+                "height": 32
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 499,
+                "top": 1040,
+                "width": 33,
+                "height": 28
+            }
+        },
+        {
+            "text": "Figure",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 549,
+                "top": 1036,
+                "width": 116,
+                "height": 41
+            }
+        },
+        {
+            "text": "1.11.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 684,
+                "top": 1038,
+                "width": 80,
+                "height": 30
+            }
+        },
+        {
+            "text": "Here",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 784,
+                "top": 1038,
+                "width": 86,
+                "height": 30
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 886,
+                "top": 1036,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "tube",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 960,
+                "top": 1036,
+                "width": 82,
+                "height": 32
+            }
+        },
+        {
+            "text": "has",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1058,
+                "top": 1036,
+                "width": 63,
+                "height": 32
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1138,
+                "top": 1045,
+                "width": 20,
+                "height": 23
+            }
+        },
+        {
+            "text": "constriction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1175,
+                "top": 1036,
+                "width": 221,
+                "height": 32
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1412,
+                "top": 1036,
+                "width": 35,
+                "height": 31
+            }
+        },
+        {
+            "text": "it.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1463,
+                "top": 1036,
+                "width": 33,
+                "height": 32
+            }
+        },
+        {
+            "text": "In",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1516,
+                "top": 1038,
+                "width": 37,
+                "height": 29
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1569,
+                "top": 1045,
+                "width": 20,
+                "height": 23
+            }
+        },
+        {
+            "text": "tube",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 1098,
+                "width": 82,
+                "height": 33
+            }
+        },
+        {
+            "text": "this",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 364,
+                "top": 1099,
+                "width": 67,
+                "height": 32
+            }
+        },
+        {
+            "text": "constriction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 449,
+                "top": 1099,
+                "width": 221,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 687,
+                "top": 1099,
+                "width": 27,
+                "height": 32
+            }
+        },
+        {
+            "text": "often",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 733,
+                "top": 1098,
+                "width": 94,
+                "height": 33
+            }
+        },
+        {
+            "text": "referred",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 844,
+                "top": 1098,
+                "width": 145,
+                "height": 33
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1006,
+                "top": 1103,
+                "width": 34,
+                "height": 28
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1058,
+                "top": 1108,
+                "width": 37,
+                "height": 23
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1113,
+                "top": 1108,
+                "width": 20,
+                "height": 23
+            }
+        },
+        {
+            "text": "venturi.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1149,
+                "top": 1100,
+                "width": 140,
+                "height": 31
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1311,
+                "top": 1098,
+                "width": 27,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1352,
+                "top": 1099,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "constric-",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1428,
+                "top": 1099,
+                "width": 159,
+                "height": 32
+            }
+        },
+        {
+            "text": "tion",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 1161,
+                "width": 73,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 355,
+                "top": 1161,
+                "width": 27,
+                "height": 32
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 400,
+                "top": 1161,
+                "width": 35,
+                "height": 31
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 453,
+                "top": 1170,
+                "width": 19,
+                "height": 23
+            }
+        },
+        {
+            "text": "rocket",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 489,
+                "top": 1161,
+                "width": 114,
+                "height": 32
+            }
+        },
+        {
+            "text": "motor,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 620,
+                "top": 1165,
+                "width": 119,
+                "height": 32
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 758,
+                "top": 1161,
+                "width": 23,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 798,
+                "top": 1161,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "called",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 845,
+                "top": 1161,
+                "width": 108,
+                "height": 32
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 971,
+                "top": 1170,
+                "width": 19,
+                "height": 23
+            }
+        },
+        {
+            "text": "throat.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1008,
+                "top": 1161,
+                "width": 117,
+                "height": 32
+            }
+        },
+        {
+            "text": "Off",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1148,
+                "top": 1160,
+                "width": 57,
+                "height": 33
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1220,
+                "top": 1161,
+                "width": 69,
+                "height": 32
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1307,
+                "top": 1170,
+                "width": 45,
+                "height": 23
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1369,
+                "top": 1161,
+                "width": 35,
+                "height": 31
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1421,
+                "top": 1161,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "book",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1495,
+                "top": 1161,
+                "width": 94,
+                "height": 32
+            }
+        },
+        {
+            "text": "we",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 1233,
+                "width": 52,
+                "height": 23
+            }
+        },
+        {
+            "text": "will",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 334,
+                "top": 1224,
+                "width": 69,
+                "height": 31
+            }
+        },
+        {
+            "text": "find",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 418,
+                "top": 1223,
+                "width": 73,
+                "height": 33
+            }
+        },
+        {
+            "text": "occasion",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 507,
+                "top": 1224,
+                "width": 162,
+                "height": 32
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 683,
+                "top": 1228,
+                "width": 35,
+                "height": 28
+            }
+        },
+        {
+            "text": "refer",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 734,
+                "top": 1223,
+                "width": 86,
+                "height": 33
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 834,
+                "top": 1228,
+                "width": 34,
+                "height": 28
+            }
+        },
+        {
+            "text": "both",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 884,
+                "top": 1224,
+                "width": 85,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 984,
+                "top": 1224,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "venturi",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1057,
+                "top": 1224,
+                "width": 134,
+                "height": 32
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1207,
+                "top": 1224,
+                "width": 68,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1290,
+                "top": 1224,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "throat.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1363,
+                "top": 1224,
+                "width": 121,
+                "height": 32
+            }
+        },
+        {
+            "text": "Other",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 266,
+                "top": 1366,
+                "width": 124,
+                "height": 44
+            }
+        },
+        {
+            "text": "Books",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 412,
+                "top": 1366,
+                "width": 126,
+                "height": 44
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 1474,
+                "width": 70,
+                "height": 32
+            }
+        },
+        {
+            "text": "purpose",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 355,
+                "top": 1483,
+                "width": 151,
+                "height": 31
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 526,
+                "top": 1473,
+                "width": 36,
+                "height": 33
+            }
+        },
+        {
+            "text": "this",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 579,
+                "top": 1474,
+                "width": 67,
+                "height": 32
+            }
+        },
+        {
+            "text": "book",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 665,
+                "top": 1474,
+                "width": 94,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 777,
+                "top": 1474,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 824,
+                "top": 1478,
+                "width": 35,
+                "height": 28
+            }
+        },
+        {
+            "text": "give",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 879,
+                "top": 1474,
+                "width": 75,
+                "height": 41
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 973,
+                "top": 1474,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "reader",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1050,
+                "top": 1474,
+                "width": 118,
+                "height": 32
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1187,
+                "top": 1483,
+                "width": 20,
+                "height": 23
+            }
+        },
+        {
+            "text": "physically",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1225,
+                "top": 1474,
+                "width": 189,
+                "height": 40
+            }
+        },
+        {
+            "text": "intuitive",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1433,
+                "top": 1474,
+                "width": 155,
+                "height": 32
+            }
+        },
+        {
+            "text": "understanding",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 1536,
+                "width": 271,
+                "height": 41
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 553,
+                "top": 1535,
+                "width": 36,
+                "height": 33
+            }
+        },
+        {
+            "text": "flight",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 602,
+                "top": 1535,
+                "width": 96,
+                "height": 42
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 713,
+                "top": 1536,
+                "width": 69,
+                "height": 32
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 798,
+                "top": 1535,
+                "width": 36,
+                "height": 33
+            }
+        },
+        {
+            "text": "aerodynamics,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 847,
+                "top": 1536,
+                "width": 271,
+                "height": 40
+            }
+        },
+        {
+            "text": "without",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1135,
+                "top": 1536,
+                "width": 146,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1296,
+                "top": 1536,
+                "width": 57,
+                "height": 32
+            }
+        },
+        {
+            "text": "use",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1369,
+                "top": 1545,
+                "width": 62,
+                "height": 23
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1447,
+                "top": 1535,
+                "width": 36,
+                "height": 33
+            }
+        },
+        {
+            "text": "com-",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1497,
+                "top": 1545,
+                "width": 90,
+                "height": 23
+            }
+        },
+        {
+            "text": "plicated",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 1599,
+                "width": 148,
+                "height": 40
+            }
+        },
+        {
+            "text": "mathematics.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 428,
+                "top": 1599,
+                "width": 249,
+                "height": 32
+            }
+        },
+        {
+            "text": "But,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 696,
+                "top": 1601,
+                "width": 74,
+                "height": 34
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 787,
+                "top": 1603,
+                "width": 33,
+                "height": 28
+            }
+        },
+        {
+            "text": "some",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 836,
+                "top": 1608,
+                "width": 97,
+                "height": 23
+            }
+        },
+        {
+            "text": "point",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 948,
+                "top": 1599,
+                "width": 97,
+                "height": 40
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1061,
+                "top": 1608,
+                "width": 66,
+                "height": 23
+            }
+        },
+        {
+            "text": "may",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1142,
+                "top": 1608,
+                "width": 79,
+                "height": 31
+            }
+        },
+        {
+            "text": "want",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1236,
+                "top": 1603,
+                "width": 92,
+                "height": 28
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1343,
+                "top": 1603,
+                "width": 34,
+                "height": 28
+            }
+        },
+        {
+            "text": "go",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1393,
+                "top": 1607,
+                "width": 42,
+                "height": 33
+            }
+        },
+        {
+            "text": "beyond",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1451,
+                "top": 1598,
+                "width": 137,
+                "height": 41
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 1670,
+                "width": 20,
+                "height": 23
+            }
+        },
+        {
+            "text": "merely",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 300,
+                "top": 1661,
+                "width": 128,
+                "height": 40
+            }
+        },
+        {
+            "text": "physical",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 441,
+                "top": 1661,
+                "width": 154,
+                "height": 40
+            }
+        },
+        {
+            "text": "understanding",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 610,
+                "top": 1661,
+                "width": 271,
+                "height": 41
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 895,
+                "top": 1665,
+                "width": 34,
+                "height": 28
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 946,
+                "top": 1670,
+                "width": 19,
+                "height": 23
+            }
+        },
+        {
+            "text": "level",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 980,
+                "top": 1661,
+                "width": 86,
+                "height": 32
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1081,
+                "top": 1660,
+                "width": 36,
+                "height": 33
+            }
+        },
+        {
+            "text": "understanding",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1130,
+                "top": 1661,
+                "width": 272,
+                "height": 41
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1416,
+                "top": 1661,
+                "width": 72,
+                "height": 32
+            }
+        },
+        {
+            "text": "does",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1504,
+                "top": 1661,
+                "width": 83,
+                "height": 32
+            }
+        },
+        {
+            "text": "require",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 1724,
+                "width": 131,
+                "height": 40
+            }
+        },
+        {
+            "text": "more",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 417,
+                "top": 1733,
+                "width": 95,
+                "height": 23
+            }
+        },
+        {
+            "text": "mathematics.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 531,
+                "top": 1724,
+                "width": 250,
+                "height": 32
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 803,
+                "top": 1724,
+                "width": 70,
+                "height": 32
+            }
+        },
+        {
+            "text": "authors",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 894,
+                "top": 1724,
+                "width": 139,
+                "height": 32
+            }
+        },
+        {
+            "text": "have",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1053,
+                "top": 1724,
+                "width": 88,
+                "height": 32
+            }
+        },
+        {
+            "text": "found",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1161,
+                "top": 1723,
+                "width": 109,
+                "height": 33
+            }
+        },
+        {
+            "text": "two",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1289,
+                "top": 1728,
+                "width": 68,
+                "height": 28
+            }
+        },
+        {
+            "text": "books",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1377,
+                "top": 1723,
+                "width": 111,
+                "height": 33
+            }
+        },
+        {
+            "text": "very",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1508,
+                "top": 1733,
+                "width": 81,
+                "height": 31
+            }
+        },
+        {
+            "text": "useful",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 1785,
+                "width": 113,
+                "height": 33
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 394,
+                "top": 1786,
+                "width": 35,
+                "height": 31
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 444,
+                "top": 1786,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "writing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 517,
+                "top": 1786,
+                "width": 134,
+                "height": 41
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 667,
+                "top": 1785,
+                "width": 36,
+                "height": 33
+            }
+        },
+        {
+            "text": "this",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 716,
+                "top": 1786,
+                "width": 67,
+                "height": 32
+            }
+        },
+        {
+            "text": "book.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 798,
+                "top": 1786,
+                "width": 103,
+                "height": 32
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 316,
+                "top": 1849,
+                "width": 69,
+                "height": 32
+            }
+        },
+        {
+            "text": "first",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 401,
+                "top": 1848,
+                "width": 68,
+                "height": 33
+            }
+        },
+        {
+            "text": "book",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 484,
+                "top": 1848,
+                "width": 92,
+                "height": 33
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 590,
+                "top": 1849,
+                "width": 27,
+                "height": 32
+            }
+        },
+        {
+            "text": "Aerodynamics",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 632,
+                "top": 1849,
+                "width": 258,
+                "height": 40
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 905,
+                "top": 1848,
+                "width": 51,
+                "height": 42
+            }
+        },
+        {
+            "text": "Naval",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 968,
+                "top": 1848,
+                "width": 108,
+                "height": 33
+            }
+        },
+        {
+            "text": "Aviators",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1089,
+                "top": 1850,
+                "width": 150,
+                "height": 31
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1254,
+                "top": 1848,
+                "width": 44,
+                "height": 41
+            }
+        },
+        {
+            "text": "H.",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1313,
+                "top": 1851,
+                "width": 38,
+                "height": 30
+            }
+        },
+        {
+            "text": "H.",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1370,
+                "top": 1851,
+                "width": 38,
+                "height": 30
+            }
+        },
+        {
+            "text": "Hurt,",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1427,
+                "top": 1851,
+                "width": 92,
+                "height": 34
+            }
+        },
+        {
+            "text": "Jr.,",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1535,
+                "top": 1851,
+                "width": 51,
+                "height": 34
+            }
+        },
+        {
+            "text": "published",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 265,
+                "top": 1910,
+                "width": 183,
+                "height": 41
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 465,
+                "top": 1910,
+                "width": 44,
+                "height": 41
+            }
+        },
+        {
+            "text": "Direction",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 527,
+                "top": 1911,
+                "width": 169,
+                "height": 32
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 714,
+                "top": 1910,
+                "width": 35,
+                "height": 33
+            }
+        },
+        {
+            "text": "Commander,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 766,
+                "top": 1911,
+                "width": 234,
+                "height": 36
+            }
+        },
+        {
+            "text": "Naval",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1021,
+                "top": 1911,
+                "width": 106,
+                "height": 32
+            }
+        },
+        {
+            "text": "Air",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1143,
+                "top": 1911,
+                "width": 57,
+                "height": 31
+            }
+        },
+        {
+            "text": "Systems",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1217,
+                "top": 1912,
+                "width": 148,
+                "height": 39
+            }
+        },
+        {
+            "text": "Command,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1384,
+                "top": 1911,
+                "width": 202,
+                "height": 36
+            }
+        },
+        {
+            "text": "United",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 1974,
+                "width": 120,
+                "height": 32
+            }
+        },
+        {
+            "text": "States",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 400,
+                "top": 1975,
+                "width": 105,
+                "height": 31
+            }
+        },
+        {
+            "text": "Navy.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 520,
+                "top": 1976,
+                "width": 101,
+                "height": 38
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 638,
+                "top": 1974,
+                "width": 77,
+                "height": 32
+            }
+        },
+        {
+            "text": "book",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 729,
+                "top": 1974,
+                "width": 92,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 834,
+                "top": 1974,
+                "width": 27,
+                "height": 32
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 876,
+                "top": 1983,
+                "width": 19,
+                "height": 23
+            }
+        },
+        {
+            "text": "wealth",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 908,
+                "top": 1974,
+                "width": 123,
+                "height": 32
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1045,
+                "top": 1973,
+                "width": 36,
+                "height": 33
+            }
+        },
+        {
+            "text": "information",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1092,
+                "top": 1973,
+                "width": 216,
+                "height": 33
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1322,
+                "top": 1974,
+                "width": 67,
+                "height": 32
+            }
+        },
+        {
+            "text": "insight",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1402,
+                "top": 1974,
+                "width": 123,
+                "height": 41
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1539,
+                "top": 1973,
+                "width": 50,
+                "height": 33
+            }
+        },
+        {
+            "text": "those",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 2036,
+                "width": 97,
+                "height": 32
+            }
+        },
+        {
+            "text": "who",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 375,
+                "top": 2036,
+                "width": 79,
+                "height": 32
+            }
+        },
+        {
+            "text": "want",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 468,
+                "top": 2040,
+                "width": 90,
+                "height": 28
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 570,
+                "top": 2040,
+                "width": 34,
+                "height": 28
+            }
+        },
+        {
+            "text": "go",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 618,
+                "top": 2044,
+                "width": 41,
+                "height": 33
+            }
+        },
+        {
+            "text": "into",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 673,
+                "top": 2036,
+                "width": 69,
+                "height": 32
+            }
+        },
+        {
+            "text": "greater",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 756,
+                "top": 2040,
+                "width": 125,
+                "height": 37
+            }
+        },
+        {
+            "text": "detail",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 894,
+                "top": 2036,
+                "width": 99,
+                "height": 32
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1005,
+                "top": 2036,
+                "width": 35,
+                "height": 31
+            }
+        },
+        {
+            "text": "understanding",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1052,
+                "top": 2036,
+                "width": 264,
+                "height": 41
+            }
+        },
+        {
+            "text": "modern",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1328,
+                "top": 2036,
+                "width": 142,
+                "height": 32
+            }
+        },
+        {
+            "text": "flight.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1483,
+                "top": 2035,
+                "width": 102,
+                "height": 42
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 316,
+                "top": 2099,
+                "width": 71,
+                "height": 32
+            }
+        },
+        {
+            "text": "second",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 407,
+                "top": 2099,
+                "width": 131,
+                "height": 32
+            }
+        },
+        {
+            "text": "book",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 556,
+                "top": 2099,
+                "width": 95,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 669,
+                "top": 2099,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "Introduction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 715,
+                "top": 2099,
+                "width": 235,
+                "height": 32
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 970,
+                "top": 2103,
+                "width": 32,
+                "height": 28
+            }
+        },
+        {
+            "text": "Flight,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1020,
+                "top": 2099,
+                "width": 116,
+                "height": 40
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1158,
+                "top": 2099,
+                "width": 46,
+                "height": 40
+            }
+        },
+        {
+            "text": "John",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1221,
+                "top": 2099,
+                "width": 91,
+                "height": 32
+            }
+        },
+        {
+            "text": "D.",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1332,
+                "top": 2101,
+                "width": 38,
+                "height": 30
+            }
+        },
+        {
+            "text": "Anderson,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1391,
+                "top": 2099,
+                "width": 195,
+                "height": 36
+            }
+        },
+        {
+            "text": "published",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 2161,
+                "width": 185,
+                "height": 40
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 465,
+                "top": 2161,
+                "width": 45,
+                "height": 40
+            }
+        },
+        {
+            "text": "McGraw-Hill.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 526,
+                "top": 2161,
+                "width": 248,
+                "height": 32
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 793,
+                "top": 2161,
+                "width": 80,
+                "height": 32
+            }
+        },
+        {
+            "text": "book",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 889,
+                "top": 2160,
+                "width": 93,
+                "height": 33
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 997,
+                "top": 2161,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "certainly",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1043,
+                "top": 2161,
+                "width": 162,
+                "height": 40
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1232,
+                "top": 2170,
+                "width": 8,
+                "height": 23
+            }
+        },
+        {
+            "text": "modern",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1255,
+                "top": 2161,
+                "width": 146,
+                "height": 32
+            }
+        },
+        {
+            "text": "classic",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1417,
+                "top": 2161,
+                "width": 121,
+                "height": 32
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1553,
+                "top": 2161,
+                "width": 35,
+                "height": 31
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 2224,
+                "width": 58,
+                "height": 32
+            }
+        },
+        {
+            "text": "field",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 338,
+                "top": 2223,
+                "width": 81,
+                "height": 33
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 434,
+                "top": 2223,
+                "width": 36,
+                "height": 33
+            }
+        },
+        {
+            "text": "aerodynamics",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 484,
+                "top": 2224,
+                "width": 260,
+                "height": 40
+            }
+        },
+        {
+            "text": "textbooks.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 759,
+                "top": 2224,
+                "width": 191,
+                "height": 32
+            }
+        },
+        {
+            "text": "Introduction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 966,
+                "top": 2224,
+                "width": 231,
+                "height": 32
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1213,
+                "top": 2228,
+                "width": 32,
+                "height": 28
+            }
+        },
+        {
+            "text": "Flight",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1258,
+                "top": 2223,
+                "width": 107,
+                "height": 41
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1378,
+                "top": 2224,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1422,
+                "top": 2233,
+                "width": 19,
+                "height": 23
+            }
+        },
+        {
+            "text": "serious",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1456,
+                "top": 2224,
+                "width": 131,
+                "height": 32
+            }
+        },
+        {
+            "text": "college",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 267,
+                "top": 2286,
+                "width": 128,
+                "height": 41
+            }
+        },
+        {
+            "text": "textbook",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 410,
+                "top": 2285,
+                "width": 165,
+                "height": 33
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 590,
+                "top": 2286,
+                "width": 69,
+                "height": 32
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 675,
+                "top": 2286,
+                "width": 27,
+                "height": 32
+            }
+        },
+        {
+            "text": "geared",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 719,
+                "top": 2286,
+                "width": 123,
+                "height": 41
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 857,
+                "top": 2290,
+                "width": 35,
+                "height": 28
+            }
+        },
+        {
+            "text": "those",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 908,
+                "top": 2286,
+                "width": 100,
+                "height": 32
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1024,
+                "top": 2286,
+                "width": 84,
+                "height": 32
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1124,
+                "top": 2295,
+                "width": 20,
+                "height": 23
+            }
+        },
+        {
+            "text": "good",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1159,
+                "top": 2286,
+                "width": 91,
+                "height": 41
+            }
+        },
+        {
+            "text": "understanding",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1266,
+                "top": 2286,
+                "width": 272,
+                "height": 41
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1554,
+                "top": 2285,
+                "width": 36,
+                "height": 33
+            }
+        },
+        {
+            "text": "mathematics.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 266,
+                "top": 2349,
+                "width": 249,
+                "height": 32
+            }
+        },
+        {
+            "text": "Both",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 316,
+                "top": 2411,
+                "width": 89,
+                "height": 32
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 430,
+                "top": 2420,
+                "width": 57,
+                "height": 23
+            }
+        },
+        {
+            "text": "excellent",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 513,
+                "top": 2411,
+                "width": 171,
+                "height": 32
+            }
+        },
+        {
+            "text": "references",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 709,
+                "top": 2410,
+                "width": 197,
+                "height": 33
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 932,
+                "top": 2410,
+                "width": 53,
+                "height": 33
+            }
+        },
+        {
+            "text": "those",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1008,
+                "top": 2411,
+                "width": 104,
+                "height": 32
+            }
+        },
+        {
+            "text": "seriously",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1138,
+                "top": 2411,
+                "width": 174,
+                "height": 40
+            }
+        },
+        {
+            "text": "interested",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1336,
+                "top": 2411,
+                "width": 192,
+                "height": 32
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1552,
+                "top": 2411,
+                "width": 36,
+                "height": 31
+            }
+        },
+        {
+            "text": "airplanes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 2474,
+                "width": 177,
+                "height": 40
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 465,
+                "top": 2474,
+                "width": 70,
+                "height": 32
+            }
+        },
+        {
+            "text": "aerodynamics.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 556,
+                "top": 2474,
+                "width": 281,
+                "height": 40
+            }
+        },
+        {
+            "text": "Of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 862,
+                "top": 2473,
+                "width": 44,
+                "height": 33
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 924,
+                "top": 2474,
+                "width": 59,
+                "height": 32
+            }
+        },
+        {
+            "text": "two,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1004,
+                "top": 2478,
+                "width": 83,
+                "height": 32
+            }
+        },
+        {
+            "text": "Aerodynamics",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1108,
+                "top": 2474,
+                "width": 275,
+                "height": 40
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1404,
+                "top": 2473,
+                "width": 54,
+                "height": 42
+            }
+        },
+        {
+            "text": "Naval",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1475,
+                "top": 2473,
+                "width": 114,
+                "height": 33
+            }
+        }
+    ]
+}

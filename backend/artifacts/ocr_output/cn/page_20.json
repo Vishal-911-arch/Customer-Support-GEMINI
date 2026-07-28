@@ -1,0 +1,1348 @@
+{
+    "document": "cn",
+    "page": "page_20",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\HAL-AI-Customer-Support\\backend\\artifacts\\rendered_pages\\cn\\page_20.png",
+    "text": "Local Login. 7 ~ Application Programs , 7 When a user logs tnto a local timesharing system. It . . . = e* ¢ @ @ | types at terminal . kevstrokes are accepted by . . terminal driver. ee ee es ee ” Terminal driver passes the characters to the OS. a — Operating . . . , . | System ry QOS interprets the combination of characters and Terminal oo invokes the desired application program or utility. TELNET ( /Erminal. NETWwork ) ee ry Itis the standard TCP/IP protocol for virtual terminal service proposed by ISO. » TELNET enables the establishment of a connection to a remote system in such a wav that the local terminal appears to be a terminal at the remote svstem. 7 TELNET tsa general-purpose client/server application program.",
+    "words": [
+        {
+            "text": "Local",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 132,
+                "top": 139,
+                "width": 253,
+                "height": 83
+            }
+        },
+        {
+            "text": "Login.",
+            "confidence": 58.0,
+            "bbox": {
+                "left": 441,
+                "top": 140,
+                "width": 300,
+                "height": 84
+            }
+        },
+        {
+            "text": "7",
+            "confidence": 29.0,
+            "bbox": {
+                "left": 4068,
+                "top": 190,
+                "width": 66,
+                "height": 21
+            }
+        },
+        {
+            "text": "~",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 571,
+                "top": 232,
+                "width": 40,
+                "height": 16
+            }
+        },
+        {
+            "text": "Application",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4279,
+                "top": 239,
+                "width": 406,
+                "height": 62
+            }
+        },
+        {
+            "text": "Programs",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4717,
+                "top": 244,
+                "width": 340,
+                "height": 58
+            }
+        },
+        {
+            "text": ",",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 5269,
+                "top": 240,
+                "width": 1,
+                "height": 4
+            }
+        },
+        {
+            "text": "7",
+            "confidence": 37.0,
+            "bbox": {
+                "left": 137,
+                "top": 356,
+                "width": 66,
+                "height": 77
+            }
+        },
+        {
+            "text": "When",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 276,
+                "top": 355,
+                "width": 280,
+                "height": 85
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 69.0,
+            "bbox": {
+                "left": 595,
+                "top": 383,
+                "width": 47,
+                "height": 57
+            }
+        },
+        {
+            "text": "user",
+            "confidence": 69.0,
+            "bbox": {
+                "left": 683,
+                "top": 383,
+                "width": 195,
+                "height": 57
+            }
+        },
+        {
+            "text": "logs",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 920,
+                "top": 355,
+                "width": 191,
+                "height": 111
+            }
+        },
+        {
+            "text": "tnto",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 1155,
+                "top": 355,
+                "width": 177,
+                "height": 85
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1369,
+                "top": 384,
+                "width": 47,
+                "height": 56
+            }
+        },
+        {
+            "text": "local",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1459,
+                "top": 355,
+                "width": 219,
+                "height": 85
+            }
+        },
+        {
+            "text": "timesharing",
+            "confidence": 77.0,
+            "bbox": {
+                "left": 1724,
+                "top": 355,
+                "width": 568,
+                "height": 111
+            }
+        },
+        {
+            "text": "system.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2332,
+                "top": 370,
+                "width": 357,
+                "height": 96
+            }
+        },
+        {
+            "text": "It",
+            "confidence": 76.0,
+            "bbox": {
+                "left": 2737,
+                "top": 355,
+                "width": 52,
+                "height": 85
+            }
+        },
+        {
+            "text": ".",
+            "confidence": 48.0,
+            "bbox": {
+                "left": 4332,
+                "top": 396,
+                "width": 23,
+                "height": 24
+            }
+        },
+        {
+            "text": ".",
+            "confidence": 47.0,
+            "bbox": {
+                "left": 4700,
+                "top": 397,
+                "width": 23,
+                "height": 22
+            }
+        },
+        {
+            "text": ".",
+            "confidence": 7.0,
+            "bbox": {
+                "left": 5204,
+                "top": 396,
+                "width": 66,
+                "height": 71
+            }
+        },
+        {
+            "text": "=",
+            "confidence": 74.0,
+            "bbox": {
+                "left": 4623,
+                "top": 453,
+                "width": 88,
+                "height": 92
+            }
+        },
+        {
+            "text": "e*",
+            "confidence": 31.0,
+            "bbox": {
+                "left": 4814,
+                "top": 470,
+                "width": 19,
+                "height": 18
+            }
+        },
+        {
+            "text": "¢",
+            "confidence": 74.0,
+            "bbox": {
+                "left": 4877,
+                "top": 470,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "@",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 4940,
+                "top": 470,
+                "width": 17,
+                "height": 18
+            }
+        },
+        {
+            "text": "@",
+            "confidence": 64.0,
+            "bbox": {
+                "left": 5003,
+                "top": 470,
+                "width": 17,
+                "height": 18
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 67.0,
+            "bbox": {
+                "left": 5269,
+                "top": 555,
+                "width": 1,
+                "height": 10
+            }
+        },
+        {
+            "text": "types",
+            "confidence": 44.0,
+            "bbox": {
+                "left": 275,
+                "top": 594,
+                "width": 252,
+                "height": 94
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 566,
+                "top": 594,
+                "width": 78,
+                "height": 68
+            }
+        },
+        {
+            "text": "terminal",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 684,
+                "top": 577,
+                "width": 392,
+                "height": 86
+            }
+        },
+        {
+            "text": ".",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 1126,
+                "top": 655,
+                "width": 16,
+                "height": 10
+            }
+        },
+        {
+            "text": "kevstrokes",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1187,
+                "top": 577,
+                "width": 513,
+                "height": 111
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1736,
+                "top": 605,
+                "width": 139,
+                "height": 57
+            }
+        },
+        {
+            "text": "accepted",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1916,
+                "top": 578,
+                "width": 417,
+                "height": 110
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2376,
+                "top": 577,
+                "width": 108,
+                "height": 111
+            }
+        },
+        {
+            "text": ".",
+            "confidence": 9.0,
+            "bbox": {
+                "left": 4063,
+                "top": 666,
+                "width": 12,
+                "height": 30
+            }
+        },
+        {
+            "text": ".",
+            "confidence": 12.0,
+            "bbox": {
+                "left": 5260,
+                "top": 666,
+                "width": 11,
+                "height": 27
+            }
+        },
+        {
+            "text": "terminal",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 275,
+                "top": 794,
+                "width": 393,
+                "height": 85
+            }
+        },
+        {
+            "text": "driver.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 715,
+                "top": 794,
+                "width": 299,
+                "height": 85
+            }
+        },
+        {
+            "text": "ee",
+            "confidence": 10.0,
+            "bbox": {
+                "left": 4065,
+                "top": 787,
+                "width": 192,
+                "height": 34
+            }
+        },
+        {
+            "text": "ee",
+            "confidence": 25.0,
+            "bbox": {
+                "left": 4577,
+                "top": 786,
+                "width": 83,
+                "height": 3
+            }
+        },
+        {
+            "text": "es",
+            "confidence": 32.0,
+            "bbox": {
+                "left": 4889,
+                "top": 787,
+                "width": 47,
+                "height": 1
+            }
+        },
+        {
+            "text": "ee",
+            "confidence": 33.0,
+            "bbox": {
+                "left": 5109,
+                "top": 787,
+                "width": 160,
+                "height": 31
+            }
+        },
+        {
+            "text": "”",
+            "confidence": 36.0,
+            "bbox": {
+                "left": 137,
+                "top": 1018,
+                "width": 67,
+                "height": 76
+            }
+        },
+        {
+            "text": "Terminal",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 274,
+                "top": 1016,
+                "width": 424,
+                "height": 86
+            }
+        },
+        {
+            "text": "driver",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 745,
+                "top": 1016,
+                "width": 286,
+                "height": 86
+            }
+        },
+        {
+            "text": "passes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1070,
+                "top": 1044,
+                "width": 302,
+                "height": 83
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1410,
+                "top": 1016,
+                "width": 140,
+                "height": 85
+            }
+        },
+        {
+            "text": "characters",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1589,
+                "top": 1016,
+                "width": 489,
+                "height": 85
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2115,
+                "top": 1033,
+                "width": 87,
+                "height": 68
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2242,
+                "top": 1016,
+                "width": 139,
+                "height": 85
+            }
+        },
+        {
+            "text": "OS.",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 2421,
+                "top": 1017,
+                "width": 169,
+                "height": 83
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 9.0,
+            "bbox": {
+                "left": 3065,
+                "top": 912,
+                "width": 1074,
+                "height": 171
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 53.0,
+            "bbox": {
+                "left": 3141,
+                "top": 1127,
+                "width": 131,
+                "height": 68
+            }
+        },
+        {
+            "text": "Operating",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4786,
+                "top": 1121,
+                "width": 354,
+                "height": 62
+            }
+        },
+        {
+            "text": ".",
+            "confidence": 57.0,
+            "bbox": {
+                "left": 138,
+                "top": 1240,
+                "width": 11,
+                "height": 10
+            }
+        },
+        {
+            "text": ".",
+            "confidence": 43.0,
+            "bbox": {
+                "left": 472,
+                "top": 1238,
+                "width": 7,
+                "height": 6
+            }
+        },
+        {
+            "text": ".",
+            "confidence": 41.0,
+            "bbox": {
+                "left": 1417,
+                "top": 1238,
+                "width": 6,
+                "height": 6
+            }
+        },
+        {
+            "text": ",",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1601,
+                "top": 1239,
+                "width": 6,
+                "height": 5
+            }
+        },
+        {
+            "text": ".",
+            "confidence": 63.0,
+            "bbox": {
+                "left": 1868,
+                "top": 1238,
+                "width": 16,
+                "height": 12
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 58.0,
+            "bbox": {
+                "left": 4063,
+                "top": 1244,
+                "width": 1,
+                "height": 10
+            }
+        },
+        {
+            "text": "System",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4837,
+                "top": 1194,
+                "width": 253,
+                "height": 58
+            }
+        },
+        {
+            "text": "ry",
+            "confidence": 30.0,
+            "bbox": {
+                "left": 137,
+                "top": 1275,
+                "width": 67,
+                "height": 42
+            }
+        },
+        {
+            "text": "QOS",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 274,
+                "top": 1240,
+                "width": 143,
+                "height": 82
+            }
+        },
+        {
+            "text": "interprets",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 466,
+                "top": 1254,
+                "width": 448,
+                "height": 95
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 953,
+                "top": 1238,
+                "width": 140,
+                "height": 86
+            }
+        },
+        {
+            "text": "combination",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1133,
+                "top": 1238,
+                "width": 601,
+                "height": 86
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1775,
+                "top": 1244,
+                "width": 90,
+                "height": 78
+            }
+        },
+        {
+            "text": "characters",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1908,
+                "top": 1238,
+                "width": 486,
+                "height": 86
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2434,
+                "top": 1238,
+                "width": 166,
+                "height": 86
+            }
+        },
+        {
+            "text": "Terminal",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3063,
+                "top": 1234,
+                "width": 299,
+                "height": 119
+            }
+        },
+        {
+            "text": "oo",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 4065,
+                "top": 1272,
+                "width": 1205,
+                "height": 48
+            }
+        },
+        {
+            "text": "invokes",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 282,
+                "top": 1455,
+                "width": 368,
+                "height": 85
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 687,
+                "top": 1455,
+                "width": 140,
+                "height": 85
+            }
+        },
+        {
+            "text": "desired",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 867,
+                "top": 1455,
+                "width": 341,
+                "height": 86
+            }
+        },
+        {
+            "text": "application",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1250,
+                "top": 1455,
+                "width": 535,
+                "height": 111
+            }
+        },
+        {
+            "text": "program",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1827,
+                "top": 1482,
+                "width": 400,
+                "height": 84
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2269,
+                "top": 1483,
+                "width": 96,
+                "height": 56
+            }
+        },
+        {
+            "text": "utility.",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 2405,
+                "top": 1455,
+                "width": 297,
+                "height": 111
+            }
+        },
+        {
+            "text": "TELNET",
+            "confidence": 28.0,
+            "bbox": {
+                "left": 148,
+                "top": 1818,
+                "width": 404,
+                "height": 82
+            }
+        },
+        {
+            "text": "(",
+            "confidence": 72.0,
+            "bbox": {
+                "left": 616,
+                "top": 1831,
+                "width": 15,
+                "height": 77
+            }
+        },
+        {
+            "text": "/Erminal.",
+            "confidence": 44.0,
+            "bbox": {
+                "left": 671,
+                "top": 1814,
+                "width": 490,
+                "height": 126
+            }
+        },
+        {
+            "text": "NETWwork",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1189,
+                "top": 1817,
+                "width": 448,
+                "height": 83
+            }
+        },
+        {
+            "text": ")",
+            "confidence": 49.0,
+            "bbox": {
+                "left": 1679,
+                "top": 1839,
+                "width": 53,
+                "height": 66
+            }
+        },
+        {
+            "text": "ee",
+            "confidence": 25.0,
+            "bbox": {
+                "left": 105,
+                "top": 1953,
+                "width": 1586,
+                "height": 28
+            }
+        },
+        {
+            "text": "ry",
+            "confidence": 34.0,
+            "bbox": {
+                "left": 137,
+                "top": 2040,
+                "width": 67,
+                "height": 77
+            }
+        },
+        {
+            "text": "Itis",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 279,
+                "top": 2038,
+                "width": 174,
+                "height": 85
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 491,
+                "top": 2038,
+                "width": 139,
+                "height": 85
+            }
+        },
+        {
+            "text": "standard",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 673,
+                "top": 2038,
+                "width": 400,
+                "height": 86
+            }
+        },
+        {
+            "text": "TCP/IP",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1113,
+                "top": 2039,
+                "width": 359,
+                "height": 84
+            }
+        },
+        {
+            "text": "protocol",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1509,
+                "top": 2038,
+                "width": 391,
+                "height": 111
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1948,
+                "top": 2037,
+                "width": 133,
+                "height": 86
+            }
+        },
+        {
+            "text": "virtual",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2117,
+                "top": 2038,
+                "width": 306,
+                "height": 86
+            }
+        },
+        {
+            "text": "terminal",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2467,
+                "top": 2038,
+                "width": 392,
+                "height": 86
+            }
+        },
+        {
+            "text": "service",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2906,
+                "top": 2038,
+                "width": 336,
+                "height": 86
+            }
+        },
+        {
+            "text": "proposed",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3285,
+                "top": 2038,
+                "width": 433,
+                "height": 111
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3763,
+                "top": 2039,
+                "width": 108,
+                "height": 110
+            }
+        },
+        {
+            "text": "ISO.",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 3917,
+                "top": 2040,
+                "width": 205,
+                "height": 82
+            }
+        },
+        {
+            "text": "»",
+            "confidence": 14.0,
+            "bbox": {
+                "left": 137,
+                "top": 2257,
+                "width": 67,
+                "height": 77
+            }
+        },
+        {
+            "text": "TELNET",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 275,
+                "top": 2256,
+                "width": 453,
+                "height": 83
+            }
+        },
+        {
+            "text": "enables",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 765,
+                "top": 2255,
+                "width": 358,
+                "height": 85
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1162,
+                "top": 2255,
+                "width": 139,
+                "height": 85
+            }
+        },
+        {
+            "text": "establishment",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1341,
+                "top": 2255,
+                "width": 665,
+                "height": 86
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2043,
+                "top": 2255,
+                "width": 180,
+                "height": 85
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2193,
+                "top": 2251,
+                "width": 50,
+                "height": 120
+            }
+        },
+        {
+            "text": "connection",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2260,
+                "top": 2255,
+                "width": 528,
+                "height": 86
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2827,
+                "top": 2272,
+                "width": 89,
+                "height": 68
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2952,
+                "top": 2283,
+                "width": 48,
+                "height": 57
+            }
+        },
+        {
+            "text": "remote",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3040,
+                "top": 2271,
+                "width": 326,
+                "height": 69
+            }
+        },
+        {
+            "text": "system",
+            "confidence": 31.0,
+            "bbox": {
+                "left": 3410,
+                "top": 2272,
+                "width": 325,
+                "height": 93
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 74.0,
+            "bbox": {
+                "left": 3783,
+                "top": 2255,
+                "width": 79,
+                "height": 84
+            }
+        },
+        {
+            "text": "such",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3905,
+                "top": 2255,
+                "width": 214,
+                "height": 85
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4156,
+                "top": 2283,
+                "width": 48,
+                "height": 57
+            }
+        },
+        {
+            "text": "wav",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 4243,
+                "top": 2283,
+                "width": 192,
+                "height": 83
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4476,
+                "top": 2255,
+                "width": 175,
+                "height": 85
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4690,
+                "top": 2255,
+                "width": 140,
+                "height": 85
+            }
+        },
+        {
+            "text": "local",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4874,
+                "top": 2255,
+                "width": 220,
+                "height": 85
+            }
+        },
+        {
+            "text": "terminal",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 275,
+                "top": 2477,
+                "width": 389,
+                "height": 86
+            }
+        },
+        {
+            "text": "appears",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 711,
+                "top": 2505,
+                "width": 366,
+                "height": 83
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1115,
+                "top": 2494,
+                "width": 86,
+                "height": 68
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1245,
+                "top": 2477,
+                "width": 100,
+                "height": 85
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1386,
+                "top": 2506,
+                "width": 47,
+                "height": 57
+            }
+        },
+        {
+            "text": "terminal",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1471,
+                "top": 2475,
+                "width": 392,
+                "height": 88
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1908,
+                "top": 2493,
+                "width": 81,
+                "height": 70
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2027,
+                "top": 2477,
+                "width": 141,
+                "height": 85
+            }
+        },
+        {
+            "text": "remote",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 2211,
+                "top": 2493,
+                "width": 326,
+                "height": 70
+            }
+        },
+        {
+            "text": "svstem.",
+            "confidence": 75.0,
+            "bbox": {
+                "left": 2578,
+                "top": 2494,
+                "width": 351,
+                "height": 93
+            }
+        },
+        {
+            "text": "7",
+            "confidence": 55.0,
+            "bbox": {
+                "left": 137,
+                "top": 2696,
+                "width": 67,
+                "height": 76
+            }
+        },
+        {
+            "text": "TELNET",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 274,
+                "top": 2695,
+                "width": 454,
+                "height": 83
+            }
+        },
+        {
+            "text": "tsa",
+            "confidence": 61.0,
+            "bbox": {
+                "left": 772,
+                "top": 2694,
+                "width": 151,
+                "height": 85
+            }
+        },
+        {
+            "text": "general-purpose",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 962,
+                "top": 2694,
+                "width": 778,
+                "height": 111
+            }
+        },
+        {
+            "text": "client/server",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1779,
+                "top": 2694,
+                "width": 598,
+                "height": 85
+            }
+        },
+        {
+            "text": "application",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2414,
+                "top": 2694,
+                "width": 533,
+                "height": 111
+            }
+        },
+        {
+            "text": "program.",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 2990,
+                "top": 2721,
+                "width": 425,
+                "height": 84
+            }
+        }
+    ]
+}

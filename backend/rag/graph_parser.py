@@ -6,24 +6,69 @@ class GraphParser:
     def __init__(self):
         pass
 
-    # --------------------------------------------------
+    # -----------------------------------------------------
 
     def parse(self, ocr, digitized):
 
-        title = self.clean_title(
-            ocr.get("title", "")
+        title = self.clean_text(
+
+            ocr.get(
+                "title",
+                ""
+            )
+
         )
 
-        x_axis = self.clean_axis(
-            ocr.get("x_axis", "")
+        x_axis = self.clean_text(
+
+            ocr.get(
+                "x_axis",
+                ""
+            )
+
         )
 
-        y_axis = self.clean_axis(
-            ocr.get("y_axis", "")
+        y_axis = self.clean_text(
+
+            ocr.get(
+                "y_axis",
+                ""
+            )
+
         )
 
-        legend = self.clean_legend(
-            ocr.get("legend", [])
+        legend = self.clean_list(
+
+            ocr.get(
+                "legend",
+                []
+            )
+
+        )
+
+        annotations = self.clean_list(
+
+            ocr.get(
+                "annotations",
+                []
+            )
+
+        )
+
+        engineering_terms = list(
+
+            set(
+
+                ocr.get(
+
+                    "engineering_terms",
+
+                    []
+
+                )
+
+            )
+
         )
 
         ticks = ocr.get(
@@ -32,122 +77,223 @@ class GraphParser:
         )
 
         graph_type = self.detect_graph_type(
-            digitized
-        )
 
-        domain = self.detect_domain(
             title,
             x_axis,
             y_axis,
-            legend
+            digitized
+
         )
+
+        domain = self.detect_domain(
+
+            title,
+            x_axis,
+            y_axis,
+            legend,
+            annotations,
+            engineering_terms
+
+        )
+
+        summary_text = " ".join([
+
+            title,
+            x_axis,
+            y_axis,
+            " ".join(legend),
+            " ".join(annotations)
+
+        ])
 
         return {
 
-            "title": title,
+            "title":
 
-            "graph_type": graph_type,
+                title,
 
-            "engineering_domain": domain,
+            "graph_type":
 
-            "x_axis": x_axis,
+                graph_type,
 
-            "y_axis": y_axis,
+            "engineering_domain":
 
-            "curve_names": legend,
+                domain,
 
-            "ticks": ticks,
+            "x_axis":
 
-            "curve_count": digitized["curve_count"],
+                x_axis,
 
-            "curves": digitized["curves"]
+            "y_axis":
 
+                y_axis,
+
+            "curve_names":
+
+                legend,
+
+            "annotations":
+
+                annotations,
+
+            "engineering_terms":
+
+                engineering_terms,
+
+            "ticks":
+
+                ticks,
+
+            "curve_count":
+
+                digitized.get(
+                    "curve_count",
+                    0
+                ),
+
+            "curves":
+
+                digitized.get(
+                    "curves",
+                    []
+                ),
+
+            "semantic_text":
+
+                summary_text
         }
 
-    # --------------------------------------------------
+    # -----------------------------------------------------
 
-    def clean_title(self, title):
+    def clean_text(self, text):
 
-        title = title.replace(
-            "SURFACE",
-            "Surface"
+        text = text.replace(
+            "I",
+            "1"
         )
 
-        title = re.sub(
+        text = text.replace(
+            "i",
+            "1"
+        )
+
+        text = re.sub(
+
             r"\s+",
+
             " ",
-            title
+
+            text
+
         )
 
-        return title.strip()
+        return text.strip()
 
-    # --------------------------------------------------
+    # -----------------------------------------------------
 
-    def clean_axis(self, axis):
-
-        axis = axis.replace("i", "1")
-
-        axis = axis.replace("I", "1")
-
-        return axis.strip()
-
-    # --------------------------------------------------
-
-    def clean_legend(self, legend):
+    def clean_list(self, items):
 
         cleaned = []
 
-        for item in legend:
+        for item in items:
 
-            item = item.upper()
-
-            item = item.replace("OOO", "000")
-
-            item = item.replace("OO", "00")
-
-            item = item.replace("O", "0")
-
-            item = item.replace("I", "1")
-
-            item = item.replace("L", "1")
-
-            item = re.sub(
-                r"\s+",
-                " ",
+            item = self.clean_text(
                 item
             )
 
-            cleaned.append(item)
+            if len(item):
 
-        return list(dict.fromkeys(cleaned))
+                cleaned.append(
+                    item
+                )
 
-    # --------------------------------------------------
+        return list(
 
-    def detect_graph_type(self, digitized):
+            dict.fromkeys(
 
-        if digitized["curve_count"] > 1:
+                cleaned
 
-            return "Multi-line Graph"
+            )
 
-        elif digitized["curve_count"] == 1:
+        )
 
-            return "Line Graph"
+    # -----------------------------------------------------
+
+    def detect_graph_type(
+
+            self,
+
+            title,
+
+            x_axis,
+
+            y_axis,
+
+            digitized
+
+    ):
+
+        text = (
+
+            title + " "
+
+            + x_axis + " "
+
+            + y_axis
+
+        ).upper()
+
+        if "TIME" in text:
+
+            return "Time Series"
+
+        if "ALTITUDE" in text:
+
+            return "Performance Curve"
+
+        if "PRESSURE" in text:
+
+            return "Engineering Performance Plot"
+
+        if digitized.get(
+
+                "curve_count",
+
+                0
+
+        ) > 1:
+
+            return "Multi-Curve Plot"
+
+        if digitized.get(
+
+                "curve_count",
+
+                0
+
+        ) == 1:
+
+            return "Single Curve Plot"
 
         return "Unknown"
 
-    # --------------------------------------------------
+    # -----------------------------------------------------
 
     def detect_domain(
 
-        self,
+            self,
 
-        title,
+            title,
 
-        x_axis,
+            x_axis,
 
-        y_axis,
+            y_axis,
 
-        legend
+            legend,
+
+            annotations,
+
+            engineering_terms
 
     ):
 
@@ -159,34 +305,78 @@ class GraphParser:
 
             + y_axis + " "
 
-            + " ".join(legend)
+            + " ".join(legend) + " "
+
+            + " ".join(annotations) + " "
+
+            + " ".join(engineering_terms)
 
         ).upper()
 
-        keywords = [
+        aerospace_keywords = [
 
-            "NACA",
-
+            "AERODYNAMIC",
             "LIFT",
-
             "DRAG",
-
-            "CD",
-
+            "STALL",
+            "BANK",
+            "ANGLE",
+            "LOAD",
+            "FACTOR",
+            "TURN",
+            "AIRCRAFT",
+            "ALTITUDE",
+            "THRUST",
+            "MACH",
             "CL",
-
+            "CD",
+            "CM",
+            "NACA",
             "REYNOLDS",
-
-            "RN",
-
-            "MACH"
+            "AIRSPEED",
+            "FLAP",
+            "PITCH",
+            "ROLL",
+            "YAW"
 
         ]
 
-        for word in keywords:
+        propulsion_keywords = [
 
-            if word in text:
+            "ENGINE",
+            "TURBINE",
+            "COMPRESSOR",
+            "RPM",
+            "TEMPERATURE",
+            "PRESSURE RATIO"
+
+        ]
+
+        structures_keywords = [
+
+            "STRESS",
+            "STRAIN",
+            "FATIGUE",
+            "DEFLECTION"
+
+        ]
+
+        for k in aerospace_keywords:
+
+            if k in text:
 
                 return "Aerodynamics"
+
+        for k in propulsion_keywords:
+
+            if k in text:
+
+                return "Propulsion"
+
+        for k in structures_keywords:
+
+            if k in text:
+
+                return "Structures"
 
         return "General Engineering"

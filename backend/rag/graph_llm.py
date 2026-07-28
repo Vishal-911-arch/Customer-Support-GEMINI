@@ -103,3 +103,77 @@ Speak as if you are explaining the engineering graph to an aerospace engineer.
         )
 
         return response["response"]
+    def answer_question(
+                self,
+                graph,
+                question
+        ):
+
+            prompt = f"""
+        You are an aerospace engineering expert.
+
+        You are given structured graph information.
+
+        Use ONLY this information.
+
+        ================================================
+
+        GRAPH DATA
+
+        Title:
+        {graph["title"]}
+
+        Type:
+        {graph["graph_type"]}
+
+        Engineering Domain:
+        {graph["engineering_domain"]}
+
+        X Axis:
+        {graph["x_axis"]}
+
+        Y Axis:
+        {graph["y_axis"]}
+
+        Curve Names:
+        {graph["curve_names"]}
+
+        Curve Count:
+        {graph["curve_count"]}
+
+        X Ticks:
+        {graph["ticks"]["x"]}
+
+        Y Ticks:
+        {graph["ticks"]["y"]}
+
+        Summary:
+        {graph.get("llm_summary","")}
+
+        ================================================
+
+        USER QUESTION:
+
+        {question}
+
+        Answer only from graph information.
+        Do not invent values.
+        """
+
+            response = self.client.generate(
+
+                model=LLM_MODEL,
+
+                prompt=prompt,
+
+                options={
+
+                    "temperature": 0,
+
+                    "num_predict": 300
+
+                }
+
+            )
+
+            return response["response"]

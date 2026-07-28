@@ -1,0 +1,3488 @@
+{
+    "document": "task_d_-_principles_of_flight",
+    "page": "page_2",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\HAL-AI-Customer-Support\\backend\\artifacts\\rendered_pages\\task_d_-_principles_of_flight\\page_2.png",
+    "text": "PPL / CAX / CFI (II-D) 2 e Federal Aviation Administration - “How Airplanes Fly - 16mm Training Film (1968)” o YouTube - https:/Awww.youtube.com/watch?v=CqgIDjLhPhcE e FAA-H-8083-25B (Pilot's Handbook of Aeronautical Knowledge) - Chapter 5, Page 3-5 [Lift], Chapter 5, Page 5 [Lift/Drag Ratio], Chapter 5, Page 6-8 [Drag], Chapter 5, Page 8-10 [Wingtip Vortices], Chapter 5, Page 14-15 [Static and Dynamic Stability], Chapter 5, Page 15-17 [Longitudinal Stability], Chapter 5, Page 17-19 [Lateral Stability], Chapter 5, Page 19-20 [Directional Stability], Chapter 5, Page 25-26 [Stalls], Chapter 5, Page 30-33 [Left Turning Tendencies] e FAA-S-8081-6D (CFI PTS) - Area Il Task D e The Four Forces o Weight, Lift, Thrust, Drag o How Airplanes Climb e = Airfoils o Even a Barn Door Can Fly = Creating lift creates drag a Any moving object creates drag - Parasite drag: Form drag, interference drag, skin friction drag o Airfoil Design Features m Leading Edge, Trailing Edge m Chord, Camber, Thickness, Span / Aspect Ratio o Angle of Attack = Only thing that creates lift e How Airfoils Produce Lift o Airis a Fluid m Has mass, therefore momentum m= Has pressure, can transfer momentum to nearby air/objects o Basic Facts about Lift Production a Angle of Attack, Pressure Differential, Circulation o Other Facts a Bernoulli's Principle, Equal Transit Time Fallacy, Action at a Distance, Airfoils Can Be Any Shape, Creating Lift Creates Wingtip Vortices e Stalls °o Critical angle of attack o Flaps affect camber, delay stall e Static and Dynamic Stability e Maneuverability and Controllability e Longitudinal Stability o Center of Lift, Center of Mass, Natural Tendency for stall recovery e Lateral Stability (Roll) e Directional Stability e Left Turning Tendencies © Torque reaction, Spiraling Slipstream, ‘P-Factor’, Gyroscopic Precession e Bank Angle and Load Factor o Normal, Utility Category, Limit Load Factor, Ultimate Load Factor o Vne o Vg Diagram, Flight Envelope e Wake Turbulence o Caused by wingtip vortices, Sinks, expands, moves with wind, Starts, stops with production of lift o Avoidance strategies e Further Reading - Lift and Airfoils (expanded) Prepared by: Ryan Binns (ryancbinns.com/flying), February 2020",
+    "words": [
+        {
+            "text": "PPL",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 2071,
+                "top": 67,
+                "width": 61,
+                "height": 24
+            }
+        },
+        {
+            "text": "/",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 2143,
+                "top": 67,
+                "width": 9,
+                "height": 24
+            }
+        },
+        {
+            "text": "CAX",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 2163,
+                "top": 67,
+                "width": 68,
+                "height": 24
+            }
+        },
+        {
+            "text": "/",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 2241,
+                "top": 67,
+                "width": 9,
+                "height": 24
+            }
+        },
+        {
+            "text": "CFI",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 2261,
+                "top": 67,
+                "width": 50,
+                "height": 24
+            }
+        },
+        {
+            "text": "(II-D)",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 2324,
+                "top": 67,
+                "width": 72,
+                "height": 31
+            }
+        },
+        {
+            "text": "2",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2382,
+                "top": 114,
+                "width": 16,
+                "height": 24
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 251,
+                "top": 367,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Federal",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 325,
+                "top": 358,
+                "width": 135,
+                "height": 30
+            }
+        },
+        {
+            "text": "Aviation",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 475,
+                "top": 358,
+                "width": 144,
+                "height": 30
+            }
+        },
+        {
+            "text": "Administration",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 634,
+                "top": 358,
+                "width": 261,
+                "height": 31
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 910,
+                "top": 375,
+                "width": 12,
+                "height": 4
+            }
+        },
+        {
+            "text": "“How",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 936,
+                "top": 358,
+                "width": 95,
+                "height": 30
+            }
+        },
+        {
+            "text": "Airplanes",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1044,
+                "top": 358,
+                "width": 172,
+                "height": 38
+            }
+        },
+        {
+            "text": "Fly",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1232,
+                "top": 358,
+                "width": 52,
+                "height": 39
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1297,
+                "top": 375,
+                "width": 12,
+                "height": 4
+            }
+        },
+        {
+            "text": "16mm",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1325,
+                "top": 358,
+                "width": 110,
+                "height": 31
+            }
+        },
+        {
+            "text": "Training",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1449,
+                "top": 358,
+                "width": 146,
+                "height": 39
+            }
+        },
+        {
+            "text": "Film",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1612,
+                "top": 358,
+                "width": 73,
+                "height": 30
+            }
+        },
+        {
+            "text": "(1968)”",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 1702,
+                "top": 358,
+                "width": 130,
+                "height": 39
+            }
+        },
+        {
+            "text": "o",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 401,
+                "top": 423,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "YouTube",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 472,
+                "top": 414,
+                "width": 162,
+                "height": 30
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 648,
+                "top": 431,
+                "width": 12,
+                "height": 4
+            }
+        },
+        {
+            "text": "https:/Awww.youtube.com/watch?v=CqgIDjLhPhcE",
+            "confidence": 56.0,
+            "bbox": {
+                "left": 675,
+                "top": 414,
+                "width": 897,
+                "height": 39
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 251,
+                "top": 479,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "FAA-H-8083-25B",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 325,
+                "top": 470,
+                "width": 312,
+                "height": 31
+            }
+        },
+        {
+            "text": "(Pilot's",
+            "confidence": 55.0,
+            "bbox": {
+                "left": 653,
+                "top": 470,
+                "width": 120,
+                "height": 39
+            }
+        },
+        {
+            "text": "Handbook",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 790,
+                "top": 470,
+                "width": 186,
+                "height": 30
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 989,
+                "top": 470,
+                "width": 35,
+                "height": 30
+            }
+        },
+        {
+            "text": "Aeronautical",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1035,
+                "top": 470,
+                "width": 228,
+                "height": 30
+            }
+        },
+        {
+            "text": "Knowledge)",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1281,
+                "top": 470,
+                "width": 215,
+                "height": 39
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1510,
+                "top": 487,
+                "width": 12,
+                "height": 4
+            }
+        },
+        {
+            "text": "Chapter",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1537,
+                "top": 470,
+                "width": 146,
+                "height": 38
+            }
+        },
+        {
+            "text": "5,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1696,
+                "top": 471,
+                "width": 29,
+                "height": 35
+            }
+        },
+        {
+            "text": "Page",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1744,
+                "top": 470,
+                "width": 92,
+                "height": 39
+            }
+        },
+        {
+            "text": "3-5",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1851,
+                "top": 470,
+                "width": 57,
+                "height": 31
+            }
+        },
+        {
+            "text": "[Lift],",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1924,
+                "top": 470,
+                "width": 84,
+                "height": 38
+            }
+        },
+        {
+            "text": "Chapter",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2025,
+                "top": 470,
+                "width": 147,
+                "height": 38
+            }
+        },
+        {
+            "text": "5,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2185,
+                "top": 471,
+                "width": 29,
+                "height": 35
+            }
+        },
+        {
+            "text": "Page",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2232,
+                "top": 470,
+                "width": 92,
+                "height": 39
+            }
+        },
+        {
+            "text": "5",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2340,
+                "top": 471,
+                "width": 20,
+                "height": 30
+            }
+        },
+        {
+            "text": "[Lift/Drag",
+            "confidence": 76.0,
+            "bbox": {
+                "left": 325,
+                "top": 526,
+                "width": 163,
+                "height": 39
+            }
+        },
+        {
+            "text": "Ratio],",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 506,
+                "top": 526,
+                "width": 113,
+                "height": 38
+            }
+        },
+        {
+            "text": "Chapter",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 637,
+                "top": 526,
+                "width": 146,
+                "height": 38
+            }
+        },
+        {
+            "text": "5,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 796,
+                "top": 527,
+                "width": 29,
+                "height": 35
+            }
+        },
+        {
+            "text": "Page",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 844,
+                "top": 526,
+                "width": 92,
+                "height": 39
+            }
+        },
+        {
+            "text": "6-8",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 951,
+                "top": 526,
+                "width": 57,
+                "height": 31
+            }
+        },
+        {
+            "text": "[Drag],",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1024,
+                "top": 526,
+                "width": 118,
+                "height": 39
+            }
+        },
+        {
+            "text": "Chapter",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1160,
+                "top": 526,
+                "width": 146,
+                "height": 38
+            }
+        },
+        {
+            "text": "5,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1319,
+                "top": 527,
+                "width": 29,
+                "height": 35
+            }
+        },
+        {
+            "text": "Page",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1367,
+                "top": 526,
+                "width": 92,
+                "height": 39
+            }
+        },
+        {
+            "text": "8-10",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1474,
+                "top": 526,
+                "width": 80,
+                "height": 31
+            }
+        },
+        {
+            "text": "[Wingtip",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1570,
+                "top": 526,
+                "width": 147,
+                "height": 39
+            }
+        },
+        {
+            "text": "Vortices],",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1730,
+                "top": 526,
+                "width": 167,
+                "height": 38
+            }
+        },
+        {
+            "text": "Chapter",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1915,
+                "top": 526,
+                "width": 146,
+                "height": 38
+            }
+        },
+        {
+            "text": "5,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2074,
+                "top": 527,
+                "width": 29,
+                "height": 35
+            }
+        },
+        {
+            "text": "Page",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2122,
+                "top": 526,
+                "width": 92,
+                "height": 39
+            }
+        },
+        {
+            "text": "14-15",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2232,
+                "top": 526,
+                "width": 101,
+                "height": 31
+            }
+        },
+        {
+            "text": "[Static",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 325,
+                "top": 583,
+                "width": 112,
+                "height": 38
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 450,
+                "top": 583,
+                "width": 66,
+                "height": 30
+            }
+        },
+        {
+            "text": "Dynamic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 534,
+                "top": 583,
+                "width": 158,
+                "height": 39
+            }
+        },
+        {
+            "text": "Stability],",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 706,
+                "top": 583,
+                "width": 163,
+                "height": 39
+            }
+        },
+        {
+            "text": "Chapter",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 887,
+                "top": 583,
+                "width": 146,
+                "height": 38
+            }
+        },
+        {
+            "text": "5,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1046,
+                "top": 584,
+                "width": 29,
+                "height": 35
+            }
+        },
+        {
+            "text": "Page",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1094,
+                "top": 583,
+                "width": 92,
+                "height": 39
+            }
+        },
+        {
+            "text": "15-17",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1204,
+                "top": 583,
+                "width": 100,
+                "height": 31
+            }
+        },
+        {
+            "text": "[Longitudinal",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1320,
+                "top": 583,
+                "width": 231,
+                "height": 39
+            }
+        },
+        {
+            "text": "Stability],",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1567,
+                "top": 583,
+                "width": 164,
+                "height": 39
+            }
+        },
+        {
+            "text": "Chapter",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1748,
+                "top": 583,
+                "width": 146,
+                "height": 38
+            }
+        },
+        {
+            "text": "5,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1907,
+                "top": 584,
+                "width": 30,
+                "height": 35
+            }
+        },
+        {
+            "text": "Page",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1955,
+                "top": 583,
+                "width": 92,
+                "height": 39
+            }
+        },
+        {
+            "text": "17-19",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2065,
+                "top": 583,
+                "width": 100,
+                "height": 31
+            }
+        },
+        {
+            "text": "[Lateral",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2182,
+                "top": 583,
+                "width": 133,
+                "height": 38
+            }
+        },
+        {
+            "text": "Stability],",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 324,
+                "top": 639,
+                "width": 163,
+                "height": 39
+            }
+        },
+        {
+            "text": "Chapter",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 505,
+                "top": 639,
+                "width": 146,
+                "height": 38
+            }
+        },
+        {
+            "text": "5,",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 664,
+                "top": 640,
+                "width": 29,
+                "height": 35
+            }
+        },
+        {
+            "text": "Page",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 712,
+                "top": 639,
+                "width": 92,
+                "height": 39
+            }
+        },
+        {
+            "text": "19-20",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 822,
+                "top": 639,
+                "width": 100,
+                "height": 31
+            }
+        },
+        {
+            "text": "[Directional",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 938,
+                "top": 639,
+                "width": 203,
+                "height": 38
+            }
+        },
+        {
+            "text": "Stability],",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1157,
+                "top": 639,
+                "width": 164,
+                "height": 39
+            }
+        },
+        {
+            "text": "Chapter",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1338,
+                "top": 639,
+                "width": 147,
+                "height": 38
+            }
+        },
+        {
+            "text": "5,",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1498,
+                "top": 640,
+                "width": 29,
+                "height": 35
+            }
+        },
+        {
+            "text": "Page",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1545,
+                "top": 639,
+                "width": 92,
+                "height": 39
+            }
+        },
+        {
+            "text": "25-26",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1652,
+                "top": 639,
+                "width": 104,
+                "height": 31
+            }
+        },
+        {
+            "text": "[Stalls],",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1772,
+                "top": 639,
+                "width": 130,
+                "height": 38
+            }
+        },
+        {
+            "text": "Chapter",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1919,
+                "top": 639,
+                "width": 147,
+                "height": 38
+            }
+        },
+        {
+            "text": "5,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2079,
+                "top": 640,
+                "width": 29,
+                "height": 35
+            }
+        },
+        {
+            "text": "Page",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2127,
+                "top": 639,
+                "width": 92,
+                "height": 39
+            }
+        },
+        {
+            "text": "30-33",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2234,
+                "top": 639,
+                "width": 103,
+                "height": 31
+            }
+        },
+        {
+            "text": "[Left",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 325,
+                "top": 695,
+                "width": 78,
+                "height": 38
+            }
+        },
+        {
+            "text": "Turning",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 415,
+                "top": 695,
+                "width": 136,
+                "height": 39
+            }
+        },
+        {
+            "text": "Tendencies]",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 567,
+                "top": 695,
+                "width": 218,
+                "height": 38
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 251,
+                "top": 760,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "FAA-S-8081-6D",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 325,
+                "top": 751,
+                "width": 289,
+                "height": 31
+            }
+        },
+        {
+            "text": "(CFI",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 630,
+                "top": 751,
+                "width": 75,
+                "height": 39
+            }
+        },
+        {
+            "text": "PTS)",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 723,
+                "top": 751,
+                "width": 90,
+                "height": 39
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 828,
+                "top": 768,
+                "width": 11,
+                "height": 4
+            }
+        },
+        {
+            "text": "Area",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 852,
+                "top": 751,
+                "width": 86,
+                "height": 30
+            }
+        },
+        {
+            "text": "Il",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 955,
+                "top": 751,
+                "width": 16,
+                "height": 30
+            }
+        },
+        {
+            "text": "Task",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 987,
+                "top": 751,
+                "width": 84,
+                "height": 31
+            }
+        },
+        {
+            "text": "D",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1087,
+                "top": 751,
+                "width": 24,
+                "height": 30
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 251,
+                "top": 967,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 323,
+                "top": 958,
+                "width": 69,
+                "height": 30
+            }
+        },
+        {
+            "text": "Four",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 408,
+                "top": 958,
+                "width": 83,
+                "height": 30
+            }
+        },
+        {
+            "text": "Forces",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 506,
+                "top": 958,
+                "width": 122,
+                "height": 31
+            }
+        },
+        {
+            "text": "o",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 401,
+                "top": 1017,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Weight,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 473,
+                "top": 1008,
+                "width": 136,
+                "height": 39
+            }
+        },
+        {
+            "text": "Lift,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 627,
+                "top": 1008,
+                "width": 60,
+                "height": 36
+            }
+        },
+        {
+            "text": "Thrust,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 703,
+                "top": 1008,
+                "width": 125,
+                "height": 36
+            }
+        },
+        {
+            "text": "Drag",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 847,
+                "top": 1008,
+                "width": 84,
+                "height": 39
+            }
+        },
+        {
+            "text": "o",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 401,
+                "top": 1067,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "How",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 475,
+                "top": 1058,
+                "width": 79,
+                "height": 30
+            }
+        },
+        {
+            "text": "Airplanes",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 567,
+                "top": 1058,
+                "width": 172,
+                "height": 38
+            }
+        },
+        {
+            "text": "Climb",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 754,
+                "top": 1058,
+                "width": 103,
+                "height": 31
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 74.0,
+            "bbox": {
+                "left": 251,
+                "top": 1117,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "=",
+            "confidence": 35.0,
+            "bbox": {
+                "left": 291,
+                "top": 1103,
+                "width": 4,
+                "height": 48
+            }
+        },
+        {
+            "text": "Airfoils",
+            "confidence": 51.0,
+            "bbox": {
+                "left": 322,
+                "top": 1108,
+                "width": 123,
+                "height": 31
+            }
+        },
+        {
+            "text": "o",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 401,
+                "top": 1167,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Even",
+            "confidence": 13.0,
+            "bbox": {
+                "left": 475,
+                "top": 1158,
+                "width": 89,
+                "height": 30
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 13.0,
+            "bbox": {
+                "left": 569,
+                "top": 1154,
+                "width": 20,
+                "height": 48
+            }
+        },
+        {
+            "text": "Barn",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 616,
+                "top": 1158,
+                "width": 82,
+                "height": 30
+            }
+        },
+        {
+            "text": "Door",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 716,
+                "top": 1158,
+                "width": 87,
+                "height": 30
+            }
+        },
+        {
+            "text": "Can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 817,
+                "top": 1158,
+                "width": 71,
+                "height": 31
+            }
+        },
+        {
+            "text": "Fly",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 906,
+                "top": 1158,
+                "width": 52,
+                "height": 39
+            }
+        },
+        {
+            "text": "=",
+            "confidence": 51.0,
+            "bbox": {
+                "left": 550,
+                "top": 1219,
+                "width": 19,
+                "height": 19
+            }
+        },
+        {
+            "text": "Creating",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 624,
+                "top": 1208,
+                "width": 152,
+                "height": 39
+            }
+        },
+        {
+            "text": "lift",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 794,
+                "top": 1208,
+                "width": 38,
+                "height": 30
+            }
+        },
+        {
+            "text": "creates",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 846,
+                "top": 1209,
+                "width": 133,
+                "height": 30
+            }
+        },
+        {
+            "text": "drag",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 994,
+                "top": 1208,
+                "width": 79,
+                "height": 39
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 29.0,
+            "bbox": {
+                "left": 550,
+                "top": 1269,
+                "width": 19,
+                "height": 19
+            }
+        },
+        {
+            "text": "Any",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 622,
+                "top": 1258,
+                "width": 71,
+                "height": 39
+            }
+        },
+        {
+            "text": "moving",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 708,
+                "top": 1258,
+                "width": 129,
+                "height": 39
+            }
+        },
+        {
+            "text": "object",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 852,
+                "top": 1258,
+                "width": 110,
+                "height": 39
+            }
+        },
+        {
+            "text": "creates",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 976,
+                "top": 1259,
+                "width": 133,
+                "height": 29
+            }
+        },
+        {
+            "text": "drag",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1123,
+                "top": 1258,
+                "width": 79,
+                "height": 39
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1218,
+                "top": 1275,
+                "width": 12,
+                "height": 4
+            }
+        },
+        {
+            "text": "Parasite",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1246,
+                "top": 1258,
+                "width": 147,
+                "height": 30
+            }
+        },
+        {
+            "text": "drag:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1408,
+                "top": 1258,
+                "width": 90,
+                "height": 39
+            }
+        },
+        {
+            "text": "Form",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1517,
+                "top": 1258,
+                "width": 91,
+                "height": 30
+            }
+        },
+        {
+            "text": "drag,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1623,
+                "top": 1258,
+                "width": 90,
+                "height": 39
+            }
+        },
+        {
+            "text": "interference",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1731,
+                "top": 1258,
+                "width": 216,
+                "height": 30
+            }
+        },
+        {
+            "text": "drag,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1961,
+                "top": 1258,
+                "width": 90,
+                "height": 39
+            }
+        },
+        {
+            "text": "skin",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2068,
+                "top": 1258,
+                "width": 70,
+                "height": 30
+            }
+        },
+        {
+            "text": "friction",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2153,
+                "top": 1258,
+                "width": 119,
+                "height": 30
+            }
+        },
+        {
+            "text": "drag",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2288,
+                "top": 1258,
+                "width": 79,
+                "height": 39
+            }
+        },
+        {
+            "text": "o",
+            "confidence": 23.0,
+            "bbox": {
+                "left": 401,
+                "top": 1317,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Airfoil",
+            "confidence": 61.0,
+            "bbox": {
+                "left": 472,
+                "top": 1308,
+                "width": 101,
+                "height": 30
+            }
+        },
+        {
+            "text": "Design",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 591,
+                "top": 1308,
+                "width": 123,
+                "height": 39
+            }
+        },
+        {
+            "text": "Features",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 732,
+                "top": 1308,
+                "width": 160,
+                "height": 30
+            }
+        },
+        {
+            "text": "m",
+            "confidence": 67.0,
+            "bbox": {
+                "left": 550,
+                "top": 1369,
+                "width": 19,
+                "height": 19
+            }
+        },
+        {
+            "text": "Leading",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 625,
+                "top": 1358,
+                "width": 142,
+                "height": 39
+            }
+        },
+        {
+            "text": "Edge,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 785,
+                "top": 1358,
+                "width": 102,
+                "height": 39
+            }
+        },
+        {
+            "text": "Trailing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 903,
+                "top": 1358,
+                "width": 131,
+                "height": 39
+            }
+        },
+        {
+            "text": "Edge",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1052,
+                "top": 1358,
+                "width": 92,
+                "height": 39
+            }
+        },
+        {
+            "text": "m",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 550,
+                "top": 1419,
+                "width": 19,
+                "height": 19
+            }
+        },
+        {
+            "text": "Chord,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 624,
+                "top": 1408,
+                "width": 119,
+                "height": 36
+            }
+        },
+        {
+            "text": "Camber,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 761,
+                "top": 1408,
+                "width": 151,
+                "height": 36
+            }
+        },
+        {
+            "text": "Thickness,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 928,
+                "top": 1408,
+                "width": 195,
+                "height": 36
+            }
+        },
+        {
+            "text": "Span",
+            "confidence": 61.0,
+            "bbox": {
+                "left": 1140,
+                "top": 1408,
+                "width": 93,
+                "height": 38
+            }
+        },
+        {
+            "text": "/",
+            "confidence": 61.0,
+            "bbox": {
+                "left": 1247,
+                "top": 1408,
+                "width": 11,
+                "height": 31
+            }
+        },
+        {
+            "text": "Aspect",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1270,
+                "top": 1408,
+                "width": 127,
+                "height": 38
+            }
+        },
+        {
+            "text": "Ratio",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1412,
+                "top": 1408,
+                "width": 93,
+                "height": 30
+            }
+        },
+        {
+            "text": "o",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 401,
+                "top": 1467,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Angle",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 472,
+                "top": 1458,
+                "width": 104,
+                "height": 39
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 591,
+                "top": 1458,
+                "width": 35,
+                "height": 30
+            }
+        },
+        {
+            "text": "Attack",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 637,
+                "top": 1458,
+                "width": 114,
+                "height": 30
+            }
+        },
+        {
+            "text": "=",
+            "confidence": 58.0,
+            "bbox": {
+                "left": 550,
+                "top": 1519,
+                "width": 19,
+                "height": 19
+            }
+        },
+        {
+            "text": "Only",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 624,
+                "top": 1508,
+                "width": 83,
+                "height": 39
+            }
+        },
+        {
+            "text": "thing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 720,
+                "top": 1508,
+                "width": 87,
+                "height": 39
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 822,
+                "top": 1508,
+                "width": 68,
+                "height": 30
+            }
+        },
+        {
+            "text": "creates",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 904,
+                "top": 1509,
+                "width": 133,
+                "height": 30
+            }
+        },
+        {
+            "text": "lift",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 1053,
+                "top": 1508,
+                "width": 39,
+                "height": 30
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 251,
+                "top": 1567,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "How",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 325,
+                "top": 1558,
+                "width": 79,
+                "height": 30
+            }
+        },
+        {
+            "text": "Airfoils",
+            "confidence": 65.0,
+            "bbox": {
+                "left": 417,
+                "top": 1558,
+                "width": 123,
+                "height": 31
+            }
+        },
+        {
+            "text": "Produce",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 557,
+                "top": 1558,
+                "width": 150,
+                "height": 30
+            }
+        },
+        {
+            "text": "Lift",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 723,
+                "top": 1558,
+                "width": 52,
+                "height": 30
+            }
+        },
+        {
+            "text": "o",
+            "confidence": 79.0,
+            "bbox": {
+                "left": 401,
+                "top": 1617,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Airis",
+            "confidence": 58.0,
+            "bbox": {
+                "left": 472,
+                "top": 1608,
+                "width": 91,
+                "height": 30
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 577,
+                "top": 1616,
+                "width": 20,
+                "height": 22
+            }
+        },
+        {
+            "text": "Fluid",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 614,
+                "top": 1608,
+                "width": 84,
+                "height": 30
+            }
+        },
+        {
+            "text": "m",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 550,
+                "top": 1669,
+                "width": 19,
+                "height": 19
+            }
+        },
+        {
+            "text": "Has",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 625,
+                "top": 1658,
+                "width": 69,
+                "height": 31
+            }
+        },
+        {
+            "text": "mass,",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 710,
+                "top": 1666,
+                "width": 105,
+                "height": 28
+            }
+        },
+        {
+            "text": "therefore",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 831,
+                "top": 1658,
+                "width": 164,
+                "height": 30
+            }
+        },
+        {
+            "text": "momentum",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1011,
+                "top": 1659,
+                "width": 203,
+                "height": 29
+            }
+        },
+        {
+            "text": "m=",
+            "confidence": 47.0,
+            "bbox": {
+                "left": 550,
+                "top": 1719,
+                "width": 19,
+                "height": 19
+            }
+        },
+        {
+            "text": "Has",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 625,
+                "top": 1708,
+                "width": 69,
+                "height": 31
+            }
+        },
+        {
+            "text": "pressure,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 710,
+                "top": 1716,
+                "width": 167,
+                "height": 30
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 894,
+                "top": 1716,
+                "width": 63,
+                "height": 22
+            }
+        },
+        {
+            "text": "transfer",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 972,
+                "top": 1708,
+                "width": 141,
+                "height": 30
+            }
+        },
+        {
+            "text": "momentum",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1127,
+                "top": 1709,
+                "width": 203,
+                "height": 29
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1345,
+                "top": 1709,
+                "width": 33,
+                "height": 29
+            }
+        },
+        {
+            "text": "nearby",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1393,
+                "top": 1708,
+                "width": 124,
+                "height": 39
+            }
+        },
+        {
+            "text": "air/objects",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1531,
+                "top": 1708,
+                "width": 187,
+                "height": 39
+            }
+        },
+        {
+            "text": "o",
+            "confidence": 65.0,
+            "bbox": {
+                "left": 401,
+                "top": 1767,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Basic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 475,
+                "top": 1758,
+                "width": 98,
+                "height": 31
+            }
+        },
+        {
+            "text": "Facts",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 589,
+                "top": 1758,
+                "width": 97,
+                "height": 30
+            }
+        },
+        {
+            "text": "about",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 700,
+                "top": 1758,
+                "width": 103,
+                "height": 30
+            }
+        },
+        {
+            "text": "Lift",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 818,
+                "top": 1758,
+                "width": 52,
+                "height": 30
+            }
+        },
+        {
+            "text": "Production",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 885,
+                "top": 1758,
+                "width": 193,
+                "height": 30
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 40.0,
+            "bbox": {
+                "left": 550,
+                "top": 1819,
+                "width": 19,
+                "height": 19
+            }
+        },
+        {
+            "text": "Angle",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 622,
+                "top": 1808,
+                "width": 104,
+                "height": 39
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 741,
+                "top": 1808,
+                "width": 35,
+                "height": 30
+            }
+        },
+        {
+            "text": "Attack,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 787,
+                "top": 1808,
+                "width": 123,
+                "height": 36
+            }
+        },
+        {
+            "text": "Pressure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 928,
+                "top": 1808,
+                "width": 162,
+                "height": 31
+            }
+        },
+        {
+            "text": "Differential,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1107,
+                "top": 1808,
+                "width": 203,
+                "height": 36
+            }
+        },
+        {
+            "text": "Circulation",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1327,
+                "top": 1808,
+                "width": 192,
+                "height": 31
+            }
+        },
+        {
+            "text": "o",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 401,
+                "top": 1867,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Other",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 474,
+                "top": 1858,
+                "width": 102,
+                "height": 31
+            }
+        },
+        {
+            "text": "Facts",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 591,
+                "top": 1858,
+                "width": 97,
+                "height": 30
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 41.0,
+            "bbox": {
+                "left": 550,
+                "top": 1919,
+                "width": 19,
+                "height": 19
+            }
+        },
+        {
+            "text": "Bernoulli's",
+            "confidence": 10.0,
+            "bbox": {
+                "left": 625,
+                "top": 1908,
+                "width": 187,
+                "height": 30
+            }
+        },
+        {
+            "text": "Principle,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 828,
+                "top": 1908,
+                "width": 164,
+                "height": 38
+            }
+        },
+        {
+            "text": "Equal",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1011,
+                "top": 1908,
+                "width": 100,
+                "height": 38
+            }
+        },
+        {
+            "text": "Transit",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1127,
+                "top": 1908,
+                "width": 124,
+                "height": 31
+            }
+        },
+        {
+            "text": "Time",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1264,
+                "top": 1908,
+                "width": 88,
+                "height": 30
+            }
+        },
+        {
+            "text": "Fallacy,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1369,
+                "top": 1908,
+                "width": 133,
+                "height": 39
+            }
+        },
+        {
+            "text": "Action",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1518,
+                "top": 1908,
+                "width": 113,
+                "height": 30
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1646,
+                "top": 1909,
+                "width": 34,
+                "height": 29
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1693,
+                "top": 1916,
+                "width": 20,
+                "height": 22
+            }
+        },
+        {
+            "text": "Distance,",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1729,
+                "top": 1908,
+                "width": 167,
+                "height": 36
+            }
+        },
+        {
+            "text": "Airfoils",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1912,
+                "top": 1908,
+                "width": 123,
+                "height": 30
+            }
+        },
+        {
+            "text": "Can",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2050,
+                "top": 1908,
+                "width": 71,
+                "height": 31
+            }
+        },
+        {
+            "text": "Be",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2139,
+                "top": 1908,
+                "width": 46,
+                "height": 30
+            }
+        },
+        {
+            "text": "Any",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2199,
+                "top": 1908,
+                "width": 71,
+                "height": 39
+            }
+        },
+        {
+            "text": "Shape,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 624,
+                "top": 1958,
+                "width": 126,
+                "height": 38
+            }
+        },
+        {
+            "text": "Creating",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 768,
+                "top": 1958,
+                "width": 152,
+                "height": 39
+            }
+        },
+        {
+            "text": "Lift",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 938,
+                "top": 1958,
+                "width": 52,
+                "height": 30
+            }
+        },
+        {
+            "text": "Creates",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1004,
+                "top": 1958,
+                "width": 142,
+                "height": 31
+            }
+        },
+        {
+            "text": "Wingtip",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1160,
+                "top": 1958,
+                "width": 137,
+                "height": 39
+            }
+        },
+        {
+            "text": "Vortices",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1310,
+                "top": 1958,
+                "width": 146,
+                "height": 31
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 251,
+                "top": 2017,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Stalls",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 324,
+                "top": 2008,
+                "width": 98,
+                "height": 31
+            }
+        },
+        {
+            "text": "°o",
+            "confidence": 11.0,
+            "bbox": {
+                "left": 401,
+                "top": 2067,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Critical",
+            "confidence": 25.0,
+            "bbox": {
+                "left": 474,
+                "top": 2058,
+                "width": 122,
+                "height": 31
+            }
+        },
+        {
+            "text": "angle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 612,
+                "top": 2058,
+                "width": 99,
+                "height": 39
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 725,
+                "top": 2058,
+                "width": 35,
+                "height": 30
+            }
+        },
+        {
+            "text": "attack",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 772,
+                "top": 2058,
+                "width": 109,
+                "height": 30
+            }
+        },
+        {
+            "text": "o",
+            "confidence": 79.0,
+            "bbox": {
+                "left": 401,
+                "top": 2117,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Flaps",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 475,
+                "top": 2108,
+                "width": 97,
+                "height": 38
+            }
+        },
+        {
+            "text": "affect",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 587,
+                "top": 2108,
+                "width": 99,
+                "height": 30
+            }
+        },
+        {
+            "text": "camber,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 700,
+                "top": 2108,
+                "width": 142,
+                "height": 36
+            }
+        },
+        {
+            "text": "delay",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 859,
+                "top": 2108,
+                "width": 98,
+                "height": 39
+            }
+        },
+        {
+            "text": "stall",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 970,
+                "top": 2108,
+                "width": 70,
+                "height": 31
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 251,
+                "top": 2167,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Static",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 324,
+                "top": 2158,
+                "width": 101,
+                "height": 31
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 439,
+                "top": 2158,
+                "width": 65,
+                "height": 30
+            }
+        },
+        {
+            "text": "Dynamic",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 522,
+                "top": 2158,
+                "width": 158,
+                "height": 39
+            }
+        },
+        {
+            "text": "Stability",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 694,
+                "top": 2158,
+                "width": 144,
+                "height": 39
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 251,
+                "top": 2217,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Maneuverability",
+            "confidence": 77.0,
+            "bbox": {
+                "left": 325,
+                "top": 2208,
+                "width": 288,
+                "height": 39
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 626,
+                "top": 2208,
+                "width": 66,
+                "height": 30
+            }
+        },
+        {
+            "text": "Controllability",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 709,
+                "top": 2208,
+                "width": 247,
+                "height": 39
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 251,
+                "top": 2267,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Longitudinal",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 325,
+                "top": 2258,
+                "width": 219,
+                "height": 39
+            }
+        },
+        {
+            "text": "Stability",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 560,
+                "top": 2258,
+                "width": 143,
+                "height": 39
+            }
+        },
+        {
+            "text": "o",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 401,
+                "top": 2317,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Center",
+            "confidence": 77.0,
+            "bbox": {
+                "left": 474,
+                "top": 2308,
+                "width": 123,
+                "height": 31
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 610,
+                "top": 2308,
+                "width": 34,
+                "height": 30
+            }
+        },
+        {
+            "text": "Lift,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 658,
+                "top": 2308,
+                "width": 60,
+                "height": 36
+            }
+        },
+        {
+            "text": "Center",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 736,
+                "top": 2308,
+                "width": 123,
+                "height": 31
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 871,
+                "top": 2308,
+                "width": 35,
+                "height": 30
+            }
+        },
+        {
+            "text": "Mass,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 920,
+                "top": 2308,
+                "width": 104,
+                "height": 36
+            }
+        },
+        {
+            "text": "Natural",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1042,
+                "top": 2308,
+                "width": 128,
+                "height": 30
+            }
+        },
+        {
+            "text": "Tendency",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1186,
+                "top": 2308,
+                "width": 177,
+                "height": 39
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1375,
+                "top": 2308,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "stall",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1436,
+                "top": 2308,
+                "width": 70,
+                "height": 31
+            }
+        },
+        {
+            "text": "recovery",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1523,
+                "top": 2316,
+                "width": 157,
+                "height": 31
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 251,
+                "top": 2367,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Lateral",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 325,
+                "top": 2358,
+                "width": 121,
+                "height": 30
+            }
+        },
+        {
+            "text": "Stability",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 463,
+                "top": 2358,
+                "width": 143,
+                "height": 39
+            }
+        },
+        {
+            "text": "(Roll)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 620,
+                "top": 2358,
+                "width": 96,
+                "height": 39
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 251,
+                "top": 2417,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Directional",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 325,
+                "top": 2408,
+                "width": 191,
+                "height": 30
+            }
+        },
+        {
+            "text": "Stability",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 532,
+                "top": 2408,
+                "width": 144,
+                "height": 39
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 251,
+                "top": 2467,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Left",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 325,
+                "top": 2458,
+                "width": 66,
+                "height": 30
+            }
+        },
+        {
+            "text": "Turning",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 404,
+                "top": 2458,
+                "width": 136,
+                "height": 39
+            }
+        },
+        {
+            "text": "Tendencies",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 555,
+                "top": 2458,
+                "width": 208,
+                "height": 31
+            }
+        },
+        {
+            "text": "©",
+            "confidence": 37.0,
+            "bbox": {
+                "left": 401,
+                "top": 2517,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Torque",
+            "confidence": 74.0,
+            "bbox": {
+                "left": 473,
+                "top": 2508,
+                "width": 124,
+                "height": 38
+            }
+        },
+        {
+            "text": "reaction,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 614,
+                "top": 2508,
+                "width": 153,
+                "height": 36
+            }
+        },
+        {
+            "text": "Spiraling",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 784,
+                "top": 2508,
+                "width": 157,
+                "height": 39
+            }
+        },
+        {
+            "text": "Slipstream,",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 958,
+                "top": 2508,
+                "width": 202,
+                "height": 38
+            }
+        },
+        {
+            "text": "‘P-Factor’,",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1178,
+                "top": 2508,
+                "width": 185,
+                "height": 36
+            }
+        },
+        {
+            "text": "Gyroscopic",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1381,
+                "top": 2508,
+                "width": 205,
+                "height": 39
+            }
+        },
+        {
+            "text": "Precession",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1602,
+                "top": 2508,
+                "width": 200,
+                "height": 31
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 251,
+                "top": 2567,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Bank",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 325,
+                "top": 2558,
+                "width": 91,
+                "height": 30
+            }
+        },
+        {
+            "text": "Angle",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 429,
+                "top": 2558,
+                "width": 104,
+                "height": 39
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 548,
+                "top": 2558,
+                "width": 65,
+                "height": 30
+            }
+        },
+        {
+            "text": "Load",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 631,
+                "top": 2558,
+                "width": 86,
+                "height": 30
+            }
+        },
+        {
+            "text": "Factor",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 735,
+                "top": 2558,
+                "width": 115,
+                "height": 30
+            }
+        },
+        {
+            "text": "o",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 401,
+                "top": 2617,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Normal,",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 475,
+                "top": 2608,
+                "width": 139,
+                "height": 36
+            }
+        },
+        {
+            "text": "Utility",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 633,
+                "top": 2608,
+                "width": 98,
+                "height": 39
+            }
+        },
+        {
+            "text": "Category,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 745,
+                "top": 2608,
+                "width": 171,
+                "height": 39
+            }
+        },
+        {
+            "text": "Limit",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 935,
+                "top": 2608,
+                "width": 84,
+                "height": 30
+            }
+        },
+        {
+            "text": "Load",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1035,
+                "top": 2608,
+                "width": 86,
+                "height": 30
+            }
+        },
+        {
+            "text": "Factor,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1139,
+                "top": 2608,
+                "width": 120,
+                "height": 36
+            }
+        },
+        {
+            "text": "Ultimate",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1278,
+                "top": 2608,
+                "width": 147,
+                "height": 31
+            }
+        },
+        {
+            "text": "Load",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1442,
+                "top": 2608,
+                "width": 87,
+                "height": 30
+            }
+        },
+        {
+            "text": "Factor",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1546,
+                "top": 2608,
+                "width": 115,
+                "height": 30
+            }
+        },
+        {
+            "text": "o",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 401,
+                "top": 2667,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Vne",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 472,
+                "top": 2658,
+                "width": 72,
+                "height": 30
+            }
+        },
+        {
+            "text": "o",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 401,
+                "top": 2717,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Vg",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 472,
+                "top": 2708,
+                "width": 48,
+                "height": 39
+            }
+        },
+        {
+            "text": "Diagram,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 538,
+                "top": 2708,
+                "width": 162,
+                "height": 39
+            }
+        },
+        {
+            "text": "Flight",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 718,
+                "top": 2708,
+                "width": 98,
+                "height": 39
+            }
+        },
+        {
+            "text": "Envelope",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 832,
+                "top": 2708,
+                "width": 168,
+                "height": 38
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 251,
+                "top": 2767,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Wake",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 323,
+                "top": 2758,
+                "width": 102,
+                "height": 30
+            }
+        },
+        {
+            "text": "Turbulence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 439,
+                "top": 2758,
+                "width": 204,
+                "height": 30
+            }
+        },
+        {
+            "text": "o",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 401,
+                "top": 2817,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Caused",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 474,
+                "top": 2808,
+                "width": 139,
+                "height": 31
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 630,
+                "top": 2808,
+                "width": 40,
+                "height": 39
+            }
+        },
+        {
+            "text": "wingtip",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 683,
+                "top": 2808,
+                "width": 128,
+                "height": 39
+            }
+        },
+        {
+            "text": "vortices,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 825,
+                "top": 2808,
+                "width": 150,
+                "height": 36
+            }
+        },
+        {
+            "text": "Sinks,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 992,
+                "top": 2808,
+                "width": 108,
+                "height": 36
+            }
+        },
+        {
+            "text": "expands,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1117,
+                "top": 2808,
+                "width": 164,
+                "height": 38
+            }
+        },
+        {
+            "text": "moves",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1299,
+                "top": 2816,
+                "width": 118,
+                "height": 23
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1431,
+                "top": 2808,
+                "width": 71,
+                "height": 30
+            }
+        },
+        {
+            "text": "wind,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1516,
+                "top": 2808,
+                "width": 93,
+                "height": 36
+            }
+        },
+        {
+            "text": "Starts,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1627,
+                "top": 2808,
+                "width": 114,
+                "height": 36
+            }
+        },
+        {
+            "text": "stops",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1758,
+                "top": 2809,
+                "width": 97,
+                "height": 37
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1868,
+                "top": 2808,
+                "width": 71,
+                "height": 30
+            }
+        },
+        {
+            "text": "production",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1956,
+                "top": 2808,
+                "width": 189,
+                "height": 38
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2161,
+                "top": 2808,
+                "width": 35,
+                "height": 30
+            }
+        },
+        {
+            "text": "lift",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2209,
+                "top": 2808,
+                "width": 38,
+                "height": 30
+            }
+        },
+        {
+            "text": "o",
+            "confidence": 67.0,
+            "bbox": {
+                "left": 401,
+                "top": 2867,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Avoidance",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 472,
+                "top": 2858,
+                "width": 192,
+                "height": 30
+            }
+        },
+        {
+            "text": "strategies",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 678,
+                "top": 2858,
+                "width": 178,
+                "height": 39
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 251,
+                "top": 2917,
+                "width": 18,
+                "height": 18
+            }
+        },
+        {
+            "text": "Further",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 325,
+                "top": 2908,
+                "width": 132,
+                "height": 30
+            }
+        },
+        {
+            "text": "Reading",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 471,
+                "top": 2908,
+                "width": 149,
+                "height": 39
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 636,
+                "top": 2925,
+                "width": 11,
+                "height": 4
+            }
+        },
+        {
+            "text": "Lift",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 663,
+                "top": 2908,
+                "width": 52,
+                "height": 30
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 728,
+                "top": 2908,
+                "width": 66,
+                "height": 30
+            }
+        },
+        {
+            "text": "Airfoils",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 808,
+                "top": 2908,
+                "width": 124,
+                "height": 30
+            }
+        },
+        {
+            "text": "(expanded)",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 947,
+                "top": 2908,
+                "width": 207,
+                "height": 39
+            }
+        },
+        {
+            "text": "Prepared",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1442,
+                "top": 3201,
+                "width": 137,
+                "height": 31
+            }
+        },
+        {
+            "text": "by:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1588,
+                "top": 3201,
+                "width": 43,
+                "height": 31
+            }
+        },
+        {
+            "text": "Ryan",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1643,
+                "top": 3201,
+                "width": 73,
+                "height": 31
+            }
+        },
+        {
+            "text": "Binns",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1730,
+                "top": 3201,
+                "width": 80,
+                "height": 24
+            }
+        },
+        {
+            "text": "(ryancbinns.com/flying),",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1822,
+                "top": 3201,
+                "width": 347,
+                "height": 31
+            }
+        },
+        {
+            "text": "February",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2184,
+                "top": 3201,
+                "width": 130,
+                "height": 31
+            }
+        },
+        {
+            "text": "2020",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2325,
+                "top": 3201,
+                "width": 71,
+                "height": 24
+            }
+        }
+    ]
+}

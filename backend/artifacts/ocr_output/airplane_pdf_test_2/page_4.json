@@ -1,0 +1,3278 @@
+{
+    "document": "airplane_pdf_test_2",
+    "page": "page_4",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\HAL-AI-Customer-Support\\backend\\artifacts\\rendered_pages\\airplane_pdf_test_2\\page_4.png",
+    "text": "Attitude Flying An airplane’s attitude is determined by the angular difference between a specific axis and the natural horizon. A false horizon can occur when the natural horizon is obscured or not readily apparent. This is an important concept because it requires the pilot to develop a pictorial sense of this natural horizon. Pitch attitude is the angle formed between the airplane’s longitudinal axis, which extends from the nose to the tail of the airplane, and the natural horizon. Bank attitude is the angle formed by the airplane’s lateral axis, which extends from wingtip to wingtip, and the natural horizon. [Figures 3-3A and 3-3B] Angular difference about the airplane’s vertical axis (yaw) is an attitude relative to the airplane’s direction of flight but not relative to the natural horizon. Figure 3-3. (A) Pitch attitude is the angle formed between the airplane's longitudinal axis, which extends from the nose to tail of the airplane, and the natural horizon. (B) Bank attitude is the angle formed by the airplane's lateral axis, which extends from wingtip to wingtip, and the natural horizon. Controlling an airplane requires one of two methods to determine the airplane’s attitude in reference to the horizon. When flying “visually” in visual meteorological conditions (VMC), a pilot uses their eyes and visually references the airplane’s wings and cowling to establish the airplane’s attitude to the natural horizon (a visible horizon). If no visible horizon can be seen due to clouds, whiteouts, haze over the ocean, night over a dark ocean, etc., it is IMC for practical and safety purposes. [Figure 3-4] When flying in IMC or when cross-checking the visual references, the airplane’s attitude is controlled by the pilot referencing the airplane’s mechanical or electronically-generated instruments to determine the airplane’s attitude in relation to the natural horizon. fi iy wm »® ee / ee | a \\ a Figure 3-4. Airplane attitude is based on relative positions of the nose and wings on the natural horizon. 3-4",
+    "words": [
+        {
+            "text": "Attitude",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 154,
+                "top": 178,
+                "width": 186,
+                "height": 38
+            }
+        },
+        {
+            "text": "Flying",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 360,
+                "top": 178,
+                "width": 140,
+                "height": 48
+            }
+        },
+        {
+            "text": "An",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 153,
+                "top": 249,
+                "width": 51,
+                "height": 28
+            }
+        },
+        {
+            "text": "airplane’s",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 223,
+                "top": 248,
+                "width": 162,
+                "height": 38
+            }
+        },
+        {
+            "text": "attitude",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 406,
+                "top": 248,
+                "width": 122,
+                "height": 30
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 549,
+                "top": 248,
+                "width": 25,
+                "height": 30
+            }
+        },
+        {
+            "text": "determined",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 595,
+                "top": 248,
+                "width": 185,
+                "height": 30
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 798,
+                "top": 248,
+                "width": 42,
+                "height": 38
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 859,
+                "top": 248,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "angular",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 929,
+                "top": 248,
+                "width": 124,
+                "height": 38
+            }
+        },
+        {
+            "text": "difference",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1072,
+                "top": 248,
+                "width": 166,
+                "height": 30
+            }
+        },
+        {
+            "text": "between",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1257,
+                "top": 248,
+                "width": 138,
+                "height": 30
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1414,
+                "top": 258,
+                "width": 17,
+                "height": 20
+            }
+        },
+        {
+            "text": "specific",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1451,
+                "top": 248,
+                "width": 126,
+                "height": 38
+            }
+        },
+        {
+            "text": "axis",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1598,
+                "top": 248,
+                "width": 64,
+                "height": 30
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1683,
+                "top": 248,
+                "width": 58,
+                "height": 30
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1759,
+                "top": 248,
+                "width": 50,
+                "height": 30
+            }
+        },
+        {
+            "text": "natural",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1828,
+                "top": 248,
+                "width": 114,
+                "height": 30
+            }
+        },
+        {
+            "text": "horizon.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1961,
+                "top": 248,
+                "width": 135,
+                "height": 30
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2117,
+                "top": 249,
+                "width": 29,
+                "height": 28
+            }
+        },
+        {
+            "text": "false",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2167,
+                "top": 248,
+                "width": 77,
+                "height": 30
+            }
+        },
+        {
+            "text": "horizon",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2257,
+                "top": 248,
+                "width": 126,
+                "height": 30
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 154,
+                "top": 305,
+                "width": 56,
+                "height": 20
+            }
+        },
+        {
+            "text": "occur",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 224,
+                "top": 305,
+                "width": 92,
+                "height": 20
+            }
+        },
+        {
+            "text": "when",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 329,
+                "top": 296,
+                "width": 89,
+                "height": 29
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 432,
+                "top": 296,
+                "width": 49,
+                "height": 29
+            }
+        },
+        {
+            "text": "natural",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 496,
+                "top": 296,
+                "width": 113,
+                "height": 29
+            }
+        },
+        {
+            "text": "horizon",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 623,
+                "top": 295,
+                "width": 126,
+                "height": 30
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 763,
+                "top": 295,
+                "width": 26,
+                "height": 30
+            }
+        },
+        {
+            "text": "obscured",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 804,
+                "top": 296,
+                "width": 149,
+                "height": 29
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 967,
+                "top": 305,
+                "width": 34,
+                "height": 20
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1014,
+                "top": 300,
+                "width": 53,
+                "height": 25
+            }
+        },
+        {
+            "text": "readily",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1080,
+                "top": 295,
+                "width": 114,
+                "height": 38
+            }
+        },
+        {
+            "text": "apparent.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1209,
+                "top": 300,
+                "width": 149,
+                "height": 33
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1374,
+                "top": 295,
+                "width": 72,
+                "height": 30
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1461,
+                "top": 295,
+                "width": 26,
+                "height": 30
+            }
+        },
+        {
+            "text": "an",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1502,
+                "top": 305,
+                "width": 37,
+                "height": 20
+            }
+        },
+        {
+            "text": "important",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1554,
+                "top": 295,
+                "width": 161,
+                "height": 38
+            }
+        },
+        {
+            "text": "concept",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1728,
+                "top": 300,
+                "width": 128,
+                "height": 33
+            }
+        },
+        {
+            "text": "because",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1869,
+                "top": 296,
+                "width": 131,
+                "height": 29
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2014,
+                "top": 295,
+                "width": 23,
+                "height": 30
+            }
+        },
+        {
+            "text": "requires",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2049,
+                "top": 295,
+                "width": 133,
+                "height": 38
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2197,
+                "top": 296,
+                "width": 49,
+                "height": 29
+            }
+        },
+        {
+            "text": "pilot",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2259,
+                "top": 295,
+                "width": 77,
+                "height": 38
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2352,
+                "top": 299,
+                "width": 31,
+                "height": 26
+            }
+        },
+        {
+            "text": "develop",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 154,
+                "top": 342,
+                "width": 130,
+                "height": 38
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 301,
+                "top": 352,
+                "width": 17,
+                "height": 20
+            }
+        },
+        {
+            "text": "pictorial",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 333,
+                "top": 342,
+                "width": 137,
+                "height": 38
+            }
+        },
+        {
+            "text": "sense",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 488,
+                "top": 352,
+                "width": 87,
+                "height": 20
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 592,
+                "top": 342,
+                "width": 38,
+                "height": 30
+            }
+        },
+        {
+            "text": "this",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 641,
+                "top": 342,
+                "width": 58,
+                "height": 30
+            }
+        },
+        {
+            "text": "natural",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 716,
+                "top": 342,
+                "width": 114,
+                "height": 30
+            }
+        },
+        {
+            "text": "horizon.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 846,
+                "top": 342,
+                "width": 134,
+                "height": 30
+            }
+        },
+        {
+            "text": "Pitch",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 999,
+                "top": 342,
+                "width": 84,
+                "height": 30
+            }
+        },
+        {
+            "text": "attitude",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1100,
+                "top": 342,
+                "width": 122,
+                "height": 30
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1239,
+                "top": 342,
+                "width": 25,
+                "height": 30
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1281,
+                "top": 342,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "angle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1347,
+                "top": 342,
+                "width": 88,
+                "height": 38
+            }
+        },
+        {
+            "text": "formed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1452,
+                "top": 342,
+                "width": 119,
+                "height": 30
+            }
+        },
+        {
+            "text": "between",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1586,
+                "top": 342,
+                "width": 138,
+                "height": 30
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1739,
+                "top": 342,
+                "width": 50,
+                "height": 30
+            }
+        },
+        {
+            "text": "airplane’s",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1806,
+                "top": 342,
+                "width": 161,
+                "height": 38
+            }
+        },
+        {
+            "text": "longitudinal",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1982,
+                "top": 342,
+                "width": 198,
+                "height": 38
+            }
+        },
+        {
+            "text": "axis,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2194,
+                "top": 342,
+                "width": 74,
+                "height": 35
+            }
+        },
+        {
+            "text": "which",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2283,
+                "top": 342,
+                "width": 100,
+                "height": 30
+            }
+        },
+        {
+            "text": "extends",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 154,
+                "top": 390,
+                "width": 125,
+                "height": 29
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 300,
+                "top": 389,
+                "width": 80,
+                "height": 30
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 399,
+                "top": 390,
+                "width": 50,
+                "height": 29
+            }
+        },
+        {
+            "text": "nose",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 469,
+                "top": 399,
+                "width": 75,
+                "height": 20
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 565,
+                "top": 394,
+                "width": 30,
+                "height": 25
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 616,
+                "top": 390,
+                "width": 49,
+                "height": 29
+            }
+        },
+        {
+            "text": "tail",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 685,
+                "top": 389,
+                "width": 52,
+                "height": 30
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 757,
+                "top": 389,
+                "width": 36,
+                "height": 30
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 810,
+                "top": 390,
+                "width": 49,
+                "height": 29
+            }
+        },
+        {
+            "text": "airplane,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 880,
+                "top": 389,
+                "width": 141,
+                "height": 38
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1042,
+                "top": 390,
+                "width": 59,
+                "height": 29
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1120,
+                "top": 390,
+                "width": 50,
+                "height": 29
+            }
+        },
+        {
+            "text": "natural",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1190,
+                "top": 390,
+                "width": 114,
+                "height": 29
+            }
+        },
+        {
+            "text": "horizon.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1323,
+                "top": 389,
+                "width": 134,
+                "height": 30
+            }
+        },
+        {
+            "text": "Bank",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1479,
+                "top": 390,
+                "width": 88,
+                "height": 29
+            }
+        },
+        {
+            "text": "attitude",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1586,
+                "top": 389,
+                "width": 123,
+                "height": 30
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1729,
+                "top": 389,
+                "width": 25,
+                "height": 30
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1775,
+                "top": 390,
+                "width": 49,
+                "height": 29
+            }
+        },
+        {
+            "text": "angle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1845,
+                "top": 390,
+                "width": 88,
+                "height": 37
+            }
+        },
+        {
+            "text": "formed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1953,
+                "top": 389,
+                "width": 119,
+                "height": 30
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2091,
+                "top": 390,
+                "width": 40,
+                "height": 37
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 2151,
+                "top": 390,
+                "width": 50,
+                "height": 29
+            }
+        },
+        {
+            "text": "airplane’s",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 2221,
+                "top": 389,
+                "width": 161,
+                "height": 38
+            }
+        },
+        {
+            "text": "lateral",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 154,
+                "top": 437,
+                "width": 102,
+                "height": 29
+            }
+        },
+        {
+            "text": "axis,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 272,
+                "top": 436,
+                "width": 74,
+                "height": 35
+            }
+        },
+        {
+            "text": "which",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 362,
+                "top": 436,
+                "width": 99,
+                "height": 30
+            }
+        },
+        {
+            "text": "extends",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 475,
+                "top": 437,
+                "width": 125,
+                "height": 29
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 615,
+                "top": 436,
+                "width": 80,
+                "height": 30
+            }
+        },
+        {
+            "text": "wingtip",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 709,
+                "top": 436,
+                "width": 123,
+                "height": 38
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 848,
+                "top": 441,
+                "width": 30,
+                "height": 25
+            }
+        },
+        {
+            "text": "wingtip,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 894,
+                "top": 436,
+                "width": 133,
+                "height": 38
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1044,
+                "top": 437,
+                "width": 58,
+                "height": 29
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1117,
+                "top": 437,
+                "width": 49,
+                "height": 29
+            }
+        },
+        {
+            "text": "natural",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1180,
+                "top": 437,
+                "width": 113,
+                "height": 29
+            }
+        },
+        {
+            "text": "horizon.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1307,
+                "top": 436,
+                "width": 135,
+                "height": 30
+            }
+        },
+        {
+            "text": "[Figures",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 1460,
+                "top": 437,
+                "width": 144,
+                "height": 37
+            }
+        },
+        {
+            "text": "3-3A",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1619,
+                "top": 437,
+                "width": 79,
+                "height": 29
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1714,
+                "top": 437,
+                "width": 58,
+                "height": 29
+            }
+        },
+        {
+            "text": "3-3B]",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 1786,
+                "top": 437,
+                "width": 97,
+                "height": 35
+            }
+        },
+        {
+            "text": "Angular",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1899,
+                "top": 437,
+                "width": 135,
+                "height": 37
+            }
+        },
+        {
+            "text": "difference",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2047,
+                "top": 436,
+                "width": 166,
+                "height": 30
+            }
+        },
+        {
+            "text": "about",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2228,
+                "top": 437,
+                "width": 92,
+                "height": 29
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2333,
+                "top": 437,
+                "width": 49,
+                "height": 29
+            }
+        },
+        {
+            "text": "airplane’s",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 154,
+                "top": 483,
+                "width": 161,
+                "height": 38
+            }
+        },
+        {
+            "text": "vertical",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 327,
+                "top": 483,
+                "width": 124,
+                "height": 30
+            }
+        },
+        {
+            "text": "axis",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 463,
+                "top": 483,
+                "width": 64,
+                "height": 30
+            }
+        },
+        {
+            "text": "(yaw)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 540,
+                "top": 483,
+                "width": 93,
+                "height": 38
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 646,
+                "top": 483,
+                "width": 25,
+                "height": 30
+            }
+        },
+        {
+            "text": "an",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 684,
+                "top": 493,
+                "width": 38,
+                "height": 20
+            }
+        },
+        {
+            "text": "attitude",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 734,
+                "top": 483,
+                "width": 122,
+                "height": 30
+            }
+        },
+        {
+            "text": "relative",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 868,
+                "top": 483,
+                "width": 123,
+                "height": 30
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1003,
+                "top": 487,
+                "width": 31,
+                "height": 26
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1045,
+                "top": 483,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "airplane’s",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1107,
+                "top": 483,
+                "width": 161,
+                "height": 38
+            }
+        },
+        {
+            "text": "direction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1281,
+                "top": 483,
+                "width": 147,
+                "height": 30
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 1440,
+                "top": 483,
+                "width": 38,
+                "height": 30
+            }
+        },
+        {
+            "text": "flight",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1485,
+                "top": 483,
+                "width": 88,
+                "height": 38
+            }
+        },
+        {
+            "text": "but",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1583,
+                "top": 483,
+                "width": 53,
+                "height": 30
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1647,
+                "top": 487,
+                "width": 53,
+                "height": 26
+            }
+        },
+        {
+            "text": "relative",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1710,
+                "top": 483,
+                "width": 123,
+                "height": 30
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 1845,
+                "top": 487,
+                "width": 31,
+                "height": 26
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 1888,
+                "top": 483,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "natural",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1949,
+                "top": 483,
+                "width": 114,
+                "height": 30
+            }
+        },
+        {
+            "text": "horizon.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2076,
+                "top": 483,
+                "width": 135,
+                "height": 30
+            }
+        },
+        {
+            "text": "Figure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 155,
+                "top": 1239,
+                "width": 100,
+                "height": 33
+            }
+        },
+        {
+            "text": "3-3.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 268,
+                "top": 1240,
+                "width": 54,
+                "height": 25
+            }
+        },
+        {
+            "text": "(A)",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 340,
+                "top": 1235,
+                "width": 47,
+                "height": 38
+            }
+        },
+        {
+            "text": "Pitch",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 401,
+                "top": 1235,
+                "width": 87,
+                "height": 30
+            }
+        },
+        {
+            "text": "attitude",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 503,
+                "top": 1235,
+                "width": 126,
+                "height": 30
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 644,
+                "top": 1237,
+                "width": 25,
+                "height": 28
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 683,
+                "top": 1235,
+                "width": 50,
+                "height": 30
+            }
+        },
+        {
+            "text": "angle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 746,
+                "top": 1235,
+                "width": 92,
+                "height": 38
+            }
+        },
+        {
+            "text": "formed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 844,
+                "top": 1235,
+                "width": 127,
+                "height": 38
+            }
+        },
+        {
+            "text": "between",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 983,
+                "top": 1235,
+                "width": 133,
+                "height": 30
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1132,
+                "top": 1235,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "airplane's",
+            "confidence": 6.0,
+            "bbox": {
+                "left": 1195,
+                "top": 1235,
+                "width": 169,
+                "height": 38
+            }
+        },
+        {
+            "text": "longitudinal",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1378,
+                "top": 1235,
+                "width": 204,
+                "height": 38
+            }
+        },
+        {
+            "text": "axis,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1594,
+                "top": 1237,
+                "width": 72,
+                "height": 32
+            }
+        },
+        {
+            "text": "which",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1684,
+                "top": 1235,
+                "width": 96,
+                "height": 30
+            }
+        },
+        {
+            "text": "extends",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1795,
+                "top": 1235,
+                "width": 123,
+                "height": 30
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1924,
+                "top": 1235,
+                "width": 84,
+                "height": 38
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2023,
+                "top": 1235,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "nose",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2085,
+                "top": 1245,
+                "width": 76,
+                "height": 20
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2174,
+                "top": 1240,
+                "width": 30,
+                "height": 25
+            }
+        },
+        {
+            "text": "tail",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2219,
+                "top": 1235,
+                "width": 55,
+                "height": 30
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 2286,
+                "top": 1235,
+                "width": 40,
+                "height": 38
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2331,
+                "top": 1235,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "airplane,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 153,
+                "top": 1282,
+                "width": 147,
+                "height": 38
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 317,
+                "top": 1283,
+                "width": 63,
+                "height": 29
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 392,
+                "top": 1283,
+                "width": 48,
+                "height": 29
+            }
+        },
+        {
+            "text": "natural",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 453,
+                "top": 1282,
+                "width": 123,
+                "height": 30
+            }
+        },
+        {
+            "text": "horizon.",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 588,
+                "top": 1283,
+                "width": 133,
+                "height": 32
+            }
+        },
+        {
+            "text": "(B)",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 739,
+                "top": 1283,
+                "width": 49,
+                "height": 35
+            }
+        },
+        {
+            "text": "Bank",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 801,
+                "top": 1282,
+                "width": 86,
+                "height": 30
+            }
+        },
+        {
+            "text": "attitude",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 898,
+                "top": 1282,
+                "width": 126,
+                "height": 30
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1039,
+                "top": 1284,
+                "width": 25,
+                "height": 28
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1077,
+                "top": 1283,
+                "width": 49,
+                "height": 29
+            }
+        },
+        {
+            "text": "angle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1139,
+                "top": 1282,
+                "width": 91,
+                "height": 38
+            }
+        },
+        {
+            "text": "formed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1237,
+                "top": 1283,
+                "width": 124,
+                "height": 37
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1373,
+                "top": 1283,
+                "width": 38,
+                "height": 37
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1424,
+                "top": 1283,
+                "width": 49,
+                "height": 29
+            }
+        },
+        {
+            "text": "airplane's",
+            "confidence": 37.0,
+            "bbox": {
+                "left": 1486,
+                "top": 1283,
+                "width": 165,
+                "height": 37
+            }
+        },
+        {
+            "text": "lateral",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1665,
+                "top": 1282,
+                "width": 110,
+                "height": 30
+            }
+        },
+        {
+            "text": "axis,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1786,
+                "top": 1284,
+                "width": 73,
+                "height": 32
+            }
+        },
+        {
+            "text": "which",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1876,
+                "top": 1283,
+                "width": 97,
+                "height": 29
+            }
+        },
+        {
+            "text": "extends",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1987,
+                "top": 1283,
+                "width": 123,
+                "height": 29
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2116,
+                "top": 1283,
+                "width": 84,
+                "height": 37
+            }
+        },
+        {
+            "text": "wingtip",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2212,
+                "top": 1284,
+                "width": 127,
+                "height": 36
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 2352,
+                "top": 1288,
+                "width": 30,
+                "height": 24
+            }
+        },
+        {
+            "text": "wingtip,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 154,
+                "top": 1331,
+                "width": 130,
+                "height": 36
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 299,
+                "top": 1329,
+                "width": 64,
+                "height": 30
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 374,
+                "top": 1330,
+                "width": 48,
+                "height": 29
+            }
+        },
+        {
+            "text": "natural",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 434,
+                "top": 1330,
+                "width": 123,
+                "height": 29
+            }
+        },
+        {
+            "text": "horizon.",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 568,
+                "top": 1330,
+                "width": 132,
+                "height": 32
+            }
+        },
+        {
+            "text": "Controlling",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 154,
+                "top": 1423,
+                "width": 190,
+                "height": 38
+            }
+        },
+        {
+            "text": "an",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 361,
+                "top": 1433,
+                "width": 38,
+                "height": 20
+            }
+        },
+        {
+            "text": "airplane",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 416,
+                "top": 1423,
+                "width": 131,
+                "height": 38
+            }
+        },
+        {
+            "text": "requires",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 564,
+                "top": 1423,
+                "width": 132,
+                "height": 38
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 714,
+                "top": 1433,
+                "width": 58,
+                "height": 20
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 790,
+                "top": 1423,
+                "width": 38,
+                "height": 30
+            }
+        },
+        {
+            "text": "two",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 838,
+                "top": 1427,
+                "width": 60,
+                "height": 26
+            }
+        },
+        {
+            "text": "methods",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 915,
+                "top": 1423,
+                "width": 139,
+                "height": 30
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1071,
+                "top": 1427,
+                "width": 31,
+                "height": 26
+            }
+        },
+        {
+            "text": "determine",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1120,
+                "top": 1423,
+                "width": 163,
+                "height": 30
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1299,
+                "top": 1423,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "airplane’s",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1366,
+                "top": 1423,
+                "width": 161,
+                "height": 38
+            }
+        },
+        {
+            "text": "attitude",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1545,
+                "top": 1423,
+                "width": 122,
+                "height": 30
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1685,
+                "top": 1423,
+                "width": 31,
+                "height": 29
+            }
+        },
+        {
+            "text": "reference",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1732,
+                "top": 1423,
+                "width": 152,
+                "height": 30
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1901,
+                "top": 1427,
+                "width": 31,
+                "height": 26
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1949,
+                "top": 1423,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "horizon.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2015,
+                "top": 1423,
+                "width": 134,
+                "height": 30
+            }
+        },
+        {
+            "text": "When",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2168,
+                "top": 1423,
+                "width": 99,
+                "height": 30
+            }
+        },
+        {
+            "text": "flying",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2283,
+                "top": 1423,
+                "width": 99,
+                "height": 38
+            }
+        },
+        {
+            "text": "“visually”",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 154,
+                "top": 1470,
+                "width": 164,
+                "height": 38
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 332,
+                "top": 1470,
+                "width": 31,
+                "height": 29
+            }
+        },
+        {
+            "text": "visual",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 374,
+                "top": 1470,
+                "width": 97,
+                "height": 30
+            }
+        },
+        {
+            "text": "meteorological",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 483,
+                "top": 1470,
+                "width": 248,
+                "height": 38
+            }
+        },
+        {
+            "text": "conditions",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 744,
+                "top": 1470,
+                "width": 171,
+                "height": 30
+            }
+        },
+        {
+            "text": "(VMC),",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 928,
+                "top": 1470,
+                "width": 130,
+                "height": 38
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1072,
+                "top": 1480,
+                "width": 17,
+                "height": 20
+            }
+        },
+        {
+            "text": "pilot",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1100,
+                "top": 1470,
+                "width": 77,
+                "height": 38
+            }
+        },
+        {
+            "text": "uses",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1187,
+                "top": 1480,
+                "width": 70,
+                "height": 20
+            }
+        },
+        {
+            "text": "their",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1270,
+                "top": 1470,
+                "width": 76,
+                "height": 30
+            }
+        },
+        {
+            "text": "eyes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1358,
+                "top": 1480,
+                "width": 70,
+                "height": 28
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1442,
+                "top": 1470,
+                "width": 58,
+                "height": 30
+            }
+        },
+        {
+            "text": "visually",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1512,
+                "top": 1470,
+                "width": 130,
+                "height": 38
+            }
+        },
+        {
+            "text": "references",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1653,
+                "top": 1470,
+                "width": 169,
+                "height": 30
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1834,
+                "top": 1470,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "airplane’s",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1897,
+                "top": 1470,
+                "width": 161,
+                "height": 38
+            }
+        },
+        {
+            "text": "wings",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2070,
+                "top": 1470,
+                "width": 96,
+                "height": 38
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 2180,
+                "top": 1471,
+                "width": 59,
+                "height": 29
+            }
+        },
+        {
+            "text": "cowling",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 2251,
+                "top": 1470,
+                "width": 131,
+                "height": 38
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 153,
+                "top": 1521,
+                "width": 31,
+                "height": 26
+            }
+        },
+        {
+            "text": "establish",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 198,
+                "top": 1517,
+                "width": 144,
+                "height": 30
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 353,
+                "top": 1517,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "airplane’s",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 415,
+                "top": 1517,
+                "width": 161,
+                "height": 38
+            }
+        },
+        {
+            "text": "attitude",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 590,
+                "top": 1517,
+                "width": 122,
+                "height": 30
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 724,
+                "top": 1521,
+                "width": 31,
+                "height": 26
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 767,
+                "top": 1517,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "natural",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 829,
+                "top": 1517,
+                "width": 114,
+                "height": 30
+            }
+        },
+        {
+            "text": "horizon",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 954,
+                "top": 1517,
+                "width": 127,
+                "height": 30
+            }
+        },
+        {
+            "text": "(a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1093,
+                "top": 1517,
+                "width": 31,
+                "height": 38
+            }
+        },
+        {
+            "text": "visible",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1135,
+                "top": 1517,
+                "width": 109,
+                "height": 30
+            }
+        },
+        {
+            "text": "horizon).",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1256,
+                "top": 1517,
+                "width": 148,
+                "height": 38
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1418,
+                "top": 1517,
+                "width": 31,
+                "height": 29
+            }
+        },
+        {
+            "text": "no",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1455,
+                "top": 1527,
+                "width": 40,
+                "height": 20
+            }
+        },
+        {
+            "text": "visible",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1507,
+                "top": 1517,
+                "width": 109,
+                "height": 30
+            }
+        },
+        {
+            "text": "horizon",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1628,
+                "top": 1517,
+                "width": 127,
+                "height": 30
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1767,
+                "top": 1527,
+                "width": 56,
+                "height": 20
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 1833,
+                "top": 1517,
+                "width": 39,
+                "height": 30
+            }
+        },
+        {
+            "text": "seen",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1885,
+                "top": 1527,
+                "width": 72,
+                "height": 20
+            }
+        },
+        {
+            "text": "due",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1969,
+                "top": 1517,
+                "width": 57,
+                "height": 30
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2038,
+                "top": 1521,
+                "width": 31,
+                "height": 26
+            }
+        },
+        {
+            "text": "clouds,",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 2082,
+                "top": 1517,
+                "width": 118,
+                "height": 35
+            }
+        },
+        {
+            "text": "whiteouts,",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 2213,
+                "top": 1517,
+                "width": 168,
+                "height": 35
+            }
+        },
+        {
+            "text": "haze",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 153,
+                "top": 1565,
+                "width": 75,
+                "height": 29
+            }
+        },
+        {
+            "text": "over",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 243,
+                "top": 1574,
+                "width": 73,
+                "height": 20
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 330,
+                "top": 1565,
+                "width": 49,
+                "height": 29
+            }
+        },
+        {
+            "text": "ocean,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 393,
+                "top": 1574,
+                "width": 105,
+                "height": 25
+            }
+        },
+        {
+            "text": "night",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 514,
+                "top": 1564,
+                "width": 84,
+                "height": 38
+            }
+        },
+        {
+            "text": "over",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 611,
+                "top": 1574,
+                "width": 73,
+                "height": 20
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 698,
+                "top": 1574,
+                "width": 17,
+                "height": 20
+            }
+        },
+        {
+            "text": "dark",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 729,
+                "top": 1565,
+                "width": 74,
+                "height": 29
+            }
+        },
+        {
+            "text": "ocean,",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 816,
+                "top": 1574,
+                "width": 105,
+                "height": 25
+            }
+        },
+        {
+            "text": "etc.,",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 937,
+                "top": 1569,
+                "width": 66,
+                "height": 30
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1019,
+                "top": 1564,
+                "width": 23,
+                "height": 30
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1055,
+                "top": 1564,
+                "width": 26,
+                "height": 30
+            }
+        },
+        {
+            "text": "IMC",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1095,
+                "top": 1565,
+                "width": 77,
+                "height": 29
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1187,
+                "top": 1564,
+                "width": 48,
+                "height": 30
+            }
+        },
+        {
+            "text": "practical",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1248,
+                "top": 1564,
+                "width": 142,
+                "height": 38
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1405,
+                "top": 1565,
+                "width": 58,
+                "height": 29
+            }
+        },
+        {
+            "text": "safety",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1479,
+                "top": 1564,
+                "width": 96,
+                "height": 38
+            }
+        },
+        {
+            "text": "purposes.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1588,
+                "top": 1574,
+                "width": 156,
+                "height": 28
+            }
+        },
+        {
+            "text": "[Figure",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 1762,
+                "top": 1565,
+                "width": 128,
+                "height": 37
+            }
+        },
+        {
+            "text": "3-4]",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1905,
+                "top": 1565,
+                "width": 71,
+                "height": 35
+            }
+        },
+        {
+            "text": "When",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1991,
+                "top": 1565,
+                "width": 99,
+                "height": 29
+            }
+        },
+        {
+            "text": "flying",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2103,
+                "top": 1564,
+                "width": 96,
+                "height": 38
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2213,
+                "top": 1564,
+                "width": 31,
+                "height": 29
+            }
+        },
+        {
+            "text": "IMC",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2258,
+                "top": 1565,
+                "width": 76,
+                "height": 29
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2349,
+                "top": 1574,
+                "width": 34,
+                "height": 20
+            }
+        },
+        {
+            "text": "when",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 154,
+                "top": 1612,
+                "width": 88,
+                "height": 29
+            }
+        },
+        {
+            "text": "cross-checking",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 261,
+                "top": 1611,
+                "width": 247,
+                "height": 38
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 526,
+                "top": 1611,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "visual",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 593,
+                "top": 1611,
+                "width": 99,
+                "height": 30
+            }
+        },
+        {
+            "text": "references,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 709,
+                "top": 1611,
+                "width": 179,
+                "height": 36
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 907,
+                "top": 1611,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "airplane’s",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 976,
+                "top": 1611,
+                "width": 161,
+                "height": 38
+            }
+        },
+        {
+            "text": "attitude",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1156,
+                "top": 1611,
+                "width": 122,
+                "height": 30
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1297,
+                "top": 1611,
+                "width": 26,
+                "height": 30
+            }
+        },
+        {
+            "text": "controlled",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1342,
+                "top": 1611,
+                "width": 167,
+                "height": 30
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1525,
+                "top": 1611,
+                "width": 42,
+                "height": 38
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1583,
+                "top": 1611,
+                "width": 50,
+                "height": 30
+            }
+        },
+        {
+            "text": "pilot",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1650,
+                "top": 1611,
+                "width": 76,
+                "height": 38
+            }
+        },
+        {
+            "text": "referencing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1743,
+                "top": 1611,
+                "width": 188,
+                "height": 38
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1948,
+                "top": 1611,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "airplane’s",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 2016,
+                "top": 1611,
+                "width": 161,
+                "height": 38
+            }
+        },
+        {
+            "text": "mechanical",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2195,
+                "top": 1611,
+                "width": 188,
+                "height": 30
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 154,
+                "top": 1668,
+                "width": 34,
+                "height": 20
+            }
+        },
+        {
+            "text": "electronically-generated",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 199,
+                "top": 1658,
+                "width": 400,
+                "height": 38
+            }
+        },
+        {
+            "text": "instruments",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 611,
+                "top": 1658,
+                "width": 191,
+                "height": 30
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 814,
+                "top": 1662,
+                "width": 31,
+                "height": 26
+            }
+        },
+        {
+            "text": "determine",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 858,
+                "top": 1658,
+                "width": 163,
+                "height": 30
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1033,
+                "top": 1658,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "airplane’s",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1095,
+                "top": 1658,
+                "width": 161,
+                "height": 38
+            }
+        },
+        {
+            "text": "attitude",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 1269,
+                "top": 1658,
+                "width": 122,
+                "height": 30
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1404,
+                "top": 1658,
+                "width": 31,
+                "height": 29
+            }
+        },
+        {
+            "text": "relation",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1446,
+                "top": 1658,
+                "width": 126,
+                "height": 30
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1583,
+                "top": 1662,
+                "width": 31,
+                "height": 26
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 1626,
+                "top": 1658,
+                "width": 49,
+                "height": 30
+            }
+        },
+        {
+            "text": "natural",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1687,
+                "top": 1658,
+                "width": 114,
+                "height": 30
+            }
+        },
+        {
+            "text": "horizon.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1813,
+                "top": 1658,
+                "width": 134,
+                "height": 30
+            }
+        },
+        {
+            "text": "fi",
+            "confidence": 27.0,
+            "bbox": {
+                "left": 725,
+                "top": 1919,
+                "width": 81,
+                "height": 101
+            }
+        },
+        {
+            "text": "iy",
+            "confidence": 14.0,
+            "bbox": {
+                "left": 1152,
+                "top": 1939,
+                "width": 84,
+                "height": 87
+            }
+        },
+        {
+            "text": "wm",
+            "confidence": 42.0,
+            "bbox": {
+                "left": 1565,
+                "top": 1961,
+                "width": 89,
+                "height": 85
+            }
+        },
+        {
+            "text": "»®",
+            "confidence": 10.0,
+            "bbox": {
+                "left": 1804,
+                "top": 1969,
+                "width": 77,
+                "height": 55
+            }
+        },
+        {
+            "text": "ee",
+            "confidence": 26.0,
+            "bbox": {
+                "left": 648,
+                "top": 2547,
+                "width": 204,
+                "height": 78
+            }
+        },
+        {
+            "text": "/",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 868,
+                "top": 2584,
+                "width": 19,
+                "height": 40
+            }
+        },
+        {
+            "text": "ee",
+            "confidence": 9.0,
+            "bbox": {
+                "left": 1037,
+                "top": 2566,
+                "width": 223,
+                "height": 59
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 1277,
+                "top": 2571,
+                "width": 1,
+                "height": 45
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 15.0,
+            "bbox": {
+                "left": 1312,
+                "top": 2617,
+                "width": 207,
+                "height": 4
+            }
+        },
+        {
+            "text": "\\",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1667,
+                "top": 2584,
+                "width": 19,
+                "height": 39
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 37.0,
+            "bbox": {
+                "left": 1720,
+                "top": 2550,
+                "width": 185,
+                "height": 67
+            }
+        },
+        {
+            "text": "Figure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 405,
+                "top": 3023,
+                "width": 100,
+                "height": 33
+            }
+        },
+        {
+            "text": "3-4.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 515,
+                "top": 3024,
+                "width": 55,
+                "height": 25
+            }
+        },
+        {
+            "text": "Airplane",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 581,
+                "top": 3020,
+                "width": 147,
+                "height": 37
+            }
+        },
+        {
+            "text": "attitude",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 739,
+                "top": 3020,
+                "width": 126,
+                "height": 29
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 879,
+                "top": 3021,
+                "width": 25,
+                "height": 28
+            }
+        },
+        {
+            "text": "based",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 916,
+                "top": 3019,
+                "width": 97,
+                "height": 30
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1024,
+                "top": 3029,
+                "width": 40,
+                "height": 20
+            }
+        },
+        {
+            "text": "relative",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1077,
+                "top": 3020,
+                "width": 124,
+                "height": 29
+            }
+        },
+        {
+            "text": "positions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1210,
+                "top": 3021,
+                "width": 153,
+                "height": 36
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1375,
+                "top": 3020,
+                "width": 38,
+                "height": 37
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1418,
+                "top": 3020,
+                "width": 49,
+                "height": 29
+            }
+        },
+        {
+            "text": "nose",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1479,
+                "top": 3029,
+                "width": 74,
+                "height": 20
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1565,
+                "top": 3020,
+                "width": 64,
+                "height": 29
+            }
+        },
+        {
+            "text": "wings",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1639,
+                "top": 3021,
+                "width": 96,
+                "height": 36
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1747,
+                "top": 3029,
+                "width": 40,
+                "height": 20
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1800,
+                "top": 3020,
+                "width": 48,
+                "height": 29
+            }
+        },
+        {
+            "text": "natural",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1860,
+                "top": 3019,
+                "width": 123,
+                "height": 30
+            }
+        },
+        {
+            "text": "horizon.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1994,
+                "top": 3020,
+                "width": 132,
+                "height": 32
+            }
+        },
+        {
+            "text": "3-4",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1233,
+                "top": 3169,
+                "width": 58,
+                "height": 31
+            }
+        }
+    ]
+}

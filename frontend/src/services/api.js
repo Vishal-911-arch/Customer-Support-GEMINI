@@ -1,67 +1,142 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://127.0.0.1:8000",
+
+    baseURL: "http://192.168.172.219:8000",
     timeout: 300000,
+
 });
 
-// -----------------------------
+// =========================
 // Chat
-// -----------------------------
+// =========================
 
-export const sendMessage = async (question) => {
+export const sendMessage = async (
 
-    const response = await api.post("/chat", {
-        question,
-    });
+    question,
+
+    image_path = null
+
+) => {
+
+    const response = await api.post(
+
+        "/chat",
+
+        {
+
+            question,
+
+            image_path
+
+        }
+
+    );
 
     return response.data;
+
 };
 
-// -----------------------------
+// =========================
 // Upload PDF
-// -----------------------------
+// =========================
 
-export const uploadPDF = async (file) => {
+export const uploadPDF = async (
 
-    const formData = new FormData();
+    file
 
-    formData.append("file", file);
+) => {
 
-    const response = await api.post(
-        "/upload/pdf",
-        formData,
-        {
-            headers: {
-                "Content-Type": "multipart/form-data",
-            },
-        }
+    const formData =
+        new FormData();
+
+    formData.append(
+
+        "file",
+
+        file
+
     );
 
+    const response =
+        await api.post(
+
+            "/upload/pdf",
+
+            formData,
+
+            {
+
+                headers: {
+
+                    "Content-Type":
+                        "multipart/form-data"
+
+                }
+
+            }
+
+        );
+
     return response.data;
+
 };
 
-// -----------------------------
+// =========================
 // Upload Image
-// -----------------------------
+// =========================
 
-export const uploadImage = async (file) => {
+export const uploadImage = async (
 
-    const formData = new FormData();
+    file
 
-    formData.append("file", file);
+) => {
 
-    const response = await api.post(
-        "/upload/image",
-        formData,
-        {
-            headers: {
-                "Content-Type": "multipart/form-data",
-            },
-        }
+    const formData =
+        new FormData();
+
+    formData.append(
+
+        "file",
+
+        file
+
     );
 
+    const response =
+        await api.post(
+
+            "/upload/image",
+
+            formData,
+
+            {
+
+                headers: {
+
+                    "Content-Type":
+                        "multipart/form-data"
+
+                }
+
+            }
+
+        );
+
     return response.data;
+
 };
 
 export default api;
+
+// =========================
+// Knowledge Explorer
+// =========================
+
+export const getKnowledge = async () => {
+
+    const response = await api.get("/knowledge");
+
+    return response.data;
+
+};
