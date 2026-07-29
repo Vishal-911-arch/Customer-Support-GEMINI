@@ -5,22 +5,17 @@ from typing import List, Optional
 from dotenv import load_dotenv
 from google import genai
 from PIL import Image
+
 from config import GEMINI_MODEL
 from rag.pipeline import RAGPipeline
-from rag.graph_pipeline import GraphPipeline
-from rag.image_classifier import ImageClassifier
 
 load_dotenv()
 
-graph_pipeline = GraphPipeline()
-classifier = ImageClassifier()
 pipeline = RAGPipeline()
 
 client = genai.Client(
     api_key=os.getenv("GEMINI_API_KEY")
 )
-
-graph_cache = {}
 
 
 class ChatService:
@@ -92,6 +87,35 @@ Last message:
         except Exception:
             return question
 
+    @staticmethod
+    def generate_title(question, answer):
+        prompt = f"""
+You generate short chat titles.
+
+Rules:
+- Maximum 4 words.
+- No punctuation.
+- No quotes.
+- Return ONLY the title.
+
+Question:
+{question}
+
+Answer:
+{answer}
+"""
+
+        try:
+            response = client.models.generate_content(
+                model=GEMINI_MODEL,
+                contents=prompt
+            )
+            title = response.text.strip()
+            return title or "New Chat"
+        except Exception:
+            words = question.strip().split()
+            return " ".join(words[:4]).title() or "New Chat"
+
     # ==================================================
     # PDF RAG
     # ==================================================
@@ -107,7 +131,7 @@ Last message:
 
         if ChatService.is_acknowledgment(standalone_question):
             return ChatService.ack_response()
-             
+
         result = pipeline.ask(standalone_question)
 
         title = ChatService.generate_title(
@@ -139,10 +163,7 @@ Last message:
         print("QUESTION :", standalone_question)
         print("IMAGE :", image_path)
 
-        # ======================================
-        # Resize Large Images
-        # ======================================
-
+        # Resize large images only
         load_start = time.time()
 
         with Image.open(image_path) as img:
@@ -164,57 +185,6 @@ Last message:
                 print("Using resized image.")
             else:
                 print("Using original image.")
-
-        # ======================================
-        # Classify Image
-        # ======================================
-
-        classify_start = time.time()
-
-        image_type = classifier.classify_image(image_path)
-
-        print("IMAGE TYPE :", image_type)
-        print(f"Classification : {time.time() - classify_start:.2f}s")
-
-        # ======================================
-        # GRAPH MODE
-        # ======================================
-
-        if image_type == "graph":
-
-            print("\n✓ GRAPH MODE\n")
-
-            if image_path in graph_cache:
-                print("✓ Using cached graph")
-                graph_data = graph_cache[image_path]
-            else:
-                print("✓ Running graph pipeline")
-                graph_data = graph_pipeline.analyze(image_path)
-                graph_cache[image_path] = graph_data
-
-            answer = graph_pipeline.llm.answer_question(
-                graph_data,
-                standalone_question
-            )
-
-            title = ChatService.generate_title(
-                standalone_question,
-                answer
-            )
-
-            print(f"Graph Time : {time.time() - start:.2f}s")
-
-            return {
-                "answer": answer,
-                "title": title,
-                "sources": [],
-                "graph": graph_data,
-                "vision": []
-            }
-
-        # ======================================
-        # GEMINI VISION MODE
-        # ======================================
 
         print("\n✓ GEMINI VISION MODE\n")
 
@@ -238,16 +208,11 @@ Last message:
 
         answer = response.text
 
-        title_start = time.time()
-
         title = ChatService.generate_title(
             standalone_question,
             answer
         )
 
-        title_end = time.time()
-
-        print(f"Title Generation : {title_end - title_start:.2f}s")
         print(f"TOTAL IMAGE REQUEST : {time.time() - start:.2f}s")
 
         return {
@@ -257,32 +222,3 @@ Last message:
             "graph": None,
             "vision": []
         }
-
-    # ==================================================
-    # GENERATE CHAT TITLE
-    # ==================================================
-
-    @staticmethod
-    def generate_title(question, answer):
-        prompt = f"""
-You generate short chat titles.
-
-Rules:
-- Maximum 4 words.
-- No punctuation.
-- No quotes.
-- Return ONLY the title.
-
-Question:
-{question}
-
-Answer:
-{answer}
-"""
-
-        response = client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=prompt
-        )
-
-        return response.text.strip()

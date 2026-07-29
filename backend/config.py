@@ -64,3 +64,6 @@ for directory in [
     UPLOADED_IMAGES_DIR,
 ]:
     directory.mkdir(parents=True, exist_ok=True)
+ENABLE_MULTIMODAL_PDF_INGESTION = os.getenv("ENABLE_MULTIMODAL_PDF_INGESTION", "false").lower() in {"1", "true", "yes"}
+ENABLE_IMAGE_VISION = os.getenv("ENABLE_IMAGE_VISION", "false").lower() in {"1", "true", "yes"}
+ENABLE_GRAPH_ANALYSIS = os.getenv("ENABLE_GRAPH_ANALYSIS", "false").lower() in {"1", "true", "yes"}

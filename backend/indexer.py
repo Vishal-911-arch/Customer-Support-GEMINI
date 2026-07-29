@@ -1,15 +1,12 @@
 from pathlib import Path
 
 from rag.context_linker import ContextLinker
-from rag.figure_indexer import FigureIndexer
 from rag.loader import PDFLoader
 from rag.chunker import DocumentChunker
 from rag.embeddings import EmbeddingGenerator
 from rag.vectordb import VectorDatabase
 from rag.page_renderer import PDFPageRenderer
-from rag.image_classifier import ImageClassifier
-from rag.ocr import OCRProcessor
-from rag.ocr_document_builder import OCRDocumentBuilder
+
 
 from utils.upload_status import upload_status
 
@@ -35,19 +32,26 @@ class KnowledgeIndexer:
 
         self.renderer = PDFPageRenderer()
 
-        self.image_classifier = ImageClassifier()
-
-        self.ocr = OCRProcessor()
-
-        self.ocr_builder = OCRDocumentBuilder()
-
-        self.figure_indexer = FigureIndexer()
 
     # ==========================================================
     # BUILD MULTIMODAL DOCUMENTS
     # ==========================================================
 
     def build_multimodal_documents(self, pdf_path, include_multimodal=False):
+
+        if include_multimodal:
+            if self.renderer is None:
+                from rag.page_renderer import PDFPageRenderer
+                from rag.image_classifier import ImageClassifier
+                from rag.ocr import OCRProcessor
+                from rag.ocr_document_builder import OCRDocumentBuilder
+                from rag.figure_indexer import FigureIndexer
+
+                self.renderer = PDFPageRenderer()
+                self.image_classifier = ImageClassifier()
+                self.ocr = OCRProcessor()
+                self.ocr_builder = OCRDocumentBuilder()
+                self.figure_indexer = FigureIndexer()
 
         pdf_path = Path(pdf_path)
 
