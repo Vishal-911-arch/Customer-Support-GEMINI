@@ -1,0 +1,1428 @@
+{
+    "document": "DBMS-Unit-5-By-Multi-Atoms-Plus",
+    "page": "page_12",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\DBMS-Unit-5-By-Multi-Atoms-Plus\\page_12.png",
+    "text": "Multiple Granularity What is Granularity? Granularity refers to the size of the data that can be locked in a database. - Small Granularity: Locking a single record (fine-grained). - Large Granularity: Locking an entire table or database (coarse-grained). Why Multiple Granularity Locking? Problem: - If a transaction (T1) needs to lock the entire database, locking every single record is inefficient. - If another transaction (T2) needs just one record, locking the whole database affects concurrency unnecessarily. Solution: - Multiple granularity allows locking different parts of the database (like records, files, or areas) depending on the needs of the transaction. This balance improves both efficiency and concurrency. Hierarchy of Locks The database is divided into levels, like a tree: 1. Database (highest level). 2. Area (e.g., a category in the database). 3. File (e.g., a table). 4.Record (lowest level, individual row ina table).",
+    "words": [
+        {
+            "text": "Multiple",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 167,
+                "top": 472,
+                "width": 251,
+                "height": 72
+            }
+        },
+        {
+            "text": "Granularity",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 451,
+                "top": 472,
+                "width": 361,
+                "height": 72
+            }
+        },
+        {
+            "text": "What",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 228,
+                "top": 645,
+                "width": 137,
+                "height": 41
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 385,
+                "top": 645,
+                "width": 39,
+                "height": 41
+            }
+        },
+        {
+            "text": "Granularity?",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 446,
+                "top": 644,
+                "width": 329,
+                "height": 53
+            }
+        },
+        {
+            "text": "Granularity",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 173,
+                "top": 804,
+                "width": 292,
+                "height": 60
+            }
+        },
+        {
+            "text": "refers",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 487,
+                "top": 804,
+                "width": 165,
+                "height": 48
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 673,
+                "top": 810,
+                "width": 52,
+                "height": 40
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 746,
+                "top": 804,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "size",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 852,
+                "top": 807,
+                "width": 102,
+                "height": 43
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 974,
+                "top": 804,
+                "width": 53,
+                "height": 48
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1049,
+                "top": 804,
+                "width": 86,
+                "height": 46
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1156,
+                "top": 804,
+                "width": 113,
+                "height": 46
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 1289,
+                "top": 804,
+                "width": 111,
+                "height": 46
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1421,
+                "top": 818,
+                "width": 82,
+                "height": 32
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1526,
+                "top": 805,
+                "width": 59,
+                "height": 44
+            }
+        },
+        {
+            "text": "locked",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1608,
+                "top": 804,
+                "width": 160,
+                "height": 46
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 1792,
+                "top": 807,
+                "width": 39,
+                "height": 43
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 1850,
+                "top": 819,
+                "width": 27,
+                "height": 31
+            }
+        },
+        {
+            "text": "database.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1898,
+                "top": 804,
+                "width": 245,
+                "height": 47
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 47.0,
+            "bbox": {
+                "left": 241,
+                "top": 932,
+                "width": 12,
+                "height": 12
+            }
+        },
+        {
+            "text": "Small",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 285,
+                "top": 905,
+                "width": 139,
+                "height": 47
+            }
+        },
+        {
+            "text": "Granularity:",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 454,
+                "top": 905,
+                "width": 317,
+                "height": 60
+            }
+        },
+        {
+            "text": "Locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 799,
+                "top": 905,
+                "width": 190,
+                "height": 60
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1008,
+                "top": 920,
+                "width": 27,
+                "height": 31
+            }
+        },
+        {
+            "text": "single",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1054,
+                "top": 905,
+                "width": 146,
+                "height": 60
+            }
+        },
+        {
+            "text": "record",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1222,
+                "top": 905,
+                "width": 169,
+                "height": 46
+            }
+        },
+        {
+            "text": "(fine-grained).",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1414,
+                "top": 905,
+                "width": 371,
+                "height": 60
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 241,
+                "top": 1000,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "Large",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 286,
+                "top": 975,
+                "width": 146,
+                "height": 58
+            }
+        },
+        {
+            "text": "Granularity:",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 459,
+                "top": 973,
+                "width": 318,
+                "height": 60
+            }
+        },
+        {
+            "text": "Locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 812,
+                "top": 973,
+                "width": 190,
+                "height": 60
+            }
+        },
+        {
+            "text": "an",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1022,
+                "top": 987,
+                "width": 55,
+                "height": 32
+            }
+        },
+        {
+            "text": "entire",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1097,
+                "top": 976,
+                "width": 158,
+                "height": 43
+            }
+        },
+        {
+            "text": "table",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1274,
+                "top": 973,
+                "width": 132,
+                "height": 46
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1426,
+                "top": 988,
+                "width": 53,
+                "height": 31
+            }
+        },
+        {
+            "text": "database",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1500,
+                "top": 973,
+                "width": 234,
+                "height": 46
+            }
+        },
+        {
+            "text": "(coarse-grained).",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1754,
+                "top": 973,
+                "width": 440,
+                "height": 60
+            }
+        },
+        {
+            "text": "Why",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 201,
+                "top": 1235,
+                "width": 117,
+                "height": 52
+            }
+        },
+        {
+            "text": "Multiple",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 339,
+                "top": 1235,
+                "width": 206,
+                "height": 51
+            }
+        },
+        {
+            "text": "Granularity",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 566,
+                "top": 1234,
+                "width": 295,
+                "height": 53
+            }
+        },
+        {
+            "text": "Locking?",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 882,
+                "top": 1234,
+                "width": 244,
+                "height": 53
+            }
+        },
+        {
+            "text": "Problem:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 168,
+                "top": 1425,
+                "width": 225,
+                "height": 47
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 236,
+                "top": 1553,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 280,
+                "top": 1526,
+                "width": 55,
+                "height": 48
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 355,
+                "top": 1541,
+                "width": 27,
+                "height": 31
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 402,
+                "top": 1529,
+                "width": 294,
+                "height": 43
+            }
+        },
+        {
+            "text": "(T1)",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 717,
+                "top": 1526,
+                "width": 100,
+                "height": 56
+            }
+        },
+        {
+            "text": "needs",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 838,
+                "top": 1526,
+                "width": 146,
+                "height": 46
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1006,
+                "top": 1532,
+                "width": 51,
+                "height": 40
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1081,
+                "top": 1526,
+                "width": 99,
+                "height": 46
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1199,
+                "top": 1526,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "entire",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1306,
+                "top": 1529,
+                "width": 157,
+                "height": 43
+            }
+        },
+        {
+            "text": "database,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1484,
+                "top": 1526,
+                "width": 248,
+                "height": 53
+            }
+        },
+        {
+            "text": "locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1755,
+                "top": 1526,
+                "width": 173,
+                "height": 60
+            }
+        },
+        {
+            "text": "every",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1948,
+                "top": 1541,
+                "width": 142,
+                "height": 45
+            }
+        },
+        {
+            "text": "single",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2109,
+                "top": 1526,
+                "width": 147,
+                "height": 60
+            }
+        },
+        {
+            "text": "record",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 282,
+                "top": 1593,
+                "width": 169,
+                "height": 46
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 476,
+                "top": 1596,
+                "width": 36,
+                "height": 43
+            }
+        },
+        {
+            "text": "inefficient.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 536,
+                "top": 1593,
+                "width": 286,
+                "height": 48
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 236,
+                "top": 1688,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 280,
+                "top": 1661,
+                "width": 55,
+                "height": 48
+            }
+        },
+        {
+            "text": "another",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 355,
+                "top": 1661,
+                "width": 201,
+                "height": 46
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 577,
+                "top": 1664,
+                "width": 295,
+                "height": 43
+            }
+        },
+        {
+            "text": "(T2)",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 893,
+                "top": 1661,
+                "width": 109,
+                "height": 56
+            }
+        },
+        {
+            "text": "needs",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1023,
+                "top": 1661,
+                "width": 146,
+                "height": 46
+            }
+        },
+        {
+            "text": "just",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1188,
+                "top": 1664,
+                "width": 104,
+                "height": 57
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1313,
+                "top": 1675,
+                "width": 87,
+                "height": 32
+            }
+        },
+        {
+            "text": "record,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1421,
+                "top": 1661,
+                "width": 186,
+                "height": 53
+            }
+        },
+        {
+            "text": "locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1631,
+                "top": 1661,
+                "width": 172,
+                "height": 60
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1824,
+                "top": 1661,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "whole",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1930,
+                "top": 1661,
+                "width": 144,
+                "height": 46
+            }
+        },
+        {
+            "text": "database",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2095,
+                "top": 1661,
+                "width": 233,
+                "height": 46
+            }
+        },
+        {
+            "text": "affects",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 279,
+                "top": 1728,
+                "width": 196,
+                "height": 48
+            }
+        },
+        {
+            "text": "concurrency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 497,
+                "top": 1742,
+                "width": 314,
+                "height": 46
+            }
+        },
+        {
+            "text": "unnecessarily.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 832,
+                "top": 1728,
+                "width": 357,
+                "height": 60
+            }
+        },
+        {
+            "text": "Solution:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 167,
+                "top": 1829,
+                "width": 230,
+                "height": 46
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 72.0,
+            "bbox": {
+                "left": 236,
+                "top": 1958,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Multiple",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 281,
+                "top": 1931,
+                "width": 209,
+                "height": 60
+            }
+        },
+        {
+            "text": "granularity",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 509,
+                "top": 1931,
+                "width": 284,
+                "height": 60
+            }
+        },
+        {
+            "text": "allows",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 812,
+                "top": 1931,
+                "width": 152,
+                "height": 46
+            }
+        },
+        {
+            "text": "locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 988,
+                "top": 1931,
+                "width": 172,
+                "height": 60
+            }
+        },
+        {
+            "text": "different",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1182,
+                "top": 1931,
+                "width": 245,
+                "height": 48
+            }
+        },
+        {
+            "text": "parts",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1449,
+                "top": 1937,
+                "width": 134,
+                "height": 54
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1604,
+                "top": 1931,
+                "width": 54,
+                "height": 48
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1679,
+                "top": 1931,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "database",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1787,
+                "top": 1931,
+                "width": 233,
+                "height": 46
+            }
+        },
+        {
+            "text": "(like",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2041,
+                "top": 1931,
+                "width": 109,
+                "height": 56
+            }
+        },
+        {
+            "text": "records,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2171,
+                "top": 1931,
+                "width": 214,
+                "height": 53
+            }
+        },
+        {
+            "text": "files,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 280,
+                "top": 1998,
+                "width": 130,
+                "height": 53
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 430,
+                "top": 2013,
+                "width": 53,
+                "height": 31
+            }
+        },
+        {
+            "text": "areas)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 502,
+                "top": 1998,
+                "width": 161,
+                "height": 56
+            }
+        },
+        {
+            "text": "depending",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 684,
+                "top": 1998,
+                "width": 258,
+                "height": 60
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 962,
+                "top": 2012,
+                "width": 56,
+                "height": 32
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1038,
+                "top": 1998,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "needs",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1146,
+                "top": 1998,
+                "width": 145,
+                "height": 46
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1313,
+                "top": 1998,
+                "width": 53,
+                "height": 48
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1388,
+                "top": 1998,
+                "width": 86,
+                "height": 46
+            }
+        },
+        {
+            "text": "transaction.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1494,
+                "top": 2001,
+                "width": 307,
+                "height": 44
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1824,
+                "top": 1998,
+                "width": 108,
+                "height": 46
+            }
+        },
+        {
+            "text": "balance",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1955,
+                "top": 1998,
+                "width": 191,
+                "height": 46
+            }
+        },
+        {
+            "text": "improves",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2168,
+                "top": 2001,
+                "width": 224,
+                "height": 57
+            }
+        },
+        {
+            "text": "both",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 282,
+                "top": 2065,
+                "width": 115,
+                "height": 46
+            }
+        },
+        {
+            "text": "efficiency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 419,
+                "top": 2065,
+                "width": 263,
+                "height": 60
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 701,
+                "top": 2065,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "concurrency.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 811,
+                "top": 2079,
+                "width": 326,
+                "height": 46
+            }
+        },
+        {
+            "text": "Hierarchy",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 163,
+                "top": 2274,
+                "width": 278,
+                "height": 63
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 468,
+                "top": 2274,
+                "width": 58,
+                "height": 51
+            }
+        },
+        {
+            "text": "Locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 555,
+                "top": 2274,
+                "width": 151,
+                "height": 49
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 163,
+                "top": 2344,
+                "width": 98,
+                "height": 46
+            }
+        },
+        {
+            "text": "database",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 281,
+                "top": 2344,
+                "width": 234,
+                "height": 46
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 537,
+                "top": 2347,
+                "width": 36,
+                "height": 43
+            }
+        },
+        {
+            "text": "divided",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 595,
+                "top": 2344,
+                "width": 183,
+                "height": 45
+            }
+        },
+        {
+            "text": "into",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 802,
+                "top": 2347,
+                "width": 94,
+                "height": 43
+            }
+        },
+        {
+            "text": "levels,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 920,
+                "top": 2344,
+                "width": 156,
+                "height": 53
+            }
+        },
+        {
+            "text": "like",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1100,
+                "top": 2344,
+                "width": 86,
+                "height": 45
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1205,
+                "top": 2359,
+                "width": 27,
+                "height": 31
+            }
+        },
+        {
+            "text": "tree:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1251,
+                "top": 2350,
+                "width": 124,
+                "height": 40
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 237,
+                "top": 2463,
+                "width": 23,
+                "height": 28
+            }
+        },
+        {
+            "text": "Database",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 277,
+                "top": 2446,
+                "width": 239,
+                "height": 46
+            }
+        },
+        {
+            "text": "(highest",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 537,
+                "top": 2445,
+                "width": 211,
+                "height": 60
+            }
+        },
+        {
+            "text": "level).",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 771,
+                "top": 2445,
+                "width": 147,
+                "height": 56
+            }
+        },
+        {
+            "text": "2.",
+            "confidence": 77.0,
+            "bbox": {
+                "left": 236,
+                "top": 2531,
+                "width": 24,
+                "height": 27
+            }
+        },
+        {
+            "text": "Area",
+            "confidence": 77.0,
+            "bbox": {
+                "left": 276,
+                "top": 2515,
+                "width": 123,
+                "height": 43
+            }
+        },
+        {
+            "text": "(e.g.,",
+            "confidence": 56.0,
+            "bbox": {
+                "left": 420,
+                "top": 2512,
+                "width": 120,
+                "height": 60
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 56.0,
+            "bbox": {
+                "left": 559,
+                "top": 2527,
+                "width": 27,
+                "height": 31
+            }
+        },
+        {
+            "text": "category",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 607,
+                "top": 2518,
+                "width": 226,
+                "height": 54
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 856,
+                "top": 2515,
+                "width": 39,
+                "height": 43
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 915,
+                "top": 2512,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "database).",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1023,
+                "top": 2512,
+                "width": 265,
+                "height": 56
+            }
+        },
+        {
+            "text": "3.",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 235,
+                "top": 2599,
+                "width": 25,
+                "height": 27
+            }
+        },
+        {
+            "text": "File",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 277,
+                "top": 2580,
+                "width": 91,
+                "height": 47
+            }
+        },
+        {
+            "text": "(e.g.,",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 388,
+                "top": 2580,
+                "width": 120,
+                "height": 60
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 528,
+                "top": 2595,
+                "width": 27,
+                "height": 31
+            }
+        },
+        {
+            "text": "table).",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 574,
+                "top": 2580,
+                "width": 165,
+                "height": 56
+            }
+        },
+        {
+            "text": "4.Record",
+            "confidence": 77.0,
+            "bbox": {
+                "left": 234,
+                "top": 2647,
+                "width": 220,
+                "height": 46
+            }
+        },
+        {
+            "text": "(lowest",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 477,
+                "top": 2647,
+                "width": 184,
+                "height": 56
+            }
+        },
+        {
+            "text": "level,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 684,
+                "top": 2647,
+                "width": 129,
+                "height": 53
+            }
+        },
+        {
+            "text": "individual",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 836,
+                "top": 2647,
+                "width": 234,
+                "height": 46
+            }
+        },
+        {
+            "text": "row",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1095,
+                "top": 2662,
+                "width": 90,
+                "height": 31
+            }
+        },
+        {
+            "text": "ina",
+            "confidence": 75.0,
+            "bbox": {
+                "left": 1208,
+                "top": 2650,
+                "width": 85,
+                "height": 43
+            }
+        },
+        {
+            "text": "table).",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1312,
+                "top": 2647,
+                "width": 165,
+                "height": 56
+            }
+        }
+    ]
+}

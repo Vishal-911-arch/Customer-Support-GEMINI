@@ -1,0 +1,2388 @@
+{
+    "document": "DBMS-Unit-5-By-Multi-Atoms-Plus",
+    "page": "page_7",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\DBMS-Unit-5-By-Multi-Atoms-Plus\\page_7.png",
+    "text": "« This avoids situations like cascading rollbacks (when one failure causes many other transactions to fail). - By holding all locks until commit, it ensures that no other transaction can interfere before the work is finalized. Scenario: T1 is transferring 200 from account A to account B, and T2 is reading the balance of account A. Steps: 1.T1 acquires a write lock on account A and account B (Growing Phase). 2.11 performs the transfer: Debit 200 from A: 500 - 200 = 300. & Credit 200 to B: 1000 + 200 = 1200. 3. T1 holds all locks until it commits. 4. After the transaction commits, T1 releases all locks (Shrinking Phase). Advantage: Prevents cascading rollbacks. If T1 fails halfway, other transactions like T2 won't see incomplete or incorrect data. Protocol Locks Held Lock Release Example Use Case Simplistic Lock Lacks only while After writing Updating a single data item Protocol writing without interference. Pre-claiming Lock All locks at the start After completing the Safe execution of short Protocol transaction transactions with known locks. Two-Phase Locking — Locks during Gradually in shrinking Transaction requiring multiple locks (2PL) growing phase phase in sequence. Strict 2PL Locks during All at commit Preventing cascading rollbacks in transaction critical updates. Timestamping Protocols AKTU - 2023-24 & 2021-22 Timestamping protocols help in maintaining the serializability of transactions without using locks. Each transaction is assigned a unique timestamp that determines the order of execution.",
+    "words": [
+        {
+            "text": "«",
+            "confidence": 32.0,
+            "bbox": {
+                "left": 241,
+                "top": 126,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 287,
+                "top": 103,
+                "width": 103,
+                "height": 42
+            }
+        },
+        {
+            "text": "avoids",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 409,
+                "top": 103,
+                "width": 150,
+                "height": 42
+            }
+        },
+        {
+            "text": "situations",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 578,
+                "top": 104,
+                "width": 240,
+                "height": 41
+            }
+        },
+        {
+            "text": "like",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 840,
+                "top": 103,
+                "width": 83,
+                "height": 41
+            }
+        },
+        {
+            "text": "cascading",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 943,
+                "top": 103,
+                "width": 233,
+                "height": 55
+            }
+        },
+        {
+            "text": "rollbacks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1198,
+                "top": 103,
+                "width": 218,
+                "height": 42
+            }
+        },
+        {
+            "text": "(when",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1437,
+                "top": 103,
+                "width": 139,
+                "height": 51
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1596,
+                "top": 115,
+                "width": 82,
+                "height": 30
+            }
+        },
+        {
+            "text": "failure",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1697,
+                "top": 103,
+                "width": 164,
+                "height": 44
+            }
+        },
+        {
+            "text": "causes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1881,
+                "top": 113,
+                "width": 159,
+                "height": 32
+            }
+        },
+        {
+            "text": "many",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2061,
+                "top": 114,
+                "width": 121,
+                "height": 44
+            }
+        },
+        {
+            "text": "other",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2200,
+                "top": 103,
+                "width": 136,
+                "height": 42
+            }
+        },
+        {
+            "text": "transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 286,
+                "top": 194,
+                "width": 304,
+                "height": 41
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 610,
+                "top": 197,
+                "width": 49,
+                "height": 38
+            }
+        },
+        {
+            "text": "fail).",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 680,
+                "top": 191,
+                "width": 111,
+                "height": 53
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 78.0,
+            "bbox": {
+                "left": 241,
+                "top": 308,
+                "width": 12,
+                "height": 12
+            }
+        },
+        {
+            "text": "By",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 289,
+                "top": 284,
+                "width": 55,
+                "height": 56
+            }
+        },
+        {
+            "text": "holding",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 365,
+                "top": 283,
+                "width": 170,
+                "height": 57
+            }
+        },
+        {
+            "text": "all",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 554,
+                "top": 283,
+                "width": 52,
+                "height": 44
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 630,
+                "top": 283,
+                "width": 119,
+                "height": 44
+            }
+        },
+        {
+            "text": "until",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 769,
+                "top": 283,
+                "width": 104,
+                "height": 44
+            }
+        },
+        {
+            "text": "commit,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 896,
+                "top": 286,
+                "width": 188,
+                "height": 48
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1107,
+                "top": 286,
+                "width": 34,
+                "height": 41
+            }
+        },
+        {
+            "text": "ensures",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1160,
+                "top": 295,
+                "width": 188,
+                "height": 32
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1368,
+                "top": 283,
+                "width": 105,
+                "height": 44
+            }
+        },
+        {
+            "text": "no",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1493,
+                "top": 297,
+                "width": 50,
+                "height": 30
+            }
+        },
+        {
+            "text": "other",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1564,
+                "top": 283,
+                "width": 136,
+                "height": 44
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1719,
+                "top": 286,
+                "width": 279,
+                "height": 41
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2019,
+                "top": 297,
+                "width": 78,
+                "height": 30
+            }
+        },
+        {
+            "text": "interfere",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2120,
+                "top": 283,
+                "width": 228,
+                "height": 46
+            }
+        },
+        {
+            "text": "before",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 288,
+                "top": 373,
+                "width": 165,
+                "height": 46
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 472,
+                "top": 373,
+                "width": 82,
+                "height": 44
+            }
+        },
+        {
+            "text": "work",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 574,
+                "top": 373,
+                "width": 116,
+                "height": 44
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 712,
+                "top": 376,
+                "width": 34,
+                "height": 41
+            }
+        },
+        {
+            "text": "finalized.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 766,
+                "top": 373,
+                "width": 224,
+                "height": 46
+            }
+        },
+        {
+            "text": "Scenario:",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 159,
+                "top": 639,
+                "width": 211,
+                "height": 36
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 389,
+                "top": 640,
+                "width": 46,
+                "height": 34
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 460,
+                "top": 640,
+                "width": 30,
+                "height": 35
+            }
+        },
+        {
+            "text": "transferring",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 506,
+                "top": 639,
+                "width": 237,
+                "height": 45
+            }
+        },
+        {
+            "text": "200",
+            "confidence": 52.0,
+            "bbox": {
+                "left": 762,
+                "top": 640,
+                "width": 102,
+                "height": 35
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 879,
+                "top": 639,
+                "width": 93,
+                "height": 36
+            }
+        },
+        {
+            "text": "account",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 990,
+                "top": 640,
+                "width": 256,
+                "height": 35
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1167,
+                "top": 635,
+                "width": 19,
+                "height": 54
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1208,
+                "top": 635,
+                "width": 41,
+                "height": 54
+            }
+        },
+        {
+            "text": "account",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1263,
+                "top": 641,
+                "width": 165,
+                "height": 34
+            }
+        },
+        {
+            "text": "B,",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 1445,
+                "top": 640,
+                "width": 38,
+                "height": 41
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1502,
+                "top": 640,
+                "width": 75,
+                "height": 35
+            }
+        },
+        {
+            "text": "T2",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1594,
+                "top": 640,
+                "width": 52,
+                "height": 34
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1665,
+                "top": 640,
+                "width": 29,
+                "height": 35
+            }
+        },
+        {
+            "text": "reading",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1712,
+                "top": 640,
+                "width": 153,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1883,
+                "top": 640,
+                "width": 63,
+                "height": 35
+            }
+        },
+        {
+            "text": "balance",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1965,
+                "top": 640,
+                "width": 162,
+                "height": 35
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2143,
+                "top": 639,
+                "width": 40,
+                "height": 36
+            }
+        },
+        {
+            "text": "account",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 159,
+                "top": 700,
+                "width": 165,
+                "height": 34
+            }
+        },
+        {
+            "text": "A.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 335,
+                "top": 699,
+                "width": 41,
+                "height": 34
+            }
+        },
+        {
+            "text": "Steps:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 159,
+                "top": 815,
+                "width": 156,
+                "height": 50
+            }
+        },
+        {
+            "text": "1.T1",
+            "confidence": 73.0,
+            "bbox": {
+                "left": 235,
+                "top": 918,
+                "width": 81,
+                "height": 34
+            }
+        },
+        {
+            "text": "acquires",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 340,
+                "top": 918,
+                "width": 177,
+                "height": 44
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 534,
+                "top": 927,
+                "width": 23,
+                "height": 26
+            }
+        },
+        {
+            "text": "write",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 572,
+                "top": 918,
+                "width": 99,
+                "height": 35
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 689,
+                "top": 918,
+                "width": 82,
+                "height": 35
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 786,
+                "top": 927,
+                "width": 48,
+                "height": 26
+            }
+        },
+        {
+            "text": "account",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 853,
+                "top": 918,
+                "width": 208,
+                "height": 35
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1034,
+                "top": 913,
+                "width": 23,
+                "height": 53
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1073,
+                "top": 918,
+                "width": 75,
+                "height": 35
+            }
+        },
+        {
+            "text": "account",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1166,
+                "top": 919,
+                "width": 165,
+                "height": 34
+            }
+        },
+        {
+            "text": "B",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1348,
+                "top": 918,
+                "width": 26,
+                "height": 34
+            }
+        },
+        {
+            "text": "(Growing",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1393,
+                "top": 917,
+                "width": 187,
+                "height": 45
+            }
+        },
+        {
+            "text": "Phase).",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1601,
+                "top": 917,
+                "width": 156,
+                "height": 45
+            }
+        },
+        {
+            "text": "2.11",
+            "confidence": 67.0,
+            "bbox": {
+                "left": 233,
+                "top": 991,
+                "width": 83,
+                "height": 34
+            }
+        },
+        {
+            "text": "performs",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 342,
+                "top": 990,
+                "width": 183,
+                "height": 45
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 541,
+                "top": 991,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "transfer:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 621,
+                "top": 990,
+                "width": 170,
+                "height": 36
+            }
+        },
+        {
+            "text": "Debit",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 812,
+                "top": 991,
+                "width": 107,
+                "height": 35
+            }
+        },
+        {
+            "text": "200",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 935,
+                "top": 991,
+                "width": 102,
+                "height": 35
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1053,
+                "top": 990,
+                "width": 92,
+                "height": 36
+            }
+        },
+        {
+            "text": "A:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1159,
+                "top": 991,
+                "width": 41,
+                "height": 34
+            }
+        },
+        {
+            "text": "500",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1219,
+                "top": 991,
+                "width": 76,
+                "height": 35
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1311,
+                "top": 1010,
+                "width": 14,
+                "height": 5
+            }
+        },
+        {
+            "text": "200",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1341,
+                "top": 991,
+                "width": 76,
+                "height": 35
+            }
+        },
+        {
+            "text": "=",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1435,
+                "top": 1001,
+                "width": 23,
+                "height": 14
+            }
+        },
+        {
+            "text": "300.",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1475,
+                "top": 991,
+                "width": 87,
+                "height": 35
+            }
+        },
+        {
+            "text": "&",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1595,
+                "top": 990,
+                "width": 29,
+                "height": 36
+            }
+        },
+        {
+            "text": "Credit",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1640,
+                "top": 990,
+                "width": 125,
+                "height": 36
+            }
+        },
+        {
+            "text": "200",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1781,
+                "top": 991,
+                "width": 102,
+                "height": 35
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1899,
+                "top": 992,
+                "width": 37,
+                "height": 34
+            }
+        },
+        {
+            "text": "B:",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1955,
+                "top": 991,
+                "width": 37,
+                "height": 34
+            }
+        },
+        {
+            "text": "1000",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2015,
+                "top": 991,
+                "width": 99,
+                "height": 35
+            }
+        },
+        {
+            "text": "+",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2132,
+                "top": 997,
+                "width": 23,
+                "height": 23
+            }
+        },
+        {
+            "text": "200",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2172,
+                "top": 991,
+                "width": 76,
+                "height": 35
+            }
+        },
+        {
+            "text": "=",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2266,
+                "top": 1001,
+                "width": 23,
+                "height": 14
+            }
+        },
+        {
+            "text": "1200.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 275,
+                "top": 1061,
+                "width": 110,
+                "height": 35
+            }
+        },
+        {
+            "text": "3.",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 233,
+                "top": 1134,
+                "width": 83,
+                "height": 35
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 286,
+                "top": 1130,
+                "width": 36,
+                "height": 53
+            }
+        },
+        {
+            "text": "holds",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 342,
+                "top": 1134,
+                "width": 109,
+                "height": 35
+            }
+        },
+        {
+            "text": "all",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 468,
+                "top": 1134,
+                "width": 42,
+                "height": 35
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 530,
+                "top": 1134,
+                "width": 104,
+                "height": 35
+            }
+        },
+        {
+            "text": "until",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 652,
+                "top": 1134,
+                "width": 81,
+                "height": 35
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 753,
+                "top": 1134,
+                "width": 20,
+                "height": 34
+            }
+        },
+        {
+            "text": "commits.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 789,
+                "top": 1134,
+                "width": 185,
+                "height": 35
+            }
+        },
+        {
+            "text": "4.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 233,
+                "top": 1214,
+                "width": 25,
+                "height": 24
+            }
+        },
+        {
+            "text": "After",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 270,
+                "top": 1203,
+                "width": 101,
+                "height": 36
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 384,
+                "top": 1204,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 464,
+                "top": 1204,
+                "width": 230,
+                "height": 35
+            }
+        },
+        {
+            "text": "commits,",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 712,
+                "top": 1204,
+                "width": 185,
+                "height": 41
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 915,
+                "top": 1204,
+                "width": 46,
+                "height": 34
+            }
+        },
+        {
+            "text": "releases",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 985,
+                "top": 1204,
+                "width": 177,
+                "height": 35
+            }
+        },
+        {
+            "text": "all",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1178,
+                "top": 1204,
+                "width": 43,
+                "height": 35
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1240,
+                "top": 1204,
+                "width": 105,
+                "height": 35
+            }
+        },
+        {
+            "text": "(Shrinking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1362,
+                "top": 1203,
+                "width": 209,
+                "height": 45
+            }
+        },
+        {
+            "text": "Phase).",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1592,
+                "top": 1203,
+                "width": 156,
+                "height": 45
+            }
+        },
+        {
+            "text": "Advantage:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 157,
+                "top": 1303,
+                "width": 256,
+                "height": 44
+            }
+        },
+        {
+            "text": "Prevents",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 434,
+                "top": 1303,
+                "width": 183,
+                "height": 35
+            }
+        },
+        {
+            "text": "cascading",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 634,
+                "top": 1303,
+                "width": 210,
+                "height": 44
+            }
+        },
+        {
+            "text": "rollbacks.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 863,
+                "top": 1303,
+                "width": 195,
+                "height": 35
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1080,
+                "top": 1302,
+                "width": 24,
+                "height": 35
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1116,
+                "top": 1303,
+                "width": 45,
+                "height": 34
+            }
+        },
+        {
+            "text": "fails",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1184,
+                "top": 1302,
+                "width": 83,
+                "height": 36
+            }
+        },
+        {
+            "text": "halfway,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1285,
+                "top": 1302,
+                "width": 164,
+                "height": 45
+            }
+        },
+        {
+            "text": "other",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1468,
+                "top": 1303,
+                "width": 108,
+                "height": 35
+            }
+        },
+        {
+            "text": "transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1590,
+                "top": 1303,
+                "width": 255,
+                "height": 35
+            }
+        },
+        {
+            "text": "like",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1862,
+                "top": 1303,
+                "width": 67,
+                "height": 35
+            }
+        },
+        {
+            "text": "T2",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1945,
+                "top": 1303,
+                "width": 52,
+                "height": 34
+            }
+        },
+        {
+            "text": "won't",
+            "confidence": 32.0,
+            "bbox": {
+                "left": 2013,
+                "top": 1302,
+                "width": 111,
+                "height": 36
+            }
+        },
+        {
+            "text": "see",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2139,
+                "top": 1312,
+                "width": 74,
+                "height": 26
+            }
+        },
+        {
+            "text": "incomplete",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 160,
+                "top": 1359,
+                "width": 226,
+                "height": 44
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 403,
+                "top": 1368,
+                "width": 41,
+                "height": 26
+            }
+        },
+        {
+            "text": "incorrect",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 460,
+                "top": 1359,
+                "width": 180,
+                "height": 35
+            }
+        },
+        {
+            "text": "data.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 655,
+                "top": 1359,
+                "width": 101,
+                "height": 35
+            }
+        },
+        {
+            "text": "Protocol",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 160,
+                "top": 1526,
+                "width": 166,
+                "height": 55
+            }
+        },
+        {
+            "text": "Locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 630,
+                "top": 1530,
+                "width": 110,
+                "height": 36
+            }
+        },
+        {
+            "text": "Held",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 755,
+                "top": 1530,
+                "width": 89,
+                "height": 36
+            }
+        },
+        {
+            "text": "Lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1115,
+                "top": 1530,
+                "width": 90,
+                "height": 36
+            }
+        },
+        {
+            "text": "Release",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1220,
+                "top": 1530,
+                "width": 151,
+                "height": 36
+            }
+        },
+        {
+            "text": "Example",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1652,
+                "top": 1530,
+                "width": 166,
+                "height": 47
+            }
+        },
+        {
+            "text": "Use",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1833,
+                "top": 1533,
+                "width": 72,
+                "height": 33
+            }
+        },
+        {
+            "text": "Case",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1917,
+                "top": 1533,
+                "width": 95,
+                "height": 33
+            }
+        },
+        {
+            "text": "Simplistic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 160,
+                "top": 1635,
+                "width": 191,
+                "height": 46
+            }
+        },
+        {
+            "text": "Lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 367,
+                "top": 1635,
+                "width": 89,
+                "height": 36
+            }
+        },
+        {
+            "text": "Lacks",
+            "confidence": 73.0,
+            "bbox": {
+                "left": 630,
+                "top": 1635,
+                "width": 104,
+                "height": 36
+            }
+        },
+        {
+            "text": "only",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 750,
+                "top": 1635,
+                "width": 82,
+                "height": 46
+            }
+        },
+        {
+            "text": "while",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 844,
+                "top": 1635,
+                "width": 103,
+                "height": 36
+            }
+        },
+        {
+            "text": "After",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1113,
+                "top": 1635,
+                "width": 97,
+                "height": 36
+            }
+        },
+        {
+            "text": "writing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1222,
+                "top": 1638,
+                "width": 133,
+                "height": 43
+            }
+        },
+        {
+            "text": "Updating",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1652,
+                "top": 1635,
+                "width": 176,
+                "height": 46
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1846,
+                "top": 1648,
+                "width": 18,
+                "height": 23
+            }
+        },
+        {
+            "text": "single",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1879,
+                "top": 1635,
+                "width": 115,
+                "height": 46
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2007,
+                "top": 1635,
+                "width": 84,
+                "height": 36
+            }
+        },
+        {
+            "text": "item",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 2109,
+                "top": 1638,
+                "width": 82,
+                "height": 33
+            }
+        },
+        {
+            "text": "Protocol",
+            "confidence": 8.0,
+            "bbox": {
+                "left": 160,
+                "top": 1708,
+                "width": 166,
+                "height": 54
+            }
+        },
+        {
+            "text": "writing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 627,
+                "top": 1708,
+                "width": 133,
+                "height": 54
+            }
+        },
+        {
+            "text": "without",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1649,
+                "top": 1712,
+                "width": 148,
+                "height": 36
+            }
+        },
+        {
+            "text": "interference.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1813,
+                "top": 1712,
+                "width": 240,
+                "height": 36
+            }
+        },
+        {
+            "text": "Pre-claiming",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 160,
+                "top": 1817,
+                "width": 253,
+                "height": 46
+            }
+        },
+        {
+            "text": "Lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 428,
+                "top": 1817,
+                "width": 92,
+                "height": 36
+            }
+        },
+        {
+            "text": "All",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 627,
+                "top": 1817,
+                "width": 49,
+                "height": 36
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 694,
+                "top": 1817,
+                "width": 94,
+                "height": 36
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 803,
+                "top": 1822,
+                "width": 34,
+                "height": 31
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 852,
+                "top": 1817,
+                "width": 61,
+                "height": 36
+            }
+        },
+        {
+            "text": "start",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 929,
+                "top": 1822,
+                "width": 84,
+                "height": 31
+            }
+        },
+        {
+            "text": "After",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1113,
+                "top": 1817,
+                "width": 97,
+                "height": 36
+            }
+        },
+        {
+            "text": "completing",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1222,
+                "top": 1817,
+                "width": 220,
+                "height": 46
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1458,
+                "top": 1817,
+                "width": 61,
+                "height": 36
+            }
+        },
+        {
+            "text": "Safe",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1649,
+                "top": 1817,
+                "width": 82,
+                "height": 36
+            }
+        },
+        {
+            "text": "execution",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1746,
+                "top": 1820,
+                "width": 187,
+                "height": 33
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1948,
+                "top": 1817,
+                "width": 41,
+                "height": 36
+            }
+        },
+        {
+            "text": "short",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2002,
+                "top": 1817,
+                "width": 97,
+                "height": 36
+            }
+        },
+        {
+            "text": "Protocol",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 160,
+                "top": 1890,
+                "width": 166,
+                "height": 55
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1113,
+                "top": 1890,
+                "width": 217,
+                "height": 55
+            }
+        },
+        {
+            "text": "transactions",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1649,
+                "top": 1896,
+                "width": 235,
+                "height": 34
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1897,
+                "top": 1894,
+                "width": 82,
+                "height": 36
+            }
+        },
+        {
+            "text": "known",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1997,
+                "top": 1894,
+                "width": 125,
+                "height": 36
+            }
+        },
+        {
+            "text": "locks.",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 2140,
+                "top": 1894,
+                "width": 102,
+                "height": 36
+            }
+        },
+        {
+            "text": "Two-Phase",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 157,
+                "top": 1999,
+                "width": 220,
+                "height": 35
+            }
+        },
+        {
+            "text": "Locking",
+            "confidence": 70.0,
+            "bbox": {
+                "left": 392,
+                "top": 1999,
+                "width": 153,
+                "height": 46
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 70.0,
+            "bbox": {
+                "left": 585,
+                "top": 1995,
+                "width": 27,
+                "height": 54
+            }
+        },
+        {
+            "text": "Locks",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 630,
+                "top": 1999,
+                "width": 104,
+                "height": 35
+            }
+        },
+        {
+            "text": "during",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 750,
+                "top": 1999,
+                "width": 125,
+                "height": 46
+            }
+        },
+        {
+            "text": "Gradually",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1115,
+                "top": 1999,
+                "width": 184,
+                "height": 46
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1314,
+                "top": 2001,
+                "width": 31,
+                "height": 33
+            }
+        },
+        {
+            "text": "shrinking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1360,
+                "top": 1999,
+                "width": 177,
+                "height": 46
+            }
+        },
+        {
+            "text": "Transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1649,
+                "top": 2001,
+                "width": 220,
+                "height": 33
+            }
+        },
+        {
+            "text": "requiring",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1887,
+                "top": 2001,
+                "width": 173,
+                "height": 44
+            }
+        },
+        {
+            "text": "multiple",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2078,
+                "top": 1999,
+                "width": 156,
+                "height": 46
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2249,
+                "top": 1999,
+                "width": 98,
+                "height": 35
+            }
+        },
+        {
+            "text": "(2PL)",
+            "confidence": 56.0,
+            "bbox": {
+                "left": 160,
+                "top": 2078,
+                "width": 97,
+                "height": 41
+            }
+        },
+        {
+            "text": "growing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 630,
+                "top": 2078,
+                "width": 156,
+                "height": 43
+            }
+        },
+        {
+            "text": "phase",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 806,
+                "top": 2075,
+                "width": 112,
+                "height": 46
+            }
+        },
+        {
+            "text": "phase",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1115,
+                "top": 2075,
+                "width": 113,
+                "height": 46
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1652,
+                "top": 2078,
+                "width": 30,
+                "height": 33
+            }
+        },
+        {
+            "text": "sequence.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1698,
+                "top": 2088,
+                "width": 191,
+                "height": 33
+            }
+        },
+        {
+            "text": "Strict",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 160,
+                "top": 2180,
+                "width": 102,
+                "height": 36
+            }
+        },
+        {
+            "text": "2PL",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 277,
+                "top": 2183,
+                "width": 72,
+                "height": 33
+            }
+        },
+        {
+            "text": "Locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 630,
+                "top": 2180,
+                "width": 104,
+                "height": 36
+            }
+        },
+        {
+            "text": "during",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 750,
+                "top": 2180,
+                "width": 125,
+                "height": 46
+            }
+        },
+        {
+            "text": "All",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1113,
+                "top": 2180,
+                "width": 48,
+                "height": 36
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1176,
+                "top": 2185,
+                "width": 36,
+                "height": 31
+            }
+        },
+        {
+            "text": "commit",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1228,
+                "top": 2183,
+                "width": 148,
+                "height": 33
+            }
+        },
+        {
+            "text": "Preventing",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1652,
+                "top": 2183,
+                "width": 204,
+                "height": 43
+            }
+        },
+        {
+            "text": "cascading",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1874,
+                "top": 2180,
+                "width": 189,
+                "height": 46
+            }
+        },
+        {
+            "text": "rollbacks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2081,
+                "top": 2180,
+                "width": 171,
+                "height": 36
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2267,
+                "top": 2183,
+                "width": 31,
+                "height": 33
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 627,
+                "top": 2253,
+                "width": 217,
+                "height": 54
+            }
+        },
+        {
+            "text": "critical",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1649,
+                "top": 2257,
+                "width": 123,
+                "height": 36
+            }
+        },
+        {
+            "text": "updates.",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 1790,
+                "top": 2257,
+                "width": 163,
+                "height": 46
+            }
+        },
+        {
+            "text": "Timestamping",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 236,
+                "top": 2582,
+                "width": 436,
+                "height": 69
+            }
+        },
+        {
+            "text": "Protocols",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 704,
+                "top": 2579,
+                "width": 287,
+                "height": 55
+            }
+        },
+        {
+            "text": "AKTU",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1182,
+                "top": 2592,
+                "width": 121,
+                "height": 32
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 1322,
+                "top": 2609,
+                "width": 12,
+                "height": 6
+            }
+        },
+        {
+            "text": "2023-24",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1348,
+                "top": 2592,
+                "width": 162,
+                "height": 32
+            }
+        },
+        {
+            "text": "&",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1526,
+                "top": 2591,
+                "width": 29,
+                "height": 34
+            }
+        },
+        {
+            "text": "2021-22",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1570,
+                "top": 2592,
+                "width": 162,
+                "height": 32
+            }
+        },
+        {
+            "text": "Timestamping",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 194,
+                "top": 2761,
+                "width": 355,
+                "height": 58
+            }
+        },
+        {
+            "text": "protocols",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 570,
+                "top": 2759,
+                "width": 239,
+                "height": 60
+            }
+        },
+        {
+            "text": "help",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 832,
+                "top": 2759,
+                "width": 103,
+                "height": 60
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 958,
+                "top": 2762,
+                "width": 39,
+                "height": 43
+            }
+        },
+        {
+            "text": "maintaining",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1018,
+                "top": 2762,
+                "width": 288,
+                "height": 57
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1327,
+                "top": 2759,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "serializability",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1433,
+                "top": 2759,
+                "width": 353,
+                "height": 60
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1806,
+                "top": 2759,
+                "width": 54,
+                "height": 48
+            }
+        },
+        {
+            "text": "transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1881,
+                "top": 2762,
+                "width": 321,
+                "height": 43
+            }
+        },
+        {
+            "text": "without",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 193,
+                "top": 2827,
+                "width": 195,
+                "height": 46
+            }
+        },
+        {
+            "text": "using",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 409,
+                "top": 2830,
+                "width": 127,
+                "height": 57
+            }
+        },
+        {
+            "text": "locks.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 559,
+                "top": 2827,
+                "width": 138,
+                "height": 47
+            }
+        },
+        {
+            "text": "Each",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 721,
+                "top": 2827,
+                "width": 118,
+                "height": 47
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 861,
+                "top": 2830,
+                "width": 294,
+                "height": 43
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1178,
+                "top": 2830,
+                "width": 36,
+                "height": 43
+            }
+        },
+        {
+            "text": "assigned",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1234,
+                "top": 2827,
+                "width": 218,
+                "height": 60
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1473,
+                "top": 2842,
+                "width": 27,
+                "height": 31
+            }
+        },
+        {
+            "text": "unique",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1521,
+                "top": 2830,
+                "width": 160,
+                "height": 56
+            }
+        },
+        {
+            "text": "timestamp",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1700,
+                "top": 2830,
+                "width": 269,
+                "height": 57
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1990,
+                "top": 2827,
+                "width": 111,
+                "height": 46
+            }
+        },
+        {
+            "text": "determines",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 194,
+                "top": 2894,
+                "width": 289,
+                "height": 47
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 505,
+                "top": 2894,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "order",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 611,
+                "top": 2894,
+                "width": 143,
+                "height": 46
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 775,
+                "top": 2894,
+                "width": 54,
+                "height": 48
+            }
+        },
+        {
+            "text": "execution.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 850,
+                "top": 2897,
+                "width": 263,
+                "height": 44
+            }
+        }
+    ]
+}

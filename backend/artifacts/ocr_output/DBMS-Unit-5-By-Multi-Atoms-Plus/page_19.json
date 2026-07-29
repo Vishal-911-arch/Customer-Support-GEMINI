@@ -1,0 +1,1788 @@
+{
+    "document": "DBMS-Unit-5-By-Multi-Atoms-Plus",
+    "page": "page_19",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\DBMS-Unit-5-By-Multi-Atoms-Plus\\page_19.png",
+    "text": "Benefits of Checkpoints: 1.Speeds up Recovery: - During recovery, the system starts from the last checkpoint instead of scanning the entire log. 2. Reduces Overhead: - Limits the amount of undo/redo work during recovery. Example of Checkpoints in Action: At checkpoint C1, the database writes all changes from committed transactions up to that point. If the system crashes after C1: + Undo: Transactions started after C1 but didn't commit. + Redo: Transactions committed after C1. Single/Multi-User Environments Single-User Environment: - Easier to handle because only one transaction is active at a time. « Recovery involves straightforward undo/redo of that transaction. Multi-User Environment: « More complex due to concurrent transactions. « Requires logs, timestamps, and locking protocols to manage recovery and ensure consistency. Case Study on Oracle: Concurrency Control Techniques Oracle Database, developed by Oracle Corporation, is one of the most popular relational database management systems (RDBMS) globally. It is designed to handle large-scale data management needs for enterprise applications. Oracle implements robust Concurrency Control Techniques to ensure data integrity, consistency, and isolation when multiple transactions are executed simultaneously.",
+    "words": [
+        {
+            "text": "Benefits",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 171,
+                "top": 157,
+                "width": 210,
+                "height": 46
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 407,
+                "top": 157,
+                "width": 53,
+                "height": 46
+            }
+        },
+        {
+            "text": "Checkpoints:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 485,
+                "top": 157,
+                "width": 316,
+                "height": 57
+            }
+        },
+        {
+            "text": "1.Speeds",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 174,
+                "top": 257,
+                "width": 206,
+                "height": 51
+            }
+        },
+        {
+            "text": "up",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 404,
+                "top": 268,
+                "width": 47,
+                "height": 40
+            }
+        },
+        {
+            "text": "Recovery:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 476,
+                "top": 258,
+                "width": 218,
+                "height": 50
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 67.0,
+            "bbox": {
+                "left": 239,
+                "top": 387,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "During",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 285,
+                "top": 368,
+                "width": 140,
+                "height": 49
+            }
+        },
+        {
+            "text": "recovery,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 444,
+                "top": 379,
+                "width": 205,
+                "height": 39
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 666,
+                "top": 367,
+                "width": 74,
+                "height": 38
+            }
+        },
+        {
+            "text": "system",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 756,
+                "top": 371,
+                "width": 154,
+                "height": 46
+            }
+        },
+        {
+            "text": "starts",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 927,
+                "top": 371,
+                "width": 136,
+                "height": 35
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1081,
+                "top": 367,
+                "width": 106,
+                "height": 41
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1205,
+                "top": 367,
+                "width": 74,
+                "height": 38
+            }
+        },
+        {
+            "text": "last",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1298,
+                "top": 366,
+                "width": 78,
+                "height": 40
+            }
+        },
+        {
+            "text": "checkpoint",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1394,
+                "top": 367,
+                "width": 236,
+                "height": 51
+            }
+        },
+        {
+            "text": "instead",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1650,
+                "top": 367,
+                "width": 156,
+                "height": 39
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1825,
+                "top": 367,
+                "width": 45,
+                "height": 41
+            }
+        },
+        {
+            "text": "scanning",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1887,
+                "top": 369,
+                "width": 184,
+                "height": 48
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2089,
+                "top": 367,
+                "width": 73,
+                "height": 39
+            }
+        },
+        {
+            "text": "entire",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2180,
+                "top": 369,
+                "width": 133,
+                "height": 37
+            }
+        },
+        {
+            "text": "log.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2332,
+                "top": 366,
+                "width": 69,
+                "height": 51
+            }
+        },
+        {
+            "text": "2.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 171,
+                "top": 472,
+                "width": 41,
+                "height": 38
+            }
+        },
+        {
+            "text": "Reduces",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 241,
+                "top": 471,
+                "width": 181,
+                "height": 39
+            }
+        },
+        {
+            "text": "Overhead:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 446,
+                "top": 471,
+                "width": 232,
+                "height": 39
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 239,
+                "top": 595,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Limits",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 283,
+                "top": 576,
+                "width": 132,
+                "height": 39
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 433,
+                "top": 575,
+                "width": 73,
+                "height": 39
+            }
+        },
+        {
+            "text": "amount",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 523,
+                "top": 579,
+                "width": 156,
+                "height": 36
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 697,
+                "top": 575,
+                "width": 45,
+                "height": 41
+            }
+        },
+        {
+            "text": "undo/redo",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 761,
+                "top": 574,
+                "width": 225,
+                "height": 40
+            }
+        },
+        {
+            "text": "work",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1004,
+                "top": 575,
+                "width": 104,
+                "height": 39
+            }
+        },
+        {
+            "text": "during",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1125,
+                "top": 575,
+                "width": 136,
+                "height": 50
+            }
+        },
+        {
+            "text": "recovery.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1280,
+                "top": 587,
+                "width": 202,
+                "height": 39
+            }
+        },
+        {
+            "text": "Example",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 173,
+                "top": 772,
+                "width": 183,
+                "height": 51
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 380,
+                "top": 772,
+                "width": 47,
+                "height": 41
+            }
+        },
+        {
+            "text": "Checkpoints",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 450,
+                "top": 772,
+                "width": 267,
+                "height": 51
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 742,
+                "top": 774,
+                "width": 34,
+                "height": 37
+            }
+        },
+        {
+            "text": "Action:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 800,
+                "top": 774,
+                "width": 158,
+                "height": 37
+            }
+        },
+        {
+            "text": "At",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 174,
+                "top": 838,
+                "width": 50,
+                "height": 33
+            }
+        },
+        {
+            "text": "checkpoint",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 241,
+                "top": 835,
+                "width": 222,
+                "height": 48
+            }
+        },
+        {
+            "text": "C1,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 480,
+                "top": 836,
+                "width": 56,
+                "height": 42
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 553,
+                "top": 835,
+                "width": 69,
+                "height": 36
+            }
+        },
+        {
+            "text": "database",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 639,
+                "top": 835,
+                "width": 186,
+                "height": 36
+            }
+        },
+        {
+            "text": "writes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 842,
+                "top": 837,
+                "width": 129,
+                "height": 35
+            }
+        },
+        {
+            "text": "all",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 987,
+                "top": 835,
+                "width": 43,
+                "height": 36
+            }
+        },
+        {
+            "text": "changes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1049,
+                "top": 835,
+                "width": 162,
+                "height": 47
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1228,
+                "top": 835,
+                "width": 100,
+                "height": 39
+            }
+        },
+        {
+            "text": "committed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1345,
+                "top": 835,
+                "width": 218,
+                "height": 38
+            }
+        },
+        {
+            "text": "transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1580,
+                "top": 837,
+                "width": 257,
+                "height": 35
+            }
+        },
+        {
+            "text": "up",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1855,
+                "top": 846,
+                "width": 43,
+                "height": 37
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1914,
+                "top": 839,
+                "width": 42,
+                "height": 32
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1973,
+                "top": 835,
+                "width": 88,
+                "height": 36
+            }
+        },
+        {
+            "text": "point.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2079,
+                "top": 837,
+                "width": 111,
+                "height": 46
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 172,
+                "top": 957,
+                "width": 48,
+                "height": 41
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 243,
+                "top": 957,
+                "width": 74,
+                "height": 39
+            }
+        },
+        {
+            "text": "system",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 341,
+                "top": 961,
+                "width": 157,
+                "height": 47
+            }
+        },
+        {
+            "text": "crashes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 520,
+                "top": 957,
+                "width": 173,
+                "height": 39
+            }
+        },
+        {
+            "text": "after",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 717,
+                "top": 957,
+                "width": 120,
+                "height": 41
+            }
+        },
+        {
+            "text": "C1:",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 860,
+                "top": 958,
+                "width": 72,
+                "height": 37
+            }
+        },
+        {
+            "text": "+",
+            "confidence": 30.0,
+            "bbox": {
+                "left": 241,
+                "top": 1073,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "Undo:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 285,
+                "top": 1053,
+                "width": 126,
+                "height": 39
+            }
+        },
+        {
+            "text": "Transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 441,
+                "top": 1055,
+                "width": 282,
+                "height": 37
+            }
+        },
+        {
+            "text": "started",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 740,
+                "top": 1053,
+                "width": 166,
+                "height": 39
+            }
+        },
+        {
+            "text": "after",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 924,
+                "top": 1053,
+                "width": 118,
+                "height": 41
+            }
+        },
+        {
+            "text": "C1",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1060,
+                "top": 1054,
+                "width": 45,
+                "height": 37
+            }
+        },
+        {
+            "text": "but",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1126,
+                "top": 1053,
+                "width": 71,
+                "height": 39
+            }
+        },
+        {
+            "text": "didn't",
+            "confidence": 79.0,
+            "bbox": {
+                "left": 1214,
+                "top": 1053,
+                "width": 122,
+                "height": 39
+            }
+        },
+        {
+            "text": "commit.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1354,
+                "top": 1055,
+                "width": 167,
+                "height": 38
+            }
+        },
+        {
+            "text": "+",
+            "confidence": 33.0,
+            "bbox": {
+                "left": 241,
+                "top": 1134,
+                "width": 12,
+                "height": 12
+            }
+        },
+        {
+            "text": "Redo:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 286,
+                "top": 1114,
+                "width": 122,
+                "height": 38
+            }
+        },
+        {
+            "text": "Transactions",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 438,
+                "top": 1116,
+                "width": 282,
+                "height": 37
+            }
+        },
+        {
+            "text": "committed",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 738,
+                "top": 1114,
+                "width": 232,
+                "height": 40
+            }
+        },
+        {
+            "text": "after",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 988,
+                "top": 1114,
+                "width": 117,
+                "height": 41
+            }
+        },
+        {
+            "text": "C1.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1124,
+                "top": 1115,
+                "width": 57,
+                "height": 38
+            }
+        },
+        {
+            "text": "Single/Multi-User",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 214,
+                "top": 1318,
+                "width": 457,
+                "height": 53
+            }
+        },
+        {
+            "text": "Environments",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 690,
+                "top": 1319,
+                "width": 368,
+                "height": 41
+            }
+        },
+        {
+            "text": "Single-User",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 178,
+                "top": 1480,
+                "width": 271,
+                "height": 50
+            }
+        },
+        {
+            "text": "Environment:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 474,
+                "top": 1480,
+                "width": 287,
+                "height": 40
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 52.0,
+            "bbox": {
+                "left": 247,
+                "top": 1598,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Easier",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 292,
+                "top": 1578,
+                "width": 136,
+                "height": 39
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 445,
+                "top": 1582,
+                "width": 44,
+                "height": 34
+            }
+        },
+        {
+            "text": "handle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 509,
+                "top": 1577,
+                "width": 140,
+                "height": 40
+            }
+        },
+        {
+            "text": "because",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 668,
+                "top": 1578,
+                "width": 173,
+                "height": 39
+            }
+        },
+        {
+            "text": "only",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 858,
+                "top": 1577,
+                "width": 85,
+                "height": 52
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 960,
+                "top": 1590,
+                "width": 74,
+                "height": 27
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1051,
+                "top": 1580,
+                "width": 249,
+                "height": 37
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1321,
+                "top": 1580,
+                "width": 30,
+                "height": 36
+            }
+        },
+        {
+            "text": "active",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1368,
+                "top": 1580,
+                "width": 133,
+                "height": 37
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 1517,
+                "top": 1582,
+                "width": 44,
+                "height": 35
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 1578,
+                "top": 1591,
+                "width": 23,
+                "height": 26
+            }
+        },
+        {
+            "text": "time.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1617,
+                "top": 1580,
+                "width": 107,
+                "height": 38
+            }
+        },
+        {
+            "text": "«",
+            "confidence": 6.0,
+            "bbox": {
+                "left": 247,
+                "top": 1660,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Recovery",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 292,
+                "top": 1641,
+                "width": 199,
+                "height": 49
+            }
+        },
+        {
+            "text": "involves",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 511,
+                "top": 1639,
+                "width": 166,
+                "height": 40
+            }
+        },
+        {
+            "text": "straightforward",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 694,
+                "top": 1640,
+                "width": 359,
+                "height": 50
+            }
+        },
+        {
+            "text": "undo/redo",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1073,
+                "top": 1639,
+                "width": 224,
+                "height": 40
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1316,
+                "top": 1640,
+                "width": 45,
+                "height": 41
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1379,
+                "top": 1640,
+                "width": 94,
+                "height": 39
+            }
+        },
+        {
+            "text": "transaction.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1491,
+                "top": 1642,
+                "width": 260,
+                "height": 37
+            }
+        },
+        {
+            "text": "Multi-User",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 179,
+                "top": 1738,
+                "width": 250,
+                "height": 39
+            }
+        },
+        {
+            "text": "Environment:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 453,
+                "top": 1738,
+                "width": 288,
+                "height": 40
+            }
+        },
+        {
+            "text": "«",
+            "confidence": 75.0,
+            "bbox": {
+                "left": 247,
+                "top": 1854,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "More",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 292,
+                "top": 1835,
+                "width": 113,
+                "height": 38
+            }
+        },
+        {
+            "text": "complex",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 422,
+                "top": 1833,
+                "width": 176,
+                "height": 52
+            }
+        },
+        {
+            "text": "due",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 616,
+                "top": 1834,
+                "width": 76,
+                "height": 39
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 709,
+                "top": 1838,
+                "width": 43,
+                "height": 35
+            }
+        },
+        {
+            "text": "concurrent",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 771,
+                "top": 1838,
+                "width": 240,
+                "height": 35
+            }
+        },
+        {
+            "text": "transactions.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1029,
+                "top": 1836,
+                "width": 284,
+                "height": 37
+            }
+        },
+        {
+            "text": "«",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 247,
+                "top": 1915,
+                "width": 11,
+                "height": 12
+            }
+        },
+        {
+            "text": "Requires",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 292,
+                "top": 1896,
+                "width": 187,
+                "height": 49
+            }
+        },
+        {
+            "text": "logs,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 499,
+                "top": 1894,
+                "width": 95,
+                "height": 51
+            }
+        },
+        {
+            "text": "timestamps,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 611,
+                "top": 1897,
+                "width": 265,
+                "height": 49
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 893,
+                "top": 1895,
+                "width": 74,
+                "height": 39
+            }
+        },
+        {
+            "text": "locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 988,
+                "top": 1894,
+                "width": 147,
+                "height": 51
+            }
+        },
+        {
+            "text": "protocols",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1153,
+                "top": 1894,
+                "width": 203,
+                "height": 52
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1374,
+                "top": 1899,
+                "width": 43,
+                "height": 35
+            }
+        },
+        {
+            "text": "manage",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1437,
+                "top": 1906,
+                "width": 158,
+                "height": 39
+            }
+        },
+        {
+            "text": "recovery",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1614,
+                "top": 1907,
+                "width": 191,
+                "height": 38
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1822,
+                "top": 1895,
+                "width": 74,
+                "height": 39
+            }
+        },
+        {
+            "text": "ensure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1915,
+                "top": 1905,
+                "width": 145,
+                "height": 29
+            }
+        },
+        {
+            "text": "consistency.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2078,
+                "top": 1897,
+                "width": 264,
+                "height": 49
+            }
+        },
+        {
+            "text": "Case",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 248,
+                "top": 2526,
+                "width": 145,
+                "height": 52
+            }
+        },
+        {
+            "text": "Study",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 427,
+                "top": 2523,
+                "width": 188,
+                "height": 72
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 646,
+                "top": 2540,
+                "width": 68,
+                "height": 38
+            }
+        },
+        {
+            "text": "Oracle:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 747,
+                "top": 2523,
+                "width": 232,
+                "height": 55
+            }
+        },
+        {
+            "text": "Concurrency",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1020,
+                "top": 2526,
+                "width": 389,
+                "height": 69
+            }
+        },
+        {
+            "text": "Control",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1441,
+                "top": 2523,
+                "width": 224,
+                "height": 55
+            }
+        },
+        {
+            "text": "Techniques",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1699,
+                "top": 2523,
+                "width": 350,
+                "height": 71
+            }
+        },
+        {
+            "text": "Oracle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 219,
+                "top": 2720,
+                "width": 172,
+                "height": 46
+            }
+        },
+        {
+            "text": "Database,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 414,
+                "top": 2721,
+                "width": 253,
+                "height": 52
+            }
+        },
+        {
+            "text": "developed",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 689,
+                "top": 2720,
+                "width": 254,
+                "height": 60
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 967,
+                "top": 2721,
+                "width": 58,
+                "height": 59
+            }
+        },
+        {
+            "text": "Oracle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1046,
+                "top": 2720,
+                "width": 171,
+                "height": 46
+            }
+        },
+        {
+            "text": "Corporation,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1237,
+                "top": 2722,
+                "width": 319,
+                "height": 58
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1579,
+                "top": 2723,
+                "width": 36,
+                "height": 43
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1636,
+                "top": 2734,
+                "width": 87,
+                "height": 32
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1743,
+                "top": 2720,
+                "width": 53,
+                "height": 48
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1818,
+                "top": 2720,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "most",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1925,
+                "top": 2726,
+                "width": 123,
+                "height": 41
+            }
+        },
+        {
+            "text": "popular",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2069,
+                "top": 2720,
+                "width": 185,
+                "height": 60
+            }
+        },
+        {
+            "text": "relational",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 220,
+                "top": 2787,
+                "width": 239,
+                "height": 46
+            }
+        },
+        {
+            "text": "database",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 483,
+                "top": 2787,
+                "width": 234,
+                "height": 46
+            }
+        },
+        {
+            "text": "management",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 737,
+                "top": 2793,
+                "width": 317,
+                "height": 54
+            }
+        },
+        {
+            "text": "systems",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1074,
+                "top": 2793,
+                "width": 208,
+                "height": 54
+            }
+        },
+        {
+            "text": "(RDBMS)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1305,
+                "top": 2787,
+                "width": 236,
+                "height": 56
+            }
+        },
+        {
+            "text": "globally.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1561,
+                "top": 2787,
+                "width": 206,
+                "height": 60
+            }
+        },
+        {
+            "text": "It",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1789,
+                "top": 2790,
+                "width": 54,
+                "height": 43
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1866,
+                "top": 2790,
+                "width": 36,
+                "height": 43
+            }
+        },
+        {
+            "text": "designed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1924,
+                "top": 2787,
+                "width": 224,
+                "height": 60
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2170,
+                "top": 2793,
+                "width": 51,
+                "height": 40
+            }
+        },
+        {
+            "text": "handle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 220,
+                "top": 2855,
+                "width": 165,
+                "height": 46
+            }
+        },
+        {
+            "text": "large-scale",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 408,
+                "top": 2855,
+                "width": 280,
+                "height": 60
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 709,
+                "top": 2855,
+                "width": 113,
+                "height": 46
+            }
+        },
+        {
+            "text": "management",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 843,
+                "top": 2861,
+                "width": 317,
+                "height": 54
+            }
+        },
+        {
+            "text": "needs",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1181,
+                "top": 2855,
+                "width": 146,
+                "height": 46
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1348,
+                "top": 2855,
+                "width": 81,
+                "height": 48
+            }
+        },
+        {
+            "text": "enterprise",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1450,
+                "top": 2858,
+                "width": 273,
+                "height": 57
+            }
+        },
+        {
+            "text": "applications.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1741,
+                "top": 2855,
+                "width": 316,
+                "height": 60
+            }
+        },
+        {
+            "text": "Oracle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2080,
+                "top": 2855,
+                "width": 172,
+                "height": 46
+            }
+        },
+        {
+            "text": "implements",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 221,
+                "top": 2922,
+                "width": 286,
+                "height": 60
+            }
+        },
+        {
+            "text": "robust",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 530,
+                "top": 2923,
+                "width": 168,
+                "height": 45
+            }
+        },
+        {
+            "text": "Concurrency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 718,
+                "top": 2924,
+                "width": 320,
+                "height": 58
+            }
+        },
+        {
+            "text": "Control",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1058,
+                "top": 2922,
+                "width": 185,
+                "height": 46
+            }
+        },
+        {
+            "text": "Techniques",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1267,
+                "top": 2922,
+                "width": 287,
+                "height": 59
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1575,
+                "top": 2928,
+                "width": 51,
+                "height": 40
+            }
+        },
+        {
+            "text": "ensure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1648,
+                "top": 2935,
+                "width": 171,
+                "height": 33
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1840,
+                "top": 2922,
+                "width": 113,
+                "height": 46
+            }
+        },
+        {
+            "text": "integrity,",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1976,
+                "top": 2925,
+                "width": 239,
+                "height": 57
+            }
+        },
+        {
+            "text": "consistency,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 219,
+                "top": 2993,
+                "width": 314,
+                "height": 57
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 553,
+                "top": 2990,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "isolation",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 665,
+                "top": 2990,
+                "width": 211,
+                "height": 46
+            }
+        },
+        {
+            "text": "when",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 896,
+                "top": 2990,
+                "width": 128,
+                "height": 46
+            }
+        },
+        {
+            "text": "multiple",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1045,
+                "top": 2990,
+                "width": 203,
+                "height": 60
+            }
+        },
+        {
+            "text": "transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1268,
+                "top": 2993,
+                "width": 320,
+                "height": 43
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1609,
+                "top": 3005,
+                "width": 84,
+                "height": 31
+            }
+        },
+        {
+            "text": "executed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1713,
+                "top": 2990,
+                "width": 238,
+                "height": 46
+            }
+        },
+        {
+            "text": "simultaneously.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1972,
+                "top": 2990,
+                "width": 387,
+                "height": 60
+            }
+        }
+    ]
+}

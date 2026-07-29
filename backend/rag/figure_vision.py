@@ -1,16 +1,14 @@
-
-
 from pathlib import Path
 import json
-import base64
-
+import tempfile
 import cv2
 import easyocr
-from ollama import Client
+from PIL import Image
+from google import genai
+from dotenv import load_dotenv
+import os
 
 from config import (
-    OLLAMA_HOST,
-    VISION_MODEL,
     RENDERED_PAGES_DIR,
     IMAGE_CLASSIFIER_OUTPUT_DIR
 )
@@ -20,7 +18,11 @@ class FigureVision:
 
     def __init__(self):
 
-        self.client = Client(host=OLLAMA_HOST)
+        load_dotenv()
+
+        self.client = genai.Client(
+            api_key=os.getenv("GEMINI_API_KEY")
+        )
 
         self.padding = 80
 
@@ -28,16 +30,24 @@ class FigureVision:
             ["en"],
             gpu=False
         )
+
     # -----------------------------------------------------
 
-    def encode(self, image):
+    @staticmethod
+    def compress_image(image_path):
 
-        ok, buffer = cv2.imencode(".png", image)
+        img = Image.open(image_path)
 
-        if not ok:
-            return None
+        img.thumbnail((1024, 1024))
 
-        return base64.b64encode(buffer).decode()
+        temp = tempfile.NamedTemporaryFile(
+            suffix=".png",
+            delete=False
+        )
+
+        img.save(temp.name)
+
+        return temp.name
 
     # -----------------------------------------------------
 
@@ -68,6 +78,9 @@ class FigureVision:
             return None
 
         image = cv2.imread(str(image_path))
+
+        if image is None:
+            return None
 
         print("Image shape :", image.shape)
 
@@ -109,17 +122,17 @@ class FigureVision:
 
         print("Crop shape :", crop.shape)
 
-        saved = cv2.imwrite(
+        cv2.imwrite(
             str(Path.cwd() / "debug_crop.png"),
             crop
         )
 
-        print("Saved :", saved)
         print("Output :", Path.cwd() / "debug_crop.png")
 
         return crop
-    
+
     # -----------------------------------------------------
+
     def crop_caption(self, figure_crop):
 
         """
@@ -129,7 +142,6 @@ class FigureVision:
 
         h, w = figure_crop.shape[:2]
 
-        # Bottom 20%
         caption_crop = figure_crop[int(h * 0.80):, :]
 
         cv2.imwrite(
@@ -142,6 +154,8 @@ class FigureVision:
         print("Saved :", Path.cwd() / "debug_caption.png")
 
         return caption_crop
+        # -----------------------------------------------------
+
     def analyze(self, document, page):
 
         print("\nRunning Figure Vision...")
@@ -150,36 +164,73 @@ class FigureVision:
             document,
             page
         )
-        
 
         if crop is None:
             return ""
-        
-        caption = self.read_caption(crop)
-        # Resize large images
+
+        # Optional OCR caption (keep if your project uses it)
+        try:
+            caption = self.read_caption(crop)
+            print("Caption :", caption)
+        except Exception:
+            caption = ""
+
+        # Resize large image
         h, w = crop.shape[:2]
 
-        max_width = 1024
+        if w > 1024:
 
-        if w > max_width:
-            scale = max_width / w
+            scale = 1024 / w
+
             crop = cv2.resize(
+
                 crop,
-                (int(w * scale), int(h * scale)),
+
+                (
+                    int(w * scale),
+                    int(h * scale)
+                ),
+
                 interpolation=cv2.INTER_AREA
+
             )
-        encoded = self.encode(crop)
 
-        response = self.client.generate(
+        # ---------------------------------------------
+        # Save temporary image
+        # ---------------------------------------------
 
-            model=VISION_MODEL,
+        temp = tempfile.NamedTemporaryFile(
 
-            prompt="""
+            suffix=".png",
+
+            delete=False
+
+        )
+
+        cv2.imwrite(temp.name, crop)
+
+        image_path = self.compress_image(temp.name)
+
+        # ---------------------------------------------
+        # Upload to Gemini
+        # ---------------------------------------------
+
+        uploaded_file = self.client.files.upload(
+
+            file=image_path
+
+        )
+
+        prompt = f"""
 You are an aerospace engineering expert.
 
 This image is a SINGLE engineering figure extracted from an aircraft textbook.
 
 Your task is to READ the figure, not simply describe it.
+
+Caption detected (may help):
+
+{caption}
 
 Return EXACTLY in this format.
 
@@ -212,10 +263,20 @@ Do NOT invent labels.
 If a label is partially visible, infer only obvious words from nearby labels.
 
 Focus on engineering meaning rather than visual appearance.
-""",
+"""
 
-            images=[encoded]
+        response = self.client.models.generate_content(
+
+            model=GEMINI_MODEL,
+
+            contents=[
+
+                prompt,
+
+                uploaded_file
+
+            ]
 
         )
 
-        return response["response"]
+        return response.text

@@ -1,0 +1,978 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_42",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_42.png",
+    "text": "Connection Termination > Any of the two parties (client or server) can close the connection, although usually initiated by client. Two options for connection termination: > Three-way handshaking _> four-way handshaking with a half-close option Three-Way Handshaking: Step-1: > Client TCP, after receiving a close command from client process, sends a FIN segment in which the FIN flag 1s set. > FIN segment can include last chunk of data sent by the client, or it can be just a control segment. > If itis only a control segment(does not carry data), it consumes only one sequence number.",
+    "words": [
+        {
+            "text": "Connection",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2034,
+                "top": 99,
+                "width": 589,
+                "height": 87
+            }
+        },
+        {
+            "text": "Termination",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2658,
+                "top": 99,
+                "width": 640,
+                "height": 87
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 106,
+                "top": 320,
+                "width": 72,
+                "height": 83
+            }
+        },
+        {
+            "text": "Any",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 246,
+                "top": 322,
+                "width": 200,
+                "height": 112
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 485,
+                "top": 318,
+                "width": 112,
+                "height": 91
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 616,
+                "top": 320,
+                "width": 146,
+                "height": 89
+            }
+        },
+        {
+            "text": "two",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 795,
+                "top": 334,
+                "width": 181,
+                "height": 75
+            }
+        },
+        {
+            "text": "parties",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1013,
+                "top": 320,
+                "width": 320,
+                "height": 114
+            }
+        },
+        {
+            "text": "(client",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1366,
+                "top": 319,
+                "width": 309,
+                "height": 108
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1710,
+                "top": 347,
+                "width": 100,
+                "height": 62
+            }
+        },
+        {
+            "text": "server)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1844,
+                "top": 324,
+                "width": 334,
+                "height": 103
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2214,
+                "top": 347,
+                "width": 164,
+                "height": 62
+            }
+        },
+        {
+            "text": "close",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2411,
+                "top": 319,
+                "width": 248,
+                "height": 90
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2693,
+                "top": 319,
+                "width": 146,
+                "height": 90
+            }
+        },
+        {
+            "text": "connection,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2872,
+                "top": 319,
+                "width": 562,
+                "height": 106
+            }
+        },
+        {
+            "text": "although",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3471,
+                "top": 320,
+                "width": 424,
+                "height": 114
+            }
+        },
+        {
+            "text": "usually",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3931,
+                "top": 320,
+                "width": 345,
+                "height": 114
+            }
+        },
+        {
+            "text": "initiated",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4318,
+                "top": 319,
+                "width": 389,
+                "height": 90
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4744,
+                "top": 320,
+                "width": 114,
+                "height": 114
+            }
+        },
+        {
+            "text": "client.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4895,
+                "top": 319,
+                "width": 290,
+                "height": 90
+            }
+        },
+        {
+            "text": "Two",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 244,
+                "top": 544,
+                "width": 212,
+                "height": 87
+            }
+        },
+        {
+            "text": "options",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 489,
+                "top": 542,
+                "width": 357,
+                "height": 115
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 882,
+                "top": 540,
+                "width": 139,
+                "height": 90
+            }
+        },
+        {
+            "text": "connection",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1054,
+                "top": 542,
+                "width": 532,
+                "height": 89
+            }
+        },
+        {
+            "text": "termination:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1620,
+                "top": 541,
+                "width": 582,
+                "height": 90
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 32.0,
+            "bbox": {
+                "left": 433,
+                "top": 653,
+                "width": 150,
+                "height": 222
+            }
+        },
+        {
+            "text": "Three-way",
+            "confidence": 41.0,
+            "bbox": {
+                "left": 659,
+                "top": 649,
+                "width": 499,
+                "height": 230
+            }
+        },
+        {
+            "text": "handshaking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1205,
+                "top": 758,
+                "width": 611,
+                "height": 115
+            }
+        },
+        {
+            "text": "_>",
+            "confidence": 65.0,
+            "bbox": {
+                "left": 422,
+                "top": 910,
+                "width": 141,
+                "height": 241
+            }
+        },
+        {
+            "text": "four-way",
+            "confidence": 44.0,
+            "bbox": {
+                "left": 622,
+                "top": 910,
+                "width": 483,
+                "height": 241
+            }
+        },
+        {
+            "text": "handshaking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1150,
+                "top": 980,
+                "width": 613,
+                "height": 115
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1797,
+                "top": 981,
+                "width": 212,
+                "height": 88
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 2044,
+                "top": 1008,
+                "width": 51,
+                "height": 62
+            }
+        },
+        {
+            "text": "half-close",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 2130,
+                "top": 979,
+                "width": 475,
+                "height": 91
+            }
+        },
+        {
+            "text": "option",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2641,
+                "top": 980,
+                "width": 310,
+                "height": 115
+            }
+        },
+        {
+            "text": "Three-Way",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 94,
+                "top": 1420,
+                "width": 541,
+                "height": 114
+            }
+        },
+        {
+            "text": "Handshaking:",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 675,
+                "top": 1419,
+                "width": 664,
+                "height": 115
+            }
+        },
+        {
+            "text": "Step-1:",
+            "confidence": 71.0,
+            "bbox": {
+                "left": 98,
+                "top": 1644,
+                "width": 336,
+                "height": 112
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 306,
+                "top": 1859,
+                "width": 73,
+                "height": 84
+            }
+        },
+        {
+            "text": "Client",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 444,
+                "top": 1858,
+                "width": 294,
+                "height": 90
+            }
+        },
+        {
+            "text": "TCP,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 770,
+                "top": 1860,
+                "width": 236,
+                "height": 101
+            }
+        },
+        {
+            "text": "after",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1044,
+                "top": 1858,
+                "width": 222,
+                "height": 90
+            }
+        },
+        {
+            "text": "receiving",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1301,
+                "top": 1858,
+                "width": 449,
+                "height": 115
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1783,
+                "top": 1886,
+                "width": 53,
+                "height": 62
+            }
+        },
+        {
+            "text": "close",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1867,
+                "top": 1859,
+                "width": 245,
+                "height": 89
+            }
+        },
+        {
+            "text": "command",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2148,
+                "top": 1858,
+                "width": 474,
+                "height": 91
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2664,
+                "top": 1858,
+                "width": 227,
+                "height": 90
+            }
+        },
+        {
+            "text": "client",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2930,
+                "top": 1858,
+                "width": 268,
+                "height": 90
+            }
+        },
+        {
+            "text": "process,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3235,
+                "top": 1886,
+                "width": 388,
+                "height": 87
+            }
+        },
+        {
+            "text": "sends",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3660,
+                "top": 1858,
+                "width": 266,
+                "height": 90
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3962,
+                "top": 1886,
+                "width": 52,
+                "height": 62
+            }
+        },
+        {
+            "text": "FIN",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4051,
+                "top": 1860,
+                "width": 184,
+                "height": 86
+            }
+        },
+        {
+            "text": "segment",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4277,
+                "top": 1874,
+                "width": 401,
+                "height": 99
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4718,
+                "top": 1858,
+                "width": 84,
+                "height": 88
+            }
+        },
+        {
+            "text": "which",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4838,
+                "top": 1858,
+                "width": 295,
+                "height": 89
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 444,
+                "top": 2080,
+                "width": 144,
+                "height": 90
+            }
+        },
+        {
+            "text": "FIN",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 628,
+                "top": 2083,
+                "width": 184,
+                "height": 85
+            }
+        },
+        {
+            "text": "flag",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 852,
+                "top": 2079,
+                "width": 187,
+                "height": 116
+            }
+        },
+        {
+            "text": "1s",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 1078,
+                "top": 2080,
+                "width": 72,
+                "height": 89
+            }
+        },
+        {
+            "text": "set.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1185,
+                "top": 2095,
+                "width": 152,
+                "height": 75
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 306,
+                "top": 2298,
+                "width": 72,
+                "height": 84
+            }
+        },
+        {
+            "text": "FIN",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 447,
+                "top": 2299,
+                "width": 185,
+                "height": 86
+            }
+        },
+        {
+            "text": "segment",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 674,
+                "top": 2312,
+                "width": 401,
+                "height": 100
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1110,
+                "top": 2325,
+                "width": 164,
+                "height": 62
+            }
+        },
+        {
+            "text": "include",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1315,
+                "top": 2297,
+                "width": 352,
+                "height": 91
+            }
+        },
+        {
+            "text": "last",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1697,
+                "top": 2292,
+                "width": 171,
+                "height": 98
+            }
+        },
+        {
+            "text": "chunk",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1896,
+                "top": 2298,
+                "width": 298,
+                "height": 89
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2228,
+                "top": 2296,
+                "width": 114,
+                "height": 91
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2361,
+                "top": 2297,
+                "width": 201,
+                "height": 90
+            }
+        },
+        {
+            "text": "sent",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2596,
+                "top": 2312,
+                "width": 192,
+                "height": 75
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2824,
+                "top": 2297,
+                "width": 115,
+                "height": 115
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2974,
+                "top": 2298,
+                "width": 144,
+                "height": 89
+            }
+        },
+        {
+            "text": "client,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3154,
+                "top": 2297,
+                "width": 295,
+                "height": 105
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3486,
+                "top": 2325,
+                "width": 102,
+                "height": 61
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3625,
+                "top": 2297,
+                "width": 58,
+                "height": 89
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3722,
+                "top": 2325,
+                "width": 164,
+                "height": 62
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3923,
+                "top": 2298,
+                "width": 109,
+                "height": 89
+            }
+        },
+        {
+            "text": "just",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4054,
+                "top": 2297,
+                "width": 184,
+                "height": 115
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4273,
+                "top": 2325,
+                "width": 52,
+                "height": 62
+            }
+        },
+        {
+            "text": "control",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4358,
+                "top": 2298,
+                "width": 337,
+                "height": 89
+            }
+        },
+        {
+            "text": "segment.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4736,
+                "top": 2312,
+                "width": 421,
+                "height": 100
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 72.0,
+            "bbox": {
+                "left": 306,
+                "top": 2520,
+                "width": 72,
+                "height": 84
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 4.0,
+            "bbox": {
+                "left": 448,
+                "top": 2518,
+                "width": 91,
+                "height": 89
+            }
+        },
+        {
+            "text": "itis",
+            "confidence": 4.0,
+            "bbox": {
+                "left": 561,
+                "top": 2519,
+                "width": 172,
+                "height": 90
+            }
+        },
+        {
+            "text": "only",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 767,
+                "top": 2520,
+                "width": 210,
+                "height": 114
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 75.0,
+            "bbox": {
+                "left": 1015,
+                "top": 2547,
+                "width": 52,
+                "height": 62
+            }
+        },
+        {
+            "text": "control",
+            "confidence": 75.0,
+            "bbox": {
+                "left": 1099,
+                "top": 2520,
+                "width": 337,
+                "height": 89
+            }
+        },
+        {
+            "text": "segment(does",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1478,
+                "top": 2520,
+                "width": 664,
+                "height": 114
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2180,
+                "top": 2534,
+                "width": 150,
+                "height": 75
+            }
+        },
+        {
+            "text": "carry",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2366,
+                "top": 2547,
+                "width": 243,
+                "height": 87
+            }
+        },
+        {
+            "text": "data),",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2647,
+                "top": 2520,
+                "width": 269,
+                "height": 105
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 2958,
+                "top": 2519,
+                "width": 58,
+                "height": 90
+            }
+        },
+        {
+            "text": "consumes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3050,
+                "top": 2547,
+                "width": 478,
+                "height": 62
+            }
+        },
+        {
+            "text": "only",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3562,
+                "top": 2520,
+                "width": 212,
+                "height": 114
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3810,
+                "top": 2547,
+                "width": 172,
+                "height": 62
+            }
+        },
+        {
+            "text": "sequence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4017,
+                "top": 2547,
+                "width": 442,
+                "height": 87
+            }
+        },
+        {
+            "text": "number.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4496,
+                "top": 2520,
+                "width": 383,
+                "height": 89
+            }
+        }
+    ]
+}

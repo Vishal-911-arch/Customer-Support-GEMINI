@@ -1,0 +1,728 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_24",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_24.png",
+    "text": "Q: Following is a dump of a TCP header in hexadecimal format ( AKT v) | 0532001 '7,00000001 00000000 500207FF 00000000 1) What is the source port number? 2) What is the destination port number? 3) What is sequence number”? 4) What is the acknowledgement number”? 5) What is the length of the header? ==) Ao ag 6) What ts the window size”? F) Aaa am “pbs rn do ta bana 2)",
+    "words": [
+        {
+            "text": "Q:",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 104,
+                "top": 116,
+                "width": 108,
+                "height": 106
+            }
+        },
+        {
+            "text": "Following",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 259,
+                "top": 114,
+                "width": 497,
+                "height": 114
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 795,
+                "top": 114,
+                "width": 72,
+                "height": 88
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 929,
+                "top": 142,
+                "width": 25,
+                "height": 61
+            }
+        },
+        {
+            "text": "dump",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 986,
+                "top": 114,
+                "width": 273,
+                "height": 115
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1295,
+                "top": 113,
+                "width": 114,
+                "height": 90
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1428,
+                "top": 142,
+                "width": 52,
+                "height": 61
+            }
+        },
+        {
+            "text": "TCP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1511,
+                "top": 116,
+                "width": 146,
+                "height": 87
+            }
+        },
+        {
+            "text": "header",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1764,
+                "top": 114,
+                "width": 320,
+                "height": 89
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 79.0,
+            "bbox": {
+                "left": 2124,
+                "top": 114,
+                "width": 83,
+                "height": 87
+            }
+        },
+        {
+            "text": "hexadecimal",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2245,
+                "top": 114,
+                "width": 603,
+                "height": 90
+            }
+        },
+        {
+            "text": "format",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2892,
+                "top": 113,
+                "width": 318,
+                "height": 90
+            }
+        },
+        {
+            "text": "(",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 4092,
+                "top": 144,
+                "width": 78,
+                "height": 159
+            }
+        },
+        {
+            "text": "AKT",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 4228,
+                "top": 164,
+                "width": 282,
+                "height": 128
+            }
+        },
+        {
+            "text": "v)",
+            "confidence": 31.0,
+            "bbox": {
+                "left": 4533,
+                "top": 111,
+                "width": 155,
+                "height": 316
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 543,
+                "top": 497,
+                "width": 10,
+                "height": 11
+            }
+        },
+        {
+            "text": "0532001",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1347,
+                "top": 310,
+                "width": 506,
+                "height": 143
+            }
+        },
+        {
+            "text": "'7,00000001",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1874,
+                "top": 311,
+                "width": 470,
+                "height": 86
+            }
+        },
+        {
+            "text": "00000000",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 2393,
+                "top": 311,
+                "width": 486,
+                "height": 85
+            }
+        },
+        {
+            "text": "500207FF",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 2916,
+                "top": 310,
+                "width": 496,
+                "height": 88
+            }
+        },
+        {
+            "text": "00000000",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3447,
+                "top": 311,
+                "width": 486,
+                "height": 85
+            }
+        },
+        {
+            "text": "1)",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 120,
+                "top": 500,
+                "width": 81,
+                "height": 104
+            }
+        },
+        {
+            "text": "What",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 237,
+                "top": 497,
+                "width": 258,
+                "height": 89
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 535,
+                "top": 526,
+                "width": 72,
+                "height": 60
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 640,
+                "top": 498,
+                "width": 144,
+                "height": 88
+            }
+        },
+        {
+            "text": "source",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 823,
+                "top": 526,
+                "width": 311,
+                "height": 61
+            }
+        },
+        {
+            "text": "port",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1173,
+                "top": 513,
+                "width": 190,
+                "height": 99
+            }
+        },
+        {
+            "text": "number?",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1401,
+                "top": 498,
+                "width": 417,
+                "height": 89
+            }
+        },
+        {
+            "text": "2)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 104,
+                "top": 688,
+                "width": 97,
+                "height": 104
+            }
+        },
+        {
+            "text": "What",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 237,
+                "top": 687,
+                "width": 258,
+                "height": 88
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 536,
+                "top": 686,
+                "width": 71,
+                "height": 88
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 640,
+                "top": 687,
+                "width": 145,
+                "height": 89
+            }
+        },
+        {
+            "text": "destination",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 821,
+                "top": 686,
+                "width": 532,
+                "height": 90
+            }
+        },
+        {
+            "text": "port",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1389,
+                "top": 700,
+                "width": 191,
+                "height": 101
+            }
+        },
+        {
+            "text": "number?",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1617,
+                "top": 687,
+                "width": 418,
+                "height": 88
+            }
+        },
+        {
+            "text": "3)",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 107,
+                "top": 882,
+                "width": 94,
+                "height": 104
+            }
+        },
+        {
+            "text": "What",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 236,
+                "top": 880,
+                "width": 259,
+                "height": 90
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 536,
+                "top": 880,
+                "width": 71,
+                "height": 89
+            }
+        },
+        {
+            "text": "sequence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 644,
+                "top": 908,
+                "width": 441,
+                "height": 87
+            }
+        },
+        {
+            "text": "number”?",
+            "confidence": 67.0,
+            "bbox": {
+                "left": 1120,
+                "top": 881,
+                "width": 419,
+                "height": 89
+            }
+        },
+        {
+            "text": "4)",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 102,
+                "top": 1071,
+                "width": 99,
+                "height": 106
+            }
+        },
+        {
+            "text": "What",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 237,
+                "top": 1070,
+                "width": 258,
+                "height": 88
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 70.0,
+            "bbox": {
+                "left": 536,
+                "top": 1070,
+                "width": 70,
+                "height": 87
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 640,
+                "top": 1070,
+                "width": 144,
+                "height": 88
+            }
+        },
+        {
+            "text": "acknowledgement",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 821,
+                "top": 1070,
+                "width": 883,
+                "height": 114
+            }
+        },
+        {
+            "text": "number”?",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1741,
+                "top": 1070,
+                "width": 418,
+                "height": 88
+            }
+        },
+        {
+            "text": "5)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 106,
+                "top": 1266,
+                "width": 95,
+                "height": 105
+            }
+        },
+        {
+            "text": "What",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 237,
+                "top": 1265,
+                "width": 258,
+                "height": 88
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 536,
+                "top": 1264,
+                "width": 71,
+                "height": 88
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 640,
+                "top": 1264,
+                "width": 144,
+                "height": 89
+            }
+        },
+        {
+            "text": "length",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 824,
+                "top": 1264,
+                "width": 297,
+                "height": 114
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1156,
+                "top": 1263,
+                "width": 114,
+                "height": 89
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1289,
+                "top": 1264,
+                "width": 143,
+                "height": 89
+            }
+        },
+        {
+            "text": "header?",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1472,
+                "top": 1265,
+                "width": 370,
+                "height": 88
+            }
+        },
+        {
+            "text": "==)",
+            "confidence": 60.0,
+            "bbox": {
+                "left": 1933,
+                "top": 1253,
+                "width": 230,
+                "height": 152
+            }
+        },
+        {
+            "text": "Ao",
+            "confidence": 78.0,
+            "bbox": {
+                "left": 2295,
+                "top": 1264,
+                "width": 177,
+                "height": 99
+            }
+        },
+        {
+            "text": "ag",
+            "confidence": 40.0,
+            "bbox": {
+                "left": 2568,
+                "top": 1242,
+                "width": 421,
+                "height": 254
+            }
+        },
+        {
+            "text": "6)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 104,
+                "top": 1456,
+                "width": 97,
+                "height": 104
+            }
+        },
+        {
+            "text": "What",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 237,
+                "top": 1453,
+                "width": 258,
+                "height": 89
+            }
+        },
+        {
+            "text": "ts",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 535,
+                "top": 1453,
+                "width": 71,
+                "height": 88
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 640,
+                "top": 1454,
+                "width": 144,
+                "height": 88
+            }
+        },
+        {
+            "text": "window",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 820,
+                "top": 1453,
+                "width": 393,
+                "height": 89
+            }
+        },
+        {
+            "text": "size”?",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 1246,
+                "top": 1453,
+                "width": 235,
+                "height": 89
+            }
+        },
+        {
+            "text": "F)",
+            "confidence": 20.0,
+            "bbox": {
+                "left": 130,
+                "top": 1593,
+                "width": 184,
+                "height": 237
+            }
+        },
+        {
+            "text": "Aaa",
+            "confidence": 33.0,
+            "bbox": {
+                "left": 455,
+                "top": 1651,
+                "width": 218,
+                "height": 119
+            }
+        },
+        {
+            "text": "am",
+            "confidence": 57.0,
+            "bbox": {
+                "left": 775,
+                "top": 1697,
+                "width": 235,
+                "height": 182
+            }
+        },
+        {
+            "text": "“pbs",
+            "confidence": 39.0,
+            "bbox": {
+                "left": 1093,
+                "top": 1490,
+                "width": 509,
+                "height": 469
+            }
+        },
+        {
+            "text": "rn",
+            "confidence": 37.0,
+            "bbox": {
+                "left": 1718,
+                "top": 1605,
+                "width": 353,
+                "height": 263
+            }
+        },
+        {
+            "text": "do",
+            "confidence": 36.0,
+            "bbox": {
+                "left": 2226,
+                "top": 1490,
+                "width": 118,
+                "height": 469
+            }
+        },
+        {
+            "text": "ta",
+            "confidence": 44.0,
+            "bbox": {
+                "left": 2460,
+                "top": 1490,
+                "width": 158,
+                "height": 469
+            }
+        },
+        {
+            "text": "bana",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2734,
+                "top": 1490,
+                "width": 470,
+                "height": 469
+            }
+        },
+        {
+            "text": "2)",
+            "confidence": 57.0,
+            "bbox": {
+                "left": 3320,
+                "top": 1490,
+                "width": 118,
+                "height": 469
+            }
+        }
+    ]
+}

@@ -1,0 +1,918 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_104",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_104.png",
+    "text": "One token added per tick hk EL aSr/ ~ | 7 Sa 5 1 One token removed ~ 4 | and disc urced : and , per cell ransmitted I N 7 Arrival Cin) Sy TG Departure Queue Y Discard Combining Token Bucket and Leaky Bucket y The two techniques can be combined to credit an idle host and regulate the traffic. ry The leaky bucket 1s applied after the token bucket: the rate of the leaky bucket needs to be higher than the rate of tokens dropped in the bucket.",
+    "words": [
+        {
+            "text": "One",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1844,
+                "top": 95,
+                "width": 151,
+                "height": 60
+            }
+        },
+        {
+            "text": "token",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 2023,
+                "top": 93,
+                "width": 205,
+                "height": 62
+            }
+        },
+        {
+            "text": "added",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2254,
+                "top": 94,
+                "width": 230,
+                "height": 61
+            }
+        },
+        {
+            "text": "per",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 2036,
+                "top": 217,
+                "width": 107,
+                "height": 57
+            }
+        },
+        {
+            "text": "tick",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 2178,
+                "top": 199,
+                "width": 124,
+                "height": 58
+            }
+        },
+        {
+            "text": "hk",
+            "confidence": 42.0,
+            "bbox": {
+                "left": 1995,
+                "top": 848,
+                "width": 71,
+                "height": 53
+            }
+        },
+        {
+            "text": "EL",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2124,
+                "top": 833,
+                "width": 105,
+                "height": 84
+            }
+        },
+        {
+            "text": "aSr/",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2250,
+                "top": 837,
+                "width": 145,
+                "height": 65
+            }
+        },
+        {
+            "text": "~",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2734,
+                "top": 856,
+                "width": 14,
+                "height": 7
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 78.0,
+            "bbox": {
+                "left": 3117,
+                "top": 895,
+                "width": 2,
+                "height": 8
+            }
+        },
+        {
+            "text": "7",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1995,
+                "top": 901,
+                "width": 46,
+                "height": 59
+            }
+        },
+        {
+            "text": "Sa",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2131,
+                "top": 905,
+                "width": 130,
+                "height": 99
+            }
+        },
+        {
+            "text": "5",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2291,
+                "top": 906,
+                "width": 45,
+                "height": 78
+            }
+        },
+        {
+            "text": "1",
+            "confidence": 40.0,
+            "bbox": {
+                "left": 2800,
+                "top": 917,
+                "width": 10,
+                "height": 46
+            }
+        },
+        {
+            "text": "One",
+            "confidence": 40.0,
+            "bbox": {
+                "left": 2855,
+                "top": 894,
+                "width": 151,
+                "height": 58
+            }
+        },
+        {
+            "text": "token",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 3035,
+                "top": 906,
+                "width": 200,
+                "height": 45
+            }
+        },
+        {
+            "text": "removed",
+            "confidence": 60.0,
+            "bbox": {
+                "left": 3272,
+                "top": 895,
+                "width": 318,
+                "height": 57
+            }
+        },
+        {
+            "text": "~",
+            "confidence": 7.0,
+            "bbox": {
+                "left": 2027,
+                "top": 985,
+                "width": 38,
+                "height": 89
+            }
+        },
+        {
+            "text": "4",
+            "confidence": 15.0,
+            "bbox": {
+                "left": 2182,
+                "top": 989,
+                "width": 123,
+                "height": 79
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 56.0,
+            "bbox": {
+                "left": 2800,
+                "top": 993,
+                "width": 10,
+                "height": 49
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 72.0,
+            "bbox": {
+                "left": 2855,
+                "top": 996,
+                "width": 137,
+                "height": 61
+            }
+        },
+        {
+            "text": "disc",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 3019,
+                "top": 998,
+                "width": 133,
+                "height": 58
+            }
+        },
+        {
+            "text": "urced",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 3168,
+                "top": 996,
+                "width": 207,
+                "height": 61
+            }
+        },
+        {
+            "text": ":",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2217,
+                "top": 1070,
+                "width": 33,
+                "height": 11
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 12.0,
+            "bbox": {
+                "left": 2800,
+                "top": 1071,
+                "width": 227,
+                "height": 50
+            }
+        },
+        {
+            "text": ",",
+            "confidence": 10.0,
+            "bbox": {
+                "left": 2800,
+                "top": 1148,
+                "width": 9,
+                "height": 49
+            }
+        },
+        {
+            "text": "per",
+            "confidence": 54.0,
+            "bbox": {
+                "left": 2861,
+                "top": 1119,
+                "width": 108,
+                "height": 56
+            }
+        },
+        {
+            "text": "cell",
+            "confidence": 73.0,
+            "bbox": {
+                "left": 3002,
+                "top": 1100,
+                "width": 115,
+                "height": 60
+            }
+        },
+        {
+            "text": "ransmitted",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 3151,
+                "top": 1099,
+                "width": 423,
+                "height": 61
+            }
+        },
+        {
+            "text": "I",
+            "confidence": 63.0,
+            "bbox": {
+                "left": 2800,
+                "top": 1226,
+                "width": 9,
+                "height": 47
+            }
+        },
+        {
+            "text": "N",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1930,
+                "top": 1317,
+                "width": 44,
+                "height": 60
+            }
+        },
+        {
+            "text": "7",
+            "confidence": 9.0,
+            "bbox": {
+                "left": 2720,
+                "top": 1294,
+                "width": 169,
+                "height": 75
+            }
+        },
+        {
+            "text": "Arrival",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1049,
+                "top": 1369,
+                "width": 228,
+                "height": 87
+            }
+        },
+        {
+            "text": "Cin)",
+            "confidence": 44.0,
+            "bbox": {
+                "left": 1545,
+                "top": 1244,
+                "width": 334,
+                "height": 334
+            }
+        },
+        {
+            "text": "Sy",
+            "confidence": 13.0,
+            "bbox": {
+                "left": 2105,
+                "top": 1341,
+                "width": 205,
+                "height": 138
+            }
+        },
+        {
+            "text": "TG",
+            "confidence": 22.0,
+            "bbox": {
+                "left": 2480,
+                "top": 1341,
+                "width": 191,
+                "height": 139
+            }
+        },
+        {
+            "text": "Departure",
+            "confidence": 71.0,
+            "bbox": {
+                "left": 3597,
+                "top": 1378,
+                "width": 371,
+                "height": 75
+            }
+        },
+        {
+            "text": "Queue",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2267,
+                "top": 1512,
+                "width": 241,
+                "height": 64
+            }
+        },
+        {
+            "text": "Y",
+            "confidence": 78.0,
+            "bbox": {
+                "left": 1748,
+                "top": 1611,
+                "width": 36,
+                "height": 56
+            }
+        },
+        {
+            "text": "Discard",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1383,
+                "top": 1738,
+                "width": 264,
+                "height": 61
+            }
+        },
+        {
+            "text": "Combining",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 107,
+                "top": 2006,
+                "width": 537,
+                "height": 109
+            }
+        },
+        {
+            "text": "Token",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 685,
+                "top": 2007,
+                "width": 292,
+                "height": 82
+            }
+        },
+        {
+            "text": "Bucket",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1023,
+                "top": 2006,
+                "width": 329,
+                "height": 83
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1394,
+                "top": 2006,
+                "width": 164,
+                "height": 83
+            }
+        },
+        {
+            "text": "Leaky",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1607,
+                "top": 2006,
+                "width": 285,
+                "height": 108
+            }
+        },
+        {
+            "text": "Bucket",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1945,
+                "top": 2006,
+                "width": 327,
+                "height": 84
+            }
+        },
+        {
+            "text": "y",
+            "confidence": 40.0,
+            "bbox": {
+                "left": 118,
+                "top": 2229,
+                "width": 67,
+                "height": 76
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 256,
+                "top": 2227,
+                "width": 180,
+                "height": 85
+            }
+        },
+        {
+            "text": "two",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 477,
+                "top": 2245,
+                "width": 174,
+                "height": 67
+            }
+        },
+        {
+            "text": "techniques",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 690,
+                "top": 2228,
+                "width": 515,
+                "height": 110
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1241,
+                "top": 2255,
+                "width": 161,
+                "height": 57
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1444,
+                "top": 2227,
+                "width": 105,
+                "height": 85
+            }
+        },
+        {
+            "text": "combined",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1588,
+                "top": 2226,
+                "width": 470,
+                "height": 86
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2102,
+                "top": 2245,
+                "width": 86,
+                "height": 67
+            }
+        },
+        {
+            "text": "credit",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2224,
+                "top": 2228,
+                "width": 270,
+                "height": 84
+            }
+        },
+        {
+            "text": "an",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2534,
+                "top": 2255,
+                "width": 107,
+                "height": 57
+            }
+        },
+        {
+            "text": "idle",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 2688,
+                "top": 2228,
+                "width": 167,
+                "height": 84
+            }
+        },
+        {
+            "text": "host",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2896,
+                "top": 2227,
+                "width": 193,
+                "height": 85
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3129,
+                "top": 2227,
+                "width": 164,
+                "height": 85
+            }
+        },
+        {
+            "text": "regulate",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3338,
+                "top": 2228,
+                "width": 382,
+                "height": 110
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3759,
+                "top": 2228,
+                "width": 141,
+                "height": 84
+            }
+        },
+        {
+            "text": "traffic.",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 3938,
+                "top": 2227,
+                "width": 310,
+                "height": 85
+            }
+        },
+        {
+            "text": "ry",
+            "confidence": 31.0,
+            "bbox": {
+                "left": 119,
+                "top": 2445,
+                "width": 65,
+                "height": 77
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 256,
+                "top": 2444,
+                "width": 180,
+                "height": 85
+            }
+        },
+        {
+            "text": "leaky",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 481,
+                "top": 2444,
+                "width": 249,
+                "height": 110
+            }
+        },
+        {
+            "text": "bucket",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 774,
+                "top": 2444,
+                "width": 314,
+                "height": 85
+            }
+        },
+        {
+            "text": "1s",
+            "confidence": 67.0,
+            "bbox": {
+                "left": 1133,
+                "top": 2445,
+                "width": 68,
+                "height": 83
+            }
+        },
+        {
+            "text": "applied",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 1240,
+                "top": 2444,
+                "width": 348,
+                "height": 111
+            }
+        },
+        {
+            "text": "after",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1628,
+                "top": 2444,
+                "width": 219,
+                "height": 85
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1885,
+                "top": 2444,
+                "width": 140,
+                "height": 85
+            }
+        },
+        {
+            "text": "token",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2064,
+                "top": 2444,
+                "width": 263,
+                "height": 85
+            }
+        },
+        {
+            "text": "bucket:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2369,
+                "top": 2444,
+                "width": 343,
+                "height": 87
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2757,
+                "top": 2445,
+                "width": 138,
+                "height": 84
+            }
+        },
+        {
+            "text": "rate",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2939,
+                "top": 2461,
+                "width": 169,
+                "height": 68
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3165,
+                "top": 2444,
+                "width": 90,
+                "height": 84
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3295,
+                "top": 2444,
+                "width": 127,
+                "height": 85
+            }
+        },
+        {
+            "text": "leaky",
+            "confidence": 44.0,
+            "bbox": {
+                "left": 3467,
+                "top": 2444,
+                "width": 248,
+                "height": 110
+            }
+        },
+        {
+            "text": "bucket",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3760,
+                "top": 2444,
+                "width": 313,
+                "height": 85
+            }
+        },
+        {
+            "text": "needs",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4117,
+                "top": 2444,
+                "width": 266,
+                "height": 85
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4422,
+                "top": 2462,
+                "width": 85,
+                "height": 67
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4550,
+                "top": 2444,
+                "width": 103,
+                "height": 85
+            }
+        },
+        {
+            "text": "higher",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4695,
+                "top": 2444,
+                "width": 304,
+                "height": 111
+            }
+        },
+        {
+            "text": "than",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 257,
+                "top": 2667,
+                "width": 199,
+                "height": 84
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 497,
+                "top": 2667,
+                "width": 139,
+                "height": 84
+            }
+        },
+        {
+            "text": "rate",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 679,
+                "top": 2684,
+                "width": 170,
+                "height": 67
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 889,
+                "top": 2666,
+                "width": 110,
+                "height": 84
+            }
+        },
+        {
+            "text": "tokens",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1023,
+                "top": 2667,
+                "width": 312,
+                "height": 84
+            }
+        },
+        {
+            "text": "dropped",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1373,
+                "top": 2667,
+                "width": 389,
+                "height": 110
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 63.0,
+            "bbox": {
+                "left": 1810,
+                "top": 2667,
+                "width": 80,
+                "height": 83
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1929,
+                "top": 2667,
+                "width": 138,
+                "height": 84
+            }
+        },
+        {
+            "text": "bucket.",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 2111,
+                "top": 2667,
+                "width": 336,
+                "height": 84
+            }
+        }
+    ]
+}

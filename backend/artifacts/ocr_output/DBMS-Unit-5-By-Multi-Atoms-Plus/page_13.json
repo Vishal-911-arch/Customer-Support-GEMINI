@@ -1,0 +1,1518 @@
+{
+    "document": "DBMS-Unit-5-By-Multi-Atoms-Plus",
+    "page": "page_13",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\DBMS-Unit-5-By-Multi-Atoms-Plus\\page_13.png",
+    "text": "How It Works? - A transaction can lock any node (e.g., database, table, or record). - When a node is locked: All descendants are implicitly locked in the same mode. For example: If you lock a file (table) in exclusive mode, all its records are locked exclusively. Intention Locks To manage hierarchical locks, additional intention lock modes are introduced: 1. Intention-Shared (IS): - Indicates a plan to place shared locks at lower levels. - Example: Locking a table in IS mode to read specific records. 2. Intention-Exclusive (IX): - Indicates a plan to place exclusive locks at lower levels. - Example: Locking a table in IX mode to update specific records. 3. Shared & Intention-Exclusive (SIX): - Locks a subtree in shared mode but allows exclusive locks at lower levels. - Example: Locking a table for reading all records while updating specific ones. Lock Compatibility Matrix Is IX § SIX Xx",
+    "words": [
+        {
+            "text": "How",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 166,
+                "top": 943,
+                "width": 113,
+                "height": 47
+            }
+        },
+        {
+            "text": "It",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 306,
+                "top": 945,
+                "width": 58,
+                "height": 45
+            }
+        },
+        {
+            "text": "Works?",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 392,
+                "top": 942,
+                "width": 211,
+                "height": 49
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 233,
+                "top": 1075,
+                "width": 11,
+                "height": 12
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 279,
+                "top": 1049,
+                "width": 35,
+                "height": 44
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 338,
+                "top": 1049,
+                "width": 309,
+                "height": 45
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 669,
+                "top": 1061,
+                "width": 87,
+                "height": 33
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 780,
+                "top": 1046,
+                "width": 104,
+                "height": 48
+            }
+        },
+        {
+            "text": "any",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 903,
+                "top": 1061,
+                "width": 89,
+                "height": 48
+            }
+        },
+        {
+            "text": "node",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1016,
+                "top": 1046,
+                "width": 123,
+                "height": 48
+            }
+        },
+        {
+            "text": "(e.g.,",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 1161,
+                "top": 1046,
+                "width": 126,
+                "height": 62
+            }
+        },
+        {
+            "text": "database,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1310,
+                "top": 1046,
+                "width": 260,
+                "height": 56
+            }
+        },
+        {
+            "text": "table,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1592,
+                "top": 1046,
+                "width": 153,
+                "height": 56
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1767,
+                "top": 1062,
+                "width": 55,
+                "height": 32
+            }
+        },
+        {
+            "text": "record).",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 1846,
+                "top": 1046,
+                "width": 214,
+                "height": 58
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 69.0,
+            "bbox": {
+                "left": 233,
+                "top": 1146,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "When",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 279,
+                "top": 1117,
+                "width": 153,
+                "height": 49
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 452,
+                "top": 1133,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "node",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 503,
+                "top": 1117,
+                "width": 124,
+                "height": 48
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 651,
+                "top": 1120,
+                "width": 37,
+                "height": 45
+            }
+        },
+        {
+            "text": "locked:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 714,
+                "top": 1117,
+                "width": 183,
+                "height": 48
+            }
+        },
+        {
+            "text": "All",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 167,
+                "top": 1223,
+                "width": 67,
+                "height": 47
+            }
+        },
+        {
+            "text": "descendants",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 259,
+                "top": 1223,
+                "width": 336,
+                "height": 48
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 616,
+                "top": 1239,
+                "width": 88,
+                "height": 32
+            }
+        },
+        {
+            "text": "implicitly",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 728,
+                "top": 1223,
+                "width": 242,
+                "height": 63
+            }
+        },
+        {
+            "text": "locked",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 994,
+                "top": 1223,
+                "width": 169,
+                "height": 48
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1188,
+                "top": 1226,
+                "width": 41,
+                "height": 45
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1250,
+                "top": 1223,
+                "width": 91,
+                "height": 48
+            }
+        },
+        {
+            "text": "same",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1361,
+                "top": 1236,
+                "width": 135,
+                "height": 37
+            }
+        },
+        {
+            "text": "mode.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1518,
+                "top": 1223,
+                "width": 152,
+                "height": 50
+            }
+        },
+        {
+            "text": "For",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 166,
+                "top": 1295,
+                "width": 91,
+                "height": 48
+            }
+        },
+        {
+            "text": "example:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 285,
+                "top": 1294,
+                "width": 244,
+                "height": 63
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 564,
+                "top": 1294,
+                "width": 57,
+                "height": 51
+            }
+        },
+        {
+            "text": "you",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 642,
+                "top": 1309,
+                "width": 89,
+                "height": 48
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 757,
+                "top": 1294,
+                "width": 103,
+                "height": 48
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 876,
+                "top": 1289,
+                "width": 18,
+                "height": 72
+            }
+        },
+        {
+            "text": "file",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 929,
+                "top": 1294,
+                "width": 91,
+                "height": 51
+            }
+        },
+        {
+            "text": "(table)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1042,
+                "top": 1294,
+                "width": 180,
+                "height": 58
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1247,
+                "top": 1297,
+                "width": 40,
+                "height": 45
+            }
+        },
+        {
+            "text": "exclusive",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1309,
+                "top": 1294,
+                "width": 247,
+                "height": 48
+            }
+        },
+        {
+            "text": "mode,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1578,
+                "top": 1294,
+                "width": 155,
+                "height": 56
+            }
+        },
+        {
+            "text": "all",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1754,
+                "top": 1294,
+                "width": 57,
+                "height": 48
+            }
+        },
+        {
+            "text": "its",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1838,
+                "top": 1297,
+                "width": 65,
+                "height": 45
+            }
+        },
+        {
+            "text": "records",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1927,
+                "top": 1294,
+                "width": 207,
+                "height": 48
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2156,
+                "top": 1310,
+                "width": 88,
+                "height": 32
+            }
+        },
+        {
+            "text": "locked",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 168,
+                "top": 1364,
+                "width": 168,
+                "height": 48
+            }
+        },
+        {
+            "text": "exclusively.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 359,
+                "top": 1364,
+                "width": 312,
+                "height": 63
+            }
+        },
+        {
+            "text": "Intention",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 172,
+                "top": 1592,
+                "width": 259,
+                "height": 45
+            }
+        },
+        {
+            "text": "Locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 460,
+                "top": 1589,
+                "width": 150,
+                "height": 49
+            }
+        },
+        {
+            "text": "To",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 169,
+                "top": 1813,
+                "width": 65,
+                "height": 46
+            }
+        },
+        {
+            "text": "manage",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 257,
+                "top": 1825,
+                "width": 197,
+                "height": 48
+            }
+        },
+        {
+            "text": "hierarchical",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 477,
+                "top": 1811,
+                "width": 319,
+                "height": 48
+            }
+        },
+        {
+            "text": "locks,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 823,
+                "top": 1811,
+                "width": 147,
+                "height": 56
+            }
+        },
+        {
+            "text": "additional",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 991,
+                "top": 1811,
+                "width": 263,
+                "height": 48
+            }
+        },
+        {
+            "text": "intention",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1281,
+                "top": 1814,
+                "width": 238,
+                "height": 45
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1543,
+                "top": 1811,
+                "width": 104,
+                "height": 48
+            }
+        },
+        {
+            "text": "modes",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1668,
+                "top": 1811,
+                "width": 167,
+                "height": 50
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1857,
+                "top": 1827,
+                "width": 88,
+                "height": 32
+            }
+        },
+        {
+            "text": "introduced:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1969,
+                "top": 1811,
+                "width": 304,
+                "height": 48
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 173,
+                "top": 1952,
+                "width": 46,
+                "height": 48
+            }
+        },
+        {
+            "text": "Intention-Shared",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 254,
+                "top": 1951,
+                "width": 497,
+                "height": 48
+            }
+        },
+        {
+            "text": "(IS):",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 781,
+                "top": 1951,
+                "width": 132,
+                "height": 58
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 236,
+                "top": 2087,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Indicates",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 280,
+                "top": 2058,
+                "width": 259,
+                "height": 48
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 560,
+                "top": 2074,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "plan",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 610,
+                "top": 2058,
+                "width": 104,
+                "height": 63
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 735,
+                "top": 2064,
+                "width": 54,
+                "height": 42
+            }
+        },
+        {
+            "text": "place",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 813,
+                "top": 2058,
+                "width": 136,
+                "height": 63
+            }
+        },
+        {
+            "text": "shared",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 969,
+                "top": 2058,
+                "width": 185,
+                "height": 48
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1179,
+                "top": 2058,
+                "width": 131,
+                "height": 48
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1331,
+                "top": 2064,
+                "width": 55,
+                "height": 42
+            }
+        },
+        {
+            "text": "lower",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1411,
+                "top": 2058,
+                "width": 140,
+                "height": 48
+            }
+        },
+        {
+            "text": "levels.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1576,
+                "top": 2058,
+                "width": 161,
+                "height": 49
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 236,
+                "top": 2157,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Example:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 282,
+                "top": 2128,
+                "width": 236,
+                "height": 63
+            }
+        },
+        {
+            "text": "Locking",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 544,
+                "top": 2128,
+                "width": 199,
+                "height": 62
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 764,
+                "top": 2144,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "table",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 813,
+                "top": 2128,
+                "width": 138,
+                "height": 48
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 975,
+                "top": 2131,
+                "width": 41,
+                "height": 45
+            }
+        },
+        {
+            "text": "IS",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 1037,
+                "top": 2131,
+                "width": 68,
+                "height": 45
+            }
+        },
+        {
+            "text": "mode",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1129,
+                "top": 2128,
+                "width": 139,
+                "height": 50
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1289,
+                "top": 2134,
+                "width": 54,
+                "height": 42
+            }
+        },
+        {
+            "text": "read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1368,
+                "top": 2128,
+                "width": 119,
+                "height": 48
+            }
+        },
+        {
+            "text": "specific",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1508,
+                "top": 2128,
+                "width": 213,
+                "height": 63
+            }
+        },
+        {
+            "text": "records.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1745,
+                "top": 2128,
+                "width": 221,
+                "height": 49
+            }
+        },
+        {
+            "text": "2.",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 170,
+                "top": 2234,
+                "width": 49,
+                "height": 47
+            }
+        },
+        {
+            "text": "Intention-Exclusive",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 254,
+                "top": 2232,
+                "width": 549,
+                "height": 49
+            }
+        },
+        {
+            "text": "(IX):",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 833,
+                "top": 2232,
+                "width": 134,
+                "height": 58
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 236,
+                "top": 2365,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Indicates",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 280,
+                "top": 2336,
+                "width": 259,
+                "height": 48
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 560,
+                "top": 2352,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "plan",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 610,
+                "top": 2336,
+                "width": 104,
+                "height": 63
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 735,
+                "top": 2342,
+                "width": 54,
+                "height": 42
+            }
+        },
+        {
+            "text": "place",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 813,
+                "top": 2336,
+                "width": 136,
+                "height": 63
+            }
+        },
+        {
+            "text": "exclusive",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 970,
+                "top": 2336,
+                "width": 247,
+                "height": 48
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1241,
+                "top": 2336,
+                "width": 131,
+                "height": 48
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 1393,
+                "top": 2342,
+                "width": 55,
+                "height": 42
+            }
+        },
+        {
+            "text": "lower",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1473,
+                "top": 2336,
+                "width": 141,
+                "height": 48
+            }
+        },
+        {
+            "text": "levels.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1639,
+                "top": 2336,
+                "width": 160,
+                "height": 49
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 236,
+                "top": 2435,
+                "width": 11,
+                "height": 12
+            }
+        },
+        {
+            "text": "Example:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 282,
+                "top": 2406,
+                "width": 236,
+                "height": 63
+            }
+        },
+        {
+            "text": "Locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 544,
+                "top": 2406,
+                "width": 199,
+                "height": 62
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 764,
+                "top": 2422,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "table",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 813,
+                "top": 2406,
+                "width": 138,
+                "height": 48
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 975,
+                "top": 2409,
+                "width": 41,
+                "height": 45
+            }
+        },
+        {
+            "text": "IX",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1037,
+                "top": 2408,
+                "width": 70,
+                "height": 46
+            }
+        },
+        {
+            "text": "mode",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1131,
+                "top": 2406,
+                "width": 139,
+                "height": 50
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1291,
+                "top": 2412,
+                "width": 54,
+                "height": 42
+            }
+        },
+        {
+            "text": "update",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1369,
+                "top": 2406,
+                "width": 182,
+                "height": 63
+            }
+        },
+        {
+            "text": "specific",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1571,
+                "top": 2406,
+                "width": 213,
+                "height": 63
+            }
+        },
+        {
+            "text": "records.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1808,
+                "top": 2406,
+                "width": 221,
+                "height": 49
+            }
+        },
+        {
+            "text": "3.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 169,
+                "top": 2512,
+                "width": 50,
+                "height": 47
+            }
+        },
+        {
+            "text": "Shared",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 254,
+                "top": 2510,
+                "width": 200,
+                "height": 48
+            }
+        },
+        {
+            "text": "&",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 483,
+                "top": 2511,
+                "width": 37,
+                "height": 48
+            }
+        },
+        {
+            "text": "Intention-Exclusive",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 547,
+                "top": 2510,
+                "width": 550,
+                "height": 49
+            }
+        },
+        {
+            "text": "(SIX):",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1127,
+                "top": 2510,
+                "width": 175,
+                "height": 58
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 236,
+                "top": 2646,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 281,
+                "top": 2617,
+                "width": 149,
+                "height": 49
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 451,
+                "top": 2633,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "subtree",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 499,
+                "top": 2618,
+                "width": 213,
+                "height": 47
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 736,
+                "top": 2620,
+                "width": 40,
+                "height": 45
+            }
+        },
+        {
+            "text": "shared",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 797,
+                "top": 2617,
+                "width": 184,
+                "height": 48
+            }
+        },
+        {
+            "text": "mode",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1005,
+                "top": 2617,
+                "width": 139,
+                "height": 50
+            }
+        },
+        {
+            "text": "but",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1167,
+                "top": 2618,
+                "width": 88,
+                "height": 47
+            }
+        },
+        {
+            "text": "allows",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1275,
+                "top": 2617,
+                "width": 159,
+                "height": 48
+            }
+        },
+        {
+            "text": "exclusive",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1457,
+                "top": 2617,
+                "width": 247,
+                "height": 48
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1728,
+                "top": 2617,
+                "width": 130,
+                "height": 48
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1880,
+                "top": 2623,
+                "width": 55,
+                "height": 42
+            }
+        },
+        {
+            "text": "lower",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1959,
+                "top": 2617,
+                "width": 141,
+                "height": 48
+            }
+        },
+        {
+            "text": "levels.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2125,
+                "top": 2617,
+                "width": 160,
+                "height": 49
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 236,
+                "top": 2716,
+                "width": 11,
+                "height": 12
+            }
+        },
+        {
+            "text": "Example:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 282,
+                "top": 2687,
+                "width": 236,
+                "height": 63
+            }
+        },
+        {
+            "text": "Locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 544,
+                "top": 2687,
+                "width": 199,
+                "height": 62
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 764,
+                "top": 2703,
+                "width": 28,
+                "height": 32
+            }
+        },
+        {
+            "text": "table",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 813,
+                "top": 2687,
+                "width": 138,
+                "height": 48
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 972,
+                "top": 2687,
+                "width": 85,
+                "height": 51
+            }
+        },
+        {
+            "text": "reading",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1081,
+                "top": 2687,
+                "width": 198,
+                "height": 62
+            }
+        },
+        {
+            "text": "all",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1300,
+                "top": 2687,
+                "width": 57,
+                "height": 48
+            }
+        },
+        {
+            "text": "records",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1383,
+                "top": 2687,
+                "width": 207,
+                "height": 48
+            }
+        },
+        {
+            "text": "while",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1612,
+                "top": 2687,
+                "width": 137,
+                "height": 48
+            }
+        },
+        {
+            "text": "updating",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1770,
+                "top": 2687,
+                "width": 229,
+                "height": 63
+            }
+        },
+        {
+            "text": "specific",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2020,
+                "top": 2687,
+                "width": 213,
+                "height": 63
+            }
+        },
+        {
+            "text": "ones.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2255,
+                "top": 2700,
+                "width": 132,
+                "height": 36
+            }
+        },
+        {
+            "text": "Lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 159,
+                "top": 2909,
+                "width": 123,
+                "height": 49
+            }
+        },
+        {
+            "text": "Compatibility",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 309,
+                "top": 2909,
+                "width": 366,
+                "height": 63
+            }
+        },
+        {
+            "text": "Matrix",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 703,
+                "top": 2911,
+                "width": 189,
+                "height": 46
+            }
+        },
+        {
+            "text": "Is",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 506,
+                "top": 3102,
+                "width": 55,
+                "height": 45
+            }
+        },
+        {
+            "text": "IX",
+            "confidence": 76.0,
+            "bbox": {
+                "left": 758,
+                "top": 3094,
+                "width": 64,
+                "height": 73
+            }
+        },
+        {
+            "text": "§",
+            "confidence": 6.0,
+            "bbox": {
+                "left": 1034,
+                "top": 3102,
+                "width": 29,
+                "height": 45
+            }
+        },
+        {
+            "text": "SIX",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1261,
+                "top": 3094,
+                "width": 93,
+                "height": 73
+            }
+        },
+        {
+            "text": "Xx",
+            "confidence": 45.0,
+            "bbox": {
+                "left": 1543,
+                "top": 3102,
+                "width": 41,
+                "height": 45
+            }
+        }
+    ]
+}

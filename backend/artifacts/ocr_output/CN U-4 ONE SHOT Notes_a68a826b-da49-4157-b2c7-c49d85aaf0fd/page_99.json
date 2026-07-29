@@ -1,0 +1,1338 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_99",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_99.png",
+    "text": "Traffic Shaping ( imp) Traffic shaping 1s a mechanism to control the amount and the rate of the traffic sent to the network. Two techniques can shape traffic: leaky Deke and ok bucket Leaky Bucket: > Ifa bucket has a small hole at the bottom, the water leaks from the bucket at a constant rate as long as there 1s water in the bucket. > The rate at which the water leaks does not depend on the rate at which the water 1s input to the bucket unless the bucket is empty. > The input rate can vary, but the output rate remains constant. > Similarly, in networking, a technique called leaky bucket can smooth out bursty traffic. > Bursty chunks are stored in the bucket and sent out at an average rate.",
+    "words": [
+        {
+            "text": "Traffic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2316,
+                "top": 41,
+                "width": 324,
+                "height": 90
+            }
+        },
+        {
+            "text": "Shaping",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2683,
+                "top": 43,
+                "width": 394,
+                "height": 113
+            }
+        },
+        {
+            "text": "(",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 3187,
+                "top": 0,
+                "width": 85,
+                "height": 208
+            }
+        },
+        {
+            "text": "imp)",
+            "confidence": 56.0,
+            "bbox": {
+                "left": 3322,
+                "top": 26,
+                "width": 379,
+                "height": 230
+            }
+        },
+        {
+            "text": "Traffic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 72,
+                "top": 258,
+                "width": 325,
+                "height": 90
+            }
+        },
+        {
+            "text": "shaping",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 437,
+                "top": 258,
+                "width": 377,
+                "height": 115
+            }
+        },
+        {
+            "text": "1s",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 853,
+                "top": 258,
+                "width": 71,
+                "height": 89
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 960,
+                "top": 286,
+                "width": 52,
+                "height": 61
+            }
+        },
+        {
+            "text": "mechanism",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1045,
+                "top": 258,
+                "width": 547,
+                "height": 90
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1630,
+                "top": 274,
+                "width": 91,
+                "height": 73
+            }
+        },
+        {
+            "text": "control",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1756,
+                "top": 259,
+                "width": 338,
+                "height": 89
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2132,
+                "top": 258,
+                "width": 146,
+                "height": 90
+            }
+        },
+        {
+            "text": "amount",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2311,
+                "top": 273,
+                "width": 363,
+                "height": 75
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2710,
+                "top": 258,
+                "width": 171,
+                "height": 90
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2914,
+                "top": 258,
+                "width": 147,
+                "height": 90
+            }
+        },
+        {
+            "text": "rate",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3097,
+                "top": 273,
+                "width": 177,
+                "height": 75
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3310,
+                "top": 257,
+                "width": 114,
+                "height": 90
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3440,
+                "top": 258,
+                "width": 147,
+                "height": 90
+            }
+        },
+        {
+            "text": "traffic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3620,
+                "top": 257,
+                "width": 292,
+                "height": 91
+            }
+        },
+        {
+            "text": "sent",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3951,
+                "top": 273,
+                "width": 192,
+                "height": 75
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4175,
+                "top": 272,
+                "width": 93,
+                "height": 76
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4302,
+                "top": 258,
+                "width": 144,
+                "height": 90
+            }
+        },
+        {
+            "text": "network.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4484,
+                "top": 258,
+                "width": 417,
+                "height": 90
+            }
+        },
+        {
+            "text": "Two",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 72,
+                "top": 482,
+                "width": 212,
+                "height": 88
+            }
+        },
+        {
+            "text": "techniques",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 317,
+                "top": 480,
+                "width": 519,
+                "height": 115
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 871,
+                "top": 508,
+                "width": 166,
+                "height": 62
+            }
+        },
+        {
+            "text": "shape",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1072,
+                "top": 481,
+                "width": 272,
+                "height": 114
+            }
+        },
+        {
+            "text": "traffic:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1379,
+                "top": 479,
+                "width": 316,
+                "height": 92
+            }
+        },
+        {
+            "text": "leaky",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1747,
+                "top": 481,
+                "width": 251,
+                "height": 114
+            }
+        },
+        {
+            "text": "Deke",
+            "confidence": 6.0,
+            "bbox": {
+                "left": 2023,
+                "top": 355,
+                "width": 328,
+                "height": 214
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2394,
+                "top": 481,
+                "width": 169,
+                "height": 89
+            }
+        },
+        {
+            "text": "ok",
+            "confidence": 50.0,
+            "bbox": {
+                "left": 2601,
+                "top": 481,
+                "width": 149,
+                "height": 88
+            }
+        },
+        {
+            "text": "bucket",
+            "confidence": 3.0,
+            "bbox": {
+                "left": 2875,
+                "top": 365,
+                "width": 348,
+                "height": 205
+            }
+        },
+        {
+            "text": "Leaky",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 77,
+                "top": 703,
+                "width": 293,
+                "height": 114
+            }
+        },
+        {
+            "text": "Bucket:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 412,
+                "top": 704,
+                "width": 361,
+                "height": 88
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 284,
+                "top": 920,
+                "width": 72,
+                "height": 84
+            }
+        },
+        {
+            "text": "Ifa",
+            "confidence": 78.0,
+            "bbox": {
+                "left": 426,
+                "top": 918,
+                "width": 161,
+                "height": 91
+            }
+        },
+        {
+            "text": "bucket",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 623,
+                "top": 919,
+                "width": 319,
+                "height": 90
+            }
+        },
+        {
+            "text": "has",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 978,
+                "top": 920,
+                "width": 156,
+                "height": 89
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1169,
+                "top": 947,
+                "width": 52,
+                "height": 62
+            }
+        },
+        {
+            "text": "small",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1255,
+                "top": 920,
+                "width": 254,
+                "height": 89
+            }
+        },
+        {
+            "text": "hole",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1551,
+                "top": 920,
+                "width": 204,
+                "height": 89
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1789,
+                "top": 934,
+                "width": 86,
+                "height": 75
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1907,
+                "top": 919,
+                "width": 146,
+                "height": 91
+            }
+        },
+        {
+            "text": "bottom,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2091,
+                "top": 920,
+                "width": 366,
+                "height": 105
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2494,
+                "top": 919,
+                "width": 147,
+                "height": 90
+            }
+        },
+        {
+            "text": "water",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2675,
+                "top": 934,
+                "width": 270,
+                "height": 75
+            }
+        },
+        {
+            "text": "leaks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2980,
+                "top": 920,
+                "width": 244,
+                "height": 94
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3257,
+                "top": 915,
+                "width": 231,
+                "height": 94
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3526,
+                "top": 919,
+                "width": 147,
+                "height": 90
+            }
+        },
+        {
+            "text": "bucket",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3708,
+                "top": 919,
+                "width": 321,
+                "height": 90
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4064,
+                "top": 934,
+                "width": 84,
+                "height": 75
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4183,
+                "top": 947,
+                "width": 51,
+                "height": 62
+            }
+        },
+        {
+            "text": "constant",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4267,
+                "top": 934,
+                "width": 403,
+                "height": 75
+            }
+        },
+        {
+            "text": "rate",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4706,
+                "top": 934,
+                "width": 175,
+                "height": 75
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4918,
+                "top": 947,
+                "width": 99,
+                "height": 62
+            }
+        },
+        {
+            "text": "long",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 5055,
+                "top": 920,
+                "width": 210,
+                "height": 114
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 422,
+                "top": 1169,
+                "width": 98,
+                "height": 62
+            }
+        },
+        {
+            "text": "there",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 553,
+                "top": 1141,
+                "width": 241,
+                "height": 90
+            }
+        },
+        {
+            "text": "1s",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 835,
+                "top": 1141,
+                "width": 72,
+                "height": 89
+            }
+        },
+        {
+            "text": "water",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 941,
+                "top": 1156,
+                "width": 269,
+                "height": 75
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1248,
+                "top": 1142,
+                "width": 85,
+                "height": 87
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1369,
+                "top": 1142,
+                "width": 143,
+                "height": 89
+            }
+        },
+        {
+            "text": "bucket.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1550,
+                "top": 1142,
+                "width": 343,
+                "height": 89
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 284,
+                "top": 1359,
+                "width": 72,
+                "height": 84
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 422,
+                "top": 1359,
+                "width": 184,
+                "height": 89
+            }
+        },
+        {
+            "text": "rate",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 645,
+                "top": 1373,
+                "width": 177,
+                "height": 75
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 858,
+                "top": 1373,
+                "width": 84,
+                "height": 75
+            }
+        },
+        {
+            "text": "which",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 977,
+                "top": 1358,
+                "width": 293,
+                "height": 90
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1303,
+                "top": 1358,
+                "width": 146,
+                "height": 90
+            }
+        },
+        {
+            "text": "water",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1483,
+                "top": 1373,
+                "width": 272,
+                "height": 75
+            }
+        },
+        {
+            "text": "leaks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1791,
+                "top": 1358,
+                "width": 242,
+                "height": 90
+            }
+        },
+        {
+            "text": "does",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2067,
+                "top": 1358,
+                "width": 222,
+                "height": 90
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2325,
+                "top": 1373,
+                "width": 150,
+                "height": 75
+            }
+        },
+        {
+            "text": "depend",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2508,
+                "top": 1358,
+                "width": 352,
+                "height": 115
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2888,
+                "top": 1382,
+                "width": 122,
+                "height": 66
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3045,
+                "top": 1358,
+                "width": 143,
+                "height": 91
+            }
+        },
+        {
+            "text": "rate",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3226,
+                "top": 1373,
+                "width": 176,
+                "height": 75
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3438,
+                "top": 1374,
+                "width": 84,
+                "height": 74
+            }
+        },
+        {
+            "text": "which",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3557,
+                "top": 1358,
+                "width": 293,
+                "height": 90
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3884,
+                "top": 1359,
+                "width": 145,
+                "height": 89
+            }
+        },
+        {
+            "text": "water",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4065,
+                "top": 1373,
+                "width": 270,
+                "height": 75
+            }
+        },
+        {
+            "text": "1s",
+            "confidence": 68.0,
+            "bbox": {
+                "left": 4373,
+                "top": 1358,
+                "width": 72,
+                "height": 89
+            }
+        },
+        {
+            "text": "input",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4487,
+                "top": 1359,
+                "width": 241,
+                "height": 114
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4760,
+                "top": 1372,
+                "width": 92,
+                "height": 76
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4884,
+                "top": 1359,
+                "width": 148,
+                "height": 89
+            }
+        },
+        {
+            "text": "bucket",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 424,
+                "top": 1581,
+                "width": 321,
+                "height": 89
+            }
+        },
+        {
+            "text": "unless",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 780,
+                "top": 1581,
+                "width": 301,
+                "height": 89
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1114,
+                "top": 1580,
+                "width": 145,
+                "height": 90
+            }
+        },
+        {
+            "text": "bucket",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1295,
+                "top": 1581,
+                "width": 321,
+                "height": 89
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 77.0,
+            "bbox": {
+                "left": 1656,
+                "top": 1580,
+                "width": 72,
+                "height": 89
+            }
+        },
+        {
+            "text": "empty.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1761,
+                "top": 1594,
+                "width": 317,
+                "height": 101
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 284,
+                "top": 1803,
+                "width": 72,
+                "height": 85
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 422,
+                "top": 1803,
+                "width": 184,
+                "height": 89
+            }
+        },
+        {
+            "text": "input",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 648,
+                "top": 1803,
+                "width": 243,
+                "height": 115
+            }
+        },
+        {
+            "text": "rate",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 926,
+                "top": 1817,
+                "width": 177,
+                "height": 76
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1139,
+                "top": 1831,
+                "width": 165,
+                "height": 61
+            }
+        },
+        {
+            "text": "vary,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1340,
+                "top": 1831,
+                "width": 233,
+                "height": 86
+            }
+        },
+        {
+            "text": "but",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1611,
+                "top": 1803,
+                "width": 151,
+                "height": 89
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1795,
+                "top": 1803,
+                "width": 145,
+                "height": 89
+            }
+        },
+        {
+            "text": "output",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1977,
+                "top": 1814,
+                "width": 312,
+                "height": 104
+            }
+        },
+        {
+            "text": "rate",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2320,
+                "top": 1817,
+                "width": 176,
+                "height": 79
+            }
+        },
+        {
+            "text": "remains",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2534,
+                "top": 1803,
+                "width": 381,
+                "height": 89
+            }
+        },
+        {
+            "text": "constant.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2950,
+                "top": 1817,
+                "width": 424,
+                "height": 75
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 284,
+                "top": 2020,
+                "width": 72,
+                "height": 84
+            }
+        },
+        {
+            "text": "Similarly,",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 426,
+                "top": 2019,
+                "width": 467,
+                "height": 115
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 938,
+                "top": 2019,
+                "width": 84,
+                "height": 88
+            }
+        },
+        {
+            "text": "networking,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1059,
+                "top": 2019,
+                "width": 579,
+                "height": 115
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1675,
+                "top": 2047,
+                "width": 51,
+                "height": 63
+            }
+        },
+        {
+            "text": "technique",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1759,
+                "top": 2019,
+                "width": 473,
+                "height": 115
+            }
+        },
+        {
+            "text": "called",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2266,
+                "top": 2019,
+                "width": 284,
+                "height": 90
+            }
+        },
+        {
+            "text": "leaky",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2589,
+                "top": 2019,
+                "width": 255,
+                "height": 115
+            }
+        },
+        {
+            "text": "bucket",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2884,
+                "top": 2019,
+                "width": 319,
+                "height": 90
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3238,
+                "top": 2047,
+                "width": 166,
+                "height": 62
+            }
+        },
+        {
+            "text": "smooth",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3439,
+                "top": 2020,
+                "width": 354,
+                "height": 89
+            }
+        },
+        {
+            "text": "out",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3827,
+                "top": 2034,
+                "width": 152,
+                "height": 75
+            }
+        },
+        {
+            "text": "bursty",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4016,
+                "top": 2020,
+                "width": 297,
+                "height": 120
+            }
+        },
+        {
+            "text": "traffic.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4348,
+                "top": 2018,
+                "width": 316,
+                "height": 91
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 284,
+                "top": 2242,
+                "width": 72,
+                "height": 84
+            }
+        },
+        {
+            "text": "Bursty",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 424,
+                "top": 2244,
+                "width": 318,
+                "height": 112
+            }
+        },
+        {
+            "text": "chunks",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 778,
+                "top": 2242,
+                "width": 344,
+                "height": 90
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1156,
+                "top": 2270,
+                "width": 143,
+                "height": 61
+            }
+        },
+        {
+            "text": "stored",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1338,
+                "top": 2242,
+                "width": 290,
+                "height": 89
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1666,
+                "top": 2241,
+                "width": 89,
+                "height": 90
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1783,
+                "top": 2242,
+                "width": 153,
+                "height": 89
+            }
+        },
+        {
+            "text": "bucket",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1966,
+                "top": 2241,
+                "width": 326,
+                "height": 93
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2324,
+                "top": 2242,
+                "width": 171,
+                "height": 89
+            }
+        },
+        {
+            "text": "sent",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2534,
+                "top": 2256,
+                "width": 192,
+                "height": 76
+            }
+        },
+        {
+            "text": "out",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2760,
+                "top": 2256,
+                "width": 152,
+                "height": 75
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2945,
+                "top": 2256,
+                "width": 87,
+                "height": 75
+            }
+        },
+        {
+            "text": "an",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3066,
+                "top": 2270,
+                "width": 110,
+                "height": 62
+            }
+        },
+        {
+            "text": "average",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3210,
+                "top": 2269,
+                "width": 375,
+                "height": 87
+            }
+        },
+        {
+            "text": "rate.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3623,
+                "top": 2256,
+                "width": 200,
+                "height": 76
+            }
+        }
+    ]
+}

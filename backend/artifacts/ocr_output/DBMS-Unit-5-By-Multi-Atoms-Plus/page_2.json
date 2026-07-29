@@ -1,0 +1,2318 @@
+{
+    "document": "DBMS-Unit-5-By-Multi-Atoms-Plus",
+    "page": "page_2",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\DBMS-Unit-5-By-Multi-Atoms-Plus\\page_2.png",
+    "text": "Concurrency Problems Concurrency problems occur when multiple transactions execute simultaneously and interact with the same data, leading to unexpected or incorrect outcomes. The most common concurrency problems are: 1. Dirty Read - Definition: A transaction reads uncommitted changes made by another transaction. - Impact: Inconsistent and unreliable data. - Prevention: Use the Read Committed isolation level or higher. T1 (Uncommitted Write) T2 (Reads Dirty Data) Read(A=100) A =A - 5@ (A=5@) Write(A=50) (Uncommitted) Read(A=5e) (Dirty Read) ROLLBACK (Reverts A to 100) Uses incorrect A=5e 3. Phantom Read - Definition: A transaction re-executes a query and gets a different result set because another transaction has added or removed rows that match the query criteria. - Impact: The result set changes unexpectedly. - Prevention: Use the Serializable isolation level. T1 (Reads Rows) T2 (Inserts Rows) SELECT * WHERE salary > 5@00 (Retums 2 rows: Emp1, Emp2) INSERT Emp3 (salary=6000) COMMIT SELECT * WHERE salary > 5000 (Now returns 3 rows: Emp1, Emp2, Emp3) 4. Lost Update - Definition: Two transactions read the same data and update it concurrently, but one update overwrites the other, leading to a loss of data. - Impact: One update is lost, leading to incorrect results. - Prevention: Use locks or the Serializable isolation level. T1 (Updates A) T2 (Updates A) Read(A=10@) Read(A=100) A = A+ 2@ (A=120) A = A - 30 (A=70) Write (A=12@) Write(A=70) (Overwrites A=120)",
+    "words": [
+        {
+            "text": "Concurrency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 181,
+                "top": 199,
+                "width": 326,
+                "height": 58
+            }
+        },
+        {
+            "text": "Problems",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 533,
+                "top": 197,
+                "width": 233,
+                "height": 48
+            }
+        },
+        {
+            "text": "Concurrency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 173,
+                "top": 344,
+                "width": 288,
+                "height": 52
+            }
+        },
+        {
+            "text": "problems",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 480,
+                "top": 342,
+                "width": 209,
+                "height": 54
+            }
+        },
+        {
+            "text": "occur",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 708,
+                "top": 356,
+                "width": 126,
+                "height": 28
+            }
+        },
+        {
+            "text": "when",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 852,
+                "top": 342,
+                "width": 115,
+                "height": 42
+            }
+        },
+        {
+            "text": "multiple",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 986,
+                "top": 342,
+                "width": 182,
+                "height": 54
+            }
+        },
+        {
+            "text": "transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1186,
+                "top": 345,
+                "width": 289,
+                "height": 39
+            }
+        },
+        {
+            "text": "execute",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1494,
+                "top": 347,
+                "width": 186,
+                "height": 37
+            }
+        },
+        {
+            "text": "simultaneously",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1697,
+                "top": 342,
+                "width": 338,
+                "height": 54
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2052,
+                "top": 343,
+                "width": 78,
+                "height": 41
+            }
+        },
+        {
+            "text": "interact",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 175,
+                "top": 406,
+                "width": 186,
+                "height": 39
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 380,
+                "top": 403,
+                "width": 98,
+                "height": 42
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 497,
+                "top": 403,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "same",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 592,
+                "top": 415,
+                "width": 116,
+                "height": 31
+            }
+        },
+        {
+            "text": "data,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 726,
+                "top": 404,
+                "width": 115,
+                "height": 47
+            }
+        },
+        {
+            "text": "leading",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 862,
+                "top": 403,
+                "width": 159,
+                "height": 54
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1040,
+                "top": 408,
+                "width": 46,
+                "height": 37
+            }
+        },
+        {
+            "text": "unexpected",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1107,
+                "top": 404,
+                "width": 266,
+                "height": 53
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1393,
+                "top": 417,
+                "width": 48,
+                "height": 28
+            }
+        },
+        {
+            "text": "incorrect",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1461,
+                "top": 406,
+                "width": 213,
+                "height": 39
+            }
+        },
+        {
+            "text": "outcomes.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1693,
+                "top": 408,
+                "width": 229,
+                "height": 38
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1943,
+                "top": 403,
+                "width": 88,
+                "height": 42
+            }
+        },
+        {
+            "text": "most",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2049,
+                "top": 408,
+                "width": 110,
+                "height": 38
+            }
+        },
+        {
+            "text": "common",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 174,
+                "top": 475,
+                "width": 180,
+                "height": 30
+            }
+        },
+        {
+            "text": "concurrency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 374,
+                "top": 475,
+                "width": 282,
+                "height": 41
+            }
+        },
+        {
+            "text": "problems",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 675,
+                "top": 462,
+                "width": 209,
+                "height": 54
+            }
+        },
+        {
+            "text": "are:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 902,
+                "top": 474,
+                "width": 86,
+                "height": 30
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 183,
+                "top": 644,
+                "width": 42,
+                "height": 44
+            }
+        },
+        {
+            "text": "Dirty",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 260,
+                "top": 644,
+                "width": 129,
+                "height": 56
+            }
+        },
+        {
+            "text": "Read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 415,
+                "top": 643,
+                "width": 120,
+                "height": 44
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 59.0,
+            "bbox": {
+                "left": 250,
+                "top": 764,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Definition:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 292,
+                "top": 741,
+                "width": 235,
+                "height": 41
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 550,
+                "top": 743,
+                "width": 29,
+                "height": 36
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 598,
+                "top": 743,
+                "width": 250,
+                "height": 37
+            }
+        },
+        {
+            "text": "reads",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 867,
+                "top": 741,
+                "width": 120,
+                "height": 39
+            }
+        },
+        {
+            "text": "uncommitted",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1005,
+                "top": 741,
+                "width": 282,
+                "height": 40
+            }
+        },
+        {
+            "text": "changes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1306,
+                "top": 741,
+                "width": 172,
+                "height": 50
+            }
+        },
+        {
+            "text": "made",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1497,
+                "top": 741,
+                "width": 112,
+                "height": 40
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1628,
+                "top": 741,
+                "width": 48,
+                "height": 51
+            }
+        },
+        {
+            "text": "another",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1693,
+                "top": 741,
+                "width": 171,
+                "height": 39
+            }
+        },
+        {
+            "text": "transaction.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1881,
+                "top": 743,
+                "width": 261,
+                "height": 37
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 75.0,
+            "bbox": {
+                "left": 250,
+                "top": 823,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Impact:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 290,
+                "top": 802,
+                "width": 176,
+                "height": 49
+            }
+        },
+        {
+            "text": "Inconsistent",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 488,
+                "top": 802,
+                "width": 279,
+                "height": 37
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 784,
+                "top": 800,
+                "width": 74,
+                "height": 39
+            }
+        },
+        {
+            "text": "unreliable",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 877,
+                "top": 799,
+                "width": 214,
+                "height": 40
+            }
+        },
+        {
+            "text": "data.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1108,
+                "top": 800,
+                "width": 107,
+                "height": 39
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 39.0,
+            "bbox": {
+                "left": 250,
+                "top": 879,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Prevention:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 290,
+                "top": 856,
+                "width": 249,
+                "height": 39
+            }
+        },
+        {
+            "text": "Use",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 563,
+                "top": 858,
+                "width": 81,
+                "height": 37
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 660,
+                "top": 856,
+                "width": 74,
+                "height": 39
+            }
+        },
+        {
+            "text": "Read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 752,
+                "top": 856,
+                "width": 104,
+                "height": 39
+            }
+        },
+        {
+            "text": "Committed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 874,
+                "top": 856,
+                "width": 237,
+                "height": 40
+            }
+        },
+        {
+            "text": "isolation",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1132,
+                "top": 855,
+                "width": 180,
+                "height": 40
+            }
+        },
+        {
+            "text": "level",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1331,
+                "top": 855,
+                "width": 95,
+                "height": 39
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1445,
+                "top": 868,
+                "width": 45,
+                "height": 27
+            }
+        },
+        {
+            "text": "higher.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1509,
+                "top": 856,
+                "width": 149,
+                "height": 50
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 166,
+                "top": 995,
+                "width": 26,
+                "height": 22
+            }
+        },
+        {
+            "text": "(Uncommitted",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 204,
+                "top": 994,
+                "width": 189,
+                "height": 28
+            }
+        },
+        {
+            "text": "Write)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 402,
+                "top": 995,
+                "width": 81,
+                "height": 27
+            }
+        },
+        {
+            "text": "T2",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 881,
+                "top": 995,
+                "width": 31,
+                "height": 22
+            }
+        },
+        {
+            "text": "(Reads",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 922,
+                "top": 994,
+                "width": 87,
+                "height": 28
+            }
+        },
+        {
+            "text": "Dirty",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1019,
+                "top": 995,
+                "width": 64,
+                "height": 29
+            }
+        },
+        {
+            "text": "Data)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1092,
+                "top": 995,
+                "width": 69,
+                "height": 27
+            }
+        },
+        {
+            "text": "Read(A=100)",
+            "confidence": 34.0,
+            "bbox": {
+                "left": 177,
+                "top": 1067,
+                "width": 150,
+                "height": 24
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 60.0,
+            "bbox": {
+                "left": 176,
+                "top": 1138,
+                "width": 14,
+                "height": 16
+            }
+        },
+        {
+            "text": "=A",
+            "confidence": 60.0,
+            "bbox": {
+                "left": 205,
+                "top": 1138,
+                "width": 42,
+                "height": 16
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 76.0,
+            "bbox": {
+                "left": 263,
+                "top": 1148,
+                "width": 9,
+                "height": 1
+            }
+        },
+        {
+            "text": "5@",
+            "confidence": 70.0,
+            "bbox": {
+                "left": 290,
+                "top": 1138,
+                "width": 26,
+                "height": 16
+            }
+        },
+        {
+            "text": "(A=5@)",
+            "confidence": 77.0,
+            "bbox": {
+                "left": 333,
+                "top": 1136,
+                "width": 79,
+                "height": 23
+            }
+        },
+        {
+            "text": "Write(A=50)",
+            "confidence": 65.0,
+            "bbox": {
+                "left": 176,
+                "top": 1205,
+                "width": 151,
+                "height": 23
+            }
+        },
+        {
+            "text": "(Uncommitted)",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 351,
+                "top": 1200,
+                "width": 191,
+                "height": 28
+            }
+        },
+        {
+            "text": "Read(A=5e)",
+            "confidence": 66.0,
+            "bbox": {
+                "left": 892,
+                "top": 1205,
+                "width": 136,
+                "height": 23
+            }
+        },
+        {
+            "text": "(Dirty",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1051,
+                "top": 1201,
+                "width": 69,
+                "height": 29
+            }
+        },
+        {
+            "text": "Read)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1130,
+                "top": 1200,
+                "width": 69,
+                "height": 28
+            }
+        },
+        {
+            "text": "ROLLBACK",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 177,
+                "top": 1275,
+                "width": 110,
+                "height": 17
+            }
+        },
+        {
+            "text": "(Reverts",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 309,
+                "top": 1270,
+                "width": 161,
+                "height": 27
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 420,
+                "top": 1266,
+                "width": 13,
+                "height": 35
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 444,
+                "top": 1266,
+                "width": 27,
+                "height": 35
+            }
+        },
+        {
+            "text": "100)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 482,
+                "top": 1270,
+                "width": 52,
+                "height": 27
+            }
+        },
+        {
+            "text": "Uses",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 883,
+                "top": 1270,
+                "width": 57,
+                "height": 22
+            }
+        },
+        {
+            "text": "incorrect",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 951,
+                "top": 1270,
+                "width": 111,
+                "height": 22
+            }
+        },
+        {
+            "text": "A=5e",
+            "confidence": 13.0,
+            "bbox": {
+                "left": 1080,
+                "top": 1275,
+                "width": 56,
+                "height": 17
+            }
+        },
+        {
+            "text": "3.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 191,
+                "top": 1373,
+                "width": 46,
+                "height": 43
+            }
+        },
+        {
+            "text": "Phantom",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 268,
+                "top": 1371,
+                "width": 209,
+                "height": 45
+            }
+        },
+        {
+            "text": "Read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 504,
+                "top": 1371,
+                "width": 120,
+                "height": 44
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 261,
+                "top": 1500,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Definition:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 304,
+                "top": 1477,
+                "width": 234,
+                "height": 41
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 568,
+                "top": 1479,
+                "width": 29,
+                "height": 36
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 616,
+                "top": 1479,
+                "width": 250,
+                "height": 37
+            }
+        },
+        {
+            "text": "re-executes",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 885,
+                "top": 1481,
+                "width": 265,
+                "height": 35
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1168,
+                "top": 1490,
+                "width": 23,
+                "height": 26
+            }
+        },
+        {
+            "text": "query",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1207,
+                "top": 1489,
+                "width": 121,
+                "height": 39
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1345,
+                "top": 1477,
+                "width": 74,
+                "height": 39
+            }
+        },
+        {
+            "text": "gets",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1436,
+                "top": 1481,
+                "width": 94,
+                "height": 46
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1548,
+                "top": 1490,
+                "width": 22,
+                "height": 26
+            }
+        },
+        {
+            "text": "different",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1588,
+                "top": 1477,
+                "width": 209,
+                "height": 41
+            }
+        },
+        {
+            "text": "result",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1816,
+                "top": 1476,
+                "width": 128,
+                "height": 40
+            }
+        },
+        {
+            "text": "set",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1960,
+                "top": 1481,
+                "width": 70,
+                "height": 35
+            }
+        },
+        {
+            "text": "because",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2049,
+                "top": 1477,
+                "width": 174,
+                "height": 39
+            }
+        },
+        {
+            "text": "another",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 302,
+                "top": 1547,
+                "width": 171,
+                "height": 39
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 490,
+                "top": 1549,
+                "width": 250,
+                "height": 37
+            }
+        },
+        {
+            "text": "has",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 759,
+                "top": 1547,
+                "width": 70,
+                "height": 39
+            }
+        },
+        {
+            "text": "added",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 847,
+                "top": 1547,
+                "width": 131,
+                "height": 39
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 996,
+                "top": 1559,
+                "width": 45,
+                "height": 27
+            }
+        },
+        {
+            "text": "removed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1060,
+                "top": 1547,
+                "width": 183,
+                "height": 40
+            }
+        },
+        {
+            "text": "rows",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1263,
+                "top": 1557,
+                "width": 99,
+                "height": 29
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1379,
+                "top": 1547,
+                "width": 95,
+                "height": 39
+            }
+        },
+        {
+            "text": "match",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1492,
+                "top": 1547,
+                "width": 131,
+                "height": 40
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1641,
+                "top": 1547,
+                "width": 74,
+                "height": 39
+            }
+        },
+        {
+            "text": "query",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1732,
+                "top": 1559,
+                "width": 121,
+                "height": 39
+            }
+        },
+        {
+            "text": "criteria.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1871,
+                "top": 1549,
+                "width": 177,
+                "height": 37
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 63.0,
+            "bbox": {
+                "left": 261,
+                "top": 1643,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Impact:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 301,
+                "top": 1622,
+                "width": 176,
+                "height": 49
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 500,
+                "top": 1620,
+                "width": 83,
+                "height": 39
+            }
+        },
+        {
+            "text": "result",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 602,
+                "top": 1619,
+                "width": 128,
+                "height": 40
+            }
+        },
+        {
+            "text": "set",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 746,
+                "top": 1624,
+                "width": 70,
+                "height": 35
+            }
+        },
+        {
+            "text": "changes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 834,
+                "top": 1620,
+                "width": 172,
+                "height": 50
+            }
+        },
+        {
+            "text": "unexpectedly.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1024,
+                "top": 1619,
+                "width": 303,
+                "height": 52
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 48.0,
+            "bbox": {
+                "left": 261,
+                "top": 1713,
+                "width": 11,
+                "height": 12
+            }
+        },
+        {
+            "text": "Prevention:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 302,
+                "top": 1690,
+                "width": 249,
+                "height": 39
+            }
+        },
+        {
+            "text": "Use",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 575,
+                "top": 1692,
+                "width": 80,
+                "height": 37
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 672,
+                "top": 1690,
+                "width": 74,
+                "height": 39
+            }
+        },
+        {
+            "text": "Serializable",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 764,
+                "top": 1689,
+                "width": 260,
+                "height": 40
+            }
+        },
+        {
+            "text": "isolation",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1044,
+                "top": 1689,
+                "width": 179,
+                "height": 40
+            }
+        },
+        {
+            "text": "level.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1243,
+                "top": 1689,
+                "width": 107,
+                "height": 40
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 66.0,
+            "bbox": {
+                "left": 162,
+                "top": 1839,
+                "width": 28,
+                "height": 23
+            }
+        },
+        {
+            "text": "(Reads",
+            "confidence": 66.0,
+            "bbox": {
+                "left": 201,
+                "top": 1837,
+                "width": 90,
+                "height": 30
+            }
+        },
+        {
+            "text": "Rows)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 302,
+                "top": 1839,
+                "width": 79,
+                "height": 28
+            }
+        },
+        {
+            "text": "T2",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 796,
+                "top": 1839,
+                "width": 33,
+                "height": 23
+            }
+        },
+        {
+            "text": "(Inserts",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 840,
+                "top": 1839,
+                "width": 100,
+                "height": 28
+            }
+        },
+        {
+            "text": "Rows)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 951,
+                "top": 1839,
+                "width": 78,
+                "height": 28
+            }
+        },
+        {
+            "text": "SELECT",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 174,
+                "top": 1915,
+                "width": 86,
+                "height": 18
+            }
+        },
+        {
+            "text": "*",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 277,
+                "top": 1916,
+                "width": 11,
+                "height": 10
+            }
+        },
+        {
+            "text": "WHERE",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 304,
+                "top": 1915,
+                "width": 72,
+                "height": 18
+            }
+        },
+        {
+            "text": "salary",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 394,
+                "top": 1915,
+                "width": 85,
+                "height": 23
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 497,
+                "top": 1919,
+                "width": 10,
+                "height": 14
+            }
+        },
+        {
+            "text": "5@00",
+            "confidence": 61.0,
+            "bbox": {
+                "left": 525,
+                "top": 1915,
+                "width": 56,
+                "height": 18
+            }
+        },
+        {
+            "text": "(Retums",
+            "confidence": 39.0,
+            "bbox": {
+                "left": 164,
+                "top": 1982,
+                "width": 108,
+                "height": 27
+            }
+        },
+        {
+            "text": "2",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 282,
+                "top": 1982,
+                "width": 14,
+                "height": 22
+            }
+        },
+        {
+            "text": "rows:",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 308,
+                "top": 1988,
+                "width": 67,
+                "height": 16
+            }
+        },
+        {
+            "text": "Emp1,",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 387,
+                "top": 1982,
+                "width": 78,
+                "height": 29
+            }
+        },
+        {
+            "text": "Emp2)",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 477,
+                "top": 1982,
+                "width": 81,
+                "height": 29
+            }
+        },
+        {
+            "text": "INSERT",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 808,
+                "top": 2058,
+                "width": 85,
+                "height": 17
+            }
+        },
+        {
+            "text": "Emp3",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 911,
+                "top": 2058,
+                "width": 55,
+                "height": 22
+            }
+        },
+        {
+            "text": "(salary=6000)",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 985,
+                "top": 2056,
+                "width": 183,
+                "height": 25
+            }
+        },
+        {
+            "text": "COMMIT",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 807,
+                "top": 2131,
+                "width": 87,
+                "height": 17
+            }
+        },
+        {
+            "text": "SELECT",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 173,
+                "top": 2202,
+                "width": 87,
+                "height": 18
+            }
+        },
+        {
+            "text": "*",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 277,
+                "top": 2202,
+                "width": 11,
+                "height": 10
+            }
+        },
+        {
+            "text": "WHERE",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 304,
+                "top": 2202,
+                "width": 72,
+                "height": 18
+            }
+        },
+        {
+            "text": "salary",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 394,
+                "top": 2202,
+                "width": 85,
+                "height": 23
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 497,
+                "top": 2206,
+                "width": 10,
+                "height": 13
+            }
+        },
+        {
+            "text": "5000",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 525,
+                "top": 2202,
+                "width": 56,
+                "height": 18
+            }
+        },
+        {
+            "text": "(Now",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 798,
+                "top": 2197,
+                "width": 70,
+                "height": 28
+            }
+        },
+        {
+            "text": "returns",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 878,
+                "top": 2199,
+                "width": 92,
+                "height": 20
+            }
+        },
+        {
+            "text": "3",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 980,
+                "top": 2197,
+                "width": 14,
+                "height": 22
+            }
+        },
+        {
+            "text": "rows:",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1006,
+                "top": 2204,
+                "width": 66,
+                "height": 15
+            }
+        },
+        {
+            "text": "Emp1,",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1084,
+                "top": 2197,
+                "width": 78,
+                "height": 29
+            }
+        },
+        {
+            "text": "Emp2,",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1175,
+                "top": 2197,
+                "width": 78,
+                "height": 29
+            }
+        },
+        {
+            "text": "Emp3)",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1266,
+                "top": 2197,
+                "width": 80,
+                "height": 29
+            }
+        },
+        {
+            "text": "4.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 157,
+                "top": 2304,
+                "width": 49,
+                "height": 44
+            }
+        },
+        {
+            "text": "Lost",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 237,
+                "top": 2305,
+                "width": 108,
+                "height": 43
+            }
+        },
+        {
+            "text": "Update",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 370,
+                "top": 2303,
+                "width": 180,
+                "height": 57
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 57.0,
+            "bbox": {
+                "left": 230,
+                "top": 2435,
+                "width": 11,
+                "height": 12
+            }
+        },
+        {
+            "text": "Definition:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 273,
+                "top": 2412,
+                "width": 234,
+                "height": 41
+            }
+        },
+        {
+            "text": "Two",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 530,
+                "top": 2414,
+                "width": 86,
+                "height": 37
+            }
+        },
+        {
+            "text": "transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 634,
+                "top": 2414,
+                "width": 273,
+                "height": 37
+            }
+        },
+        {
+            "text": "read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 926,
+                "top": 2412,
+                "width": 96,
+                "height": 39
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1040,
+                "top": 2412,
+                "width": 74,
+                "height": 39
+            }
+        },
+        {
+            "text": "same",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1130,
+                "top": 2422,
+                "width": 109,
+                "height": 30
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1257,
+                "top": 2412,
+                "width": 96,
+                "height": 39
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1370,
+                "top": 2412,
+                "width": 74,
+                "height": 39
+            }
+        },
+        {
+            "text": "update",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1462,
+                "top": 2412,
+                "width": 149,
+                "height": 51
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1630,
+                "top": 2414,
+                "width": 31,
+                "height": 37
+            }
+        },
+        {
+            "text": "concurrently,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1678,
+                "top": 2411,
+                "width": 291,
+                "height": 52
+            }
+        },
+        {
+            "text": "but",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1988,
+                "top": 2412,
+                "width": 71,
+                "height": 39
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2077,
+                "top": 2423,
+                "width": 73,
+                "height": 28
+            }
+        },
+        {
+            "text": "update",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 272,
+                "top": 2488,
+                "width": 148,
+                "height": 51
+            }
+        },
+        {
+            "text": "overwrites",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 437,
+                "top": 2490,
+                "width": 235,
+                "height": 37
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 689,
+                "top": 2488,
+                "width": 74,
+                "height": 39
+            }
+        },
+        {
+            "text": "other,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 780,
+                "top": 2488,
+                "width": 135,
+                "height": 45
+            }
+        },
+        {
+            "text": "leading",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 934,
+                "top": 2487,
+                "width": 150,
+                "height": 51
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1101,
+                "top": 2492,
+                "width": 44,
+                "height": 35
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1163,
+                "top": 2501,
+                "width": 23,
+                "height": 26
+            }
+        },
+        {
+            "text": "loss",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1204,
+                "top": 2487,
+                "width": 79,
+                "height": 40
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1301,
+                "top": 2488,
+                "width": 46,
+                "height": 41
+            }
+        },
+        {
+            "text": "data.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1366,
+                "top": 2488,
+                "width": 106,
+                "height": 39
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 53.0,
+            "bbox": {
+                "left": 230,
+                "top": 2587,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Impact:",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 270,
+                "top": 2566,
+                "width": 176,
+                "height": 49
+            }
+        },
+        {
+            "text": "One",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 476,
+                "top": 2566,
+                "width": 86,
+                "height": 37
+            }
+        },
+        {
+            "text": "update",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 579,
+                "top": 2564,
+                "width": 148,
+                "height": 51
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 747,
+                "top": 2566,
+                "width": 30,
+                "height": 37
+            }
+        },
+        {
+            "text": "lost,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 797,
+                "top": 2563,
+                "width": 92,
+                "height": 46
+            }
+        },
+        {
+            "text": "leading",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 909,
+                "top": 2563,
+                "width": 150,
+                "height": 51
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1076,
+                "top": 2568,
+                "width": 44,
+                "height": 35
+            }
+        },
+        {
+            "text": "incorrect",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1141,
+                "top": 2566,
+                "width": 201,
+                "height": 37
+            }
+        },
+        {
+            "text": "results.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1361,
+                "top": 2563,
+                "width": 162,
+                "height": 40
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 53.0,
+            "bbox": {
+                "left": 230,
+                "top": 2663,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Prevention:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 271,
+                "top": 2640,
+                "width": 249,
+                "height": 39
+            }
+        },
+        {
+            "text": "Use",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 550,
+                "top": 2642,
+                "width": 81,
+                "height": 37
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 650,
+                "top": 2639,
+                "width": 106,
+                "height": 40
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 774,
+                "top": 2652,
+                "width": 45,
+                "height": 27
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 836,
+                "top": 2640,
+                "width": 74,
+                "height": 39
+            }
+        },
+        {
+            "text": "Serializable",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 928,
+                "top": 2639,
+                "width": 260,
+                "height": 40
+            }
+        },
+        {
+            "text": "isolation",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1208,
+                "top": 2639,
+                "width": 179,
+                "height": 40
+            }
+        },
+        {
+            "text": "level.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1407,
+                "top": 2639,
+                "width": 107,
+                "height": 40
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 139,
+                "top": 2768,
+                "width": 27,
+                "height": 22
+            }
+        },
+        {
+            "text": "(Updates",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 178,
+                "top": 2766,
+                "width": 122,
+                "height": 31
+            }
+        },
+        {
+            "text": "A)",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 308,
+                "top": 2768,
+                "width": 29,
+                "height": 28
+            }
+        },
+        {
+            "text": "T2",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 697,
+                "top": 2768,
+                "width": 32,
+                "height": 22
+            }
+        },
+        {
+            "text": "(Updates",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 740,
+                "top": 2766,
+                "width": 122,
+                "height": 31
+            }
+        },
+        {
+            "text": "A)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 871,
+                "top": 2768,
+                "width": 29,
+                "height": 28
+            }
+        },
+        {
+            "text": "Read(A=10@)",
+            "confidence": 20.0,
+            "bbox": {
+                "left": 150,
+                "top": 2833,
+                "width": 157,
+                "height": 38
+            }
+        },
+        {
+            "text": "Read(A=100)",
+            "confidence": 70.0,
+            "bbox": {
+                "left": 708,
+                "top": 2843,
+                "width": 156,
+                "height": 24
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 76.0,
+            "bbox": {
+                "left": 149,
+                "top": 2915,
+                "width": 15,
+                "height": 18
+            }
+        },
+        {
+            "text": "=",
+            "confidence": 45.0,
+            "bbox": {
+                "left": 180,
+                "top": 2922,
+                "width": 12,
+                "height": 6
+            }
+        },
+        {
+            "text": "A+",
+            "confidence": 45.0,
+            "bbox": {
+                "left": 208,
+                "top": 2915,
+                "width": 42,
+                "height": 18
+            }
+        },
+        {
+            "text": "2@",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 268,
+                "top": 2915,
+                "width": 27,
+                "height": 18
+            }
+        },
+        {
+            "text": "(A=120)",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 313,
+                "top": 2914,
+                "width": 96,
+                "height": 24
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 60.0,
+            "bbox": {
+                "left": 707,
+                "top": 2987,
+                "width": 14,
+                "height": 17
+            }
+        },
+        {
+            "text": "=",
+            "confidence": 60.0,
+            "bbox": {
+                "left": 737,
+                "top": 2993,
+                "width": 12,
+                "height": 6
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 765,
+                "top": 2987,
+                "width": 15,
+                "height": 17
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 798,
+                "top": 2997,
+                "width": 8,
+                "height": 2
+            }
+        },
+        {
+            "text": "30",
+            "confidence": 48.0,
+            "bbox": {
+                "left": 825,
+                "top": 2987,
+                "width": 27,
+                "height": 17
+            }
+        },
+        {
+            "text": "(A=70)",
+            "confidence": 40.0,
+            "bbox": {
+                "left": 871,
+                "top": 2985,
+                "width": 81,
+                "height": 24
+            }
+        },
+        {
+            "text": "Write",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 149,
+                "top": 3060,
+                "width": 71,
+                "height": 17
+            }
+        },
+        {
+            "text": "(A=12@)",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 226,
+                "top": 3058,
+                "width": 95,
+                "height": 24
+            }
+        },
+        {
+            "text": "Write(A=70)",
+            "confidence": 44.0,
+            "bbox": {
+                "left": 707,
+                "top": 3129,
+                "width": 157,
+                "height": 24
+            }
+        },
+        {
+            "text": "(Overwrites",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 888,
+                "top": 3126,
+                "width": 150,
+                "height": 27
+            }
+        },
+        {
+            "text": "A=120)",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1047,
+                "top": 3126,
+                "width": 97,
+                "height": 27
+            }
+        }
+    ]
+}

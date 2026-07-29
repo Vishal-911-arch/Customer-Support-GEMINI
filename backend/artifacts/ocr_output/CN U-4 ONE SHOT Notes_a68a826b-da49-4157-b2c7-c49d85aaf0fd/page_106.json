@@ -1,0 +1,1018 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_106",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_106.png",
+    "text": "Resource Reservation: A flow of data needs resources such as a buffer, bandwidth, CPU time, and so on. The QoS is improved if these resources are reserved beforehand. 702 x She ) Admission Control: > Admission control refers to the mechanism used by a router, or a switch, to actept or reject a flow based on predefined parameters called flow specifications. > Before a router accepts a flow for processing, it checks the flow specifications to see if its capacity (in terms of bandwidth, buffer size, CPU speed, etc.) and its previous commitments to other flows can handle the new flow.",
+    "words": [
+        {
+            "text": "Resource",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 108,
+                "top": 100,
+                "width": 444,
+                "height": 86
+            }
+        },
+        {
+            "text": "Reservation:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 594,
+                "top": 98,
+                "width": 596,
+                "height": 88
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 104,
+                "top": 323,
+                "width": 82,
+                "height": 84
+            }
+        },
+        {
+            "text": "flow",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 217,
+                "top": 318,
+                "width": 223,
+                "height": 90
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 470,
+                "top": 318,
+                "width": 115,
+                "height": 90
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 602,
+                "top": 320,
+                "width": 202,
+                "height": 89
+            }
+        },
+        {
+            "text": "needs",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 839,
+                "top": 320,
+                "width": 272,
+                "height": 89
+            }
+        },
+        {
+            "text": "resources",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1146,
+                "top": 347,
+                "width": 458,
+                "height": 62
+            }
+        },
+        {
+            "text": "such",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1639,
+                "top": 320,
+                "width": 217,
+                "height": 89
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1892,
+                "top": 348,
+                "width": 97,
+                "height": 61
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2023,
+                "top": 347,
+                "width": 51,
+                "height": 62
+            }
+        },
+        {
+            "text": "buffer,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2109,
+                "top": 318,
+                "width": 316,
+                "height": 107
+            }
+        },
+        {
+            "text": "bandwidth,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2462,
+                "top": 320,
+                "width": 539,
+                "height": 106
+            }
+        },
+        {
+            "text": "CPU",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3038,
+                "top": 321,
+                "width": 228,
+                "height": 88
+            }
+        },
+        {
+            "text": "time,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3304,
+                "top": 320,
+                "width": 242,
+                "height": 104
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3584,
+                "top": 320,
+                "width": 170,
+                "height": 89
+            }
+        },
+        {
+            "text": "so",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3791,
+                "top": 348,
+                "width": 104,
+                "height": 60
+            }
+        },
+        {
+            "text": "on.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3928,
+                "top": 347,
+                "width": 144,
+                "height": 62
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 104,
+                "top": 542,
+                "width": 185,
+                "height": 89
+            }
+        },
+        {
+            "text": "QoS",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 324,
+                "top": 543,
+                "width": 209,
+                "height": 107
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 578,
+                "top": 542,
+                "width": 72,
+                "height": 89
+            }
+        },
+        {
+            "text": "improved",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 689,
+                "top": 541,
+                "width": 458,
+                "height": 115
+            }
+        },
+        {
+            "text": "if",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1189,
+                "top": 540,
+                "width": 80,
+                "height": 89
+            }
+        },
+        {
+            "text": "these",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1286,
+                "top": 522,
+                "width": 259,
+                "height": 109
+            }
+        },
+        {
+            "text": "resources",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1570,
+                "top": 569,
+                "width": 458,
+                "height": 62
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2062,
+                "top": 570,
+                "width": 143,
+                "height": 61
+            }
+        },
+        {
+            "text": "reserved",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2244,
+                "top": 542,
+                "width": 406,
+                "height": 89
+            }
+        },
+        {
+            "text": "beforehand.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2687,
+                "top": 541,
+                "width": 567,
+                "height": 90
+            }
+        },
+        {
+            "text": "702",
+            "confidence": 9.0,
+            "bbox": {
+                "left": 3281,
+                "top": 588,
+                "width": 260,
+                "height": 117
+            }
+        },
+        {
+            "text": "x",
+            "confidence": 11.0,
+            "bbox": {
+                "left": 4179,
+                "top": 482,
+                "width": 175,
+                "height": 101
+            }
+        },
+        {
+            "text": "She",
+            "confidence": 65.0,
+            "bbox": {
+                "left": 3112,
+                "top": 436,
+                "width": 1357,
+                "height": 851
+            }
+        },
+        {
+            "text": ")",
+            "confidence": 19.0,
+            "bbox": {
+                "left": 4553,
+                "top": 755,
+                "width": 181,
+                "height": 282
+            }
+        },
+        {
+            "text": "Admission",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 106,
+                "top": 981,
+                "width": 520,
+                "height": 88
+            }
+        },
+        {
+            "text": "Control:",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 664,
+                "top": 981,
+                "width": 393,
+                "height": 88
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 116,
+                "top": 1199,
+                "width": 72,
+                "height": 82
+            }
+        },
+        {
+            "text": "Admission",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 254,
+                "top": 1198,
+                "width": 523,
+                "height": 89
+            }
+        },
+        {
+            "text": "control",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 813,
+                "top": 1198,
+                "width": 338,
+                "height": 89
+            }
+        },
+        {
+            "text": "refers",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1192,
+                "top": 1196,
+                "width": 272,
+                "height": 91
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1500,
+                "top": 1212,
+                "width": 91,
+                "height": 74
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1623,
+                "top": 1198,
+                "width": 147,
+                "height": 89
+            }
+        },
+        {
+            "text": "mechanism",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1806,
+                "top": 1198,
+                "width": 547,
+                "height": 89
+            }
+        },
+        {
+            "text": "used",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2393,
+                "top": 1198,
+                "width": 217,
+                "height": 89
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2647,
+                "top": 1198,
+                "width": 117,
+                "height": 116
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2768,
+                "top": 1192,
+                "width": 53,
+                "height": 126
+            }
+        },
+        {
+            "text": "router,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2879,
+                "top": 1212,
+                "width": 314,
+                "height": 88
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3230,
+                "top": 1225,
+                "width": 103,
+                "height": 61
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3364,
+                "top": 1225,
+                "width": 52,
+                "height": 62
+            }
+        },
+        {
+            "text": "switch,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3450,
+                "top": 1197,
+                "width": 341,
+                "height": 107
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 3828,
+                "top": 1212,
+                "width": 91,
+                "height": 75
+            }
+        },
+        {
+            "text": "actept",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 4116,
+                "top": 1212,
+                "width": 145,
+                "height": 100
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4297,
+                "top": 1225,
+                "width": 100,
+                "height": 61
+            }
+        },
+        {
+            "text": "reject",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4431,
+                "top": 1198,
+                "width": 265,
+                "height": 114
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4730,
+                "top": 1225,
+                "width": 53,
+                "height": 62
+            }
+        },
+        {
+            "text": "flow",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4818,
+                "top": 1196,
+                "width": 220,
+                "height": 90
+            }
+        },
+        {
+            "text": "based",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 256,
+                "top": 1420,
+                "width": 269,
+                "height": 89
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 561,
+                "top": 1448,
+                "width": 119,
+                "height": 60
+            }
+        },
+        {
+            "text": "predefined",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 717,
+                "top": 1419,
+                "width": 515,
+                "height": 115
+            }
+        },
+        {
+            "text": "parameters",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1271,
+                "top": 1434,
+                "width": 529,
+                "height": 100
+            }
+        },
+        {
+            "text": "called",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1836,
+                "top": 1419,
+                "width": 285,
+                "height": 90
+            }
+        },
+        {
+            "text": "flow",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2157,
+                "top": 1418,
+                "width": 223,
+                "height": 90
+            }
+        },
+        {
+            "text": "specifications.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2413,
+                "top": 1415,
+                "width": 689,
+                "height": 119
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 116,
+                "top": 1643,
+                "width": 72,
+                "height": 83
+            }
+        },
+        {
+            "text": "Before",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 257,
+                "top": 1641,
+                "width": 323,
+                "height": 90
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 616,
+                "top": 1670,
+                "width": 53,
+                "height": 61
+            }
+        },
+        {
+            "text": "router",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 703,
+                "top": 1655,
+                "width": 290,
+                "height": 76
+            }
+        },
+        {
+            "text": "accepts",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1024,
+                "top": 1657,
+                "width": 355,
+                "height": 99
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1413,
+                "top": 1670,
+                "width": 52,
+                "height": 61
+            }
+        },
+        {
+            "text": "flow",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1501,
+                "top": 1641,
+                "width": 222,
+                "height": 90
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1756,
+                "top": 1641,
+                "width": 139,
+                "height": 90
+            }
+        },
+        {
+            "text": "processing,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1928,
+                "top": 1643,
+                "width": 548,
+                "height": 113
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2512,
+                "top": 1642,
+                "width": 63,
+                "height": 92
+            }
+        },
+        {
+            "text": "checks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2608,
+                "top": 1640,
+                "width": 329,
+                "height": 92
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2970,
+                "top": 1642,
+                "width": 144,
+                "height": 89
+            }
+        },
+        {
+            "text": "flow",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3154,
+                "top": 1640,
+                "width": 221,
+                "height": 91
+            }
+        },
+        {
+            "text": "specifications",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3408,
+                "top": 1641,
+                "width": 666,
+                "height": 115
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4107,
+                "top": 1657,
+                "width": 92,
+                "height": 74
+            }
+        },
+        {
+            "text": "see",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4236,
+                "top": 1670,
+                "width": 147,
+                "height": 61
+            }
+        },
+        {
+            "text": "if",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 4424,
+                "top": 1641,
+                "width": 82,
+                "height": 88
+            }
+        },
+        {
+            "text": "its",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 4531,
+                "top": 1642,
+                "width": 106,
+                "height": 89
+            }
+        },
+        {
+            "text": "capacity",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4672,
+                "top": 1643,
+                "width": 397,
+                "height": 113
+            }
+        },
+        {
+            "text": "(in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 254,
+                "top": 1858,
+                "width": 131,
+                "height": 109
+            }
+        },
+        {
+            "text": "terms",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 419,
+                "top": 1872,
+                "width": 267,
+                "height": 76
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 722,
+                "top": 1858,
+                "width": 114,
+                "height": 89
+            }
+        },
+        {
+            "text": "bandwidth,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 855,
+                "top": 1858,
+                "width": 540,
+                "height": 103
+            }
+        },
+        {
+            "text": "buffer",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1433,
+                "top": 1857,
+                "width": 294,
+                "height": 91
+            }
+        },
+        {
+            "text": "size,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1761,
+                "top": 1858,
+                "width": 212,
+                "height": 103
+            }
+        },
+        {
+            "text": "CPU",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2095,
+                "top": 1860,
+                "width": 145,
+                "height": 88
+            }
+        },
+        {
+            "text": "speed,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2277,
+                "top": 1858,
+                "width": 302,
+                "height": 117
+            }
+        },
+        {
+            "text": "etc.)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2617,
+                "top": 1863,
+                "width": 209,
+                "height": 101
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2862,
+                "top": 1859,
+                "width": 170,
+                "height": 89
+            }
+        },
+        {
+            "text": "its",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 3074,
+                "top": 1858,
+                "width": 106,
+                "height": 89
+            }
+        },
+        {
+            "text": "previous",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3216,
+                "top": 1858,
+                "width": 416,
+                "height": 115
+            }
+        },
+        {
+            "text": "commitments",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3666,
+                "top": 1858,
+                "width": 658,
+                "height": 91
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4359,
+                "top": 1873,
+                "width": 93,
+                "height": 75
+            }
+        },
+        {
+            "text": "other",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4486,
+                "top": 1859,
+                "width": 250,
+                "height": 89
+            }
+        },
+        {
+            "text": "flows",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4769,
+                "top": 1858,
+                "width": 267,
+                "height": 89
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 254,
+                "top": 2109,
+                "width": 166,
+                "height": 61
+            }
+        },
+        {
+            "text": "handle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 455,
+                "top": 2080,
+                "width": 320,
+                "height": 90
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 808,
+                "top": 2081,
+                "width": 145,
+                "height": 89
+            }
+        },
+        {
+            "text": "new",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 991,
+                "top": 2108,
+                "width": 200,
+                "height": 62
+            }
+        },
+        {
+            "text": "flow.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1224,
+                "top": 2079,
+                "width": 233,
+                "height": 91
+            }
+        }
+    ]
+}

@@ -1,0 +1,2128 @@
+{
+    "document": "DBMS-Unit-5-By-Multi-Atoms-Plus",
+    "page": "page_20",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\DBMS-Unit-5-By-Multi-Atoms-Plus\\page_20.png",
+    "text": "Key Concurrency Control Techniques in Oracle 1.Multiversion Concurrency Control (MVCC): + Oracle uses MVCC to provide a non-blocking read mechanism. When a transaction modifies data, the database does not overwrite the original data. Instead, it creates a new version while retaining the old version for other transactions to read. » This ensures read consistency, where each query sees a consistent snapshot of the database as of the query's start time. Example: If a user reads data while another transaction is modifying it, the user will see the old version of the data until the modifying transaction commits. 3.Undo Tablespace: Oracle uses undo segments to store the original state of modified data. This enables: « Rollback of uncommitted transactions. - Generation of consistent snapshots for queries using MVCC. Impact: Even if a transaction is rolled back, Oracle ensures that other users’ views of the data remain unaffected. 4.Automatic Conflict Resolution: Oracle employs sophisticated algorithms to handle write conflicts between transactions. When a conflict occurs: + The database determines the transaction with the higher priority based on timing or access order. - The lower-priority transaction may be delayed or restarted. Advantages of Oracle’s Concurrency Control: - High performance with minimal blocking. - Improved scalability for multi-user environments. - Data consistency and integrity are guaranteed.",
+    "words": [
+        {
+            "text": "Key",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 230,
+                "top": 195,
+                "width": 98,
+                "height": 52
+            }
+        },
+        {
+            "text": "Concurrency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 348,
+                "top": 194,
+                "width": 342,
+                "height": 53
+            }
+        },
+        {
+            "text": "Control",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 710,
+                "top": 194,
+                "width": 193,
+                "height": 42
+            }
+        },
+        {
+            "text": "Techniques",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 924,
+                "top": 195,
+                "width": 304,
+                "height": 51
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1250,
+                "top": 195,
+                "width": 42,
+                "height": 40
+            }
+        },
+        {
+            "text": "Oracle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1315,
+                "top": 194,
+                "width": 170,
+                "height": 42
+            }
+        },
+        {
+            "text": "1.Multiversion",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 205,
+                "top": 372,
+                "width": 337,
+                "height": 43
+            }
+        },
+        {
+            "text": "Concurrency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 567,
+                "top": 374,
+                "width": 293,
+                "height": 52
+            }
+        },
+        {
+            "text": "Control",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 883,
+                "top": 372,
+                "width": 168,
+                "height": 42
+            }
+        },
+        {
+            "text": "(MVCC):",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1078,
+                "top": 372,
+                "width": 192,
+                "height": 51
+            }
+        },
+        {
+            "text": "+",
+            "confidence": 38.0,
+            "bbox": {
+                "left": 269,
+                "top": 491,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "Oracle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 315,
+                "top": 468,
+                "width": 154,
+                "height": 42
+            }
+        },
+        {
+            "text": "uses",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 488,
+                "top": 480,
+                "width": 98,
+                "height": 30
+            }
+        },
+        {
+            "text": "MVCC",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 606,
+                "top": 470,
+                "width": 135,
+                "height": 40
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 759,
+                "top": 474,
+                "width": 46,
+                "height": 36
+            }
+        },
+        {
+            "text": "provide",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 825,
+                "top": 469,
+                "width": 171,
+                "height": 53
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1013,
+                "top": 482,
+                "width": 24,
+                "height": 28
+            }
+        },
+        {
+            "text": "non-blocking",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1056,
+                "top": 468,
+                "width": 287,
+                "height": 54
+            }
+        },
+        {
+            "text": "read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1363,
+                "top": 469,
+                "width": 101,
+                "height": 41
+            }
+        },
+        {
+            "text": "mechanism.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1485,
+                "top": 468,
+                "width": 260,
+                "height": 43
+            }
+        },
+        {
+            "text": "When",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1766,
+                "top": 468,
+                "width": 131,
+                "height": 42
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1915,
+                "top": 482,
+                "width": 24,
+                "height": 28
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1957,
+                "top": 471,
+                "width": 264,
+                "height": 39
+            }
+        },
+        {
+            "text": "modifies",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2241,
+                "top": 468,
+                "width": 197,
+                "height": 44
+            }
+        },
+        {
+            "text": "data,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 315,
+                "top": 531,
+                "width": 114,
+                "height": 47
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 448,
+                "top": 530,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "database",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 545,
+                "top": 531,
+                "width": 210,
+                "height": 41
+            }
+        },
+        {
+            "text": "does",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 774,
+                "top": 531,
+                "width": 104,
+                "height": 41
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 897,
+                "top": 536,
+                "width": 72,
+                "height": 36
+            }
+        },
+        {
+            "text": "overwrite",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 988,
+                "top": 533,
+                "width": 225,
+                "height": 39
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1231,
+                "top": 530,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "original",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1327,
+                "top": 530,
+                "width": 166,
+                "height": 54
+            }
+        },
+        {
+            "text": "data.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1515,
+                "top": 531,
+                "width": 113,
+                "height": 41
+            }
+        },
+        {
+            "text": "Instead,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1647,
+                "top": 531,
+                "width": 196,
+                "height": 47
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1864,
+                "top": 533,
+                "width": 32,
+                "height": 39
+            }
+        },
+        {
+            "text": "creates",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1916,
+                "top": 536,
+                "width": 176,
+                "height": 36
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2110,
+                "top": 544,
+                "width": 24,
+                "height": 28
+            }
+        },
+        {
+            "text": "new",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2153,
+                "top": 543,
+                "width": 84,
+                "height": 29
+            }
+        },
+        {
+            "text": "version",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2255,
+                "top": 533,
+                "width": 165,
+                "height": 39
+            }
+        },
+        {
+            "text": "while",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 314,
+                "top": 589,
+                "width": 116,
+                "height": 42
+            }
+        },
+        {
+            "text": "retaining",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 449,
+                "top": 592,
+                "width": 205,
+                "height": 51
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 673,
+                "top": 589,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "old",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 769,
+                "top": 589,
+                "width": 66,
+                "height": 41
+            }
+        },
+        {
+            "text": "version",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 854,
+                "top": 592,
+                "width": 165,
+                "height": 39
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1038,
+                "top": 589,
+                "width": 73,
+                "height": 44
+            }
+        },
+        {
+            "text": "other",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1130,
+                "top": 589,
+                "width": 128,
+                "height": 42
+            }
+        },
+        {
+            "text": "transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1276,
+                "top": 592,
+                "width": 289,
+                "height": 39
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1584,
+                "top": 595,
+                "width": 46,
+                "height": 36
+            }
+        },
+        {
+            "text": "read.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1651,
+                "top": 590,
+                "width": 114,
+                "height": 41
+            }
+        },
+        {
+            "text": "»",
+            "confidence": 16.0,
+            "bbox": {
+                "left": 269,
+                "top": 674,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 315,
+                "top": 651,
+                "width": 97,
+                "height": 42
+            }
+        },
+        {
+            "text": "ensures",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 431,
+                "top": 663,
+                "width": 178,
+                "height": 30
+            }
+        },
+        {
+            "text": "read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 629,
+                "top": 652,
+                "width": 102,
+                "height": 41
+            }
+        },
+        {
+            "text": "consistency,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 752,
+                "top": 654,
+                "width": 281,
+                "height": 51
+            }
+        },
+        {
+            "text": "where",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1053,
+                "top": 651,
+                "width": 140,
+                "height": 42
+            }
+        },
+        {
+            "text": "each",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1211,
+                "top": 651,
+                "width": 105,
+                "height": 42
+            }
+        },
+        {
+            "text": "query",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1334,
+                "top": 665,
+                "width": 129,
+                "height": 40
+            }
+        },
+        {
+            "text": "sees",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1480,
+                "top": 663,
+                "width": 102,
+                "height": 30
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1600,
+                "top": 665,
+                "width": 24,
+                "height": 28
+            }
+        },
+        {
+            "text": "consistent",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1643,
+                "top": 654,
+                "width": 239,
+                "height": 39
+            }
+        },
+        {
+            "text": "snapshot",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1900,
+                "top": 651,
+                "width": 206,
+                "height": 54
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2125,
+                "top": 651,
+                "width": 47,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2192,
+                "top": 651,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "database",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 315,
+                "top": 711,
+                "width": 209,
+                "height": 41
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 541,
+                "top": 722,
+                "width": 48,
+                "height": 30
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 608,
+                "top": 710,
+                "width": 48,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 675,
+                "top": 710,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "query's",
+            "confidence": 76.0,
+            "bbox": {
+                "left": 770,
+                "top": 711,
+                "width": 162,
+                "height": 53
+            }
+        },
+        {
+            "text": "start",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 950,
+                "top": 716,
+                "width": 120,
+                "height": 36
+            }
+        },
+        {
+            "text": "time.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1089,
+                "top": 713,
+                "width": 113,
+                "height": 40
+            }
+        },
+        {
+            "text": "Example:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 201,
+                "top": 805,
+                "width": 211,
+                "height": 54
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 201,
+                "top": 864,
+                "width": 49,
+                "height": 44
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 269,
+                "top": 878,
+                "width": 24,
+                "height": 28
+            }
+        },
+        {
+            "text": "user",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 312,
+                "top": 876,
+                "width": 98,
+                "height": 30
+            }
+        },
+        {
+            "text": "reads",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 430,
+                "top": 865,
+                "width": 127,
+                "height": 41
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 577,
+                "top": 865,
+                "width": 101,
+                "height": 41
+            }
+        },
+        {
+            "text": "while",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 696,
+                "top": 864,
+                "width": 117,
+                "height": 42
+            }
+        },
+        {
+            "text": "another",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 830,
+                "top": 864,
+                "width": 182,
+                "height": 42
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1030,
+                "top": 867,
+                "width": 265,
+                "height": 39
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1315,
+                "top": 867,
+                "width": 33,
+                "height": 39
+            }
+        },
+        {
+            "text": "modifying",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1368,
+                "top": 864,
+                "width": 225,
+                "height": 54
+            }
+        },
+        {
+            "text": "it,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1614,
+                "top": 867,
+                "width": 46,
+                "height": 45
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 1679,
+                "top": 864,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "user",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1776,
+                "top": 876,
+                "width": 98,
+                "height": 30
+            }
+        },
+        {
+            "text": "will",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1893,
+                "top": 864,
+                "width": 70,
+                "height": 42
+            }
+        },
+        {
+            "text": "see",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1983,
+                "top": 876,
+                "width": 79,
+                "height": 30
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2079,
+                "top": 864,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "old",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2175,
+                "top": 864,
+                "width": 66,
+                "height": 41
+            }
+        },
+        {
+            "text": "version",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2260,
+                "top": 867,
+                "width": 165,
+                "height": 39
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 201,
+                "top": 926,
+                "width": 48,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 269,
+                "top": 926,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 366,
+                "top": 927,
+                "width": 101,
+                "height": 41
+            }
+        },
+        {
+            "text": "until",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 486,
+                "top": 926,
+                "width": 98,
+                "height": 42
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 605,
+                "top": 926,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "modifying",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 702,
+                "top": 926,
+                "width": 224,
+                "height": 54
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 945,
+                "top": 929,
+                "width": 264,
+                "height": 39
+            }
+        },
+        {
+            "text": "commits.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1229,
+                "top": 929,
+                "width": 201,
+                "height": 40
+            }
+        },
+        {
+            "text": "3.Undo",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 202,
+                "top": 1129,
+                "width": 168,
+                "height": 42
+            }
+        },
+        {
+            "text": "Tablespace:",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 394,
+                "top": 1128,
+                "width": 285,
+                "height": 54
+            }
+        },
+        {
+            "text": "Oracle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 202,
+                "top": 1198,
+                "width": 155,
+                "height": 42
+            }
+        },
+        {
+            "text": "uses",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 375,
+                "top": 1210,
+                "width": 99,
+                "height": 30
+            }
+        },
+        {
+            "text": "undo",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 494,
+                "top": 1199,
+                "width": 103,
+                "height": 41
+            }
+        },
+        {
+            "text": "segments",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 616,
+                "top": 1204,
+                "width": 218,
+                "height": 48
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 853,
+                "top": 1204,
+                "width": 46,
+                "height": 36
+            }
+        },
+        {
+            "text": "store",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 918,
+                "top": 1204,
+                "width": 125,
+                "height": 36
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1061,
+                "top": 1198,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "original",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1157,
+                "top": 1198,
+                "width": 166,
+                "height": 54
+            }
+        },
+        {
+            "text": "state",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1343,
+                "top": 1204,
+                "width": 124,
+                "height": 36
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1485,
+                "top": 1198,
+                "width": 48,
+                "height": 44
+            }
+        },
+        {
+            "text": "modified",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1554,
+                "top": 1198,
+                "width": 201,
+                "height": 44
+            }
+        },
+        {
+            "text": "data.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1776,
+                "top": 1199,
+                "width": 112,
+                "height": 41
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1909,
+                "top": 1198,
+                "width": 97,
+                "height": 42
+            }
+        },
+        {
+            "text": "enables:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2025,
+                "top": 1198,
+                "width": 184,
+                "height": 42
+            }
+        },
+        {
+            "text": "«",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 269,
+                "top": 1326,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "Rollback",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 315,
+                "top": 1302,
+                "width": 192,
+                "height": 42
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 524,
+                "top": 1302,
+                "width": 48,
+                "height": 44
+            }
+        },
+        {
+            "text": "uncommitted",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 592,
+                "top": 1303,
+                "width": 298,
+                "height": 42
+            }
+        },
+        {
+            "text": "transactions.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 910,
+                "top": 1305,
+                "width": 300,
+                "height": 39
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 64.0,
+            "bbox": {
+                "left": 269,
+                "top": 1399,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "Generation",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 314,
+                "top": 1376,
+                "width": 254,
+                "height": 41
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 586,
+                "top": 1375,
+                "width": 48,
+                "height": 44
+            }
+        },
+        {
+            "text": "consistent",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 655,
+                "top": 1378,
+                "width": 239,
+                "height": 39
+            }
+        },
+        {
+            "text": "snapshots",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 912,
+                "top": 1375,
+                "width": 230,
+                "height": 54
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1161,
+                "top": 1375,
+                "width": 73,
+                "height": 44
+            }
+        },
+        {
+            "text": "queries",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1252,
+                "top": 1378,
+                "width": 168,
+                "height": 51
+            }
+        },
+        {
+            "text": "using",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1440,
+                "top": 1378,
+                "width": 113,
+                "height": 51
+            }
+        },
+        {
+            "text": "MVCC.",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1573,
+                "top": 1377,
+                "width": 146,
+                "height": 40
+            }
+        },
+        {
+            "text": "Impact:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 200,
+                "top": 1482,
+                "width": 186,
+                "height": 51
+            }
+        },
+        {
+            "text": "Even",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 418,
+                "top": 1479,
+                "width": 106,
+                "height": 42
+            }
+        },
+        {
+            "text": "if",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 544,
+                "top": 1479,
+                "width": 34,
+                "height": 44
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 596,
+                "top": 1493,
+                "width": 24,
+                "height": 28
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 638,
+                "top": 1482,
+                "width": 265,
+                "height": 39
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 924,
+                "top": 1482,
+                "width": 33,
+                "height": 39
+            }
+        },
+        {
+            "text": "rolled",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 976,
+                "top": 1479,
+                "width": 131,
+                "height": 42
+            }
+        },
+        {
+            "text": "back,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1129,
+                "top": 1479,
+                "width": 117,
+                "height": 48
+            }
+        },
+        {
+            "text": "Oracle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1266,
+                "top": 1479,
+                "width": 154,
+                "height": 42
+            }
+        },
+        {
+            "text": "ensures",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1438,
+                "top": 1491,
+                "width": 178,
+                "height": 30
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1635,
+                "top": 1479,
+                "width": 99,
+                "height": 42
+            }
+        },
+        {
+            "text": "other",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1753,
+                "top": 1479,
+                "width": 128,
+                "height": 42
+            }
+        },
+        {
+            "text": "users’",
+            "confidence": 55.0,
+            "bbox": {
+                "left": 1901,
+                "top": 1478,
+                "width": 136,
+                "height": 43
+            }
+        },
+        {
+            "text": "views",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2062,
+                "top": 1482,
+                "width": 122,
+                "height": 39
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2203,
+                "top": 1479,
+                "width": 47,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2270,
+                "top": 1479,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 202,
+                "top": 1551,
+                "width": 102,
+                "height": 41
+            }
+        },
+        {
+            "text": "remain",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 323,
+                "top": 1553,
+                "width": 153,
+                "height": 40
+            }
+        },
+        {
+            "text": "unaffected.",
+            "confidence": 76.0,
+            "bbox": {
+                "left": 496,
+                "top": 1550,
+                "width": 272,
+                "height": 44
+            }
+        },
+        {
+            "text": "4.Automatic",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 199,
+                "top": 1764,
+                "width": 296,
+                "height": 42
+            }
+        },
+        {
+            "text": "Conflict",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 520,
+                "top": 1763,
+                "width": 186,
+                "height": 44
+            }
+        },
+        {
+            "text": "Resolution:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 731,
+                "top": 1763,
+                "width": 256,
+                "height": 42
+            }
+        },
+        {
+            "text": "Oracle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 202,
+                "top": 1845,
+                "width": 155,
+                "height": 42
+            }
+        },
+        {
+            "text": "employs",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 374,
+                "top": 1845,
+                "width": 182,
+                "height": 54
+            }
+        },
+        {
+            "text": "sophisticated",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 574,
+                "top": 1845,
+                "width": 314,
+                "height": 54
+            }
+        },
+        {
+            "text": "algorithms",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 907,
+                "top": 1845,
+                "width": 246,
+                "height": 54
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1171,
+                "top": 1851,
+                "width": 46,
+                "height": 36
+            }
+        },
+        {
+            "text": "handle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1239,
+                "top": 1845,
+                "width": 148,
+                "height": 42
+            }
+        },
+        {
+            "text": "write",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1405,
+                "top": 1848,
+                "width": 122,
+                "height": 39
+            }
+        },
+        {
+            "text": "conflicts",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1545,
+                "top": 1845,
+                "width": 203,
+                "height": 44
+            }
+        },
+        {
+            "text": "between",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1769,
+                "top": 1846,
+                "width": 192,
+                "height": 41
+            }
+        },
+        {
+            "text": "transactions.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1980,
+                "top": 1848,
+                "width": 300,
+                "height": 39
+            }
+        },
+        {
+            "text": "When",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2301,
+                "top": 1845,
+                "width": 132,
+                "height": 42
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 200,
+                "top": 1940,
+                "width": 24,
+                "height": 28
+            }
+        },
+        {
+            "text": "conflict",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 243,
+                "top": 1926,
+                "width": 178,
+                "height": 44
+            }
+        },
+        {
+            "text": "occurs:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 440,
+                "top": 1938,
+                "width": 162,
+                "height": 30
+            }
+        },
+        {
+            "text": "+",
+            "confidence": 60.0,
+            "bbox": {
+                "left": 269,
+                "top": 2064,
+                "width": 12,
+                "height": 12
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 315,
+                "top": 2041,
+                "width": 87,
+                "height": 42
+            }
+        },
+        {
+            "text": "database",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 421,
+                "top": 2042,
+                "width": 210,
+                "height": 41
+            }
+        },
+        {
+            "text": "determines",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 650,
+                "top": 2042,
+                "width": 261,
+                "height": 42
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 929,
+                "top": 2041,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1025,
+                "top": 2044,
+                "width": 265,
+                "height": 39
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1308,
+                "top": 2041,
+                "width": 98,
+                "height": 42
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1425,
+                "top": 2041,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "higher",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1523,
+                "top": 2041,
+                "width": 146,
+                "height": 54
+            }
+        },
+        {
+            "text": "priority",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1689,
+                "top": 2044,
+                "width": 176,
+                "height": 51
+            }
+        },
+        {
+            "text": "based",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1885,
+                "top": 2042,
+                "width": 132,
+                "height": 41
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2036,
+                "top": 2054,
+                "width": 50,
+                "height": 29
+            }
+        },
+        {
+            "text": "timing",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2105,
+                "top": 2044,
+                "width": 141,
+                "height": 51
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 2265,
+                "top": 2055,
+                "width": 47,
+                "height": 28
+            }
+        },
+        {
+            "text": "access",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 313,
+                "top": 2132,
+                "width": 152,
+                "height": 30
+            }
+        },
+        {
+            "text": "order.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 484,
+                "top": 2121,
+                "width": 140,
+                "height": 41
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 38.0,
+            "bbox": {
+                "left": 269,
+                "top": 2225,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 315,
+                "top": 2201,
+                "width": 87,
+                "height": 42
+            }
+        },
+        {
+            "text": "lower-priority",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 422,
+                "top": 2201,
+                "width": 324,
+                "height": 54
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 764,
+                "top": 2204,
+                "width": 265,
+                "height": 39
+            }
+        },
+        {
+            "text": "may",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1048,
+                "top": 2214,
+                "width": 87,
+                "height": 41
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1156,
+                "top": 2202,
+                "width": 53,
+                "height": 40
+            }
+        },
+        {
+            "text": "delayed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1228,
+                "top": 2201,
+                "width": 175,
+                "height": 54
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1423,
+                "top": 2215,
+                "width": 47,
+                "height": 28
+            }
+        },
+        {
+            "text": "restarted.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1490,
+                "top": 2202,
+                "width": 238,
+                "height": 41
+            }
+        },
+        {
+            "text": "Advantages",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 256,
+                "top": 2387,
+                "width": 315,
+                "height": 52
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 592,
+                "top": 2386,
+                "width": 52,
+                "height": 42
+            }
+        },
+        {
+            "text": "Oracle’s",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 661,
+                "top": 2386,
+                "width": 214,
+                "height": 42
+            }
+        },
+        {
+            "text": "Concurrency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 897,
+                "top": 2386,
+                "width": 342,
+                "height": 53
+            }
+        },
+        {
+            "text": "Control:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1259,
+                "top": 2386,
+                "width": 210,
+                "height": 42
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 19.0,
+            "bbox": {
+                "left": 269,
+                "top": 2587,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "High",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 315,
+                "top": 2564,
+                "width": 104,
+                "height": 54
+            }
+        },
+        {
+            "text": "performance",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 445,
+                "top": 2564,
+                "width": 300,
+                "height": 54
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 770,
+                "top": 2564,
+                "width": 99,
+                "height": 42
+            }
+        },
+        {
+            "text": "minimal",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 895,
+                "top": 2564,
+                "width": 169,
+                "height": 43
+            }
+        },
+        {
+            "text": "blocking.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1092,
+                "top": 2564,
+                "width": 204,
+                "height": 54
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 269,
+                "top": 2649,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "Improved",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 313,
+                "top": 2627,
+                "width": 224,
+                "height": 53
+            }
+        },
+        {
+            "text": "scalability",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 562,
+                "top": 2626,
+                "width": 244,
+                "height": 54
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 829,
+                "top": 2626,
+                "width": 74,
+                "height": 44
+            }
+        },
+        {
+            "text": "multi-user",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 928,
+                "top": 2626,
+                "width": 249,
+                "height": 43
+            }
+        },
+        {
+            "text": "environments.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1201,
+                "top": 2629,
+                "width": 327,
+                "height": 40
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 37.0,
+            "bbox": {
+                "left": 269,
+                "top": 2713,
+                "width": 12,
+                "height": 12
+            }
+        },
+        {
+            "text": "Data",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 315,
+                "top": 2692,
+                "width": 112,
+                "height": 40
+            }
+        },
+        {
+            "text": "consistency",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 451,
+                "top": 2693,
+                "width": 274,
+                "height": 51
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 748,
+                "top": 2691,
+                "width": 82,
+                "height": 41
+            }
+        },
+        {
+            "text": "integrity",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 856,
+                "top": 2693,
+                "width": 207,
+                "height": 51
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1086,
+                "top": 2704,
+                "width": 77,
+                "height": 28
+            }
+        },
+        {
+            "text": "guaranteed.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1188,
+                "top": 2691,
+                "width": 285,
+                "height": 53
+            }
+        }
+    ]
+}

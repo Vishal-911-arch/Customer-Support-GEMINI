@@ -1,0 +1,3238 @@
+{
+    "document": "DBMS-Unit-5-By-Multi-Atoms-Plus",
+    "page": "page_5",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\DBMS-Unit-5-By-Multi-Atoms-Plus\\page_5.png",
+    "text": "Lock-Based Protocols: 1. Simplistic Lock Protocol: - Description: This is a simple approach where a transaction acquires locks on all data items it needs to modify before performing any write operations. Once the transaction completes the write, it releases the locks. - Usage: It is not widely used because it can lead to unnecessary locking and may cause delays in other transactions. Example: Scenario: T1 wants to update the account balance by depositing 200, and T2 wants to read the balance. Steps: 1.T1 acquires a lock on the account balance. 2.T1 updates the balance: 500 + 200 = 700. 3. T1 releases the lock. 4. Now T2 can read the balance (700). Problem: While T1 is holding the lock, T2 must wait, even though it only wants to read the data and doesn't interfere with the update. This makes it inefficient. 2. Pre-claiming Lock Protocol: - Description: Before a transaction starts executing, it first claims all the locks it needs for the data items involved. It requests all the locks at once, and if all the locks are granted, it proceeds with the operations. If any lock is not granted, the transaction is rolled back. + Usage: This protocol is less flexible because it locks all data at the beginning, which can lead to inefficiencies or deadlocks. Example: Scenario: T1 wants to update the balance, and T2 wants to read the balance. Steps: 1. Before starting, T1 requests a write lock on the balance. 2. If the system grants the lock, T1 updates the balance: 500 + 200 = 700. 3. After completing the update, T1 releases the lock. 4.12 can now acquire a read lock and read the updated balance (700). What if locks are unavailable? If T2 already holds a read lock, T1 rolls back (doesn’t proceed with its operation). Problem: Pre-claiming locks upfront may cause deadlocks (e.g., T1 and T2 waiting for each other's locks) or make transactions unnecessarily wait.",
+    "words": [
+        {
+            "text": "Lock-Based",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 147,
+                "top": 185,
+                "width": 264,
+                "height": 34
+            }
+        },
+        {
+            "text": "Protocols:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 431,
+                "top": 185,
+                "width": 227,
+                "height": 34
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 160,
+                "top": 333,
+                "width": 46,
+                "height": 46
+            }
+        },
+        {
+            "text": "Simplistic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 241,
+                "top": 332,
+                "width": 255,
+                "height": 60
+            }
+        },
+        {
+            "text": "Lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 524,
+                "top": 332,
+                "width": 117,
+                "height": 47
+            }
+        },
+        {
+            "text": "Protocol:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 668,
+                "top": 332,
+                "width": 232,
+                "height": 46
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 225,
+                "top": 471,
+                "width": 11,
+                "height": 12
+            }
+        },
+        {
+            "text": "Description:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 271,
+                "top": 447,
+                "width": 299,
+                "height": 56
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 596,
+                "top": 446,
+                "width": 103,
+                "height": 44
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 722,
+                "top": 449,
+                "width": 34,
+                "height": 41
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 775,
+                "top": 461,
+                "width": 25,
+                "height": 29
+            }
+        },
+        {
+            "text": "simple",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 818,
+                "top": 446,
+                "width": 153,
+                "height": 57
+            }
+        },
+        {
+            "text": "approach",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 989,
+                "top": 446,
+                "width": 220,
+                "height": 57
+            }
+        },
+        {
+            "text": "where",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1230,
+                "top": 446,
+                "width": 148,
+                "height": 44
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1396,
+                "top": 461,
+                "width": 25,
+                "height": 29
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1440,
+                "top": 449,
+                "width": 279,
+                "height": 41
+            }
+        },
+        {
+            "text": "acquires",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1738,
+                "top": 449,
+                "width": 203,
+                "height": 53
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1964,
+                "top": 446,
+                "width": 118,
+                "height": 44
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2102,
+                "top": 460,
+                "width": 52,
+                "height": 30
+            }
+        },
+        {
+            "text": "all",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2173,
+                "top": 446,
+                "width": 52,
+                "height": 44
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 270,
+                "top": 528,
+                "width": 106,
+                "height": 44
+            }
+        },
+        {
+            "text": "items",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 399,
+                "top": 531,
+                "width": 130,
+                "height": 42
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 552,
+                "top": 531,
+                "width": 34,
+                "height": 41
+            }
+        },
+        {
+            "text": "needs",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 606,
+                "top": 528,
+                "width": 138,
+                "height": 44
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 764,
+                "top": 534,
+                "width": 48,
+                "height": 38
+            }
+        },
+        {
+            "text": "modify",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 835,
+                "top": 528,
+                "width": 166,
+                "height": 57
+            }
+        },
+        {
+            "text": "before",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1022,
+                "top": 528,
+                "width": 166,
+                "height": 46
+            }
+        },
+        {
+            "text": "performing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1208,
+                "top": 528,
+                "width": 272,
+                "height": 57
+            }
+        },
+        {
+            "text": "any",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1499,
+                "top": 542,
+                "width": 81,
+                "height": 43
+            }
+        },
+        {
+            "text": "write",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1599,
+                "top": 531,
+                "width": 128,
+                "height": 41
+            }
+        },
+        {
+            "text": "operations.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1747,
+                "top": 531,
+                "width": 268,
+                "height": 54
+            }
+        },
+        {
+            "text": "Once",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2038,
+                "top": 530,
+                "width": 123,
+                "height": 42
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2180,
+                "top": 528,
+                "width": 82,
+                "height": 44
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 269,
+                "top": 609,
+                "width": 279,
+                "height": 41
+            }
+        },
+        {
+            "text": "completes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 569,
+                "top": 606,
+                "width": 244,
+                "height": 57
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 833,
+                "top": 606,
+                "width": 82,
+                "height": 44
+            }
+        },
+        {
+            "text": "write,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 934,
+                "top": 609,
+                "width": 143,
+                "height": 48
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1100,
+                "top": 609,
+                "width": 34,
+                "height": 41
+            }
+        },
+        {
+            "text": "releases",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1155,
+                "top": 606,
+                "width": 201,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1376,
+                "top": 606,
+                "width": 82,
+                "height": 44
+            }
+        },
+        {
+            "text": "locks.",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1480,
+                "top": 606,
+                "width": 130,
+                "height": 44
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 68.0,
+            "bbox": {
+                "left": 225,
+                "top": 713,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Usage:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 269,
+                "top": 691,
+                "width": 167,
+                "height": 54
+            }
+        },
+        {
+            "text": "It",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 461,
+                "top": 691,
+                "width": 51,
+                "height": 41
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 534,
+                "top": 691,
+                "width": 34,
+                "height": 41
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 589,
+                "top": 694,
+                "width": 77,
+                "height": 38
+            }
+        },
+        {
+            "text": "widely",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 685,
+                "top": 688,
+                "width": 152,
+                "height": 57
+            }
+        },
+        {
+            "text": "used",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 857,
+                "top": 688,
+                "width": 109,
+                "height": 44
+            }
+        },
+        {
+            "text": "because",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 988,
+                "top": 689,
+                "width": 193,
+                "height": 43
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1204,
+                "top": 691,
+                "width": 34,
+                "height": 41
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1258,
+                "top": 702,
+                "width": 77,
+                "height": 30
+            }
+        },
+        {
+            "text": "lead",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1358,
+                "top": 688,
+                "width": 96,
+                "height": 44
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1474,
+                "top": 694,
+                "width": 48,
+                "height": 38
+            }
+        },
+        {
+            "text": "unnecessary",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1544,
+                "top": 700,
+                "width": 298,
+                "height": 45
+            }
+        },
+        {
+            "text": "locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1864,
+                "top": 688,
+                "width": 163,
+                "height": 57
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2046,
+                "top": 688,
+                "width": 84,
+                "height": 44
+            }
+        },
+        {
+            "text": "may",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2151,
+                "top": 701,
+                "width": 93,
+                "height": 44
+            }
+        },
+        {
+            "text": "cause",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 270,
+                "top": 779,
+                "width": 133,
+                "height": 32
+            }
+        },
+        {
+            "text": "delays",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 423,
+                "top": 767,
+                "width": 152,
+                "height": 57
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 598,
+                "top": 770,
+                "width": 36,
+                "height": 41
+            }
+        },
+        {
+            "text": "other",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 654,
+                "top": 767,
+                "width": 135,
+                "height": 44
+            }
+        },
+        {
+            "text": "transactions.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 808,
+                "top": 770,
+                "width": 317,
+                "height": 41
+            }
+        },
+        {
+            "text": "Example:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 144,
+                "top": 932,
+                "width": 204,
+                "height": 43
+            }
+        },
+        {
+            "text": "Scenario:",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 142,
+                "top": 990,
+                "width": 211,
+                "height": 36
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 372,
+                "top": 991,
+                "width": 46,
+                "height": 34
+            }
+        },
+        {
+            "text": "wants",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 440,
+                "top": 992,
+                "width": 123,
+                "height": 34
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 579,
+                "top": 992,
+                "width": 37,
+                "height": 34
+            }
+        },
+        {
+            "text": "update",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 634,
+                "top": 991,
+                "width": 142,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 791,
+                "top": 991,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "account",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 872,
+                "top": 992,
+                "width": 165,
+                "height": 34
+            }
+        },
+        {
+            "text": "balance",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1054,
+                "top": 991,
+                "width": 162,
+                "height": 35
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1235,
+                "top": 991,
+                "width": 46,
+                "height": 44
+            }
+        },
+        {
+            "text": "depositing",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1297,
+                "top": 991,
+                "width": 213,
+                "height": 44
+            }
+        },
+        {
+            "text": "200,",
+            "confidence": 37.0,
+            "bbox": {
+                "left": 1528,
+                "top": 991,
+                "width": 114,
+                "height": 41
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1661,
+                "top": 991,
+                "width": 74,
+                "height": 35
+            }
+        },
+        {
+            "text": "T2",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1752,
+                "top": 991,
+                "width": 53,
+                "height": 34
+            }
+        },
+        {
+            "text": "wants",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1820,
+                "top": 992,
+                "width": 123,
+                "height": 34
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1959,
+                "top": 992,
+                "width": 37,
+                "height": 34
+            }
+        },
+        {
+            "text": "read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2015,
+                "top": 991,
+                "width": 89,
+                "height": 35
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2121,
+                "top": 991,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "balance.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 144,
+                "top": 1047,
+                "width": 173,
+                "height": 35
+            }
+        },
+        {
+            "text": "Steps:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 142,
+                "top": 1161,
+                "width": 140,
+                "height": 44
+            }
+        },
+        {
+            "text": "1.T1",
+            "confidence": 74.0,
+            "bbox": {
+                "left": 218,
+                "top": 1252,
+                "width": 82,
+                "height": 34
+            }
+        },
+        {
+            "text": "acquires",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 323,
+                "top": 1252,
+                "width": 178,
+                "height": 44
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 517,
+                "top": 1261,
+                "width": 23,
+                "height": 26
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 558,
+                "top": 1252,
+                "width": 82,
+                "height": 35
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 655,
+                "top": 1261,
+                "width": 48,
+                "height": 26
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 721,
+                "top": 1252,
+                "width": 63,
+                "height": 35
+            }
+        },
+        {
+            "text": "account",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 801,
+                "top": 1253,
+                "width": 165,
+                "height": 34
+            }
+        },
+        {
+            "text": "balance.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 983,
+                "top": 1252,
+                "width": 174,
+                "height": 35
+            }
+        },
+        {
+            "text": "2.T1",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 216,
+                "top": 1311,
+                "width": 84,
+                "height": 34
+            }
+        },
+        {
+            "text": "updates",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 324,
+                "top": 1311,
+                "width": 166,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 506,
+                "top": 1311,
+                "width": 63,
+                "height": 35
+            }
+        },
+        {
+            "text": "balance:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 588,
+                "top": 1311,
+                "width": 173,
+                "height": 35
+            }
+        },
+        {
+            "text": "500",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 781,
+                "top": 1311,
+                "width": 75,
+                "height": 35
+            }
+        },
+        {
+            "text": "+",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 874,
+                "top": 1317,
+                "width": 23,
+                "height": 23
+            }
+        },
+        {
+            "text": "200",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 914,
+                "top": 1311,
+                "width": 76,
+                "height": 35
+            }
+        },
+        {
+            "text": "=",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1008,
+                "top": 1321,
+                "width": 23,
+                "height": 14
+            }
+        },
+        {
+            "text": "700.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1049,
+                "top": 1311,
+                "width": 86,
+                "height": 35
+            }
+        },
+        {
+            "text": "3.",
+            "confidence": 79.0,
+            "bbox": {
+                "left": 216,
+                "top": 1367,
+                "width": 84,
+                "height": 34
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 269,
+                "top": 1363,
+                "width": 36,
+                "height": 53
+            }
+        },
+        {
+            "text": "releases",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 325,
+                "top": 1367,
+                "width": 176,
+                "height": 35
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 516,
+                "top": 1367,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "lock.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 598,
+                "top": 1367,
+                "width": 91,
+                "height": 35
+            }
+        },
+        {
+            "text": "4.",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 216,
+                "top": 1434,
+                "width": 25,
+                "height": 24
+            }
+        },
+        {
+            "text": "Now",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 256,
+                "top": 1424,
+                "width": 91,
+                "height": 35
+            }
+        },
+        {
+            "text": "T2",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 362,
+                "top": 1424,
+                "width": 52,
+                "height": 34
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 431,
+                "top": 1433,
+                "width": 72,
+                "height": 26
+            }
+        },
+        {
+            "text": "read",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 523,
+                "top": 1424,
+                "width": 89,
+                "height": 35
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 629,
+                "top": 1424,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "balance",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 712,
+                "top": 1424,
+                "width": 162,
+                "height": 35
+            }
+        },
+        {
+            "text": "(700).",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 892,
+                "top": 1423,
+                "width": 118,
+                "height": 45
+            }
+        },
+        {
+            "text": "Problem:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 144,
+                "top": 1516,
+                "width": 199,
+                "height": 35
+            }
+        },
+        {
+            "text": "While",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 361,
+                "top": 1516,
+                "width": 117,
+                "height": 35
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 61.0,
+            "bbox": {
+                "left": 494,
+                "top": 1516,
+                "width": 45,
+                "height": 34
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 565,
+                "top": 1516,
+                "width": 29,
+                "height": 35
+            }
+        },
+        {
+            "text": "holding",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 612,
+                "top": 1516,
+                "width": 148,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 777,
+                "top": 1516,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "lock,",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 859,
+                "top": 1516,
+                "width": 91,
+                "height": 41
+            }
+        },
+        {
+            "text": "T2",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 968,
+                "top": 1516,
+                "width": 52,
+                "height": 34
+            }
+        },
+        {
+            "text": "must",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1039,
+                "top": 1517,
+                "width": 100,
+                "height": 34
+            }
+        },
+        {
+            "text": "wait,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1153,
+                "top": 1516,
+                "width": 94,
+                "height": 41
+            }
+        },
+        {
+            "text": "even",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1266,
+                "top": 1525,
+                "width": 98,
+                "height": 26
+            }
+        },
+        {
+            "text": "though",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1382,
+                "top": 1516,
+                "width": 142,
+                "height": 44
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1543,
+                "top": 1516,
+                "width": 20,
+                "height": 34
+            }
+        },
+        {
+            "text": "only",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1579,
+                "top": 1516,
+                "width": 85,
+                "height": 44
+            }
+        },
+        {
+            "text": "wants",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1678,
+                "top": 1517,
+                "width": 123,
+                "height": 34
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1817,
+                "top": 1517,
+                "width": 37,
+                "height": 34
+            }
+        },
+        {
+            "text": "read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1873,
+                "top": 1516,
+                "width": 89,
+                "height": 35
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1979,
+                "top": 1516,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2060,
+                "top": 1516,
+                "width": 88,
+                "height": 35
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2166,
+                "top": 1516,
+                "width": 74,
+                "height": 35
+            }
+        },
+        {
+            "text": "doesn't",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 142,
+                "top": 1573,
+                "width": 150,
+                "height": 35
+            }
+        },
+        {
+            "text": "interfere",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 309,
+                "top": 1572,
+                "width": 170,
+                "height": 36
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 495,
+                "top": 1573,
+                "width": 81,
+                "height": 34
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 593,
+                "top": 1573,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "update.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 675,
+                "top": 1573,
+                "width": 153,
+                "height": 44
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 845,
+                "top": 1573,
+                "width": 88,
+                "height": 35
+            }
+        },
+        {
+            "text": "makes",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 951,
+                "top": 1573,
+                "width": 136,
+                "height": 35
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1105,
+                "top": 1573,
+                "width": 20,
+                "height": 34
+            }
+        },
+        {
+            "text": "inefficient.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1142,
+                "top": 1572,
+                "width": 207,
+                "height": 36
+            }
+        },
+        {
+            "text": "2.",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 164,
+                "top": 1759,
+                "width": 49,
+                "height": 47
+            }
+        },
+        {
+            "text": "Pre-claiming",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 252,
+                "top": 1757,
+                "width": 345,
+                "height": 62
+            }
+        },
+        {
+            "text": "Lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 626,
+                "top": 1757,
+                "width": 123,
+                "height": 49
+            }
+        },
+        {
+            "text": "Protocol:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 778,
+                "top": 1757,
+                "width": 243,
+                "height": 48
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 47.0,
+            "bbox": {
+                "left": 230,
+                "top": 1885,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Description:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 276,
+                "top": 1861,
+                "width": 299,
+                "height": 56
+            }
+        },
+        {
+            "text": "Before",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 603,
+                "top": 1863,
+                "width": 158,
+                "height": 43
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 778,
+                "top": 1876,
+                "width": 24,
+                "height": 28
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 820,
+                "top": 1865,
+                "width": 264,
+                "height": 39
+            }
+        },
+        {
+            "text": "starts",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1102,
+                "top": 1868,
+                "width": 144,
+                "height": 36
+            }
+        },
+        {
+            "text": "executing,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1265,
+                "top": 1865,
+                "width": 239,
+                "height": 51
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1525,
+                "top": 1865,
+                "width": 32,
+                "height": 38
+            }
+        },
+        {
+            "text": "first",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1576,
+                "top": 1863,
+                "width": 109,
+                "height": 43
+            }
+        },
+        {
+            "text": "claims",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1705,
+                "top": 1862,
+                "width": 139,
+                "height": 43
+            }
+        },
+        {
+            "text": "all",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1862,
+                "top": 1862,
+                "width": 48,
+                "height": 42
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1931,
+                "top": 1862,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2029,
+                "top": 1862,
+                "width": 113,
+                "height": 42
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2163,
+                "top": 1865,
+                "width": 32,
+                "height": 39
+            }
+        },
+        {
+            "text": "needs",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 275,
+                "top": 1924,
+                "width": 132,
+                "height": 41
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 426,
+                "top": 1924,
+                "width": 73,
+                "height": 43
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 517,
+                "top": 1923,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 614,
+                "top": 1924,
+                "width": 102,
+                "height": 41
+            }
+        },
+        {
+            "text": "items",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 736,
+                "top": 1926,
+                "width": 124,
+                "height": 40
+            }
+        },
+        {
+            "text": "involved.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 880,
+                "top": 1923,
+                "width": 194,
+                "height": 42
+            }
+        },
+        {
+            "text": "It",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1094,
+                "top": 1926,
+                "width": 47,
+                "height": 39
+            }
+        },
+        {
+            "text": "requests",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1161,
+                "top": 1929,
+                "width": 201,
+                "height": 48
+            }
+        },
+        {
+            "text": "all",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1380,
+                "top": 1923,
+                "width": 48,
+                "height": 42
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1449,
+                "top": 1924,
+                "width": 78,
+                "height": 41
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1547,
+                "top": 1923,
+                "width": 113,
+                "height": 42
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1678,
+                "top": 1929,
+                "width": 47,
+                "height": 36
+            }
+        },
+        {
+            "text": "once,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1744,
+                "top": 1936,
+                "width": 116,
+                "height": 35
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1879,
+                "top": 1924,
+                "width": 78,
+                "height": 41
+            }
+        },
+        {
+            "text": "if",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1979,
+                "top": 1924,
+                "width": 33,
+                "height": 43
+            }
+        },
+        {
+            "text": "all",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2031,
+                "top": 1923,
+                "width": 48,
+                "height": 42
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2100,
+                "top": 1923,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2198,
+                "top": 1923,
+                "width": 113,
+                "height": 42
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 273,
+                "top": 1999,
+                "width": 76,
+                "height": 28
+            }
+        },
+        {
+            "text": "granted,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 366,
+                "top": 1986,
+                "width": 196,
+                "height": 53
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 583,
+                "top": 1988,
+                "width": 32,
+                "height": 39
+            }
+        },
+        {
+            "text": "proceeds",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 635,
+                "top": 1986,
+                "width": 209,
+                "height": 53
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 863,
+                "top": 1985,
+                "width": 98,
+                "height": 42
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 980,
+                "top": 1985,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "operations.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1076,
+                "top": 1988,
+                "width": 255,
+                "height": 51
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1351,
+                "top": 1986,
+                "width": 48,
+                "height": 43
+            }
+        },
+        {
+            "text": "any",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1418,
+                "top": 1998,
+                "width": 76,
+                "height": 41
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1515,
+                "top": 1985,
+                "width": 89,
+                "height": 42
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1624,
+                "top": 1988,
+                "width": 33,
+                "height": 38
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1677,
+                "top": 1991,
+                "width": 72,
+                "height": 36
+            }
+        },
+        {
+            "text": "granted,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1767,
+                "top": 1986,
+                "width": 195,
+                "height": 53
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1982,
+                "top": 1985,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 274,
+                "top": 2050,
+                "width": 265,
+                "height": 39
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 559,
+                "top": 2050,
+                "width": 34,
+                "height": 38
+            }
+        },
+        {
+            "text": "rolled",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 612,
+                "top": 2047,
+                "width": 131,
+                "height": 42
+            }
+        },
+        {
+            "text": "back.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 764,
+                "top": 2047,
+                "width": 116,
+                "height": 42
+            }
+        },
+        {
+            "text": "+",
+            "confidence": 35.0,
+            "bbox": {
+                "left": 230,
+                "top": 2132,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Usage:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 274,
+                "top": 2112,
+                "width": 158,
+                "height": 51
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 464,
+                "top": 2109,
+                "width": 98,
+                "height": 41
+            }
+        },
+        {
+            "text": "protocol",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 582,
+                "top": 2109,
+                "width": 188,
+                "height": 54
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 793,
+                "top": 2112,
+                "width": 33,
+                "height": 38
+            }
+        },
+        {
+            "text": "less",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 847,
+                "top": 2109,
+                "width": 85,
+                "height": 41
+            }
+        },
+        {
+            "text": "flexible",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 951,
+                "top": 2109,
+                "width": 180,
+                "height": 44
+            }
+        },
+        {
+            "text": "because",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1151,
+                "top": 2110,
+                "width": 183,
+                "height": 41
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1354,
+                "top": 2112,
+                "width": 32,
+                "height": 39
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1407,
+                "top": 2109,
+                "width": 113,
+                "height": 42
+            }
+        },
+        {
+            "text": "all",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1537,
+                "top": 2109,
+                "width": 49,
+                "height": 42
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1608,
+                "top": 2110,
+                "width": 102,
+                "height": 41
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1727,
+                "top": 2115,
+                "width": 46,
+                "height": 36
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1792,
+                "top": 2109,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "beginning,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1890,
+                "top": 2110,
+                "width": 227,
+                "height": 53
+            }
+        },
+        {
+            "text": "which",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2137,
+                "top": 2109,
+                "width": 128,
+                "height": 42
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 275,
+                "top": 2184,
+                "width": 74,
+                "height": 29
+            }
+        },
+        {
+            "text": "lead",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 370,
+                "top": 2171,
+                "width": 90,
+                "height": 42
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 480,
+                "top": 2177,
+                "width": 46,
+                "height": 36
+            }
+        },
+        {
+            "text": "inefficiencies",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 548,
+                "top": 2172,
+                "width": 315,
+                "height": 43
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 881,
+                "top": 2185,
+                "width": 48,
+                "height": 28
+            }
+        },
+        {
+            "text": "deadlocks.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 948,
+                "top": 2171,
+                "width": 239,
+                "height": 42
+            }
+        },
+        {
+            "text": "Example:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 149,
+                "top": 2337,
+                "width": 205,
+                "height": 43
+            }
+        },
+        {
+            "text": "Scenario:",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 148,
+                "top": 2392,
+                "width": 211,
+                "height": 36
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 378,
+                "top": 2393,
+                "width": 46,
+                "height": 34
+            }
+        },
+        {
+            "text": "wants",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 446,
+                "top": 2394,
+                "width": 123,
+                "height": 34
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 585,
+                "top": 2394,
+                "width": 37,
+                "height": 34
+            }
+        },
+        {
+            "text": "update",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 640,
+                "top": 2393,
+                "width": 141,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 797,
+                "top": 2393,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "balance,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 879,
+                "top": 2393,
+                "width": 173,
+                "height": 41
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1072,
+                "top": 2393,
+                "width": 74,
+                "height": 35
+            }
+        },
+        {
+            "text": "T2",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1163,
+                "top": 2393,
+                "width": 52,
+                "height": 34
+            }
+        },
+        {
+            "text": "wants",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1231,
+                "top": 2394,
+                "width": 123,
+                "height": 34
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1370,
+                "top": 2394,
+                "width": 37,
+                "height": 34
+            }
+        },
+        {
+            "text": "read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1425,
+                "top": 2393,
+                "width": 89,
+                "height": 35
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1532,
+                "top": 2393,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "balance.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1614,
+                "top": 2393,
+                "width": 173,
+                "height": 35
+            }
+        },
+        {
+            "text": "Steps:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 148,
+                "top": 2507,
+                "width": 139,
+                "height": 44
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 75.0,
+            "bbox": {
+                "left": 224,
+                "top": 2611,
+                "width": 23,
+                "height": 24
+            }
+        },
+        {
+            "text": "Before",
+            "confidence": 75.0,
+            "bbox": {
+                "left": 262,
+                "top": 2600,
+                "width": 135,
+                "height": 36
+            }
+        },
+        {
+            "text": "starting,",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 414,
+                "top": 2601,
+                "width": 164,
+                "height": 44
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 596,
+                "top": 2601,
+                "width": 45,
+                "height": 34
+            }
+        },
+        {
+            "text": "requests",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 667,
+                "top": 2602,
+                "width": 178,
+                "height": 43
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 862,
+                "top": 2610,
+                "width": 22,
+                "height": 26
+            }
+        },
+        {
+            "text": "write",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 900,
+                "top": 2601,
+                "width": 99,
+                "height": 35
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1017,
+                "top": 2601,
+                "width": 81,
+                "height": 35
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1114,
+                "top": 2610,
+                "width": 48,
+                "height": 26
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1179,
+                "top": 2601,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "balance.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1261,
+                "top": 2601,
+                "width": 174,
+                "height": 35
+            }
+        },
+        {
+            "text": "2.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 222,
+                "top": 2667,
+                "width": 25,
+                "height": 24
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 263,
+                "top": 2656,
+                "width": 23,
+                "height": 35
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 299,
+                "top": 2657,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "system",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 380,
+                "top": 2658,
+                "width": 146,
+                "height": 43
+            }
+        },
+        {
+            "text": "grants",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 544,
+                "top": 2658,
+                "width": 129,
+                "height": 43
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 689,
+                "top": 2657,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "lock,",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 771,
+                "top": 2657,
+                "width": 91,
+                "height": 41
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 880,
+                "top": 2657,
+                "width": 45,
+                "height": 34
+            }
+        },
+        {
+            "text": "updates",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 950,
+                "top": 2657,
+                "width": 166,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1132,
+                "top": 2657,
+                "width": 63,
+                "height": 35
+            }
+        },
+        {
+            "text": "balance:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1214,
+                "top": 2657,
+                "width": 173,
+                "height": 35
+            }
+        },
+        {
+            "text": "500",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1407,
+                "top": 2657,
+                "width": 75,
+                "height": 35
+            }
+        },
+        {
+            "text": "+",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1500,
+                "top": 2663,
+                "width": 22,
+                "height": 23
+            }
+        },
+        {
+            "text": "200",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1540,
+                "top": 2657,
+                "width": 76,
+                "height": 35
+            }
+        },
+        {
+            "text": "=",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1634,
+                "top": 2667,
+                "width": 23,
+                "height": 14
+            }
+        },
+        {
+            "text": "700.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1675,
+                "top": 2657,
+                "width": 86,
+                "height": 35
+            }
+        },
+        {
+            "text": "3.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 222,
+                "top": 2723,
+                "width": 25,
+                "height": 24
+            }
+        },
+        {
+            "text": "After",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 259,
+                "top": 2712,
+                "width": 100,
+                "height": 36
+            }
+        },
+        {
+            "text": "completing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 374,
+                "top": 2713,
+                "width": 226,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 617,
+                "top": 2713,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "update,",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 699,
+                "top": 2713,
+                "width": 153,
+                "height": 44
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 869,
+                "top": 2713,
+                "width": 46,
+                "height": 34
+            }
+        },
+        {
+            "text": "releases",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 940,
+                "top": 2713,
+                "width": 176,
+                "height": 35
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1132,
+                "top": 2713,
+                "width": 63,
+                "height": 35
+            }
+        },
+        {
+            "text": "lock.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1213,
+                "top": 2713,
+                "width": 92,
+                "height": 35
+            }
+        },
+        {
+            "text": "4.12",
+            "confidence": 44.0,
+            "bbox": {
+                "left": 222,
+                "top": 2772,
+                "width": 90,
+                "height": 34
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 329,
+                "top": 2781,
+                "width": 72,
+                "height": 26
+            }
+        },
+        {
+            "text": "now",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 421,
+                "top": 2781,
+                "width": 83,
+                "height": 26
+            }
+        },
+        {
+            "text": "acquire",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 520,
+                "top": 2772,
+                "width": 153,
+                "height": 44
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 690,
+                "top": 2781,
+                "width": 23,
+                "height": 26
+            }
+        },
+        {
+            "text": "read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 731,
+                "top": 2772,
+                "width": 89,
+                "height": 35
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 840,
+                "top": 2772,
+                "width": 81,
+                "height": 35
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 937,
+                "top": 2772,
+                "width": 75,
+                "height": 35
+            }
+        },
+        {
+            "text": "read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1031,
+                "top": 2772,
+                "width": 89,
+                "height": 35
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1138,
+                "top": 2772,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "updated",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1219,
+                "top": 2772,
+                "width": 167,
+                "height": 44
+            }
+        },
+        {
+            "text": "balance",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1406,
+                "top": 2772,
+                "width": 162,
+                "height": 35
+            }
+        },
+        {
+            "text": "(700).",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1586,
+                "top": 2771,
+                "width": 118,
+                "height": 45
+            }
+        },
+        {
+            "text": "What",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 146,
+                "top": 2862,
+                "width": 116,
+                "height": 35
+            }
+        },
+        {
+            "text": "if",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 279,
+                "top": 2861,
+                "width": 27,
+                "height": 35
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 322,
+                "top": 2862,
+                "width": 116,
+                "height": 35
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 456,
+                "top": 2871,
+                "width": 68,
+                "height": 26
+            }
+        },
+        {
+            "text": "unavailable?",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 542,
+                "top": 2861,
+                "width": 284,
+                "height": 36
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 78.0,
+            "bbox": {
+                "left": 150,
+                "top": 2917,
+                "width": 24,
+                "height": 35
+            }
+        },
+        {
+            "text": "T2",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 186,
+                "top": 2918,
+                "width": 52,
+                "height": 34
+            }
+        },
+        {
+            "text": "already",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 256,
+                "top": 2918,
+                "width": 154,
+                "height": 44
+            }
+        },
+        {
+            "text": "holds",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 427,
+                "top": 2918,
+                "width": 109,
+                "height": 35
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 553,
+                "top": 2927,
+                "width": 22,
+                "height": 26
+            }
+        },
+        {
+            "text": "read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 594,
+                "top": 2918,
+                "width": 89,
+                "height": 35
+            }
+        },
+        {
+            "text": "lock,",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 703,
+                "top": 2918,
+                "width": 91,
+                "height": 41
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 812,
+                "top": 2918,
+                "width": 45,
+                "height": 34
+            }
+        },
+        {
+            "text": "rolls",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 883,
+                "top": 2918,
+                "width": 82,
+                "height": 35
+            }
+        },
+        {
+            "text": "back",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 984,
+                "top": 2918,
+                "width": 97,
+                "height": 35
+            }
+        },
+        {
+            "text": "(doesn’t",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1097,
+                "top": 2917,
+                "width": 167,
+                "height": 45
+            }
+        },
+        {
+            "text": "proceed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1281,
+                "top": 2918,
+                "width": 166,
+                "height": 44
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1464,
+                "top": 2918,
+                "width": 81,
+                "height": 34
+            }
+        },
+        {
+            "text": "its",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1565,
+                "top": 2918,
+                "width": 43,
+                "height": 35
+            }
+        },
+        {
+            "text": "operation).",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1624,
+                "top": 2917,
+                "width": 223,
+                "height": 45
+            }
+        },
+        {
+            "text": "Problem:",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 149,
+                "top": 3033,
+                "width": 199,
+                "height": 35
+            }
+        },
+        {
+            "text": "Pre-claiming",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 370,
+                "top": 3033,
+                "width": 258,
+                "height": 44
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 648,
+                "top": 3033,
+                "width": 104,
+                "height": 35
+            }
+        },
+        {
+            "text": "upfront",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 770,
+                "top": 3032,
+                "width": 145,
+                "height": 45
+            }
+        },
+        {
+            "text": "may",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 932,
+                "top": 3042,
+                "width": 86,
+                "height": 35
+            }
+        },
+        {
+            "text": "cause",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1034,
+                "top": 3042,
+                "width": 124,
+                "height": 26
+            }
+        },
+        {
+            "text": "deadlocks",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1175,
+                "top": 3033,
+                "width": 211,
+                "height": 35
+            }
+        },
+        {
+            "text": "(e.g.,",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1404,
+                "top": 3032,
+                "width": 102,
+                "height": 45
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1524,
+                "top": 3033,
+                "width": 46,
+                "height": 34
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1593,
+                "top": 3033,
+                "width": 75,
+                "height": 35
+            }
+        },
+        {
+            "text": "T2",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1685,
+                "top": 3033,
+                "width": 52,
+                "height": 34
+            }
+        },
+        {
+            "text": "waiting",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1753,
+                "top": 3033,
+                "width": 145,
+                "height": 44
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1915,
+                "top": 3032,
+                "width": 56,
+                "height": 36
+            }
+        },
+        {
+            "text": "each",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1985,
+                "top": 3033,
+                "width": 99,
+                "height": 35
+            }
+        },
+        {
+            "text": "other's",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2102,
+                "top": 3033,
+                "width": 139,
+                "height": 35
+            }
+        },
+        {
+            "text": "locks)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 149,
+                "top": 3091,
+                "width": 120,
+                "height": 45
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 286,
+                "top": 3101,
+                "width": 41,
+                "height": 26
+            }
+        },
+        {
+            "text": "make",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 343,
+                "top": 3092,
+                "width": 112,
+                "height": 35
+            }
+        },
+        {
+            "text": "transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 470,
+                "top": 3092,
+                "width": 256,
+                "height": 35
+            }
+        },
+        {
+            "text": "unnecessarily",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 743,
+                "top": 3092,
+                "width": 289,
+                "height": 44
+            }
+        },
+        {
+            "text": "wait.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1046,
+                "top": 3092,
+                "width": 94,
+                "height": 35
+            }
+        }
+    ]
+}

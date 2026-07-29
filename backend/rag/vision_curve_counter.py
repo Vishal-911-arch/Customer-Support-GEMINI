@@ -1,52 +1,61 @@
-from ollama import Client
-
-client = Client()
+from google import genai
+from dotenv import load_dotenv
+import os
 
 
 class VisionCurveCounter:
 
-    def count(
+    def __init__(self):
 
-            self,
+        load_dotenv()
 
-            image_path
+        self.client = genai.Client(
+            api_key=os.getenv("GEMINI_API_KEY")
+        )
 
-    ):
+    # ---------------------------------------------------------
 
-        response = client.chat(
+    def count(self, image_path):
 
-            model="llama3.2:3b",
+        uploaded = self.client.files.upload(
+            file=image_path
+        )
 
-            messages=[
+        prompt = """
+You are analyzing an engineering graph.
 
-                {
-
-                    "role":"user",
-
-                    "content":f"""
-
-Count ONLY plotted curves.
+Count ONLY the plotted curves.
 
 Ignore:
 
-- axes
-- text
-- grid
-- legends
+- X axis
+- Y axis
+- Tick marks
+- Grid lines
+- Labels
+- Legends
+- Text
+- Arrows
 
-Return only integer.
-""",
+Return ONLY a single integer.
 
-                    "images":[
+Example:
+1
+2
+3
 
-                        image_path
+Do not explain.
+"""
 
-                    ]
+        response = self.client.models.generate_content(
 
-                }
+            model=GEMINI_MODEL,
 
+            contents=[
+                prompt,
+                uploaded
             ]
 
         )
 
-        return response["message"]["content"]
+        return response.text.strip()

@@ -1,0 +1,658 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_32",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_32.png",
+    "text": "Connection establishment using three-way handshaking Server Client — ae | A: ACK flag — Amie. _ S: SYN flag —— [S IK | seq BOOR — S Active seq 8000 Yn open 7 Passive 2. 6 eres — open 7] TR | SYN MSS= [6doe. ee eg 150 ; |/—-— ack: 8001 33 Cc _. D seq: 8000 ak: 55907 a ——; ACK Time Time",
+    "words": [
+        {
+            "text": "Connection",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1190,
+                "top": 156,
+                "width": 552,
+                "height": 83
+            }
+        },
+        {
+            "text": "establishment",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1785,
+                "top": 156,
+                "width": 657,
+                "height": 83
+            }
+        },
+        {
+            "text": "using",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2489,
+                "top": 156,
+                "width": 251,
+                "height": 109
+            }
+        },
+        {
+            "text": "three-way",
+            "confidence": 76.0,
+            "bbox": {
+                "left": 2781,
+                "top": 156,
+                "width": 474,
+                "height": 108
+            }
+        },
+        {
+            "text": "handshaking",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 3305,
+                "top": 156,
+                "width": 604,
+                "height": 108
+            }
+        },
+        {
+            "text": "Server",
+            "confidence": 69.0,
+            "bbox": {
+                "left": 3795,
+                "top": 417,
+                "width": 230,
+                "height": 61
+            }
+        },
+        {
+            "text": "Client",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1131,
+                "top": 534,
+                "width": 214,
+                "height": 62
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 3809,
+                "top": 526,
+                "width": 208,
+                "height": 67
+            }
+        },
+        {
+            "text": "ae",
+            "confidence": 13.0,
+            "bbox": {
+                "left": 1143,
+                "top": 623,
+                "width": 82,
+                "height": 226
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 57.0,
+            "bbox": {
+                "left": 1293,
+                "top": 627,
+                "width": 58,
+                "height": 218
+            }
+        },
+        {
+            "text": "A:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2334,
+                "top": 753,
+                "width": 63,
+                "height": 58
+            }
+        },
+        {
+            "text": "ACK",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2429,
+                "top": 752,
+                "width": 148,
+                "height": 60
+            }
+        },
+        {
+            "text": "flag",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2605,
+                "top": 749,
+                "width": 133,
+                "height": 84
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 67.0,
+            "bbox": {
+                "left": 3807,
+                "top": 713,
+                "width": 204,
+                "height": 80
+            }
+        },
+        {
+            "text": "Amie.",
+            "confidence": 23.0,
+            "bbox": {
+                "left": 1090,
+                "top": 844,
+                "width": 310,
+                "height": 89
+            }
+        },
+        {
+            "text": "_",
+            "confidence": 77.0,
+            "bbox": {
+                "left": 1423,
+                "top": 873,
+                "width": 30,
+                "height": 31
+            }
+        },
+        {
+            "text": "S:",
+            "confidence": 40.0,
+            "bbox": {
+                "left": 2334,
+                "top": 861,
+                "width": 52,
+                "height": 57
+            }
+        },
+        {
+            "text": "SYN",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2427,
+                "top": 860,
+                "width": 113,
+                "height": 59
+            }
+        },
+        {
+            "text": "flag",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 2591,
+                "top": 858,
+                "width": 133,
+                "height": 81
+            }
+        },
+        {
+            "text": "——",
+            "confidence": 50.0,
+            "bbox": {
+                "left": 3844,
+                "top": 871,
+                "width": 162,
+                "height": 5
+            }
+        },
+        {
+            "text": "[S",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 4345,
+                "top": 804,
+                "width": 125,
+                "height": 135
+            }
+        },
+        {
+            "text": "IK",
+            "confidence": 31.0,
+            "bbox": {
+                "left": 4963,
+                "top": 790,
+                "width": 130,
+                "height": 198
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 5146,
+                "top": 790,
+                "width": 12,
+                "height": 168
+            }
+        },
+        {
+            "text": "seq",
+            "confidence": 53.0,
+            "bbox": {
+                "left": 1805,
+                "top": 1081,
+                "width": 277,
+                "height": 116
+            }
+        },
+        {
+            "text": "BOOR",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2120,
+                "top": 1081,
+                "width": 184,
+                "height": 116
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 29.0,
+            "bbox": {
+                "left": 2361,
+                "top": 1137,
+                "width": 39,
+                "height": 9
+            }
+        },
+        {
+            "text": "S",
+            "confidence": 76.0,
+            "bbox": {
+                "left": 4643,
+                "top": 1087,
+                "width": 53,
+                "height": 80
+            }
+        },
+        {
+            "text": "Active",
+            "confidence": 43.0,
+            "bbox": {
+                "left": 979,
+                "top": 1138,
+                "width": 213,
+                "height": 48
+            }
+        },
+        {
+            "text": "seq",
+            "confidence": 54.0,
+            "bbox": {
+                "left": 1944,
+                "top": 1134,
+                "width": 127,
+                "height": 69
+            }
+        },
+        {
+            "text": "8000",
+            "confidence": 49.0,
+            "bbox": {
+                "left": 2131,
+                "top": 1135,
+                "width": 171,
+                "height": 74
+            }
+        },
+        {
+            "text": "Yn",
+            "confidence": 20.0,
+            "bbox": {
+                "left": 4726,
+                "top": 1106,
+                "width": 161,
+                "height": 99
+            }
+        },
+        {
+            "text": "open",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 1001,
+                "top": 1250,
+                "width": 193,
+                "height": 54
+            }
+        },
+        {
+            "text": "7",
+            "confidence": 47.0,
+            "bbox": {
+                "left": 2463,
+                "top": 1147,
+                "width": 320,
+                "height": 111
+            }
+        },
+        {
+            "text": "Passive",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3951,
+                "top": 1223,
+                "width": 264,
+                "height": 63
+            }
+        },
+        {
+            "text": "2.",
+            "confidence": 12.0,
+            "bbox": {
+                "left": 1703,
+                "top": 1327,
+                "width": 46,
+                "height": 59
+            }
+        },
+        {
+            "text": "6",
+            "confidence": 30.0,
+            "bbox": {
+                "left": 1955,
+                "top": 1348,
+                "width": 34,
+                "height": 61
+            }
+        },
+        {
+            "text": "eres",
+            "confidence": 44.0,
+            "bbox": {
+                "left": 2134,
+                "top": 1355,
+                "width": 569,
+                "height": 97
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 3141,
+                "top": 1377,
+                "width": 206,
+                "height": 26
+            }
+        },
+        {
+            "text": "open",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 3947,
+                "top": 1347,
+                "width": 192,
+                "height": 59
+            }
+        },
+        {
+            "text": "7]",
+            "confidence": 53.0,
+            "bbox": {
+                "left": 4189,
+                "top": 1328,
+                "width": 50,
+                "height": 148
+            }
+        },
+        {
+            "text": "TR",
+            "confidence": 52.0,
+            "bbox": {
+                "left": 4324,
+                "top": 1411,
+                "width": 55,
+                "height": 43
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 34.0,
+            "bbox": {
+                "left": 5013,
+                "top": 1344,
+                "width": 10,
+                "height": 6
+            }
+        },
+        {
+            "text": "SYN",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 2032,
+                "top": 1466,
+                "width": 140,
+                "height": 70
+            }
+        },
+        {
+            "text": "MSS=",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 2223,
+                "top": 1478,
+                "width": 231,
+                "height": 65
+            }
+        },
+        {
+            "text": "[6doe.",
+            "confidence": 8.0,
+            "bbox": {
+                "left": 2491,
+                "top": 1494,
+                "width": 159,
+                "height": 58
+            }
+        },
+        {
+            "text": "ee",
+            "confidence": 12.0,
+            "bbox": {
+                "left": 3053,
+                "top": 1541,
+                "width": 362,
+                "height": 37
+            }
+        },
+        {
+            "text": "eg",
+            "confidence": 6.0,
+            "bbox": {
+                "left": 2347,
+                "top": 1516,
+                "width": 1393,
+                "height": 207
+            }
+        },
+        {
+            "text": "150",
+            "confidence": 53.0,
+            "bbox": {
+                "left": 3071,
+                "top": 1512,
+                "width": 250,
+                "height": 230
+            }
+        },
+        {
+            "text": ";",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 4563,
+                "top": 1670,
+                "width": 75,
+                "height": 79
+            }
+        },
+        {
+            "text": "|/—-—",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2413,
+                "top": 1686,
+                "width": 259,
+                "height": 111
+            }
+        },
+        {
+            "text": "ack:",
+            "confidence": 61.0,
+            "bbox": {
+                "left": 2909,
+                "top": 1715,
+                "width": 140,
+                "height": 68
+            }
+        },
+        {
+            "text": "8001",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 3079,
+                "top": 1698,
+                "width": 167,
+                "height": 74
+            }
+        },
+        {
+            "text": "33",
+            "confidence": 34.0,
+            "bbox": {
+                "left": 3535,
+                "top": 1708,
+                "width": 216,
+                "height": 157
+            }
+        },
+        {
+            "text": "Cc",
+            "confidence": 54.0,
+            "bbox": {
+                "left": 4665,
+                "top": 1706,
+                "width": 56,
+                "height": 61
+            }
+        },
+        {
+            "text": "_.",
+            "confidence": 62.0,
+            "bbox": {
+                "left": 3714,
+                "top": 1874,
+                "width": 53,
+                "height": 77
+            }
+        },
+        {
+            "text": "D",
+            "confidence": 66.0,
+            "bbox": {
+                "left": 3975,
+                "top": 1897,
+                "width": 26,
+                "height": 38
+            }
+        },
+        {
+            "text": "seq:",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 1924,
+                "top": 2053,
+                "width": 143,
+                "height": 71
+            }
+        },
+        {
+            "text": "8000",
+            "confidence": 53.0,
+            "bbox": {
+                "left": 2116,
+                "top": 2035,
+                "width": 178,
+                "height": 112
+            }
+        },
+        {
+            "text": "ak:",
+            "confidence": 43.0,
+            "bbox": {
+                "left": 1896,
+                "top": 2156,
+                "width": 139,
+                "height": 65
+            }
+        },
+        {
+            "text": "55907",
+            "confidence": 14.0,
+            "bbox": {
+                "left": 2080,
+                "top": 2157,
+                "width": 206,
+                "height": 84
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 45.0,
+            "bbox": {
+                "left": 1412,
+                "top": 2171,
+                "width": 709,
+                "height": 251
+            }
+        },
+        {
+            "text": "——;",
+            "confidence": 3.0,
+            "bbox": {
+                "left": 2357,
+                "top": 2167,
+                "width": 390,
+                "height": 259
+            }
+        },
+        {
+            "text": "ACK",
+            "confidence": 73.0,
+            "bbox": {
+                "left": 1975,
+                "top": 2393,
+                "width": 150,
+                "height": 71
+            }
+        },
+        {
+            "text": "Time",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1158,
+                "top": 2644,
+                "width": 183,
+                "height": 62
+            }
+        },
+        {
+            "text": "Time",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3820,
+                "top": 2644,
+                "width": 178,
+                "height": 63
+            }
+        }
+    ]
+}

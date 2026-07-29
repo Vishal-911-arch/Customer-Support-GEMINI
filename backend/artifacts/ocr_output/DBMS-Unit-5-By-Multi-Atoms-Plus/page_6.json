@@ -1,0 +1,2658 @@
+{
+    "document": "DBMS-Unit-5-By-Multi-Atoms-Plus",
+    "page": "page_6",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\DBMS-Unit-5-By-Multi-Atoms-Plus\\page_6.png",
+    "text": "3. Two-Phase Locking Protocol (2PL): - Description: This is the most commonly used protocol in databases. It consists of two phases: 1. Growing Phase: The transaction can acquire locks but cannot release any locks. 2. Shrinking Phase: Once a transaction releases any lock, it cannot acquire any more locks. - Advantages: It ensures serializability (transactions appear to be executed ina serial order). Example: - Phase 1 (Growing): T1 requests and acquires locks on data items (read or write). - Phase 2 (Shrinking): Once T1 starts releasing locks, no more locks can be acquired. Scenario: T1 is transferring 2200 from account A to account B, and T2 is reading the balance of account A. Steps: 1. Growing Phase (Lock Acquisition): - T1 acquires a write lock on account A (to debit €200). - T1 acquires a write lock on account B (to credit $200). 2. Shrinking Phase (Lock Release): - After transferring, T1 releases the lock on account B. - Then it releases the lock on account A. Advantages: Transactions follow a systematic order: lock first, work, then release. Problem: T2 cannot read the balance of account A while T1 is holding the lock. 4. Strict Two-Phase Locking Protocol (Strict 2PL): + This is a stricter version of the 2PL protocol. It makes sure that the transaction keeps the locks until it's completely finished and committed. How it works: - A transaction holds on to its locks and doesn't release them until it is ready to commit (finish and confirm the work). - Once it commits, it releases all its locks at once. Why it's useful:",
+    "words": [
+        {
+            "text": "3.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 180,
+                "top": 186,
+                "width": 50,
+                "height": 47
+            }
+        },
+        {
+            "text": "Two-Phase",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 184,
+                "width": 307,
+                "height": 48
+            }
+        },
+        {
+            "text": "Locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 603,
+                "top": 184,
+                "width": 201,
+                "height": 62
+            }
+        },
+        {
+            "text": "Protocol",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 833,
+                "top": 184,
+                "width": 221,
+                "height": 48
+            }
+        },
+        {
+            "text": "(2PL):",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1085,
+                "top": 184,
+                "width": 160,
+                "height": 58
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 72.0,
+            "bbox": {
+                "left": 247,
+                "top": 309,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Description:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 293,
+                "top": 284,
+                "width": 299,
+                "height": 56
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 626,
+                "top": 285,
+                "width": 97,
+                "height": 41
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 744,
+                "top": 288,
+                "width": 33,
+                "height": 38
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 796,
+                "top": 285,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "most",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 893,
+                "top": 291,
+                "width": 109,
+                "height": 37
+            }
+        },
+        {
+            "text": "commonly",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1022,
+                "top": 285,
+                "width": 220,
+                "height": 54
+            }
+        },
+        {
+            "text": "used",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1262,
+                "top": 286,
+                "width": 102,
+                "height": 41
+            }
+        },
+        {
+            "text": "protocol",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1385,
+                "top": 285,
+                "width": 188,
+                "height": 54
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1596,
+                "top": 288,
+                "width": 35,
+                "height": 39
+            }
+        },
+        {
+            "text": "databases.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1651,
+                "top": 286,
+                "width": 245,
+                "height": 41
+            }
+        },
+        {
+            "text": "It",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1916,
+                "top": 288,
+                "width": 47,
+                "height": 39
+            }
+        },
+        {
+            "text": "consists",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1983,
+                "top": 288,
+                "width": 187,
+                "height": 39
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2188,
+                "top": 286,
+                "width": 48,
+                "height": 43
+            }
+        },
+        {
+            "text": "two",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2256,
+                "top": 291,
+                "width": 80,
+                "height": 36
+            }
+        },
+        {
+            "text": "phases:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 292,
+                "top": 347,
+                "width": 166,
+                "height": 54
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 233,
+                "top": 478,
+                "width": 37,
+                "height": 43
+            }
+        },
+        {
+            "text": "Growing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 290,
+                "top": 478,
+                "width": 196,
+                "height": 56
+            }
+        },
+        {
+            "text": "Phase:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 512,
+                "top": 477,
+                "width": 159,
+                "height": 44
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 704,
+                "top": 477,
+                "width": 92,
+                "height": 44
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 816,
+                "top": 480,
+                "width": 278,
+                "height": 41
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1115,
+                "top": 491,
+                "width": 78,
+                "height": 30
+            }
+        },
+        {
+            "text": "acquire",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1212,
+                "top": 480,
+                "width": 178,
+                "height": 53
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1412,
+                "top": 477,
+                "width": 118,
+                "height": 44
+            }
+        },
+        {
+            "text": "but",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1552,
+                "top": 478,
+                "width": 79,
+                "height": 43
+            }
+        },
+        {
+            "text": "cannot",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1651,
+                "top": 483,
+                "width": 160,
+                "height": 38
+            }
+        },
+        {
+            "text": "release",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1832,
+                "top": 477,
+                "width": 176,
+                "height": 44
+            }
+        },
+        {
+            "text": "any",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2027,
+                "top": 491,
+                "width": 81,
+                "height": 43
+            }
+        },
+        {
+            "text": "locks.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2130,
+                "top": 477,
+                "width": 130,
+                "height": 44
+            }
+        },
+        {
+            "text": "2.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 231,
+                "top": 572,
+                "width": 39,
+                "height": 42
+            }
+        },
+        {
+            "text": "Shrinking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 290,
+                "top": 570,
+                "width": 234,
+                "height": 57
+            }
+        },
+        {
+            "text": "Phase:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 551,
+                "top": 570,
+                "width": 159,
+                "height": 44
+            }
+        },
+        {
+            "text": "Once",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 743,
+                "top": 572,
+                "width": 123,
+                "height": 42
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 884,
+                "top": 585,
+                "width": 25,
+                "height": 29
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 928,
+                "top": 573,
+                "width": 279,
+                "height": 41
+            }
+        },
+        {
+            "text": "releases",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1229,
+                "top": 570,
+                "width": 201,
+                "height": 44
+            }
+        },
+        {
+            "text": "any",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1449,
+                "top": 584,
+                "width": 82,
+                "height": 43
+            }
+        },
+        {
+            "text": "lock,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1552,
+                "top": 570,
+                "width": 107,
+                "height": 51
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1682,
+                "top": 573,
+                "width": 34,
+                "height": 41
+            }
+        },
+        {
+            "text": "cannot",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1736,
+                "top": 576,
+                "width": 160,
+                "height": 38
+            }
+        },
+        {
+            "text": "acquire",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1914,
+                "top": 573,
+                "width": 178,
+                "height": 53
+            }
+        },
+        {
+            "text": "any",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2110,
+                "top": 584,
+                "width": 81,
+                "height": 43
+            }
+        },
+        {
+            "text": "more",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2211,
+                "top": 583,
+                "width": 120,
+                "height": 32
+            }
+        },
+        {
+            "text": "locks.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 294,
+                "top": 660,
+                "width": 130,
+                "height": 44
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 67.0,
+            "bbox": {
+                "left": 247,
+                "top": 811,
+                "width": 11,
+                "height": 12
+            }
+        },
+        {
+            "text": "Advantages:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 291,
+                "top": 786,
+                "width": 307,
+                "height": 57
+            }
+        },
+        {
+            "text": "It",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 630,
+                "top": 789,
+                "width": 52,
+                "height": 41
+            }
+        },
+        {
+            "text": "ensures",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 701,
+                "top": 798,
+                "width": 187,
+                "height": 32
+            }
+        },
+        {
+            "text": "serializability",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 907,
+                "top": 786,
+                "width": 336,
+                "height": 57
+            }
+        },
+        {
+            "text": "(transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1263,
+                "top": 786,
+                "width": 324,
+                "height": 53
+            }
+        },
+        {
+            "text": "appear",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1606,
+                "top": 799,
+                "width": 164,
+                "height": 44
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1789,
+                "top": 792,
+                "width": 48,
+                "height": 38
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1860,
+                "top": 787,
+                "width": 56,
+                "height": 42
+            }
+        },
+        {
+            "text": "executed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1935,
+                "top": 786,
+                "width": 227,
+                "height": 44
+            }
+        },
+        {
+            "text": "ina",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2185,
+                "top": 789,
+                "width": 80,
+                "height": 41
+            }
+        },
+        {
+            "text": "serial",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 290,
+                "top": 848,
+                "width": 133,
+                "height": 44
+            }
+        },
+        {
+            "text": "order).",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 445,
+                "top": 848,
+                "width": 167,
+                "height": 53
+            }
+        },
+        {
+            "text": "Example:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 179,
+                "top": 946,
+                "width": 223,
+                "height": 57
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 79.0,
+            "bbox": {
+                "left": 247,
+                "top": 1067,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Phase",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 291,
+                "top": 1042,
+                "width": 141,
+                "height": 44
+            }
+        },
+        {
+            "text": "1",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 463,
+                "top": 1043,
+                "width": 19,
+                "height": 41
+            }
+        },
+        {
+            "text": "(Growing):",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 515,
+                "top": 1042,
+                "width": 251,
+                "height": 57
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 799,
+                "top": 1043,
+                "width": 54,
+                "height": 41
+            }
+        },
+        {
+            "text": "requests",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 876,
+                "top": 1048,
+                "width": 211,
+                "height": 50
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1106,
+                "top": 1042,
+                "width": 83,
+                "height": 44
+            }
+        },
+        {
+            "text": "acquires",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1209,
+                "top": 1045,
+                "width": 203,
+                "height": 53
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1435,
+                "top": 1042,
+                "width": 118,
+                "height": 44
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1573,
+                "top": 1056,
+                "width": 52,
+                "height": 30
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1645,
+                "top": 1042,
+                "width": 107,
+                "height": 44
+            }
+        },
+        {
+            "text": "items",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1775,
+                "top": 1045,
+                "width": 129,
+                "height": 42
+            }
+        },
+        {
+            "text": "(read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1925,
+                "top": 1042,
+                "width": 128,
+                "height": 53
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2073,
+                "top": 1057,
+                "width": 50,
+                "height": 29
+            }
+        },
+        {
+            "text": "write).",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2143,
+                "top": 1042,
+                "width": 159,
+                "height": 53
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 74.0,
+            "bbox": {
+                "left": 247,
+                "top": 1129,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Phase",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 291,
+                "top": 1104,
+                "width": 141,
+                "height": 44
+            }
+        },
+        {
+            "text": "2",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 460,
+                "top": 1106,
+                "width": 27,
+                "height": 40
+            }
+        },
+        {
+            "text": "(Shrinking):",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 515,
+                "top": 1104,
+                "width": 289,
+                "height": 57
+            }
+        },
+        {
+            "text": "Once",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 838,
+                "top": 1106,
+                "width": 123,
+                "height": 42
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 981,
+                "top": 1105,
+                "width": 54,
+                "height": 41
+            }
+        },
+        {
+            "text": "starts",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1055,
+                "top": 1110,
+                "width": 152,
+                "height": 38
+            }
+        },
+        {
+            "text": "releasing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1229,
+                "top": 1104,
+                "width": 217,
+                "height": 57
+            }
+        },
+        {
+            "text": "locks,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1470,
+                "top": 1104,
+                "width": 132,
+                "height": 51
+            }
+        },
+        {
+            "text": "no",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1623,
+                "top": 1118,
+                "width": 50,
+                "height": 30
+            }
+        },
+        {
+            "text": "more",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1695,
+                "top": 1117,
+                "width": 120,
+                "height": 32
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1838,
+                "top": 1104,
+                "width": 118,
+                "height": 44
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1977,
+                "top": 1118,
+                "width": 77,
+                "height": 30
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2076,
+                "top": 1105,
+                "width": 56,
+                "height": 42
+            }
+        },
+        {
+            "text": "acquired.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2150,
+                "top": 1104,
+                "width": 220,
+                "height": 56
+            }
+        },
+        {
+            "text": "Scenario:",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 162,
+                "top": 1302,
+                "width": 211,
+                "height": 36
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 392,
+                "top": 1303,
+                "width": 46,
+                "height": 34
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 463,
+                "top": 1303,
+                "width": 30,
+                "height": 35
+            }
+        },
+        {
+            "text": "transferring",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 508,
+                "top": 1302,
+                "width": 238,
+                "height": 45
+            }
+        },
+        {
+            "text": "2200",
+            "confidence": 24.0,
+            "bbox": {
+                "left": 765,
+                "top": 1303,
+                "width": 101,
+                "height": 35
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 882,
+                "top": 1302,
+                "width": 92,
+                "height": 36
+            }
+        },
+        {
+            "text": "account",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 993,
+                "top": 1303,
+                "width": 256,
+                "height": 35
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1170,
+                "top": 1298,
+                "width": 23,
+                "height": 54
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1211,
+                "top": 1298,
+                "width": 41,
+                "height": 54
+            }
+        },
+        {
+            "text": "account",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1266,
+                "top": 1304,
+                "width": 165,
+                "height": 34
+            }
+        },
+        {
+            "text": "B,",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1448,
+                "top": 1303,
+                "width": 38,
+                "height": 41
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1505,
+                "top": 1303,
+                "width": 75,
+                "height": 35
+            }
+        },
+        {
+            "text": "T2",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1597,
+                "top": 1303,
+                "width": 52,
+                "height": 34
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1668,
+                "top": 1303,
+                "width": 29,
+                "height": 35
+            }
+        },
+        {
+            "text": "reading",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1715,
+                "top": 1303,
+                "width": 153,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1885,
+                "top": 1303,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "balance",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1968,
+                "top": 1303,
+                "width": 162,
+                "height": 35
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2147,
+                "top": 1302,
+                "width": 39,
+                "height": 36
+            }
+        },
+        {
+            "text": "account",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 162,
+                "top": 1360,
+                "width": 165,
+                "height": 34
+            }
+        },
+        {
+            "text": "A.",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 338,
+                "top": 1359,
+                "width": 41,
+                "height": 34
+            }
+        },
+        {
+            "text": "Steps:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 162,
+                "top": 1475,
+                "width": 156,
+                "height": 50
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 164,
+                "top": 1539,
+                "width": 33,
+                "height": 34
+            }
+        },
+        {
+            "text": "Growing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 215,
+                "top": 1538,
+                "width": 189,
+                "height": 45
+            }
+        },
+        {
+            "text": "Phase",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 423,
+                "top": 1539,
+                "width": 136,
+                "height": 35
+            }
+        },
+        {
+            "text": "(Lock",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 576,
+                "top": 1538,
+                "width": 125,
+                "height": 45
+            }
+        },
+        {
+            "text": "Acquisition):",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 713,
+                "top": 1538,
+                "width": 287,
+                "height": 45
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 49.0,
+            "bbox": {
+                "left": 233,
+                "top": 1649,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 274,
+                "top": 1629,
+                "width": 45,
+                "height": 34
+            }
+        },
+        {
+            "text": "acquires",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 343,
+                "top": 1629,
+                "width": 177,
+                "height": 44
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 537,
+                "top": 1638,
+                "width": 22,
+                "height": 26
+            }
+        },
+        {
+            "text": "write",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 575,
+                "top": 1629,
+                "width": 99,
+                "height": 35
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 692,
+                "top": 1629,
+                "width": 81,
+                "height": 35
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 789,
+                "top": 1638,
+                "width": 48,
+                "height": 26
+            }
+        },
+        {
+            "text": "account",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 855,
+                "top": 1630,
+                "width": 165,
+                "height": 34
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 1032,
+                "top": 1629,
+                "width": 31,
+                "height": 34
+            }
+        },
+        {
+            "text": "(to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1077,
+                "top": 1628,
+                "width": 51,
+                "height": 45
+            }
+        },
+        {
+            "text": "debit",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1145,
+                "top": 1629,
+                "width": 101,
+                "height": 35
+            }
+        },
+        {
+            "text": "€200).",
+            "confidence": 18.0,
+            "bbox": {
+                "left": 1262,
+                "top": 1628,
+                "width": 129,
+                "height": 45
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 65.0,
+            "bbox": {
+                "left": 233,
+                "top": 1708,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 274,
+                "top": 1688,
+                "width": 45,
+                "height": 34
+            }
+        },
+        {
+            "text": "acquires",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 343,
+                "top": 1688,
+                "width": 177,
+                "height": 44
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 537,
+                "top": 1697,
+                "width": 22,
+                "height": 26
+            }
+        },
+        {
+            "text": "write",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 575,
+                "top": 1688,
+                "width": 99,
+                "height": 35
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 692,
+                "top": 1688,
+                "width": 81,
+                "height": 35
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 789,
+                "top": 1697,
+                "width": 48,
+                "height": 26
+            }
+        },
+        {
+            "text": "account",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 855,
+                "top": 1689,
+                "width": 165,
+                "height": 34
+            }
+        },
+        {
+            "text": "B",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1037,
+                "top": 1688,
+                "width": 26,
+                "height": 34
+            }
+        },
+        {
+            "text": "(to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1082,
+                "top": 1687,
+                "width": 51,
+                "height": 45
+            }
+        },
+        {
+            "text": "credit",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1150,
+                "top": 1688,
+                "width": 115,
+                "height": 35
+            }
+        },
+        {
+            "text": "$200).",
+            "confidence": 16.0,
+            "bbox": {
+                "left": 1281,
+                "top": 1687,
+                "width": 129,
+                "height": 45
+            }
+        },
+        {
+            "text": "2.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 161,
+                "top": 1778,
+                "width": 36,
+                "height": 34
+            }
+        },
+        {
+            "text": "Shrinking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 215,
+                "top": 1777,
+                "width": 215,
+                "height": 45
+            }
+        },
+        {
+            "text": "Phase",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 450,
+                "top": 1778,
+                "width": 135,
+                "height": 35
+            }
+        },
+        {
+            "text": "(Lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 603,
+                "top": 1777,
+                "width": 124,
+                "height": 45
+            }
+        },
+        {
+            "text": "Release):",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 744,
+                "top": 1777,
+                "width": 205,
+                "height": 45
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 37.0,
+            "bbox": {
+                "left": 233,
+                "top": 1887,
+                "width": 11,
+                "height": 12
+            }
+        },
+        {
+            "text": "After",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 273,
+                "top": 1867,
+                "width": 98,
+                "height": 36
+            }
+        },
+        {
+            "text": "transferring,",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 388,
+                "top": 1867,
+                "width": 249,
+                "height": 45
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 655,
+                "top": 1868,
+                "width": 46,
+                "height": 34
+            }
+        },
+        {
+            "text": "releases",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 726,
+                "top": 1868,
+                "width": 176,
+                "height": 35
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 917,
+                "top": 1868,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 999,
+                "top": 1868,
+                "width": 81,
+                "height": 35
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1096,
+                "top": 1877,
+                "width": 48,
+                "height": 26
+            }
+        },
+        {
+            "text": "account",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1162,
+                "top": 1869,
+                "width": 165,
+                "height": 34
+            }
+        },
+        {
+            "text": "B.",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1344,
+                "top": 1868,
+                "width": 38,
+                "height": 34
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 49.0,
+            "bbox": {
+                "left": 233,
+                "top": 1946,
+                "width": 11,
+                "height": 12
+            }
+        },
+        {
+            "text": "Then",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 274,
+                "top": 1927,
+                "width": 104,
+                "height": 35
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 398,
+                "top": 1927,
+                "width": 20,
+                "height": 34
+            }
+        },
+        {
+            "text": "releases",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 435,
+                "top": 1927,
+                "width": 175,
+                "height": 35
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 626,
+                "top": 1927,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 708,
+                "top": 1927,
+                "width": 81,
+                "height": 35
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 805,
+                "top": 1936,
+                "width": 48,
+                "height": 26
+            }
+        },
+        {
+            "text": "account",
+            "confidence": 60.0,
+            "bbox": {
+                "left": 871,
+                "top": 1927,
+                "width": 218,
+                "height": 35
+            }
+        },
+        {
+            "text": "A.",
+            "confidence": 60.0,
+            "bbox": {
+                "left": 1047,
+                "top": 1923,
+                "width": 45,
+                "height": 52
+            }
+        },
+        {
+            "text": "Advantages:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 160,
+                "top": 2016,
+                "width": 282,
+                "height": 44
+            }
+        },
+        {
+            "text": "Transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 461,
+                "top": 2016,
+                "width": 269,
+                "height": 35
+            }
+        },
+        {
+            "text": "follow",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 745,
+                "top": 2015,
+                "width": 121,
+                "height": 36
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 882,
+                "top": 2025,
+                "width": 22,
+                "height": 26
+            }
+        },
+        {
+            "text": "systematic",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 922,
+                "top": 2016,
+                "width": 223,
+                "height": 44
+            }
+        },
+        {
+            "text": "order:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1161,
+                "top": 2016,
+                "width": 118,
+                "height": 35
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1300,
+                "top": 2016,
+                "width": 81,
+                "height": 35
+            }
+        },
+        {
+            "text": "first,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1395,
+                "top": 2015,
+                "width": 86,
+                "height": 42
+            }
+        },
+        {
+            "text": "work,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1499,
+                "top": 2016,
+                "width": 110,
+                "height": 41
+            }
+        },
+        {
+            "text": "then",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1627,
+                "top": 2016,
+                "width": 89,
+                "height": 35
+            }
+        },
+        {
+            "text": "release.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1735,
+                "top": 2016,
+                "width": 163,
+                "height": 35
+            }
+        },
+        {
+            "text": "Problem:",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 163,
+                "top": 2132,
+                "width": 199,
+                "height": 35
+            }
+        },
+        {
+            "text": "T2",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 381,
+                "top": 2132,
+                "width": 53,
+                "height": 34
+            }
+        },
+        {
+            "text": "cannot",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 451,
+                "top": 2133,
+                "width": 141,
+                "height": 34
+            }
+        },
+        {
+            "text": "read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 609,
+                "top": 2132,
+                "width": 89,
+                "height": 35
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 715,
+                "top": 2132,
+                "width": 64,
+                "height": 35
+            }
+        },
+        {
+            "text": "balance",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 798,
+                "top": 2132,
+                "width": 162,
+                "height": 35
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 977,
+                "top": 2131,
+                "width": 39,
+                "height": 36
+            }
+        },
+        {
+            "text": "account",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1030,
+                "top": 2132,
+                "width": 325,
+                "height": 35
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1210,
+                "top": 2127,
+                "width": 18,
+                "height": 53
+            }
+        },
+        {
+            "text": "while",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1249,
+                "top": 2132,
+                "width": 103,
+                "height": 35
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1371,
+                "top": 2132,
+                "width": 46,
+                "height": 34
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1442,
+                "top": 2132,
+                "width": 30,
+                "height": 35
+            }
+        },
+        {
+            "text": "holding",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1490,
+                "top": 2132,
+                "width": 147,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1655,
+                "top": 2132,
+                "width": 63,
+                "height": 35
+            }
+        },
+        {
+            "text": "lock.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1736,
+                "top": 2132,
+                "width": 92,
+                "height": 35
+            }
+        },
+        {
+            "text": "4.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 171,
+                "top": 2359,
+                "width": 53,
+                "height": 48
+            }
+        },
+        {
+            "text": "Strict",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 262,
+                "top": 2363,
+                "width": 162,
+                "height": 43
+            }
+        },
+        {
+            "text": "Two-Phase",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 449,
+                "top": 2360,
+                "width": 291,
+                "height": 46
+            }
+        },
+        {
+            "text": "Locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 769,
+                "top": 2360,
+                "width": 192,
+                "height": 59
+            }
+        },
+        {
+            "text": "Protocol",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 988,
+                "top": 2360,
+                "width": 210,
+                "height": 46
+            }
+        },
+        {
+            "text": "(Strict",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1229,
+                "top": 2360,
+                "width": 181,
+                "height": 56
+            }
+        },
+        {
+            "text": "2PL):",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1438,
+                "top": 2360,
+                "width": 130,
+                "height": 56
+            }
+        },
+        {
+            "text": "+",
+            "confidence": 41.0,
+            "bbox": {
+                "left": 241,
+                "top": 2508,
+                "width": 12,
+                "height": 12
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 287,
+                "top": 2485,
+                "width": 97,
+                "height": 41
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 405,
+                "top": 2488,
+                "width": 33,
+                "height": 38
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 456,
+                "top": 2499,
+                "width": 24,
+                "height": 28
+            }
+        },
+        {
+            "text": "stricter",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 497,
+                "top": 2488,
+                "width": 186,
+                "height": 39
+            }
+        },
+        {
+            "text": "version",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 702,
+                "top": 2488,
+                "width": 165,
+                "height": 39
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 885,
+                "top": 2486,
+                "width": 48,
+                "height": 43
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 953,
+                "top": 2485,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "2PL",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1051,
+                "top": 2486,
+                "width": 80,
+                "height": 41
+            }
+        },
+        {
+            "text": "protocol.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1150,
+                "top": 2485,
+                "width": 202,
+                "height": 54
+            }
+        },
+        {
+            "text": "It",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1371,
+                "top": 2488,
+                "width": 48,
+                "height": 39
+            }
+        },
+        {
+            "text": "makes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1439,
+                "top": 2485,
+                "width": 140,
+                "height": 43
+            }
+        },
+        {
+            "text": "sure",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1597,
+                "top": 2497,
+                "width": 101,
+                "height": 30
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1716,
+                "top": 2485,
+                "width": 99,
+                "height": 42
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1834,
+                "top": 2485,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1930,
+                "top": 2488,
+                "width": 264,
+                "height": 39
+            }
+        },
+        {
+            "text": "keeps",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2215,
+                "top": 2485,
+                "width": 128,
+                "height": 54
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 286,
+                "top": 2572,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 383,
+                "top": 2572,
+                "width": 113,
+                "height": 42
+            }
+        },
+        {
+            "text": "until",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 516,
+                "top": 2572,
+                "width": 98,
+                "height": 42
+            }
+        },
+        {
+            "text": "it's",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 637,
+                "top": 2573,
+                "width": 66,
+                "height": 41
+            }
+        },
+        {
+            "text": "completely",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 722,
+                "top": 2572,
+                "width": 248,
+                "height": 54
+            }
+        },
+        {
+            "text": "finished",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 989,
+                "top": 2572,
+                "width": 187,
+                "height": 44
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1195,
+                "top": 2573,
+                "width": 78,
+                "height": 41
+            }
+        },
+        {
+            "text": "committed.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1294,
+                "top": 2573,
+                "width": 257,
+                "height": 42
+            }
+        },
+        {
+            "text": "How",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 174,
+                "top": 2679,
+                "width": 102,
+                "height": 42
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 304,
+                "top": 2680,
+                "width": 36,
+                "height": 41
+            }
+        },
+        {
+            "text": "works:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 364,
+                "top": 2677,
+                "width": 160,
+                "height": 44
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 241,
+                "top": 2815,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 287,
+                "top": 2793,
+                "width": 32,
+                "height": 39
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 341,
+                "top": 2792,
+                "width": 278,
+                "height": 41
+            }
+        },
+        {
+            "text": "holds",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 641,
+                "top": 2789,
+                "width": 125,
+                "height": 44
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 786,
+                "top": 2803,
+                "width": 52,
+                "height": 30
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 858,
+                "top": 2795,
+                "width": 48,
+                "height": 38
+            }
+        },
+        {
+            "text": "its",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 930,
+                "top": 2792,
+                "width": 59,
+                "height": 41
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1012,
+                "top": 2789,
+                "width": 118,
+                "height": 44
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1149,
+                "top": 2789,
+                "width": 84,
+                "height": 44
+            }
+        },
+        {
+            "text": "doesn't",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1254,
+                "top": 2789,
+                "width": 173,
+                "height": 44
+            }
+        },
+        {
+            "text": "release",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1448,
+                "top": 2789,
+                "width": 176,
+                "height": 44
+            }
+        },
+        {
+            "text": "them",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1643,
+                "top": 2789,
+                "width": 123,
+                "height": 45
+            }
+        },
+        {
+            "text": "until",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1787,
+                "top": 2789,
+                "width": 104,
+                "height": 44
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1915,
+                "top": 2792,
+                "width": 34,
+                "height": 41
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1972,
+                "top": 2792,
+                "width": 33,
+                "height": 41
+            }
+        },
+        {
+            "text": "ready",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2027,
+                "top": 2789,
+                "width": 137,
+                "height": 57
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2183,
+                "top": 2795,
+                "width": 48,
+                "height": 38
+            }
+        },
+        {
+            "text": "commit",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 287,
+                "top": 2882,
+                "width": 174,
+                "height": 42
+            }
+        },
+        {
+            "text": "(finish",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 481,
+                "top": 2879,
+                "width": 156,
+                "height": 53
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 656,
+                "top": 2879,
+                "width": 84,
+                "height": 44
+            }
+        },
+        {
+            "text": "confirm",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 761,
+                "top": 2879,
+                "width": 187,
+                "height": 46
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 968,
+                "top": 2879,
+                "width": 82,
+                "height": 44
+            }
+        },
+        {
+            "text": "work).",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1070,
+                "top": 2879,
+                "width": 146,
+                "height": 53
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 77.0,
+            "bbox": {
+                "left": 241,
+                "top": 2997,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "Once",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 287,
+                "top": 2974,
+                "width": 122,
+                "height": 42
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 432,
+                "top": 2975,
+                "width": 34,
+                "height": 41
+            }
+        },
+        {
+            "text": "commits,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 486,
+                "top": 2975,
+                "width": 214,
+                "height": 48
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 723,
+                "top": 2975,
+                "width": 34,
+                "height": 41
+            }
+        },
+        {
+            "text": "releases",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 778,
+                "top": 2972,
+                "width": 201,
+                "height": 44
+            }
+        },
+        {
+            "text": "all",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 998,
+                "top": 2972,
+                "width": 52,
+                "height": 44
+            }
+        },
+        {
+            "text": "its",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1075,
+                "top": 2975,
+                "width": 59,
+                "height": 41
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1157,
+                "top": 2972,
+                "width": 118,
+                "height": 44
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1294,
+                "top": 2978,
+                "width": 50,
+                "height": 38
+            }
+        },
+        {
+            "text": "once.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1363,
+                "top": 2986,
+                "width": 121,
+                "height": 30
+            }
+        },
+        {
+            "text": "Why",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 172,
+                "top": 3079,
+                "width": 115,
+                "height": 57
+            }
+        },
+        {
+            "text": "it's",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 314,
+                "top": 3080,
+                "width": 72,
+                "height": 43
+            }
+        },
+        {
+            "text": "useful:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 413,
+                "top": 3079,
+                "width": 168,
+                "height": 46
+            }
+        }
+    ]
+}

@@ -1,0 +1,1148 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_83",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_83.png",
+    "text": "Pseudo header for checksum calculation Checksum: Here checksum includes three sections: | > 32-bit source IP address |. a pseudo header 2 E 22-bit destination IP address 2. UDP header : | 3-bit protocol a All Os 19) ‘ 16-bit UDP total length 3. data coming trom application layer =: ; : . - Source port address Destination port address Pseudo header ts part of IP header of packet = 16 bits 16 bits ; ; ; g UDP total length Cher kearn in which user datagram 1s to be encapsulated 16 bits Stat with some fields filled with Os. Data (Padding must be added to make the data a multiple of 16 bits)",
+    "words": [
+        {
+            "text": "Pseudo",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2783,
+                "top": 140,
+                "width": 361,
+                "height": 83
+            }
+        },
+        {
+            "text": "header",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3186,
+                "top": 140,
+                "width": 349,
+                "height": 83
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3573,
+                "top": 139,
+                "width": 148,
+                "height": 83
+            }
+        },
+        {
+            "text": "checksum",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3756,
+                "top": 139,
+                "width": 503,
+                "height": 84
+            }
+        },
+        {
+            "text": "calculation",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4303,
+                "top": 139,
+                "width": 557,
+                "height": 84
+            }
+        },
+        {
+            "text": "Checksum:",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 161,
+                "top": 216,
+                "width": 528,
+                "height": 85
+            }
+        },
+        {
+            "text": "Here",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 165,
+                "top": 439,
+                "width": 224,
+                "height": 85
+            }
+        },
+        {
+            "text": "checksum",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 427,
+                "top": 437,
+                "width": 479,
+                "height": 87
+            }
+        },
+        {
+            "text": "includes",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 953,
+                "top": 437,
+                "width": 395,
+                "height": 87
+            }
+        },
+        {
+            "text": "three",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1383,
+                "top": 438,
+                "width": 237,
+                "height": 86
+            }
+        },
+        {
+            "text": "sections:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1661,
+                "top": 437,
+                "width": 408,
+                "height": 87
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 47.0,
+            "bbox": {
+                "left": 3632,
+                "top": 521,
+                "width": 7,
+                "height": 6
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 58.0,
+            "bbox": {
+                "left": 2623,
+                "top": 531,
+                "width": 38,
+                "height": 62
+            }
+        },
+        {
+            "text": "32-bit",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3469,
+                "top": 519,
+                "width": 199,
+                "height": 59
+            }
+        },
+        {
+            "text": "source",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3699,
+                "top": 538,
+                "width": 229,
+                "height": 40
+            }
+        },
+        {
+            "text": "IP",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3959,
+                "top": 520,
+                "width": 57,
+                "height": 57
+            }
+        },
+        {
+            "text": "address",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4042,
+                "top": 519,
+                "width": 270,
+                "height": 59
+            }
+        },
+        {
+            "text": "|.",
+            "confidence": 68.0,
+            "bbox": {
+                "left": 378,
+                "top": 662,
+                "width": 59,
+                "height": 83
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 4.0,
+            "bbox": {
+                "left": 561,
+                "top": 688,
+                "width": 45,
+                "height": 58
+            }
+        },
+        {
+            "text": "pseudo",
+            "confidence": 4.0,
+            "bbox": {
+                "left": 647,
+                "top": 660,
+                "width": 337,
+                "height": 112
+            }
+        },
+        {
+            "text": "header",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1024,
+                "top": 660,
+                "width": 319,
+                "height": 87
+            }
+        },
+        {
+            "text": "2",
+            "confidence": 54.0,
+            "bbox": {
+                "left": 2622,
+                "top": 655,
+                "width": 39,
+                "height": 101
+            }
+        },
+        {
+            "text": "E",
+            "confidence": 54.0,
+            "bbox": {
+                "left": 2602,
+                "top": 765,
+                "width": 58,
+                "height": 86
+            }
+        },
+        {
+            "text": "22-bit",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 3386,
+                "top": 757,
+                "width": 196,
+                "height": 60
+            }
+        },
+        {
+            "text": "destination",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3611,
+                "top": 756,
+                "width": 402,
+                "height": 61
+            }
+        },
+        {
+            "text": "IP",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4046,
+                "top": 760,
+                "width": 55,
+                "height": 56
+            }
+        },
+        {
+            "text": "address",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4127,
+                "top": 757,
+                "width": 272,
+                "height": 60
+            }
+        },
+        {
+            "text": "2.",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 361,
+                "top": 877,
+                "width": 77,
+                "height": 85
+            }
+        },
+        {
+            "text": "UDP",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 564,
+                "top": 878,
+                "width": 235,
+                "height": 84
+            }
+        },
+        {
+            "text": "header",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 834,
+                "top": 877,
+                "width": 316,
+                "height": 86
+            }
+        },
+        {
+            "text": ":",
+            "confidence": 43.0,
+            "bbox": {
+                "left": 2624,
+                "top": 887,
+                "width": 35,
+                "height": 115
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 8.0,
+            "bbox": {
+                "left": 3219,
+                "top": 906,
+                "width": 78,
+                "height": 81
+            }
+        },
+        {
+            "text": "3-bit",
+            "confidence": 39.0,
+            "bbox": {
+                "left": 3345,
+                "top": 950,
+                "width": 161,
+                "height": 60
+            }
+        },
+        {
+            "text": "protocol",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 3588,
+                "top": 951,
+                "width": 244,
+                "height": 59
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 65.0,
+            "bbox": {
+                "left": 2605,
+                "top": 1010,
+                "width": 53,
+                "height": 33
+            }
+        },
+        {
+            "text": "All",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2901,
+                "top": 998,
+                "width": 84,
+                "height": 59
+            }
+        },
+        {
+            "text": "Os",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 3013,
+                "top": 1001,
+                "width": 66,
+                "height": 55
+            }
+        },
+        {
+            "text": "19)",
+            "confidence": 43.0,
+            "bbox": {
+                "left": 3528,
+                "top": 966,
+                "width": 125,
+                "height": 154
+            }
+        },
+        {
+            "text": "‘",
+            "confidence": 29.0,
+            "bbox": {
+                "left": 3735,
+                "top": 969,
+                "width": 25,
+                "height": 42
+            }
+        },
+        {
+            "text": "16-bit",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4082,
+                "top": 999,
+                "width": 195,
+                "height": 57
+            }
+        },
+        {
+            "text": "UDP",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 4310,
+                "top": 999,
+                "width": 149,
+                "height": 58
+            }
+        },
+        {
+            "text": "total",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 4486,
+                "top": 999,
+                "width": 158,
+                "height": 57
+            }
+        },
+        {
+            "text": "length",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 4673,
+                "top": 998,
+                "width": 227,
+                "height": 76
+            }
+        },
+        {
+            "text": "3.",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 363,
+                "top": 1099,
+                "width": 75,
+                "height": 87
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 561,
+                "top": 1099,
+                "width": 196,
+                "height": 86
+            }
+        },
+        {
+            "text": "coming",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 794,
+                "top": 1126,
+                "width": 360,
+                "height": 85
+            }
+        },
+        {
+            "text": "trom",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1195,
+                "top": 1098,
+                "width": 222,
+                "height": 86
+            }
+        },
+        {
+            "text": "application",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1460,
+                "top": 1099,
+                "width": 535,
+                "height": 112
+            }
+        },
+        {
+            "text": "layer",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2037,
+                "top": 1098,
+                "width": 237,
+                "height": 112
+            }
+        },
+        {
+            "text": "=:",
+            "confidence": 22.0,
+            "bbox": {
+                "left": 2889,
+                "top": 1146,
+                "width": 236,
+                "height": 56
+            }
+        },
+        {
+            "text": ";",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 3642,
+                "top": 1111,
+                "width": 3,
+                "height": 6
+            }
+        },
+        {
+            "text": ":",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1323,
+                "top": 1314,
+                "width": 20,
+                "height": 14
+            }
+        },
+        {
+            "text": ".",
+            "confidence": 10.0,
+            "bbox": {
+                "left": 1947,
+                "top": 1314,
+                "width": 20,
+                "height": 14
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2623,
+                "top": 1311,
+                "width": 36,
+                "height": 16
+            }
+        },
+        {
+            "text": "Source",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2939,
+                "top": 1241,
+                "width": 236,
+                "height": 59
+            }
+        },
+        {
+            "text": "port",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3205,
+                "top": 1251,
+                "width": 142,
+                "height": 64
+            }
+        },
+        {
+            "text": "address",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3374,
+                "top": 1239,
+                "width": 273,
+                "height": 61
+            }
+        },
+        {
+            "text": "Destination",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4046,
+                "top": 1240,
+                "width": 409,
+                "height": 60
+            }
+        },
+        {
+            "text": "port",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4486,
+                "top": 1251,
+                "width": 143,
+                "height": 65
+            }
+        },
+        {
+            "text": "address",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4656,
+                "top": 1240,
+                "width": 274,
+                "height": 60
+            }
+        },
+        {
+            "text": "Pseudo",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 166,
+                "top": 1315,
+                "width": 340,
+                "height": 87
+            }
+        },
+        {
+            "text": "header",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 546,
+                "top": 1315,
+                "width": 318,
+                "height": 87
+            }
+        },
+        {
+            "text": "ts",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 906,
+                "top": 1344,
+                "width": 68,
+                "height": 57
+            }
+        },
+        {
+            "text": "part",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1014,
+                "top": 1331,
+                "width": 181,
+                "height": 97
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1231,
+                "top": 1319,
+                "width": 95,
+                "height": 82
+            }
+        },
+        {
+            "text": "IP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1370,
+                "top": 1317,
+                "width": 97,
+                "height": 83
+            }
+        },
+        {
+            "text": "header",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1503,
+                "top": 1315,
+                "width": 318,
+                "height": 87
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1855,
+                "top": 1320,
+                "width": 95,
+                "height": 81
+            }
+        },
+        {
+            "text": "packet",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1992,
+                "top": 1315,
+                "width": 308,
+                "height": 113
+            }
+        },
+        {
+            "text": "=",
+            "confidence": 22.0,
+            "bbox": {
+                "left": 2605,
+                "top": 1339,
+                "width": 56,
+                "height": 83
+            }
+        },
+        {
+            "text": "16",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3182,
+                "top": 1344,
+                "width": 75,
+                "height": 56
+            }
+        },
+        {
+            "text": "bits",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3287,
+                "top": 1340,
+                "width": 118,
+                "height": 60
+            }
+        },
+        {
+            "text": "16",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4379,
+                "top": 1344,
+                "width": 76,
+                "height": 56
+            }
+        },
+        {
+            "text": "bits",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4482,
+                "top": 1340,
+                "width": 121,
+                "height": 60
+            }
+        },
+        {
+            "text": ";",
+            "confidence": 11.0,
+            "bbox": {
+                "left": 173,
+                "top": 1538,
+                "width": 9,
+                "height": 7
+            }
+        },
+        {
+            "text": ";",
+            "confidence": 11.0,
+            "bbox": {
+                "left": 447,
+                "top": 1538,
+                "width": 9,
+                "height": 7
+            }
+        },
+        {
+            "text": ";",
+            "confidence": 1.0,
+            "bbox": {
+                "left": 1345,
+                "top": 1538,
+                "width": 10,
+                "height": 7
+            }
+        },
+        {
+            "text": "g",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2608,
+                "top": 1449,
+                "width": 53,
+                "height": 114
+            }
+        },
+        {
+            "text": "UDP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2998,
+                "top": 1481,
+                "width": 149,
+                "height": 58
+            }
+        },
+        {
+            "text": "total",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 3174,
+                "top": 1479,
+                "width": 159,
+                "height": 61
+            }
+        },
+        {
+            "text": "length",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 3361,
+                "top": 1479,
+                "width": 228,
+                "height": 77
+            }
+        },
+        {
+            "text": "Cher",
+            "confidence": 25.0,
+            "bbox": {
+                "left": 4302,
+                "top": 1485,
+                "width": 147,
+                "height": 51
+            }
+        },
+        {
+            "text": "kearn",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 4488,
+                "top": 1485,
+                "width": 180,
+                "height": 51
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 167,
+                "top": 1565,
+                "width": 81,
+                "height": 58
+            }
+        },
+        {
+            "text": "which",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 288,
+                "top": 1538,
+                "width": 290,
+                "height": 86
+            }
+        },
+        {
+            "text": "user",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 617,
+                "top": 1566,
+                "width": 196,
+                "height": 58
+            }
+        },
+        {
+            "text": "datagram",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 848,
+                "top": 1538,
+                "width": 443,
+                "height": 112
+            }
+        },
+        {
+            "text": "1s",
+            "confidence": 70.0,
+            "bbox": {
+                "left": 1339,
+                "top": 1566,
+                "width": 70,
+                "height": 57
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1446,
+                "top": 1554,
+                "width": 88,
+                "height": 70
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1574,
+                "top": 1538,
+                "width": 105,
+                "height": 86
+            }
+        },
+        {
+            "text": "encapsulated",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1716,
+                "top": 1538,
+                "width": 623,
+                "height": 112
+            }
+        },
+        {
+            "text": "16",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3183,
+                "top": 1583,
+                "width": 74,
+                "height": 56
+            }
+        },
+        {
+            "text": "bits",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3287,
+                "top": 1579,
+                "width": 118,
+                "height": 60
+            }
+        },
+        {
+            "text": "Stat",
+            "confidence": 8.0,
+            "bbox": {
+                "left": 4384,
+                "top": 1586,
+                "width": 216,
+                "height": 50
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 161,
+                "top": 1760,
+                "width": 209,
+                "height": 86
+            }
+        },
+        {
+            "text": "some",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 409,
+                "top": 1787,
+                "width": 248,
+                "height": 59
+            }
+        },
+        {
+            "text": "fields",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 699,
+                "top": 1759,
+                "width": 262,
+                "height": 87
+            }
+        },
+        {
+            "text": "filled",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1000,
+                "top": 1759,
+                "width": 246,
+                "height": 88
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1288,
+                "top": 1760,
+                "width": 208,
+                "height": 86
+            }
+        },
+        {
+            "text": "Os.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1534,
+                "top": 1762,
+                "width": 126,
+                "height": 83
+            }
+        },
+        {
+            "text": "Data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3805,
+                "top": 1814,
+                "width": 165,
+                "height": 67
+            }
+        },
+        {
+            "text": "(Padding",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2749,
+                "top": 1978,
+                "width": 320,
+                "height": 87
+            }
+        },
+        {
+            "text": "must",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3094,
+                "top": 1989,
+                "width": 181,
+                "height": 58
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3299,
+                "top": 1978,
+                "width": 88,
+                "height": 70
+            }
+        },
+        {
+            "text": "added",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3406,
+                "top": 1978,
+                "width": 229,
+                "height": 69
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3657,
+                "top": 1989,
+                "width": 76,
+                "height": 58
+            }
+        },
+        {
+            "text": "make",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3756,
+                "top": 1979,
+                "width": 193,
+                "height": 69
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3968,
+                "top": 1978,
+                "width": 121,
+                "height": 69
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4108,
+                "top": 1978,
+                "width": 159,
+                "height": 69
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4287,
+                "top": 1999,
+                "width": 39,
+                "height": 48
+            }
+        },
+        {
+            "text": "multiple",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4354,
+                "top": 1978,
+                "width": 299,
+                "height": 87
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4670,
+                "top": 1979,
+                "width": 79,
+                "height": 68
+            }
+        },
+        {
+            "text": "16",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4770,
+                "top": 1984,
+                "width": 84,
+                "height": 63
+            }
+        },
+        {
+            "text": "bits)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4874,
+                "top": 1978,
+                "width": 152,
+                "height": 79
+            }
+        }
+    ]
+}

@@ -1,0 +1,1328 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_7",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_7.png",
+    "text": "Port numbers: In the Internet model, the port numbers re(Lehineger between() and 65.535.) The client program defines itself with a port number, chosen randomly by the transport layer software running on the client host. The server process port number cannot be chosen randomly. The Internet has decided to use universal port numbers for servers; called well-known port numbers. 1. Well-known ports: The ports ranging from 0 to 1023 are assigned and controlled by IANA. These are the well-known ports. 2. Registered ports: The ports ranging from 1024 to 49,151 are not assigned or controlled by IANA. They can only be registered with JANA to prevent duplication. 3. Dynamic ports: The ports ranging from|49,152 to 65,535 are neither controlled nor registered. They can be used by any process. These are the ephemeral ports.",
+    "words": [
+        {
+            "text": "Port",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 120,
+                "top": 44,
+                "width": 194,
+                "height": 86
+            }
+        },
+        {
+            "text": "numbers:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 353,
+                "top": 43,
+                "width": 437,
+                "height": 87
+            }
+        },
+        {
+            "text": "In",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 150,
+                "top": 260,
+                "width": 94,
+                "height": 86
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 277,
+                "top": 258,
+                "width": 146,
+                "height": 90
+            }
+        },
+        {
+            "text": "Internet",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 462,
+                "top": 260,
+                "width": 375,
+                "height": 88
+            }
+        },
+        {
+            "text": "model,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 870,
+                "top": 258,
+                "width": 329,
+                "height": 103
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1235,
+                "top": 258,
+                "width": 145,
+                "height": 90
+            }
+        },
+        {
+            "text": "port",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1417,
+                "top": 273,
+                "width": 192,
+                "height": 100
+            }
+        },
+        {
+            "text": "numbers",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1645,
+                "top": 258,
+                "width": 416,
+                "height": 89
+            }
+        },
+        {
+            "text": "re(Lehineger",
+            "confidence": 3.0,
+            "bbox": {
+                "left": 2095,
+                "top": 145,
+                "width": 886,
+                "height": 357
+            }
+        },
+        {
+            "text": "between()",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 3015,
+                "top": 149,
+                "width": 491,
+                "height": 310
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 56.0,
+            "bbox": {
+                "left": 3557,
+                "top": 149,
+                "width": 156,
+                "height": 310
+            }
+        },
+        {
+            "text": "65.535.)",
+            "confidence": 77.0,
+            "bbox": {
+                "left": 3764,
+                "top": 149,
+                "width": 466,
+                "height": 310
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 115,
+                "top": 481,
+                "width": 186,
+                "height": 89
+            }
+        },
+        {
+            "text": "client",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 335,
+                "top": 480,
+                "width": 270,
+                "height": 90
+            }
+        },
+        {
+            "text": "program",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 639,
+                "top": 508,
+                "width": 406,
+                "height": 87
+            }
+        },
+        {
+            "text": "defines",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1083,
+                "top": 479,
+                "width": 350,
+                "height": 91
+            }
+        },
+        {
+            "text": "itself",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1473,
+                "top": 480,
+                "width": 249,
+                "height": 90
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1741,
+                "top": 480,
+                "width": 213,
+                "height": 89
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1989,
+                "top": 509,
+                "width": 52,
+                "height": 61
+            }
+        },
+        {
+            "text": "port",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2077,
+                "top": 495,
+                "width": 191,
+                "height": 100
+            }
+        },
+        {
+            "text": "number,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2303,
+                "top": 481,
+                "width": 390,
+                "height": 105
+            }
+        },
+        {
+            "text": "chosen",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2730,
+                "top": 481,
+                "width": 335,
+                "height": 89
+            }
+        },
+        {
+            "text": "randomly",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3103,
+                "top": 481,
+                "width": 458,
+                "height": 116
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3601,
+                "top": 481,
+                "width": 114,
+                "height": 114
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3750,
+                "top": 481,
+                "width": 146,
+                "height": 89
+            }
+        },
+        {
+            "text": "transport",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3930,
+                "top": 495,
+                "width": 433,
+                "height": 100
+            }
+        },
+        {
+            "text": "layer",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4399,
+                "top": 481,
+                "width": 241,
+                "height": 114
+            }
+        },
+        {
+            "text": "software",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4673,
+                "top": 479,
+                "width": 412,
+                "height": 91
+            }
+        },
+        {
+            "text": "running",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 116,
+                "top": 703,
+                "width": 378,
+                "height": 114
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 526,
+                "top": 731,
+                "width": 118,
+                "height": 61
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 678,
+                "top": 703,
+                "width": 145,
+                "height": 89
+            }
+        },
+        {
+            "text": "client",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 859,
+                "top": 702,
+                "width": 268,
+                "height": 91
+            }
+        },
+        {
+            "text": "host.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1163,
+                "top": 703,
+                "width": 221,
+                "height": 89
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 115,
+                "top": 920,
+                "width": 186,
+                "height": 88
+            }
+        },
+        {
+            "text": "server",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 337,
+                "top": 947,
+                "width": 297,
+                "height": 62
+            }
+        },
+        {
+            "text": "process",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 667,
+                "top": 947,
+                "width": 361,
+                "height": 87
+            }
+        },
+        {
+            "text": "port",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1063,
+                "top": 935,
+                "width": 191,
+                "height": 99
+            }
+        },
+        {
+            "text": "number",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1291,
+                "top": 920,
+                "width": 369,
+                "height": 89
+            }
+        },
+        {
+            "text": "cannot",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1695,
+                "top": 934,
+                "width": 321,
+                "height": 75
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2052,
+                "top": 919,
+                "width": 109,
+                "height": 90
+            }
+        },
+        {
+            "text": "chosen",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2197,
+                "top": 920,
+                "width": 335,
+                "height": 89
+            }
+        },
+        {
+            "text": "randomly.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2567,
+                "top": 919,
+                "width": 478,
+                "height": 115
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 115,
+                "top": 1142,
+                "width": 186,
+                "height": 89
+            }
+        },
+        {
+            "text": "Internet",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 338,
+                "top": 1144,
+                "width": 374,
+                "height": 87
+            }
+        },
+        {
+            "text": "has",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 748,
+                "top": 1142,
+                "width": 159,
+                "height": 89
+            }
+        },
+        {
+            "text": "decided",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 941,
+                "top": 1142,
+                "width": 374,
+                "height": 89
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1350,
+                "top": 1156,
+                "width": 93,
+                "height": 75
+            }
+        },
+        {
+            "text": "use",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1478,
+                "top": 1170,
+                "width": 157,
+                "height": 61
+            }
+        },
+        {
+            "text": "universal",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1671,
+                "top": 1141,
+                "width": 437,
+                "height": 90
+            }
+        },
+        {
+            "text": "port",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2149,
+                "top": 1156,
+                "width": 193,
+                "height": 100
+            }
+        },
+        {
+            "text": "numbers",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2377,
+                "top": 1142,
+                "width": 416,
+                "height": 91
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2824,
+                "top": 1141,
+                "width": 146,
+                "height": 95
+            }
+        },
+        {
+            "text": "servers;",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2998,
+                "top": 1167,
+                "width": 373,
+                "height": 77
+            }
+        },
+        {
+            "text": "called",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3410,
+                "top": 1142,
+                "width": 287,
+                "height": 89
+            }
+        },
+        {
+            "text": "well-known",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3733,
+                "top": 1142,
+                "width": 580,
+                "height": 89
+            }
+        },
+        {
+            "text": "port",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4351,
+                "top": 1156,
+                "width": 192,
+                "height": 101
+            }
+        },
+        {
+            "text": "numbers.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4579,
+                "top": 1142,
+                "width": 437,
+                "height": 89
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 62.0,
+            "bbox": {
+                "left": 133,
+                "top": 1495,
+                "width": 61,
+                "height": 84
+            }
+        },
+        {
+            "text": "Well-known",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 317,
+                "top": 1493,
+                "width": 594,
+                "height": 88
+            }
+        },
+        {
+            "text": "ports:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 949,
+                "top": 1507,
+                "width": 262,
+                "height": 99
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1254,
+                "top": 1492,
+                "width": 187,
+                "height": 89
+            }
+        },
+        {
+            "text": "ports",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1476,
+                "top": 1506,
+                "width": 241,
+                "height": 100
+            }
+        },
+        {
+            "text": "ranging",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1752,
+                "top": 1491,
+                "width": 368,
+                "height": 115
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2156,
+                "top": 1491,
+                "width": 228,
+                "height": 90
+            }
+        },
+        {
+            "text": "0",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2423,
+                "top": 1494,
+                "width": 55,
+                "height": 86
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2513,
+                "top": 1507,
+                "width": 96,
+                "height": 74
+            }
+        },
+        {
+            "text": "1023",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2656,
+                "top": 1493,
+                "width": 218,
+                "height": 89
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2914,
+                "top": 1519,
+                "width": 145,
+                "height": 62
+            }
+        },
+        {
+            "text": "assigned",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3095,
+                "top": 1492,
+                "width": 413,
+                "height": 115
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3545,
+                "top": 1492,
+                "width": 170,
+                "height": 89
+            }
+        },
+        {
+            "text": "controlled",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3751,
+                "top": 1492,
+                "width": 491,
+                "height": 89
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4281,
+                "top": 1492,
+                "width": 111,
+                "height": 114
+            }
+        },
+        {
+            "text": "IANA.",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 4438,
+                "top": 1491,
+                "width": 313,
+                "height": 89
+            }
+        },
+        {
+            "text": "These",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4792,
+                "top": 1492,
+                "width": 286,
+                "height": 90
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 5112,
+                "top": 1519,
+                "width": 144,
+                "height": 62
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 314,
+                "top": 1714,
+                "width": 146,
+                "height": 89
+            }
+        },
+        {
+            "text": "well-known",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 494,
+                "top": 1714,
+                "width": 581,
+                "height": 90
+            }
+        },
+        {
+            "text": "ports.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1112,
+                "top": 1728,
+                "width": 261,
+                "height": 101
+            }
+        },
+        {
+            "text": "2.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 115,
+                "top": 1932,
+                "width": 79,
+                "height": 86
+            }
+        },
+        {
+            "text": "Registered",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 320,
+                "top": 1931,
+                "width": 511,
+                "height": 114
+            }
+        },
+        {
+            "text": "ports:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 872,
+                "top": 1947,
+                "width": 261,
+                "height": 98
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1174,
+                "top": 1931,
+                "width": 187,
+                "height": 89
+            }
+        },
+        {
+            "text": "ports",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1398,
+                "top": 1945,
+                "width": 239,
+                "height": 100
+            }
+        },
+        {
+            "text": "ranging",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1673,
+                "top": 1930,
+                "width": 370,
+                "height": 115
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2076,
+                "top": 1929,
+                "width": 228,
+                "height": 94
+            }
+        },
+        {
+            "text": "1024",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2358,
+                "top": 1932,
+                "width": 226,
+                "height": 87
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2618,
+                "top": 1946,
+                "width": 92,
+                "height": 74
+            }
+        },
+        {
+            "text": "49,151",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2742,
+                "top": 1932,
+                "width": 318,
+                "height": 105
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3111,
+                "top": 1958,
+                "width": 142,
+                "height": 62
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3292,
+                "top": 1946,
+                "width": 151,
+                "height": 73
+            }
+        },
+        {
+            "text": "assigned",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3477,
+                "top": 1930,
+                "width": 415,
+                "height": 115
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3928,
+                "top": 1959,
+                "width": 101,
+                "height": 60
+            }
+        },
+        {
+            "text": "controlled",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4060,
+                "top": 1930,
+                "width": 491,
+                "height": 90
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4588,
+                "top": 1930,
+                "width": 114,
+                "height": 115
+            }
+        },
+        {
+            "text": "IANA.",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 4746,
+                "top": 1930,
+                "width": 312,
+                "height": 89
+            }
+        },
+        {
+            "text": "They",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 315,
+                "top": 2152,
+                "width": 246,
+                "height": 115
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 599,
+                "top": 2181,
+                "width": 164,
+                "height": 61
+            }
+        },
+        {
+            "text": "only",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 797,
+                "top": 2153,
+                "width": 211,
+                "height": 114
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1046,
+                "top": 2153,
+                "width": 109,
+                "height": 90
+            }
+        },
+        {
+            "text": "registered",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1193,
+                "top": 2153,
+                "width": 474,
+                "height": 114
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1702,
+                "top": 2153,
+                "width": 215,
+                "height": 89
+            }
+        },
+        {
+            "text": "JANA",
+            "confidence": 68.0,
+            "bbox": {
+                "left": 1952,
+                "top": 2153,
+                "width": 292,
+                "height": 89
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2274,
+                "top": 2168,
+                "width": 91,
+                "height": 74
+            }
+        },
+        {
+            "text": "prevent",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2402,
+                "top": 2167,
+                "width": 360,
+                "height": 101
+            }
+        },
+        {
+            "text": "duplication.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2797,
+                "top": 2153,
+                "width": 569,
+                "height": 114
+            }
+        },
+        {
+            "text": "3.",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 119,
+                "top": 2371,
+                "width": 75,
+                "height": 87
+            }
+        },
+        {
+            "text": "Dynamic",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 320,
+                "top": 2370,
+                "width": 436,
+                "height": 113
+            }
+        },
+        {
+            "text": "ports:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 798,
+                "top": 2386,
+                "width": 260,
+                "height": 98
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1102,
+                "top": 2370,
+                "width": 184,
+                "height": 89
+            }
+        },
+        {
+            "text": "ports",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1325,
+                "top": 2384,
+                "width": 237,
+                "height": 100
+            }
+        },
+        {
+            "text": "ranging",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1598,
+                "top": 2367,
+                "width": 370,
+                "height": 120
+            }
+        },
+        {
+            "text": "from|49,152",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 2002,
+                "top": 2318,
+                "width": 584,
+                "height": 261
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 2628,
+                "top": 2318,
+                "width": 88,
+                "height": 261
+            }
+        },
+        {
+            "text": "65,535",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 2781,
+                "top": 2318,
+                "width": 283,
+                "height": 261
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 3107,
+                "top": 2318,
+                "width": 153,
+                "height": 261
+            }
+        },
+        {
+            "text": "neither",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3309,
+                "top": 2369,
+                "width": 335,
+                "height": 90
+            }
+        },
+        {
+            "text": "controlled",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3677,
+                "top": 2369,
+                "width": 490,
+                "height": 90
+            }
+        },
+        {
+            "text": "nor",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4205,
+                "top": 2398,
+                "width": 159,
+                "height": 61
+            }
+        },
+        {
+            "text": "registered.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4399,
+                "top": 2369,
+                "width": 498,
+                "height": 115
+            }
+        },
+        {
+            "text": "They",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4938,
+                "top": 2369,
+                "width": 244,
+                "height": 115
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 315,
+                "top": 2620,
+                "width": 166,
+                "height": 61
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 517,
+                "top": 2592,
+                "width": 108,
+                "height": 89
+            }
+        },
+        {
+            "text": "used",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 664,
+                "top": 2592,
+                "width": 216,
+                "height": 89
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 917,
+                "top": 2592,
+                "width": 114,
+                "height": 114
+            }
+        },
+        {
+            "text": "any",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1069,
+                "top": 2620,
+                "width": 169,
+                "height": 86
+            }
+        },
+        {
+            "text": "process.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1279,
+                "top": 2619,
+                "width": 381,
+                "height": 87
+            }
+        },
+        {
+            "text": "These",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1700,
+                "top": 2592,
+                "width": 286,
+                "height": 89
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2023,
+                "top": 2620,
+                "width": 144,
+                "height": 61
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2202,
+                "top": 2592,
+                "width": 144,
+                "height": 89
+            }
+        },
+        {
+            "text": "ephemeral",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2382,
+                "top": 2592,
+                "width": 497,
+                "height": 114
+            }
+        },
+        {
+            "text": "ports.",
+            "confidence": 8.0,
+            "bbox": {
+                "left": 2923,
+                "top": 2606,
+                "width": 262,
+                "height": 101
+            }
+        }
+    ]
+}

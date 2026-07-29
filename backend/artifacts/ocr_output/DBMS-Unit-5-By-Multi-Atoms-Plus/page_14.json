@@ -1,0 +1,1528 @@
+{
+    "document": "DBMS-Unit-5-By-Multi-Atoms-Plus",
+    "page": "page_14",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\DBMS-Unit-5-By-Multi-Atoms-Plus\\page_14.png",
+    "text": "IS ¥” ” vd vd x K yy Yv ~*~ x~ xX $ vd x v Pf Ps SIX vd x Pf x * Xx Pt x P.§ Pf Pf IS ; Intention Shared X ; Exclusive IX: Intention Exclusive SIX : Shared & Intention Exclusive S : Shared Example Scenarios 1. Transaction T1 (Reads a Record) (8) - Action: T1 reads record Ra2 in file Fa. . Locks Needed: CAL) CAL) 1. Database: IS mode. 2.Area Al: IS mode. ce) CO) 3. File Fa: IS mode. 4.Record Ra2: S mode. (ta) cee (1) OO Oume 2. Transaction T2 (Updates a Record) (8) - Action: T2 modifies record RaQ in file Fa. . Locks Needed: CAL) CAL) 1. Database: IX mode. 2 Area Al: IX mode. ce) CO) 3. File Fa: IX mode. 4.Record Ra9: X mode. (ta) cee (1) OO Oume 3. Transaction T3 (Reads All Records in a File) @",
+    "words": [
+        {
+            "text": "IS",
+            "confidence": 77.0,
+            "bbox": {
+                "left": 249,
+                "top": 156,
+                "width": 56,
+                "height": 45
+            }
+        },
+        {
+            "text": "¥”",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 498,
+                "top": 160,
+                "width": 67,
+                "height": 73
+            }
+        },
+        {
+            "text": "”",
+            "confidence": 6.0,
+            "bbox": {
+                "left": 762,
+                "top": 164,
+                "width": 60,
+                "height": 56
+            }
+        },
+        {
+            "text": "vd",
+            "confidence": 27.0,
+            "bbox": {
+                "left": 1019,
+                "top": 160,
+                "width": 63,
+                "height": 73
+            }
+        },
+        {
+            "text": "vd",
+            "confidence": 21.0,
+            "bbox": {
+                "left": 1275,
+                "top": 160,
+                "width": 64,
+                "height": 74
+            }
+        },
+        {
+            "text": "x",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 1540,
+                "top": 164,
+                "width": 48,
+                "height": 59
+            }
+        },
+        {
+            "text": "K",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 245,
+                "top": 302,
+                "width": 63,
+                "height": 40
+            }
+        },
+        {
+            "text": "yy",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 502,
+                "top": 309,
+                "width": 63,
+                "height": 56
+            }
+        },
+        {
+            "text": "Yv",
+            "confidence": 26.0,
+            "bbox": {
+                "left": 762,
+                "top": 309,
+                "width": 60,
+                "height": 56
+            }
+        },
+        {
+            "text": "~*~",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1026,
+                "top": 309,
+                "width": 49,
+                "height": 60
+            }
+        },
+        {
+            "text": "x~",
+            "confidence": 8.0,
+            "bbox": {
+                "left": 1283,
+                "top": 309,
+                "width": 48,
+                "height": 60
+            }
+        },
+        {
+            "text": "xX",
+            "confidence": 50.0,
+            "bbox": {
+                "left": 1540,
+                "top": 309,
+                "width": 48,
+                "height": 60
+            }
+        },
+        {
+            "text": "$",
+            "confidence": 66.0,
+            "bbox": {
+                "left": 264,
+                "top": 443,
+                "width": 30,
+                "height": 48
+            }
+        },
+        {
+            "text": "vd",
+            "confidence": 30.0,
+            "bbox": {
+                "left": 502,
+                "top": 447,
+                "width": 66,
+                "height": 76
+            }
+        },
+        {
+            "text": "x",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 770,
+                "top": 454,
+                "width": 48,
+                "height": 60
+            }
+        },
+        {
+            "text": "v",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1019,
+                "top": 454,
+                "width": 59,
+                "height": 56
+            }
+        },
+        {
+            "text": "Pf",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1279,
+                "top": 450,
+                "width": 52,
+                "height": 76
+            }
+        },
+        {
+            "text": "Ps",
+            "confidence": 22.0,
+            "bbox": {
+                "left": 1540,
+                "top": 454,
+                "width": 48,
+                "height": 60
+            }
+        },
+        {
+            "text": "SIX",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 230,
+                "top": 588,
+                "width": 97,
+                "height": 45
+            }
+        },
+        {
+            "text": "vd",
+            "confidence": 46.0,
+            "bbox": {
+                "left": 502,
+                "top": 591,
+                "width": 67,
+                "height": 77
+            }
+        },
+        {
+            "text": "x",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 770,
+                "top": 599,
+                "width": 48,
+                "height": 60
+            }
+        },
+        {
+            "text": "Pf",
+            "confidence": 33.0,
+            "bbox": {
+                "left": 1022,
+                "top": 595,
+                "width": 53,
+                "height": 77
+            }
+        },
+        {
+            "text": "x",
+            "confidence": 47.0,
+            "bbox": {
+                "left": 1283,
+                "top": 599,
+                "width": 48,
+                "height": 60
+            }
+        },
+        {
+            "text": "*",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1540,
+                "top": 599,
+                "width": 48,
+                "height": 60
+            }
+        },
+        {
+            "text": "Xx",
+            "confidence": 46.0,
+            "bbox": {
+                "left": 252,
+                "top": 729,
+                "width": 44,
+                "height": 88
+            }
+        },
+        {
+            "text": "Pt",
+            "confidence": 12.0,
+            "bbox": {
+                "left": 509,
+                "top": 740,
+                "width": 49,
+                "height": 77
+            }
+        },
+        {
+            "text": "x",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 770,
+                "top": 744,
+                "width": 48,
+                "height": 60
+            }
+        },
+        {
+            "text": "P.§",
+            "confidence": 2.0,
+            "bbox": {
+                "left": 1022,
+                "top": 740,
+                "width": 58,
+                "height": 77
+            }
+        },
+        {
+            "text": "Pf",
+            "confidence": 31.0,
+            "bbox": {
+                "left": 1279,
+                "top": 740,
+                "width": 52,
+                "height": 77
+            }
+        },
+        {
+            "text": "Pf",
+            "confidence": 18.0,
+            "bbox": {
+                "left": 1540,
+                "top": 744,
+                "width": 48,
+                "height": 60
+            }
+        },
+        {
+            "text": "IS",
+            "confidence": 69.0,
+            "bbox": {
+                "left": 175,
+                "top": 949,
+                "width": 48,
+                "height": 41
+            }
+        },
+        {
+            "text": ";",
+            "confidence": 41.0,
+            "bbox": {
+                "left": 245,
+                "top": 964,
+                "width": 4,
+                "height": 26
+            }
+        },
+        {
+            "text": "Intention",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 275,
+                "top": 949,
+                "width": 242,
+                "height": 41
+            }
+        },
+        {
+            "text": "Shared",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 535,
+                "top": 945,
+                "width": 175,
+                "height": 45
+            }
+        },
+        {
+            "text": "X",
+            "confidence": 59.0,
+            "bbox": {
+                "left": 1019,
+                "top": 953,
+                "width": 33,
+                "height": 37
+            }
+        },
+        {
+            "text": ";",
+            "confidence": 51.0,
+            "bbox": {
+                "left": 1075,
+                "top": 964,
+                "width": 3,
+                "height": 26
+            }
+        },
+        {
+            "text": "Exclusive",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1104,
+                "top": 945,
+                "width": 242,
+                "height": 45
+            }
+        },
+        {
+            "text": "IX:",
+            "confidence": 74.0,
+            "bbox": {
+                "left": 175,
+                "top": 1016,
+                "width": 81,
+                "height": 41
+            }
+        },
+        {
+            "text": "Intention",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 279,
+                "top": 1012,
+                "width": 241,
+                "height": 45
+            }
+        },
+        {
+            "text": "Exclusive",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 539,
+                "top": 1012,
+                "width": 245,
+                "height": 45
+            }
+        },
+        {
+            "text": "SIX",
+            "confidence": 72.0,
+            "bbox": {
+                "left": 967,
+                "top": 1016,
+                "width": 85,
+                "height": 41
+            }
+        },
+        {
+            "text": ":",
+            "confidence": 35.0,
+            "bbox": {
+                "left": 1075,
+                "top": 1027,
+                "width": 3,
+                "height": 30
+            }
+        },
+        {
+            "text": "Shared",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1101,
+                "top": 1012,
+                "width": 178,
+                "height": 45
+            }
+        },
+        {
+            "text": "&",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1298,
+                "top": 1016,
+                "width": 33,
+                "height": 41
+            }
+        },
+        {
+            "text": "Intention",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1350,
+                "top": 1012,
+                "width": 242,
+                "height": 45
+            }
+        },
+        {
+            "text": "Exclusive",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1610,
+                "top": 1012,
+                "width": 246,
+                "height": 45
+            }
+        },
+        {
+            "text": "S",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 175,
+                "top": 1079,
+                "width": 26,
+                "height": 41
+            }
+        },
+        {
+            "text": ":",
+            "confidence": 52.0,
+            "bbox": {
+                "left": 249,
+                "top": 1090,
+                "width": 4,
+                "height": 30
+            }
+        },
+        {
+            "text": "Shared",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 275,
+                "top": 1075,
+                "width": 178,
+                "height": 45
+            }
+        },
+        {
+            "text": "Example",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 163,
+                "top": 1251,
+                "width": 226,
+                "height": 63
+            }
+        },
+        {
+            "text": "Scenarios",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 418,
+                "top": 1254,
+                "width": 269,
+                "height": 45
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 177,
+                "top": 1510,
+                "width": 45,
+                "height": 46
+            }
+        },
+        {
+            "text": "Transaction",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 254,
+                "top": 1511,
+                "width": 314,
+                "height": 44
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 594,
+                "top": 1510,
+                "width": 65,
+                "height": 43
+            }
+        },
+        {
+            "text": "(Reads",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 694,
+                "top": 1509,
+                "width": 175,
+                "height": 56
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 897,
+                "top": 1524,
+                "width": 29,
+                "height": 31
+            }
+        },
+        {
+            "text": "Record)",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 953,
+                "top": 1509,
+                "width": 204,
+                "height": 56
+            }
+        },
+        {
+            "text": "(8)",
+            "confidence": 72.0,
+            "bbox": {
+                "left": 1779,
+                "top": 1462,
+                "width": 105,
+                "height": 105
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 69.0,
+            "bbox": {
+                "left": 241,
+                "top": 1637,
+                "width": 12,
+                "height": 12
+            }
+        },
+        {
+            "text": "Action:",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 288,
+                "top": 1613,
+                "width": 178,
+                "height": 43
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 491,
+                "top": 1611,
+                "width": 57,
+                "height": 43
+            }
+        },
+        {
+            "text": "reads",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 573,
+                "top": 1610,
+                "width": 140,
+                "height": 46
+            }
+        },
+        {
+            "text": "record",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 736,
+                "top": 1610,
+                "width": 169,
+                "height": 46
+            }
+        },
+        {
+            "text": "Ra2",
+            "confidence": 70.0,
+            "bbox": {
+                "left": 928,
+                "top": 1612,
+                "width": 91,
+                "height": 44
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1045,
+                "top": 1613,
+                "width": 39,
+                "height": 43
+            }
+        },
+        {
+            "text": "file",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1104,
+                "top": 1610,
+                "width": 88,
+                "height": 48
+            }
+        },
+        {
+            "text": "Fa.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1214,
+                "top": 1611,
+                "width": 69,
+                "height": 46
+            }
+        },
+        {
+            "text": ".",
+            "confidence": 78.0,
+            "bbox": {
+                "left": 241,
+                "top": 1705,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "Locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 287,
+                "top": 1678,
+                "width": 141,
+                "height": 47
+            }
+        },
+        {
+            "text": "Needed:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 450,
+                "top": 1678,
+                "width": 212,
+                "height": 46
+            }
+        },
+        {
+            "text": "CAL)",
+            "confidence": 36.0,
+            "bbox": {
+                "left": 1536,
+                "top": 1630,
+                "width": 107,
+                "height": 107
+            }
+        },
+        {
+            "text": "CAL)",
+            "confidence": 37.0,
+            "bbox": {
+                "left": 2009,
+                "top": 1652,
+                "width": 94,
+                "height": 90
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 59.0,
+            "bbox": {
+                "left": 248,
+                "top": 1797,
+                "width": 23,
+                "height": 28
+            }
+        },
+        {
+            "text": "Database:",
+            "confidence": 59.0,
+            "bbox": {
+                "left": 289,
+                "top": 1780,
+                "width": 250,
+                "height": 46
+            }
+        },
+        {
+            "text": "IS",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 564,
+                "top": 1782,
+                "width": 65,
+                "height": 43
+            }
+        },
+        {
+            "text": "mode.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 651,
+                "top": 1779,
+                "width": 145,
+                "height": 47
+            }
+        },
+        {
+            "text": "2.Area",
+            "confidence": 31.0,
+            "bbox": {
+                "left": 247,
+                "top": 1849,
+                "width": 163,
+                "height": 43
+            }
+        },
+        {
+            "text": "Al:",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 432,
+                "top": 1847,
+                "width": 73,
+                "height": 44
+            }
+        },
+        {
+            "text": "IS",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 530,
+                "top": 1849,
+                "width": 65,
+                "height": 43
+            }
+        },
+        {
+            "text": "mode.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 617,
+                "top": 1846,
+                "width": 145,
+                "height": 47
+            }
+        },
+        {
+            "text": "ce)",
+            "confidence": 21.0,
+            "bbox": {
+                "left": 1504,
+                "top": 1781,
+                "width": 93,
+                "height": 123
+            }
+        },
+        {
+            "text": "CO)",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1733,
+                "top": 1781,
+                "width": 93,
+                "height": 123
+            }
+        },
+        {
+            "text": "3.",
+            "confidence": 13.0,
+            "bbox": {
+                "left": 247,
+                "top": 1933,
+                "width": 24,
+                "height": 27
+            }
+        },
+        {
+            "text": "File",
+            "confidence": 13.0,
+            "bbox": {
+                "left": 289,
+                "top": 1914,
+                "width": 90,
+                "height": 47
+            }
+        },
+        {
+            "text": "Fa:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 401,
+                "top": 1915,
+                "width": 69,
+                "height": 46
+            }
+        },
+        {
+            "text": "IS",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 495,
+                "top": 1917,
+                "width": 65,
+                "height": 43
+            }
+        },
+        {
+            "text": "mode.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 582,
+                "top": 1914,
+                "width": 145,
+                "height": 47
+            }
+        },
+        {
+            "text": "4.Record",
+            "confidence": 79.0,
+            "bbox": {
+                "left": 245,
+                "top": 1981,
+                "width": 220,
+                "height": 46
+            }
+        },
+        {
+            "text": "Ra2:",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 488,
+                "top": 1981,
+                "width": 332,
+                "height": 47
+            }
+        },
+        {
+            "text": "S",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 626,
+                "top": 1973,
+                "width": 28,
+                "height": 66
+            }
+        },
+        {
+            "text": "mode.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 681,
+                "top": 1981,
+                "width": 139,
+                "height": 47
+            }
+        },
+        {
+            "text": "(ta)",
+            "confidence": 51.0,
+            "bbox": {
+                "left": 1410,
+                "top": 1949,
+                "width": 90,
+                "height": 90
+            }
+        },
+        {
+            "text": "cee",
+            "confidence": 50.0,
+            "bbox": {
+                "left": 1538,
+                "top": 1983,
+                "width": 74,
+                "height": 14
+            }
+        },
+        {
+            "text": "(1)",
+            "confidence": 24.0,
+            "bbox": {
+                "left": 1631,
+                "top": 1949,
+                "width": 98,
+                "height": 90
+            }
+        },
+        {
+            "text": "OO",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1795,
+                "top": 1953,
+                "width": 268,
+                "height": 80
+            }
+        },
+        {
+            "text": "Oume",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2111,
+                "top": 1947,
+                "width": 263,
+                "height": 80
+            }
+        },
+        {
+            "text": "2.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 143,
+                "top": 2354,
+                "width": 49,
+                "height": 45
+            }
+        },
+        {
+            "text": "Transaction",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 223,
+                "top": 2354,
+                "width": 314,
+                "height": 44
+            }
+        },
+        {
+            "text": "T2",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 563,
+                "top": 2354,
+                "width": 70,
+                "height": 42
+            }
+        },
+        {
+            "text": "(Updates",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 663,
+                "top": 2352,
+                "width": 237,
+                "height": 60
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 928,
+                "top": 2367,
+                "width": 29,
+                "height": 31
+            }
+        },
+        {
+            "text": "Record)",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 984,
+                "top": 2352,
+                "width": 204,
+                "height": 56
+            }
+        },
+        {
+            "text": "(8)",
+            "confidence": 72.0,
+            "bbox": {
+                "left": 1784,
+                "top": 2305,
+                "width": 105,
+                "height": 105
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 66.0,
+            "bbox": {
+                "left": 210,
+                "top": 2480,
+                "width": 12,
+                "height": 12
+            }
+        },
+        {
+            "text": "Action:",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 257,
+                "top": 2456,
+                "width": 178,
+                "height": 43
+            }
+        },
+        {
+            "text": "T2",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 460,
+                "top": 2455,
+                "width": 66,
+                "height": 42
+            }
+        },
+        {
+            "text": "modifies",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 550,
+                "top": 2453,
+                "width": 219,
+                "height": 48
+            }
+        },
+        {
+            "text": "record",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 792,
+                "top": 2453,
+                "width": 169,
+                "height": 46
+            }
+        },
+        {
+            "text": "RaQ",
+            "confidence": 70.0,
+            "bbox": {
+                "left": 984,
+                "top": 2455,
+                "width": 93,
+                "height": 45
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1101,
+                "top": 2456,
+                "width": 39,
+                "height": 43
+            }
+        },
+        {
+            "text": "file",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1160,
+                "top": 2453,
+                "width": 87,
+                "height": 48
+            }
+        },
+        {
+            "text": "Fa.",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1270,
+                "top": 2454,
+                "width": 69,
+                "height": 46
+            }
+        },
+        {
+            "text": ".",
+            "confidence": 68.0,
+            "bbox": {
+                "left": 210,
+                "top": 2548,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "Locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 256,
+                "top": 2521,
+                "width": 141,
+                "height": 47
+            }
+        },
+        {
+            "text": "Needed:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 420,
+                "top": 2521,
+                "width": 211,
+                "height": 46
+            }
+        },
+        {
+            "text": "CAL)",
+            "confidence": 36.0,
+            "bbox": {
+                "left": 1541,
+                "top": 2473,
+                "width": 107,
+                "height": 107
+            }
+        },
+        {
+            "text": "CAL)",
+            "confidence": 37.0,
+            "bbox": {
+                "left": 2014,
+                "top": 2495,
+                "width": 94,
+                "height": 90
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 61.0,
+            "bbox": {
+                "left": 217,
+                "top": 2640,
+                "width": 23,
+                "height": 28
+            }
+        },
+        {
+            "text": "Database:",
+            "confidence": 61.0,
+            "bbox": {
+                "left": 258,
+                "top": 2623,
+                "width": 250,
+                "height": 46
+            }
+        },
+        {
+            "text": "IX",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 533,
+                "top": 2624,
+                "width": 68,
+                "height": 44
+            }
+        },
+        {
+            "text": "mode.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 622,
+                "top": 2622,
+                "width": 145,
+                "height": 47
+            }
+        },
+        {
+            "text": "2",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 216,
+                "top": 2708,
+                "width": 24,
+                "height": 27
+            }
+        },
+        {
+            "text": "Area",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 257,
+                "top": 2692,
+                "width": 122,
+                "height": 43
+            }
+        },
+        {
+            "text": "Al:",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 401,
+                "top": 2690,
+                "width": 73,
+                "height": 44
+            }
+        },
+        {
+            "text": "IX",
+            "confidence": 59.0,
+            "bbox": {
+                "left": 499,
+                "top": 2691,
+                "width": 68,
+                "height": 44
+            }
+        },
+        {
+            "text": "mode.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 588,
+                "top": 2689,
+                "width": 145,
+                "height": 47
+            }
+        },
+        {
+            "text": "ce)",
+            "confidence": 6.0,
+            "bbox": {
+                "left": 1509,
+                "top": 2624,
+                "width": 93,
+                "height": 123
+            }
+        },
+        {
+            "text": "CO)",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1738,
+                "top": 2624,
+                "width": 93,
+                "height": 123
+            }
+        },
+        {
+            "text": "3.",
+            "confidence": 47.0,
+            "bbox": {
+                "left": 216,
+                "top": 2776,
+                "width": 24,
+                "height": 27
+            }
+        },
+        {
+            "text": "File",
+            "confidence": 47.0,
+            "bbox": {
+                "left": 258,
+                "top": 2757,
+                "width": 90,
+                "height": 47
+            }
+        },
+        {
+            "text": "Fa:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 370,
+                "top": 2758,
+                "width": 69,
+                "height": 46
+            }
+        },
+        {
+            "text": "IX",
+            "confidence": 60.0,
+            "bbox": {
+                "left": 464,
+                "top": 2759,
+                "width": 68,
+                "height": 44
+            }
+        },
+        {
+            "text": "mode.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 553,
+                "top": 2757,
+                "width": 145,
+                "height": 47
+            }
+        },
+        {
+            "text": "4.Record",
+            "confidence": 49.0,
+            "bbox": {
+                "left": 214,
+                "top": 2824,
+                "width": 220,
+                "height": 46
+            }
+        },
+        {
+            "text": "Ra9:",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 457,
+                "top": 2824,
+                "width": 334,
+                "height": 47
+            }
+        },
+        {
+            "text": "X",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 595,
+                "top": 2816,
+                "width": 28,
+                "height": 66
+            }
+        },
+        {
+            "text": "mode.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 650,
+                "top": 2824,
+                "width": 141,
+                "height": 47
+            }
+        },
+        {
+            "text": "(ta)",
+            "confidence": 51.0,
+            "bbox": {
+                "left": 1415,
+                "top": 2792,
+                "width": 90,
+                "height": 90
+            }
+        },
+        {
+            "text": "cee",
+            "confidence": 50.0,
+            "bbox": {
+                "left": 1543,
+                "top": 2826,
+                "width": 74,
+                "height": 14
+            }
+        },
+        {
+            "text": "(1)",
+            "confidence": 24.0,
+            "bbox": {
+                "left": 1636,
+                "top": 2792,
+                "width": 98,
+                "height": 90
+            }
+        },
+        {
+            "text": "OO",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1800,
+                "top": 2796,
+                "width": 268,
+                "height": 80
+            }
+        },
+        {
+            "text": "Oume",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2116,
+                "top": 2790,
+                "width": 263,
+                "height": 80
+            }
+        },
+        {
+            "text": "3.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 177,
+                "top": 3150,
+                "width": 43,
+                "height": 41
+            }
+        },
+        {
+            "text": "Transaction",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 249,
+                "top": 3151,
+                "width": 282,
+                "height": 39
+            }
+        },
+        {
+            "text": "T3",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 554,
+                "top": 3150,
+                "width": 64,
+                "height": 39
+            }
+        },
+        {
+            "text": "(Reads",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 644,
+                "top": 3148,
+                "width": 158,
+                "height": 49
+            }
+        },
+        {
+            "text": "All",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 828,
+                "top": 3148,
+                "width": 59,
+                "height": 41
+            }
+        },
+        {
+            "text": "Records",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 915,
+                "top": 3149,
+                "width": 188,
+                "height": 41
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1129,
+                "top": 3151,
+                "width": 37,
+                "height": 39
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1190,
+                "top": 3162,
+                "width": 26,
+                "height": 28
+            }
+        },
+        {
+            "text": "File)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1241,
+                "top": 3148,
+                "width": 103,
+                "height": 49
+            }
+        },
+        {
+            "text": "@",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 1810,
+                "top": 3071,
+                "width": 116,
+                "height": 117
+            }
+        }
+    ]
+}

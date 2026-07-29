@@ -1,0 +1,1258 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_97",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_97.png",
+    "text": "Priority Queurng Packets are first assigned to a priority class. Each priority class has its own queue. yr Packets in highest-priority queue are processed first and ones tn lowest-priority queue are processed last. Svstem serves a queue until it 1s empty. ” Better QoS than FIFO queue as higher priority traftic(multimedia) reach destination with less delay. y If there is a continuous flow in a high-priority queue. the packets in lower-priority queues will never have a chance to be processed. This Is a condition called starvation | The switch turns to the othe Noose ~— queue when the Current One PF . | IsEmpty Higher pronty : y CPE Ue A - Arinival —> a frcceser} > Departure [-i.card ‘Lower pnonty Y queues Disc ata",
+    "words": [
+        {
+            "text": "Priority",
+            "confidence": 79.0,
+            "bbox": {
+                "left": 128,
+                "top": 51,
+                "width": 352,
+                "height": 107
+            }
+        },
+        {
+            "text": "Queurng",
+            "confidence": 46.0,
+            "bbox": {
+                "left": 527,
+                "top": 57,
+                "width": 432,
+                "height": 92
+            }
+        },
+        {
+            "text": "Packets",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1017,
+                "top": 50,
+                "width": 360,
+                "height": 84
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1416,
+                "top": 77,
+                "width": 139,
+                "height": 57
+            }
+        },
+        {
+            "text": "first",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1601,
+                "top": 49,
+                "width": 182,
+                "height": 85
+            }
+        },
+        {
+            "text": "assigned",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1823,
+                "top": 50,
+                "width": 409,
+                "height": 110
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2273,
+                "top": 67,
+                "width": 88,
+                "height": 67
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2399,
+                "top": 78,
+                "width": 46,
+                "height": 56
+            }
+        },
+        {
+            "text": "priority",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2487,
+                "top": 50,
+                "width": 352,
+                "height": 110
+            }
+        },
+        {
+            "text": "class.",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 2882,
+                "top": 49,
+                "width": 251,
+                "height": 85
+            }
+        },
+        {
+            "text": "Each",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3186,
+                "top": 49,
+                "width": 228,
+                "height": 85
+            }
+        },
+        {
+            "text": "priority",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3458,
+                "top": 50,
+                "width": 352,
+                "height": 110
+            }
+        },
+        {
+            "text": "class",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3852,
+                "top": 49,
+                "width": 230,
+                "height": 85
+            }
+        },
+        {
+            "text": "has",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 4123,
+                "top": 50,
+                "width": 151,
+                "height": 84
+            }
+        },
+        {
+            "text": "its",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 4319,
+                "top": 50,
+                "width": 101,
+                "height": 84
+            }
+        },
+        {
+            "text": "own",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4458,
+                "top": 77,
+                "width": 201,
+                "height": 56
+            }
+        },
+        {
+            "text": "queue.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 4699,
+                "top": 78,
+                "width": 306,
+                "height": 83
+            }
+        },
+        {
+            "text": "yr",
+            "confidence": 37.0,
+            "bbox": {
+                "left": 134,
+                "top": 268,
+                "width": 65,
+                "height": 76
+            }
+        },
+        {
+            "text": "Packets",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 278,
+                "top": 266,
+                "width": 358,
+                "height": 85
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 681,
+                "top": 266,
+                "width": 81,
+                "height": 84
+            }
+        },
+        {
+            "text": "highest-priority",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 803,
+                "top": 266,
+                "width": 747,
+                "height": 111
+            }
+        },
+        {
+            "text": "queue",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1591,
+                "top": 294,
+                "width": 284,
+                "height": 83
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1914,
+                "top": 294,
+                "width": 141,
+                "height": 57
+            }
+        },
+        {
+            "text": "processed",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2096,
+                "top": 267,
+                "width": 468,
+                "height": 110
+            }
+        },
+        {
+            "text": "first",
+            "confidence": 26.0,
+            "bbox": {
+                "left": 2610,
+                "top": 266,
+                "width": 184,
+                "height": 85
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2834,
+                "top": 267,
+                "width": 167,
+                "height": 84
+            }
+        },
+        {
+            "text": "ones",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3041,
+                "top": 294,
+                "width": 216,
+                "height": 57
+            }
+        },
+        {
+            "text": "tn",
+            "confidence": 64.0,
+            "bbox": {
+                "left": 3302,
+                "top": 267,
+                "width": 81,
+                "height": 83
+            }
+        },
+        {
+            "text": "lowest-priority",
+            "confidence": 74.0,
+            "bbox": {
+                "left": 3426,
+                "top": 266,
+                "width": 710,
+                "height": 111
+            }
+        },
+        {
+            "text": "queue",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4179,
+                "top": 294,
+                "width": 282,
+                "height": 83
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4501,
+                "top": 294,
+                "width": 139,
+                "height": 57
+            }
+        },
+        {
+            "text": "processed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4684,
+                "top": 267,
+                "width": 468,
+                "height": 110
+            }
+        },
+        {
+            "text": "last.",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 277,
+                "top": 489,
+                "width": 178,
+                "height": 84
+            }
+        },
+        {
+            "text": "Svstem",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 506,
+                "top": 490,
+                "width": 344,
+                "height": 109
+            }
+        },
+        {
+            "text": "serves",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 895,
+                "top": 516,
+                "width": 295,
+                "height": 57
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1228,
+                "top": 517,
+                "width": 47,
+                "height": 56
+            }
+        },
+        {
+            "text": "queue",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1312,
+                "top": 516,
+                "width": 283,
+                "height": 83
+            }
+        },
+        {
+            "text": "until",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1639,
+                "top": 489,
+                "width": 205,
+                "height": 84
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 1896,
+                "top": 489,
+                "width": 51,
+                "height": 84
+            }
+        },
+        {
+            "text": "1s",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 1994,
+                "top": 489,
+                "width": 68,
+                "height": 84
+            }
+        },
+        {
+            "text": "empty.",
+            "confidence": 70.0,
+            "bbox": {
+                "left": 2101,
+                "top": 506,
+                "width": 309,
+                "height": 93
+            }
+        },
+        {
+            "text": "”",
+            "confidence": 19.0,
+            "bbox": {
+                "left": 134,
+                "top": 707,
+                "width": 66,
+                "height": 76
+            }
+        },
+        {
+            "text": "Better",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 278,
+                "top": 706,
+                "width": 286,
+                "height": 84
+            }
+        },
+        {
+            "text": "QoS",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 600,
+                "top": 707,
+                "width": 205,
+                "height": 101
+            }
+        },
+        {
+            "text": "than",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 848,
+                "top": 705,
+                "width": 203,
+                "height": 85
+            }
+        },
+        {
+            "text": "FIFO",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1095,
+                "top": 706,
+                "width": 250,
+                "height": 83
+            }
+        },
+        {
+            "text": "queue",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1386,
+                "top": 733,
+                "width": 281,
+                "height": 83
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1708,
+                "top": 734,
+                "width": 93,
+                "height": 56
+            }
+        },
+        {
+            "text": "higher",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1842,
+                "top": 705,
+                "width": 304,
+                "height": 111
+            }
+        },
+        {
+            "text": "priority",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 2185,
+                "top": 706,
+                "width": 352,
+                "height": 110
+            }
+        },
+        {
+            "text": "traftic(multimedia)",
+            "confidence": 28.0,
+            "bbox": {
+                "left": 2580,
+                "top": 704,
+                "width": 926,
+                "height": 102
+            }
+        },
+        {
+            "text": "reach",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3549,
+                "top": 705,
+                "width": 254,
+                "height": 85
+            }
+        },
+        {
+            "text": "destination",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3844,
+                "top": 705,
+                "width": 525,
+                "height": 85
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4412,
+                "top": 705,
+                "width": 206,
+                "height": 85
+            }
+        },
+        {
+            "text": "less",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4661,
+                "top": 705,
+                "width": 173,
+                "height": 85
+            }
+        },
+        {
+            "text": "delay.",
+            "confidence": 56.0,
+            "bbox": {
+                "left": 4871,
+                "top": 705,
+                "width": 272,
+                "height": 110
+            }
+        },
+        {
+            "text": "y",
+            "confidence": 58.0,
+            "bbox": {
+                "left": 134,
+                "top": 929,
+                "width": 66,
+                "height": 76
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 278,
+                "top": 929,
+                "width": 64,
+                "height": 82
+            }
+        },
+        {
+            "text": "there",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 344,
+                "top": 927,
+                "width": 275,
+                "height": 85
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 667,
+                "top": 928,
+                "width": 66,
+                "height": 83
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 771,
+                "top": 955,
+                "width": 46,
+                "height": 57
+            }
+        },
+        {
+            "text": "continuous",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 856,
+                "top": 928,
+                "width": 528,
+                "height": 84
+            }
+        },
+        {
+            "text": "flow",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1424,
+                "top": 927,
+                "width": 216,
+                "height": 84
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 68.0,
+            "bbox": {
+                "left": 1683,
+                "top": 928,
+                "width": 79,
+                "height": 83
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 68.0,
+            "bbox": {
+                "left": 1802,
+                "top": 956,
+                "width": 47,
+                "height": 56
+            }
+        },
+        {
+            "text": "high-priority",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 1889,
+                "top": 927,
+                "width": 613,
+                "height": 111
+            }
+        },
+        {
+            "text": "queue.",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 2544,
+                "top": 956,
+                "width": 311,
+                "height": 82
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2897,
+                "top": 927,
+                "width": 139,
+                "height": 85
+            }
+        },
+        {
+            "text": "packets",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3079,
+                "top": 926,
+                "width": 356,
+                "height": 113
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 3480,
+                "top": 928,
+                "width": 78,
+                "height": 83
+            }
+        },
+        {
+            "text": "lower-priority",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 3604,
+                "top": 927,
+                "width": 667,
+                "height": 111
+            }
+        },
+        {
+            "text": "queues",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 4314,
+                "top": 955,
+                "width": 332,
+                "height": 83
+            }
+        },
+        {
+            "text": "will",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4686,
+                "top": 927,
+                "width": 173,
+                "height": 84
+            }
+        },
+        {
+            "text": "never",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4906,
+                "top": 955,
+                "width": 263,
+                "height": 57
+            }
+        },
+        {
+            "text": "have",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 275,
+                "top": 1150,
+                "width": 218,
+                "height": 84
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 534,
+                "top": 1178,
+                "width": 47,
+                "height": 56
+            }
+        },
+        {
+            "text": "chance",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 617,
+                "top": 1149,
+                "width": 330,
+                "height": 86
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 988,
+                "top": 1167,
+                "width": 86,
+                "height": 67
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1116,
+                "top": 1150,
+                "width": 103,
+                "height": 85
+            }
+        },
+        {
+            "text": "processed.",
+            "confidence": 72.0,
+            "bbox": {
+                "left": 1262,
+                "top": 1150,
+                "width": 491,
+                "height": 110
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1779,
+                "top": 1118,
+                "width": 226,
+                "height": 176
+            }
+        },
+        {
+            "text": "Is",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 2054,
+                "top": 1150,
+                "width": 66,
+                "height": 84
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 2158,
+                "top": 1178,
+                "width": 47,
+                "height": 56
+            }
+        },
+        {
+            "text": "condition",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2244,
+                "top": 1150,
+                "width": 453,
+                "height": 84
+            }
+        },
+        {
+            "text": "called",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2736,
+                "top": 1149,
+                "width": 282,
+                "height": 87
+            }
+        },
+        {
+            "text": "starvation",
+            "confidence": 38.0,
+            "bbox": {
+                "left": 3056,
+                "top": 1159,
+                "width": 459,
+                "height": 76
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 38.0,
+            "bbox": {
+                "left": 3559,
+                "top": 1112,
+                "width": 43,
+                "height": 161
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 3564,
+                "top": 1563,
+                "width": 103,
+                "height": 50
+            }
+        },
+        {
+            "text": "switch",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 3693,
+                "top": 1565,
+                "width": 191,
+                "height": 48
+            }
+        },
+        {
+            "text": "turns",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 3911,
+                "top": 1573,
+                "width": 150,
+                "height": 41
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 4088,
+                "top": 1574,
+                "width": 57,
+                "height": 39
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 4169,
+                "top": 1564,
+                "width": 93,
+                "height": 50
+            }
+        },
+        {
+            "text": "othe",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 4287,
+                "top": 1564,
+                "width": 139,
+                "height": 49
+            }
+        },
+        {
+            "text": "Noose",
+            "confidence": 10.0,
+            "bbox": {
+                "left": 2425,
+                "top": 1675,
+                "width": 325,
+                "height": 46
+            }
+        },
+        {
+            "text": "~—",
+            "confidence": 16.0,
+            "bbox": {
+                "left": 3442,
+                "top": 1684,
+                "width": 76,
+                "height": 5
+            }
+        },
+        {
+            "text": "queue",
+            "confidence": 47.0,
+            "bbox": {
+                "left": 3562,
+                "top": 1668,
+                "width": 190,
+                "height": 45
+            }
+        },
+        {
+            "text": "when",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 3778,
+                "top": 1650,
+                "width": 163,
+                "height": 50
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 3968,
+                "top": 1651,
+                "width": 94,
+                "height": 49
+            }
+        },
+        {
+            "text": "Current",
+            "confidence": 41.0,
+            "bbox": {
+                "left": 4123,
+                "top": 1662,
+                "width": 179,
+                "height": 38
+            }
+        },
+        {
+            "text": "One",
+            "confidence": 52.0,
+            "bbox": {
+                "left": 4332,
+                "top": 1668,
+                "width": 108,
+                "height": 30
+            }
+        },
+        {
+            "text": "PF",
+            "confidence": 4.0,
+            "bbox": {
+                "left": 2404,
+                "top": 1733,
+                "width": 167,
+                "height": 78
+            }
+        },
+        {
+            "text": ".",
+            "confidence": 13.0,
+            "bbox": {
+                "left": 2725,
+                "top": 1804,
+                "width": 17,
+                "height": 9
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 58.0,
+            "bbox": {
+                "left": 3419,
+                "top": 1809,
+                "width": 3,
+                "height": 4
+            }
+        },
+        {
+            "text": "IsEmpty",
+            "confidence": 23.0,
+            "bbox": {
+                "left": 3562,
+                "top": 1749,
+                "width": 255,
+                "height": 51
+            }
+        },
+        {
+            "text": "Higher",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 2568,
+                "top": 1839,
+                "width": 199,
+                "height": 56
+            }
+        },
+        {
+            "text": "pronty",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 2803,
+                "top": 1849,
+                "width": 216,
+                "height": 53
+            }
+        },
+        {
+            "text": ":",
+            "confidence": 27.0,
+            "bbox": {
+                "left": 3419,
+                "top": 1862,
+                "width": 3,
+                "height": 5
+            }
+        },
+        {
+            "text": "y",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2293,
+                "top": 1922,
+                "width": 21,
+                "height": 36
+            }
+        },
+        {
+            "text": "CPE",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2698,
+                "top": 1941,
+                "width": 110,
+                "height": 48
+            }
+        },
+        {
+            "text": "Ue",
+            "confidence": 10.0,
+            "bbox": {
+                "left": 2832,
+                "top": 1941,
+                "width": 57,
+                "height": 34
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 48.0,
+            "bbox": {
+                "left": 3280,
+                "top": 1929,
+                "width": 67,
+                "height": 74
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 3386,
+                "top": 1918,
+                "width": 36,
+                "height": 86
+            }
+        },
+        {
+            "text": "Arinival",
+            "confidence": 25.0,
+            "bbox": {
+                "left": 1140,
+                "top": 2042,
+                "width": 189,
+                "height": 47
+            }
+        },
+        {
+            "text": "—>",
+            "confidence": 64.0,
+            "bbox": {
+                "left": 1367,
+                "top": 2050,
+                "width": 142,
+                "height": 39
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 21.0,
+            "bbox": {
+                "left": 3278,
+                "top": 2048,
+                "width": 160,
+                "height": 40
+            }
+        },
+        {
+            "text": "frcceser}",
+            "confidence": 19.0,
+            "bbox": {
+                "left": 3460,
+                "top": 1929,
+                "width": 374,
+                "height": 280
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 40.0,
+            "bbox": {
+                "left": 3903,
+                "top": 1929,
+                "width": 71,
+                "height": 280
+            }
+        },
+        {
+            "text": "Departure",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 4021,
+                "top": 2043,
+                "width": 310,
+                "height": 57
+            }
+        },
+        {
+            "text": "[-i.card",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2145,
+                "top": 2091,
+                "width": 220,
+                "height": 48
+            }
+        },
+        {
+            "text": "‘Lower",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2552,
+                "top": 2439,
+                "width": 206,
+                "height": 88
+            }
+        },
+        {
+            "text": "pnonty",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2791,
+                "top": 2488,
+                "width": 216,
+                "height": 51
+            }
+        },
+        {
+            "text": "Y",
+            "confidence": 73.0,
+            "bbox": {
+                "left": 2291,
+                "top": 2556,
+                "width": 29,
+                "height": 45
+            }
+        },
+        {
+            "text": "queues",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2697,
+                "top": 2582,
+                "width": 191,
+                "height": 44
+            }
+        },
+        {
+            "text": "Disc",
+            "confidence": 25.0,
+            "bbox": {
+                "left": 2144,
+                "top": 2728,
+                "width": 111,
+                "height": 50
+            }
+        },
+        {
+            "text": "ata",
+            "confidence": 25.0,
+            "bbox": {
+                "left": 2274,
+                "top": 2729,
+                "width": 91,
+                "height": 49
+            }
+        }
+    ]
+}

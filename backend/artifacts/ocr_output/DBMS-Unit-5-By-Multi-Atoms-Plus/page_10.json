@@ -1,0 +1,1758 @@
+{
+    "document": "DBMS-Unit-5-By-Multi-Atoms-Plus",
+    "page": "page_10",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\DBMS-Unit-5-By-Multi-Atoms-Plus\\page_10.png",
+    "text": "Validation-Based Protocols Validation-Based Protocols are also known as Optimistic Concurrency Control techniques. These protocols assume that conflicts are rare and allow transactions to execute without locking resources. Conflicts are checked only at the time of validation before committing the transaction. Working Phases of Validation-Based Protocols 1. Read Phase: - The transaction reads data from the database and performs calculations or operations locally. « During this phase, no actual changes are made to the database. - Data is stored ina temporary workspace (buffer). 2. Validation Phase: - Before committing, the system validates whether the transaction can be executed without conflicting with other transactions. « Validation ensures serializability, meaning the transaction can appear to have been executed in isolation. The validation checks: « No other transaction has modified the data read by the current transaction. + The current transaction does not overlap with the execution of conflicting transactions. 3. Write Phase: - If the transaction passes the validation phase, it writes changes to the database permanently. - If the validation fails, the transaction is aborted and restarted.",
+    "words": [
+        {
+            "text": "Validation-Based",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 170,
+                "top": 640,
+                "width": 545,
+                "height": 56
+            }
+        },
+        {
+            "text": "Protocols",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 749,
+                "top": 640,
+                "width": 288,
+                "height": 55
+            }
+        },
+        {
+            "text": "Validation-Based",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 170,
+                "top": 801,
+                "width": 431,
+                "height": 46
+            }
+        },
+        {
+            "text": "Protocols",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 623,
+                "top": 801,
+                "width": 238,
+                "height": 46
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 881,
+                "top": 816,
+                "width": 85,
+                "height": 31
+            }
+        },
+        {
+            "text": "also",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 985,
+                "top": 801,
+                "width": 97,
+                "height": 46
+            }
+        },
+        {
+            "text": "known",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1105,
+                "top": 801,
+                "width": 152,
+                "height": 46
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1276,
+                "top": 814,
+                "width": 53,
+                "height": 33
+            }
+        },
+        {
+            "text": "Optimistic",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1351,
+                "top": 803,
+                "width": 270,
+                "height": 58
+            }
+        },
+        {
+            "text": "Concurrency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1642,
+                "top": 803,
+                "width": 320,
+                "height": 58
+            }
+        },
+        {
+            "text": "Control",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1982,
+                "top": 801,
+                "width": 185,
+                "height": 46
+            }
+        },
+        {
+            "text": "techniques.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 168,
+                "top": 869,
+                "width": 289,
+                "height": 59
+            }
+        },
+        {
+            "text": "These",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 480,
+                "top": 869,
+                "width": 156,
+                "height": 46
+            }
+        },
+        {
+            "text": "protocols",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 656,
+                "top": 869,
+                "width": 239,
+                "height": 60
+            }
+        },
+        {
+            "text": "assume",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 915,
+                "top": 882,
+                "width": 185,
+                "height": 34
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1120,
+                "top": 869,
+                "width": 110,
+                "height": 46
+            }
+        },
+        {
+            "text": "conflicts",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1252,
+                "top": 869,
+                "width": 225,
+                "height": 48
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1497,
+                "top": 884,
+                "width": 84,
+                "height": 31
+            }
+        },
+        {
+            "text": "rare",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1603,
+                "top": 884,
+                "width": 109,
+                "height": 31
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1730,
+                "top": 869,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "allow",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1838,
+                "top": 869,
+                "width": 125,
+                "height": 46
+            }
+        },
+        {
+            "text": "transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1984,
+                "top": 872,
+                "width": 320,
+                "height": 43
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 168,
+                "top": 942,
+                "width": 51,
+                "height": 40
+            }
+        },
+        {
+            "text": "execute",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 240,
+                "top": 942,
+                "width": 208,
+                "height": 40
+            }
+        },
+        {
+            "text": "without",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 467,
+                "top": 936,
+                "width": 195,
+                "height": 46
+            }
+        },
+        {
+            "text": "locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 685,
+                "top": 936,
+                "width": 173,
+                "height": 60
+            }
+        },
+        {
+            "text": "resources.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 880,
+                "top": 949,
+                "width": 265,
+                "height": 34
+            }
+        },
+        {
+            "text": "Conflicts",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1167,
+                "top": 936,
+                "width": 231,
+                "height": 48
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1418,
+                "top": 951,
+                "width": 85,
+                "height": 31
+            }
+        },
+        {
+            "text": "checked",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1523,
+                "top": 936,
+                "width": 210,
+                "height": 46
+            }
+        },
+        {
+            "text": "only",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1754,
+                "top": 936,
+                "width": 101,
+                "height": 60
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1874,
+                "top": 942,
+                "width": 53,
+                "height": 40
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1947,
+                "top": 936,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "time",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2053,
+                "top": 939,
+                "width": 114,
+                "height": 44
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2187,
+                "top": 936,
+                "width": 53,
+                "height": 48
+            }
+        },
+        {
+            "text": "validation",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 168,
+                "top": 1003,
+                "width": 246,
+                "height": 46
+            }
+        },
+        {
+            "text": "before",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 436,
+                "top": 1003,
+                "width": 176,
+                "height": 48
+            }
+        },
+        {
+            "text": "committing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 632,
+                "top": 1006,
+                "width": 285,
+                "height": 57
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 937,
+                "top": 1003,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "transaction.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1044,
+                "top": 1006,
+                "width": 307,
+                "height": 44
+            }
+        },
+        {
+            "text": "Working",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 160,
+                "top": 1207,
+                "width": 220,
+                "height": 52
+            }
+        },
+        {
+            "text": "Phases",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 403,
+                "top": 1207,
+                "width": 190,
+                "height": 41
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 613,
+                "top": 1206,
+                "width": 53,
+                "height": 42
+            }
+        },
+        {
+            "text": "Validation-Based",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 680,
+                "top": 1207,
+                "width": 449,
+                "height": 41
+            }
+        },
+        {
+            "text": "Protocols",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1152,
+                "top": 1207,
+                "width": 252,
+                "height": 41
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 149,
+                "top": 1398,
+                "width": 45,
+                "height": 46
+            }
+        },
+        {
+            "text": "Read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 228,
+                "top": 1397,
+                "width": 128,
+                "height": 46
+            }
+        },
+        {
+            "text": "Phase:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 384,
+                "top": 1397,
+                "width": 168,
+                "height": 46
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 213,
+                "top": 1519,
+                "width": 12,
+                "height": 12
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 258,
+                "top": 1496,
+                "width": 88,
+                "height": 42
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 364,
+                "top": 1499,
+                "width": 264,
+                "height": 39
+            }
+        },
+        {
+            "text": "reads",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 648,
+                "top": 1497,
+                "width": 128,
+                "height": 41
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 795,
+                "top": 1497,
+                "width": 102,
+                "height": 41
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 915,
+                "top": 1496,
+                "width": 111,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1046,
+                "top": 1496,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "database",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1143,
+                "top": 1497,
+                "width": 209,
+                "height": 41
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1369,
+                "top": 1497,
+                "width": 79,
+                "height": 41
+            }
+        },
+        {
+            "text": "performs",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1468,
+                "top": 1496,
+                "width": 215,
+                "height": 54
+            }
+        },
+        {
+            "text": "calculations",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1703,
+                "top": 1496,
+                "width": 269,
+                "height": 42
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1991,
+                "top": 1510,
+                "width": 47,
+                "height": 28
+            }
+        },
+        {
+            "text": "operations",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2057,
+                "top": 1499,
+                "width": 243,
+                "height": 51
+            }
+        },
+        {
+            "text": "locally.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 259,
+                "top": 1555,
+                "width": 153,
+                "height": 54
+            }
+        },
+        {
+            "text": "«",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 213,
+                "top": 1640,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "During",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 259,
+                "top": 1619,
+                "width": 149,
+                "height": 52
+            }
+        },
+        {
+            "text": "this",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 427,
+                "top": 1617,
+                "width": 88,
+                "height": 42
+            }
+        },
+        {
+            "text": "phase,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 535,
+                "top": 1617,
+                "width": 144,
+                "height": 54
+            }
+        },
+        {
+            "text": "no",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 699,
+                "top": 1630,
+                "width": 47,
+                "height": 29
+            }
+        },
+        {
+            "text": "actual",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 765,
+                "top": 1617,
+                "width": 137,
+                "height": 42
+            }
+        },
+        {
+            "text": "changes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 924,
+                "top": 1617,
+                "width": 182,
+                "height": 54
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1124,
+                "top": 1631,
+                "width": 76,
+                "height": 28
+            }
+        },
+        {
+            "text": "made",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1219,
+                "top": 1618,
+                "width": 119,
+                "height": 42
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1355,
+                "top": 1623,
+                "width": 46,
+                "height": 36
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1421,
+                "top": 1617,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "database.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1518,
+                "top": 1618,
+                "width": 220,
+                "height": 41
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 37.0,
+            "bbox": {
+                "left": 213,
+                "top": 1702,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "Data",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 259,
+                "top": 1681,
+                "width": 108,
+                "height": 40
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 387,
+                "top": 1682,
+                "width": 33,
+                "height": 39
+            }
+        },
+        {
+            "text": "stored",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 438,
+                "top": 1680,
+                "width": 153,
+                "height": 41
+            }
+        },
+        {
+            "text": "ina",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 612,
+                "top": 1682,
+                "width": 77,
+                "height": 39
+            }
+        },
+        {
+            "text": "temporary",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 707,
+                "top": 1685,
+                "width": 242,
+                "height": 48
+            }
+        },
+        {
+            "text": "workspace",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 968,
+                "top": 1679,
+                "width": 241,
+                "height": 54
+            }
+        },
+        {
+            "text": "(buffer).",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1228,
+                "top": 1679,
+                "width": 203,
+                "height": 51
+            }
+        },
+        {
+            "text": "2.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 146,
+                "top": 1837,
+                "width": 48,
+                "height": 45
+            }
+        },
+        {
+            "text": "Validation",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 228,
+                "top": 1835,
+                "width": 262,
+                "height": 46
+            }
+        },
+        {
+            "text": "Phase:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 518,
+                "top": 1835,
+                "width": 168,
+                "height": 46
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 52.0,
+            "bbox": {
+                "left": 213,
+                "top": 1958,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "Before",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 260,
+                "top": 1935,
+                "width": 159,
+                "height": 44
+            }
+        },
+        {
+            "text": "committing,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 437,
+                "top": 1938,
+                "width": 270,
+                "height": 51
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 726,
+                "top": 1935,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "system",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 821,
+                "top": 1941,
+                "width": 163,
+                "height": 48
+            }
+        },
+        {
+            "text": "validates",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1003,
+                "top": 1935,
+                "width": 207,
+                "height": 42
+            }
+        },
+        {
+            "text": "whether",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1229,
+                "top": 1935,
+                "width": 193,
+                "height": 42
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1440,
+                "top": 1935,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1536,
+                "top": 1938,
+                "width": 265,
+                "height": 39
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1820,
+                "top": 1948,
+                "width": 74,
+                "height": 29
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1915,
+                "top": 1936,
+                "width": 53,
+                "height": 40
+            }
+        },
+        {
+            "text": "executed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1986,
+                "top": 1936,
+                "width": 214,
+                "height": 41
+            }
+        },
+        {
+            "text": "without",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 257,
+                "top": 1994,
+                "width": 175,
+                "height": 42
+            }
+        },
+        {
+            "text": "conflicting",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 452,
+                "top": 1994,
+                "width": 245,
+                "height": 54
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 716,
+                "top": 1994,
+                "width": 98,
+                "height": 42
+            }
+        },
+        {
+            "text": "other",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 833,
+                "top": 1994,
+                "width": 129,
+                "height": 42
+            }
+        },
+        {
+            "text": "transactions.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 980,
+                "top": 1997,
+                "width": 301,
+                "height": 39
+            }
+        },
+        {
+            "text": "«",
+            "confidence": 29.0,
+            "bbox": {
+                "left": 213,
+                "top": 2078,
+                "width": 12,
+                "height": 12
+            }
+        },
+        {
+            "text": "Validation",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 259,
+                "top": 2055,
+                "width": 228,
+                "height": 42
+            }
+        },
+        {
+            "text": "ensures",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 506,
+                "top": 2067,
+                "width": 178,
+                "height": 30
+            }
+        },
+        {
+            "text": "serializability,",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 702,
+                "top": 2055,
+                "width": 331,
+                "height": 54
+            }
+        },
+        {
+            "text": "meaning",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1053,
+                "top": 2058,
+                "width": 182,
+                "height": 51
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1254,
+                "top": 2055,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1350,
+                "top": 2058,
+                "width": 264,
+                "height": 39
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1634,
+                "top": 2068,
+                "width": 74,
+                "height": 29
+            }
+        },
+        {
+            "text": "appear",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1725,
+                "top": 2068,
+                "width": 156,
+                "height": 41
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1899,
+                "top": 2061,
+                "width": 46,
+                "height": 36
+            }
+        },
+        {
+            "text": "have",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1967,
+                "top": 2055,
+                "width": 103,
+                "height": 42
+            }
+        },
+        {
+            "text": "been",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2089,
+                "top": 2056,
+                "width": 107,
+                "height": 41
+            }
+        },
+        {
+            "text": "executed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 257,
+                "top": 2118,
+                "width": 215,
+                "height": 41
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 493,
+                "top": 2120,
+                "width": 36,
+                "height": 39
+            }
+        },
+        {
+            "text": "isolation.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 549,
+                "top": 2117,
+                "width": 202,
+                "height": 42
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 143,
+                "top": 2210,
+                "width": 90,
+                "height": 42
+            }
+        },
+        {
+            "text": "validation",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 259,
+                "top": 2210,
+                "width": 227,
+                "height": 42
+            }
+        },
+        {
+            "text": "checks:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 510,
+                "top": 2210,
+                "width": 176,
+                "height": 42
+            }
+        },
+        {
+            "text": "«",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 213,
+                "top": 2328,
+                "width": 12,
+                "height": 12
+            }
+        },
+        {
+            "text": "No",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 258,
+                "top": 2307,
+                "width": 62,
+                "height": 40
+            }
+        },
+        {
+            "text": "other",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 339,
+                "top": 2305,
+                "width": 129,
+                "height": 42
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 486,
+                "top": 2308,
+                "width": 265,
+                "height": 39
+            }
+        },
+        {
+            "text": "has",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 771,
+                "top": 2305,
+                "width": 74,
+                "height": 42
+            }
+        },
+        {
+            "text": "modified",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 865,
+                "top": 2305,
+                "width": 201,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1086,
+                "top": 2305,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1183,
+                "top": 2306,
+                "width": 102,
+                "height": 41
+            }
+        },
+        {
+            "text": "read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1304,
+                "top": 2306,
+                "width": 101,
+                "height": 41
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1427,
+                "top": 2306,
+                "width": 51,
+                "height": 53
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1497,
+                "top": 2305,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "current",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1594,
+                "top": 2311,
+                "width": 174,
+                "height": 36
+            }
+        },
+        {
+            "text": "transaction.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1787,
+                "top": 2308,
+                "width": 276,
+                "height": 39
+            }
+        },
+        {
+            "text": "+",
+            "confidence": 26.0,
+            "bbox": {
+                "left": 213,
+                "top": 2387,
+                "width": 12,
+                "height": 12
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 258,
+                "top": 2364,
+                "width": 88,
+                "height": 42
+            }
+        },
+        {
+            "text": "current",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 365,
+                "top": 2370,
+                "width": 174,
+                "height": 36
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 558,
+                "top": 2367,
+                "width": 264,
+                "height": 39
+            }
+        },
+        {
+            "text": "does",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 842,
+                "top": 2365,
+                "width": 104,
+                "height": 41
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 966,
+                "top": 2370,
+                "width": 72,
+                "height": 36
+            }
+        },
+        {
+            "text": "overlap",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1057,
+                "top": 2364,
+                "width": 166,
+                "height": 54
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1242,
+                "top": 2364,
+                "width": 97,
+                "height": 42
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1359,
+                "top": 2364,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "execution",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1455,
+                "top": 2367,
+                "width": 225,
+                "height": 39
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1698,
+                "top": 2364,
+                "width": 48,
+                "height": 44
+            }
+        },
+        {
+            "text": "conflicting",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1767,
+                "top": 2364,
+                "width": 245,
+                "height": 54
+            }
+        },
+        {
+            "text": "transactions.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2031,
+                "top": 2367,
+                "width": 300,
+                "height": 39
+            }
+        },
+        {
+            "text": "3.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 146,
+                "top": 2523,
+                "width": 48,
+                "height": 45
+            }
+        },
+        {
+            "text": "Write",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 227,
+                "top": 2523,
+                "width": 156,
+                "height": 45
+            }
+        },
+        {
+            "text": "Phase:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 412,
+                "top": 2521,
+                "width": 167,
+                "height": 46
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 51.0,
+            "bbox": {
+                "left": 213,
+                "top": 2643,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 257,
+                "top": 2620,
+                "width": 49,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 326,
+                "top": 2620,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 422,
+                "top": 2623,
+                "width": 264,
+                "height": 39
+            }
+        },
+        {
+            "text": "passes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 706,
+                "top": 2632,
+                "width": 150,
+                "height": 42
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 875,
+                "top": 2620,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "validation",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 970,
+                "top": 2620,
+                "width": 222,
+                "height": 42
+            }
+        },
+        {
+            "text": "phase,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1212,
+                "top": 2620,
+                "width": 143,
+                "height": 54
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1376,
+                "top": 2623,
+                "width": 32,
+                "height": 39
+            }
+        },
+        {
+            "text": "writes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1427,
+                "top": 2623,
+                "width": 146,
+                "height": 39
+            }
+        },
+        {
+            "text": "changes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1593,
+                "top": 2620,
+                "width": 182,
+                "height": 54
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1794,
+                "top": 2626,
+                "width": 45,
+                "height": 36
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1859,
+                "top": 2620,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "database",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1956,
+                "top": 2621,
+                "width": 210,
+                "height": 41
+            }
+        },
+        {
+            "text": "permanently.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 258,
+                "top": 2682,
+                "width": 296,
+                "height": 54
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 64.0,
+            "bbox": {
+                "left": 213,
+                "top": 2767,
+                "width": 12,
+                "height": 11
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 257,
+                "top": 2744,
+                "width": 49,
+                "height": 44
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 326,
+                "top": 2744,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "validation",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 422,
+                "top": 2744,
+                "width": 221,
+                "height": 42
+            }
+        },
+        {
+            "text": "fails,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 662,
+                "top": 2744,
+                "width": 114,
+                "height": 48
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 795,
+                "top": 2744,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 891,
+                "top": 2747,
+                "width": 265,
+                "height": 39
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1176,
+                "top": 2747,
+                "width": 33,
+                "height": 39
+            }
+        },
+        {
+            "text": "aborted",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1227,
+                "top": 2745,
+                "width": 184,
+                "height": 41
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1430,
+                "top": 2745,
+                "width": 79,
+                "height": 41
+            }
+        },
+        {
+            "text": "restarted.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1529,
+                "top": 2745,
+                "width": 239,
+                "height": 41
+            }
+        }
+    ]
+}

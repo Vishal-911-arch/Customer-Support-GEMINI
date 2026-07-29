@@ -1,0 +1,1158 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_54",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_54.png",
+    "text": "Window size = minimum (20, 9 ) =: 9 Sent, not acknowledged Can be sent immediately t ' sent and Next byte to be sent Cant be acknowledged sent until window opens ” The sender has sent bytes up to 202. We assume that ewnd ts 20 (in reality thousands of bytes). y The receiver has sent an ack number of 200 with mend of 9 bytes . y The size of the sender window ts the minimum of mend and cwnd. or 9 bytes. r Bytes 200 to 202 are sent. but not acknowledged. r Bytes 203 to 208 can be sent without worrying about acknowledgment. » Bytes 209 and above cannot be sent.",
+    "words": [
+        {
+            "text": "Window",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1928,
+                "top": 154,
+                "width": 284,
+                "height": 58
+            }
+        },
+        {
+            "text": "size",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2239,
+                "top": 157,
+                "width": 121,
+                "height": 55
+            }
+        },
+        {
+            "text": "=",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2388,
+                "top": 179,
+                "width": 33,
+                "height": 20
+            }
+        },
+        {
+            "text": "minimum",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2456,
+                "top": 157,
+                "width": 331,
+                "height": 55
+            }
+        },
+        {
+            "text": "(20,",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 2817,
+                "top": 158,
+                "width": 114,
+                "height": 61
+            }
+        },
+        {
+            "text": "9",
+            "confidence": 74.0,
+            "bbox": {
+                "left": 2957,
+                "top": 159,
+                "width": 38,
+                "height": 52
+            }
+        },
+        {
+            "text": ")",
+            "confidence": 74.0,
+            "bbox": {
+                "left": 3022,
+                "top": 161,
+                "width": 11,
+                "height": 55
+            }
+        },
+        {
+            "text": "=:",
+            "confidence": 78.0,
+            "bbox": {
+                "left": 3064,
+                "top": 179,
+                "width": 35,
+                "height": 21
+            }
+        },
+        {
+            "text": "9",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 3128,
+                "top": 159,
+                "width": 38,
+                "height": 52
+            }
+        },
+        {
+            "text": "Sent,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1833,
+                "top": 346,
+                "width": 165,
+                "height": 64
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2029,
+                "top": 356,
+                "width": 107,
+                "height": 47
+            }
+        },
+        {
+            "text": "acknowledged",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 1737,
+                "top": 441,
+                "width": 537,
+                "height": 133
+            }
+        },
+        {
+            "text": "Can",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2394,
+                "top": 444,
+                "width": 127,
+                "height": 56
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2551,
+                "top": 443,
+                "width": 79,
+                "height": 56
+            }
+        },
+        {
+            "text": "sent",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 2659,
+                "top": 453,
+                "width": 135,
+                "height": 47
+            }
+        },
+        {
+            "text": "immediately",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2825,
+                "top": 442,
+                "width": 427,
+                "height": 74
+            }
+        },
+        {
+            "text": "t",
+            "confidence": 13.0,
+            "bbox": {
+                "left": 2342,
+                "top": 934,
+                "width": 16,
+                "height": 30
+            }
+        },
+        {
+            "text": "'",
+            "confidence": 53.0,
+            "bbox": {
+                "left": 3640,
+                "top": 956,
+                "width": 5,
+                "height": 12
+            }
+        },
+        {
+            "text": "sent",
+            "confidence": 54.0,
+            "bbox": {
+                "left": 1273,
+                "top": 950,
+                "width": 147,
+                "height": 56
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1446,
+                "top": 948,
+                "width": 127,
+                "height": 58
+            }
+        },
+        {
+            "text": "Next",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2002,
+                "top": 1001,
+                "width": 153,
+                "height": 55
+            }
+        },
+        {
+            "text": "byte",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2185,
+                "top": 1000,
+                "width": 145,
+                "height": 73
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2357,
+                "top": 1010,
+                "width": 65,
+                "height": 46
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2451,
+                "top": 1000,
+                "width": 78,
+                "height": 56
+            }
+        },
+        {
+            "text": "sent",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2557,
+                "top": 1011,
+                "width": 139,
+                "height": 46
+            }
+        },
+        {
+            "text": "Cant",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3505,
+                "top": 955,
+                "width": 167,
+                "height": 56
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3703,
+                "top": 954,
+                "width": 79,
+                "height": 104
+            }
+        },
+        {
+            "text": "acknowledged",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1176,
+                "top": 1045,
+                "width": 510,
+                "height": 75
+            }
+        },
+        {
+            "text": "sent",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 3337,
+                "top": 1062,
+                "width": 136,
+                "height": 45
+            }
+        },
+        {
+            "text": "until",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3502,
+                "top": 1051,
+                "width": 150,
+                "height": 56
+            }
+        },
+        {
+            "text": "window",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3678,
+                "top": 1050,
+                "width": 278,
+                "height": 57
+            }
+        },
+        {
+            "text": "opens",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 3531,
+                "top": 1165,
+                "width": 207,
+                "height": 56
+            }
+        },
+        {
+            "text": "”",
+            "confidence": 23.0,
+            "bbox": {
+                "left": 165,
+                "top": 1474,
+                "width": 66,
+                "height": 75
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 301,
+                "top": 1472,
+                "width": 182,
+                "height": 84
+            }
+        },
+        {
+            "text": "sender",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 524,
+                "top": 1472,
+                "width": 311,
+                "height": 85
+            }
+        },
+        {
+            "text": "has",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 875,
+                "top": 1472,
+                "width": 152,
+                "height": 85
+            }
+        },
+        {
+            "text": "sent",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1067,
+                "top": 1489,
+                "width": 186,
+                "height": 68
+            }
+        },
+        {
+            "text": "bytes",
+            "confidence": 60.0,
+            "bbox": {
+                "left": 1296,
+                "top": 1472,
+                "width": 248,
+                "height": 110
+            }
+        },
+        {
+            "text": "up",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1585,
+                "top": 1499,
+                "width": 111,
+                "height": 84
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1735,
+                "top": 1488,
+                "width": 86,
+                "height": 68
+            }
+        },
+        {
+            "text": "202.",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1861,
+                "top": 1472,
+                "width": 196,
+                "height": 84
+            }
+        },
+        {
+            "text": "We",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2105,
+                "top": 1473,
+                "width": 146,
+                "height": 83
+            }
+        },
+        {
+            "text": "assume",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2292,
+                "top": 1499,
+                "width": 348,
+                "height": 59
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 2682,
+                "top": 1472,
+                "width": 173,
+                "height": 84
+            }
+        },
+        {
+            "text": "ewnd",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 2895,
+                "top": 1472,
+                "width": 254,
+                "height": 85
+            }
+        },
+        {
+            "text": "ts",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 3199,
+                "top": 1472,
+                "width": 66,
+                "height": 84
+            }
+        },
+        {
+            "text": "20",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3303,
+                "top": 1472,
+                "width": 113,
+                "height": 84
+            }
+        },
+        {
+            "text": "(in",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 3456,
+                "top": 1472,
+                "width": 126,
+                "height": 98
+            }
+        },
+        {
+            "text": "reality",
+            "confidence": 71.0,
+            "bbox": {
+                "left": 3626,
+                "top": 1472,
+                "width": 297,
+                "height": 110
+            }
+        },
+        {
+            "text": "thousands",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3966,
+                "top": 1472,
+                "width": 482,
+                "height": 85
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4485,
+                "top": 1471,
+                "width": 109,
+                "height": 85
+            }
+        },
+        {
+            "text": "bytes).",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 4620,
+                "top": 1472,
+                "width": 312,
+                "height": 110
+            }
+        },
+        {
+            "text": "y",
+            "confidence": 37.0,
+            "bbox": {
+                "left": 165,
+                "top": 1696,
+                "width": 66,
+                "height": 76
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 69.0,
+            "bbox": {
+                "left": 302,
+                "top": 1694,
+                "width": 182,
+                "height": 85
+            }
+        },
+        {
+            "text": "receiver",
+            "confidence": 69.0,
+            "bbox": {
+                "left": 526,
+                "top": 1694,
+                "width": 383,
+                "height": 85
+            }
+        },
+        {
+            "text": "has",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 949,
+                "top": 1694,
+                "width": 154,
+                "height": 85
+            }
+        },
+        {
+            "text": "sent",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1141,
+                "top": 1711,
+                "width": 186,
+                "height": 68
+            }
+        },
+        {
+            "text": "an",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1367,
+                "top": 1722,
+                "width": 106,
+                "height": 57
+            }
+        },
+        {
+            "text": "ack",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1513,
+                "top": 1694,
+                "width": 158,
+                "height": 85
+            }
+        },
+        {
+            "text": "number",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1716,
+                "top": 1694,
+                "width": 364,
+                "height": 85
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2117,
+                "top": 1699,
+                "width": 89,
+                "height": 79
+            }
+        },
+        {
+            "text": "200",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2261,
+                "top": 1693,
+                "width": 160,
+                "height": 85
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2464,
+                "top": 1694,
+                "width": 207,
+                "height": 85
+            }
+        },
+        {
+            "text": "mend",
+            "confidence": 64.0,
+            "bbox": {
+                "left": 2713,
+                "top": 1694,
+                "width": 252,
+                "height": 84
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2994,
+                "top": 1693,
+                "width": 184,
+                "height": 85
+            }
+        },
+        {
+            "text": "9",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3131,
+                "top": 1689,
+                "width": 50,
+                "height": 120
+            }
+        },
+        {
+            "text": "bytes",
+            "confidence": 71.0,
+            "bbox": {
+                "left": 3220,
+                "top": 1694,
+                "width": 250,
+                "height": 110
+            }
+        },
+        {
+            "text": ".",
+            "confidence": 27.0,
+            "bbox": {
+                "left": 3513,
+                "top": 1773,
+                "width": 7,
+                "height": 4
+            }
+        },
+        {
+            "text": "y",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 166,
+                "top": 1912,
+                "width": 64,
+                "height": 76
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 302,
+                "top": 1911,
+                "width": 182,
+                "height": 85
+            }
+        },
+        {
+            "text": "size",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 524,
+                "top": 1911,
+                "width": 181,
+                "height": 85
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 743,
+                "top": 1915,
+                "width": 93,
+                "height": 80
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 892,
+                "top": 1910,
+                "width": 124,
+                "height": 86
+            }
+        },
+        {
+            "text": "sender",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1057,
+                "top": 1911,
+                "width": 312,
+                "height": 85
+            }
+        },
+        {
+            "text": "window",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1406,
+                "top": 1911,
+                "width": 386,
+                "height": 84
+            }
+        },
+        {
+            "text": "ts",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1837,
+                "top": 1911,
+                "width": 66,
+                "height": 84
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1942,
+                "top": 1911,
+                "width": 139,
+                "height": 84
+            }
+        },
+        {
+            "text": "minimum",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 2123,
+                "top": 1911,
+                "width": 459,
+                "height": 84
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2627,
+                "top": 1910,
+                "width": 109,
+                "height": 84
+            }
+        },
+        {
+            "text": "mend",
+            "confidence": 69.0,
+            "bbox": {
+                "left": 2759,
+                "top": 1911,
+                "width": 253,
+                "height": 84
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 3042,
+                "top": 1911,
+                "width": 166,
+                "height": 85
+            }
+        },
+        {
+            "text": "cwnd.",
+            "confidence": 63.0,
+            "bbox": {
+                "left": 3249,
+                "top": 1911,
+                "width": 270,
+                "height": 86
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 3568,
+                "top": 1938,
+                "width": 95,
+                "height": 57
+            }
+        },
+        {
+            "text": "9",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 3703,
+                "top": 1912,
+                "width": 49,
+                "height": 79
+            }
+        },
+        {
+            "text": "bytes.",
+            "confidence": 44.0,
+            "bbox": {
+                "left": 3795,
+                "top": 1911,
+                "width": 270,
+                "height": 110
+            }
+        },
+        {
+            "text": "r",
+            "confidence": 54.0,
+            "bbox": {
+                "left": 166,
+                "top": 2134,
+                "width": 65,
+                "height": 77
+            }
+        },
+        {
+            "text": "Bytes",
+            "confidence": 48.0,
+            "bbox": {
+                "left": 307,
+                "top": 2134,
+                "width": 266,
+                "height": 109
+            }
+        },
+        {
+            "text": "200",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 610,
+                "top": 2134,
+                "width": 175,
+                "height": 83
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 824,
+                "top": 2150,
+                "width": 87,
+                "height": 67
+            }
+        },
+        {
+            "text": "202",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 951,
+                "top": 2133,
+                "width": 170,
+                "height": 84
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1163,
+                "top": 2161,
+                "width": 142,
+                "height": 57
+            }
+        },
+        {
+            "text": "sent.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1346,
+                "top": 2150,
+                "width": 214,
+                "height": 71
+            }
+        },
+        {
+            "text": "but",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1605,
+                "top": 2133,
+                "width": 144,
+                "height": 85
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1792,
+                "top": 2148,
+                "width": 146,
+                "height": 70
+            }
+        },
+        {
+            "text": "acknowledged.",
+            "confidence": 78.0,
+            "bbox": {
+                "left": 1974,
+                "top": 2133,
+                "width": 721,
+                "height": 111
+            }
+        },
+        {
+            "text": "r",
+            "confidence": 44.0,
+            "bbox": {
+                "left": 166,
+                "top": 2357,
+                "width": 64,
+                "height": 76
+            }
+        },
+        {
+            "text": "Bytes",
+            "confidence": 28.0,
+            "bbox": {
+                "left": 307,
+                "top": 2356,
+                "width": 266,
+                "height": 110
+            }
+        },
+        {
+            "text": "203",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 610,
+                "top": 2356,
+                "width": 171,
+                "height": 84
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 824,
+                "top": 2372,
+                "width": 87,
+                "height": 68
+            }
+        },
+        {
+            "text": "208",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 951,
+                "top": 2356,
+                "width": 171,
+                "height": 83
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1163,
+                "top": 2383,
+                "width": 162,
+                "height": 57
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1367,
+                "top": 2355,
+                "width": 102,
+                "height": 85
+            }
+        },
+        {
+            "text": "sent",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1512,
+                "top": 2373,
+                "width": 187,
+                "height": 68
+            }
+        },
+        {
+            "text": "without",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1737,
+                "top": 2355,
+                "width": 364,
+                "height": 86
+            }
+        },
+        {
+            "text": "worrying",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2141,
+                "top": 2356,
+                "width": 441,
+                "height": 110
+            }
+        },
+        {
+            "text": "about",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2619,
+                "top": 2355,
+                "width": 264,
+                "height": 85
+            }
+        },
+        {
+            "text": "acknowledgment.",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 2921,
+                "top": 2356,
+                "width": 848,
+                "height": 110
+            }
+        },
+        {
+            "text": "»",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 165,
+                "top": 2574,
+                "width": 66,
+                "height": 76
+            }
+        },
+        {
+            "text": "Bytes",
+            "confidence": 26.0,
+            "bbox": {
+                "left": 307,
+                "top": 2573,
+                "width": 266,
+                "height": 109
+            }
+        },
+        {
+            "text": "209",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 610,
+                "top": 2572,
+                "width": 175,
+                "height": 84
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 824,
+                "top": 2572,
+                "width": 165,
+                "height": 85
+            }
+        },
+        {
+            "text": "above",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1032,
+                "top": 2571,
+                "width": 282,
+                "height": 86
+            }
+        },
+        {
+            "text": "cannot",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1355,
+                "top": 2588,
+                "width": 315,
+                "height": 69
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1712,
+                "top": 2572,
+                "width": 104,
+                "height": 85
+            }
+        },
+        {
+            "text": "sent.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1856,
+                "top": 2588,
+                "width": 211,
+                "height": 69
+            }
+        }
+    ]
+}

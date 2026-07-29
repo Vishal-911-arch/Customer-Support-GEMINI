@@ -1,15 +1,15 @@
 from pathlib import Path
 import json
-import base64
-
+import tempfile
 import cv2
-from ollama import Client
+from PIL import Image
+from google import genai
+from dotenv import load_dotenv
+import os
 
 from config import (
     RENDERED_PAGES_DIR,
     IMAGE_CLASSIFIER_OUTPUT_DIR,
-    OLLAMA_HOST,
-    VISION_MODEL,
 )
 
 from rag.vision_cache import VisionCache
@@ -28,7 +28,11 @@ class VisionRetriever:
 
     def __init__(self):
 
-        self.client = Client(host=OLLAMA_HOST)
+        load_dotenv()
+
+        self.client = genai.Client(
+            api_key=os.getenv("GEMINI_API_KEY")
+        )
 
         self.cache = VisionCache()
 
@@ -38,29 +42,40 @@ class VisionRetriever:
 
     # -----------------------------------------------------
 
-    def encode_image(self, image):
+    @staticmethod
+    def compress_image(image_path):
 
-        ok, buffer = cv2.imencode(".png", image)
+        img = Image.open(image_path)
 
-        if not ok:
-            return None
+        img.thumbnail((1024, 1024))
 
-        return base64.b64encode(buffer).decode("utf-8")
+        temp = tempfile.NamedTemporaryFile(
+            suffix=".png",
+            delete=False
+        )
+
+        img.save(temp.name)
+
+        return temp.name
 
     # -----------------------------------------------------
 
     def analyze_crop(self, crop):
 
-        encoded = self.encode_image(crop)
+        temp = tempfile.NamedTemporaryFile(
+            suffix=".png",
+            delete=False
+        )
 
-        if encoded is None:
-            return None
+        cv2.imwrite(temp.name, crop)
 
-        response = self.client.generate(
+        image_path = self.compress_image(temp.name)
 
-            model=VISION_MODEL,
+        uploaded_file = self.client.files.upload(
+            file=image_path
+        )
 
-            prompt="""
+        prompt = """
 You are an aircraft technical manual assistant.
 
 Describe ONLY what is visible.
@@ -86,13 +101,20 @@ Rules:
 3. Mention arrows.
 4. Mention important parts.
 5. Keep description under 120 words.
-""",
+"""
 
-            images=[encoded]
+        response = self.client.models.generate_content(
+
+            model=GEMINI_MODEL,
+
+            contents=[
+                prompt,
+                uploaded_file
+            ]
 
         )
 
-        return response["response"]
+        return response.text
 
     # -----------------------------------------------------
 
@@ -100,7 +122,7 @@ Rules:
 
         # ============================================
         # CACHE CHECK
-        # ======================================A======
+        # ============================================
 
         if self.cache.exists(document, page):
 
@@ -108,15 +130,12 @@ Rules:
 
             cached = self.cache.load(document, page)
 
-                # New cache format
             if isinstance(cached, dict) and "images" in cached:
-                    return cached["images"]
+                return cached["images"]
 
-                # Old cache format (list)
             if isinstance(cached, list):
-                    return cached
+                return cached
 
-                # Unknown format
             return []
 
         # ============================================
@@ -173,7 +192,7 @@ Rules:
             if crop.size == 0:
                 continue
 
-            print(f"LLaVA -> Page {page}")
+            print(f"Gemini -> Page {page}")
 
             description = self.analyze_crop(crop)
 

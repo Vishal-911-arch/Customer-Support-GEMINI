@@ -1,0 +1,1128 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_50",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_50.png",
+    "text": "Flow Control TCP uses a sliding window protocol between the Go-Back-N and Selective Repeat. > Why like Go-Back-N: OO re ay, > Does not use NAKs 5) (XK) > Sends cumulative acks 9 » Why like Selective Repeat: |}—_—_——_—__+ > Receiver holds the out-of-order segments until the missing ones arrive. | > Sender window size = receiver window size —~ (Setup during connection establishment. Both sender and receiver advertise their windows) Differences between TCP sliding window and sliding window at data link layer: 1. Sliding window of while in data link layer it 1s frame-oriented. 2. TCP's sliding window ts of variable size. while in data link layer was of fixed size.",
+    "words": [
+        {
+            "text": "Flow",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2328,
+                "top": 94,
+                "width": 249,
+                "height": 86
+            }
+        },
+        {
+            "text": "Control",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2612,
+                "top": 94,
+                "width": 397,
+                "height": 86
+            }
+        },
+        {
+            "text": "TCP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 126,
+                "top": 316,
+                "width": 220,
+                "height": 88
+            }
+        },
+        {
+            "text": "uses",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 378,
+                "top": 342,
+                "width": 205,
+                "height": 61
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 594,
+                "top": 309,
+                "width": 43,
+                "height": 126
+            }
+        },
+        {
+            "text": "sliding",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 702,
+                "top": 314,
+                "width": 329,
+                "height": 115
+            }
+        },
+        {
+            "text": "window",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1063,
+                "top": 313,
+                "width": 393,
+                "height": 91
+            }
+        },
+        {
+            "text": "protocol",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1489,
+                "top": 314,
+                "width": 397,
+                "height": 115
+            }
+        },
+        {
+            "text": "between",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1928,
+                "top": 314,
+                "width": 400,
+                "height": 90
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 2363,
+                "top": 314,
+                "width": 144,
+                "height": 89
+            }
+        },
+        {
+            "text": "Go-Back-N",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 2546,
+                "top": 314,
+                "width": 558,
+                "height": 89
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3133,
+                "top": 313,
+                "width": 170,
+                "height": 90
+            }
+        },
+        {
+            "text": "Selective",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3343,
+                "top": 314,
+                "width": 438,
+                "height": 89
+            }
+        },
+        {
+            "text": "Repeat.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3821,
+                "top": 316,
+                "width": 354,
+                "height": 113
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 138,
+                "top": 533,
+                "width": 71,
+                "height": 80
+            }
+        },
+        {
+            "text": "Why",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 278,
+                "top": 532,
+                "width": 227,
+                "height": 113
+            }
+        },
+        {
+            "text": "like",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 547,
+                "top": 531,
+                "width": 174,
+                "height": 89
+            }
+        },
+        {
+            "text": "Go-Back-N:",
+            "confidence": 76.0,
+            "bbox": {
+                "left": 758,
+                "top": 532,
+                "width": 588,
+                "height": 88
+            }
+        },
+        {
+            "text": "OO",
+            "confidence": 25.0,
+            "bbox": {
+                "left": 2781,
+                "top": 480,
+                "width": 306,
+                "height": 217
+            }
+        },
+        {
+            "text": "re",
+            "confidence": 10.0,
+            "bbox": {
+                "left": 4209,
+                "top": 497,
+                "width": 125,
+                "height": 361
+            }
+        },
+        {
+            "text": "ay,",
+            "confidence": 41.0,
+            "bbox": {
+                "left": 4414,
+                "top": 504,
+                "width": 276,
+                "height": 164
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 338,
+                "top": 754,
+                "width": 72,
+                "height": 83
+            }
+        },
+        {
+            "text": "Does",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 509,
+                "top": 755,
+                "width": 244,
+                "height": 87
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 789,
+                "top": 767,
+                "width": 151,
+                "height": 75
+            }
+        },
+        {
+            "text": "use",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 976,
+                "top": 780,
+                "width": 154,
+                "height": 63
+            }
+        },
+        {
+            "text": "NAKs",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1166,
+                "top": 755,
+                "width": 310,
+                "height": 88
+            }
+        },
+        {
+            "text": "5)",
+            "confidence": 22.0,
+            "bbox": {
+                "left": 2815,
+                "top": 602,
+                "width": 187,
+                "height": 280
+            }
+        },
+        {
+            "text": "(XK)",
+            "confidence": 35.0,
+            "bbox": {
+                "left": 3027,
+                "top": 650,
+                "width": 542,
+                "height": 232
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 337,
+                "top": 971,
+                "width": 74,
+                "height": 82
+            }
+        },
+        {
+            "text": "Sends",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 479,
+                "top": 970,
+                "width": 285,
+                "height": 89
+            }
+        },
+        {
+            "text": "cumulative",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 796,
+                "top": 969,
+                "width": 538,
+                "height": 129
+            }
+        },
+        {
+            "text": "acks",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1371,
+                "top": 970,
+                "width": 214,
+                "height": 89
+            }
+        },
+        {
+            "text": "9",
+            "confidence": 37.0,
+            "bbox": {
+                "left": 2897,
+                "top": 882,
+                "width": 1470,
+                "height": 165
+            }
+        },
+        {
+            "text": "»",
+            "confidence": 75.0,
+            "bbox": {
+                "left": 139,
+                "top": 1194,
+                "width": 70,
+                "height": 81
+            }
+        },
+        {
+            "text": "Why",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 277,
+                "top": 1192,
+                "width": 229,
+                "height": 114
+            }
+        },
+        {
+            "text": "like",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 547,
+                "top": 1192,
+                "width": 174,
+                "height": 89
+            }
+        },
+        {
+            "text": "Selective",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 761,
+                "top": 1192,
+                "width": 439,
+                "height": 89
+            }
+        },
+        {
+            "text": "Repeat:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1240,
+                "top": 1194,
+                "width": 354,
+                "height": 112
+            }
+        },
+        {
+            "text": "|}—_—_——_—__+",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2900,
+                "top": 1004,
+                "width": 1474,
+                "height": 311
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 338,
+                "top": 1416,
+                "width": 72,
+                "height": 81
+            }
+        },
+        {
+            "text": "Receiver",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 479,
+                "top": 1414,
+                "width": 430,
+                "height": 90
+            }
+        },
+        {
+            "text": "holds",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 941,
+                "top": 1414,
+                "width": 260,
+                "height": 90
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1235,
+                "top": 1414,
+                "width": 144,
+                "height": 89
+            }
+        },
+        {
+            "text": "out-of-order",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1416,
+                "top": 1413,
+                "width": 596,
+                "height": 90
+            }
+        },
+        {
+            "text": "segments",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2046,
+                "top": 1428,
+                "width": 449,
+                "height": 100
+            }
+        },
+        {
+            "text": "until",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 2530,
+                "top": 1410,
+                "width": 214,
+                "height": 93
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2779,
+                "top": 1413,
+                "width": 151,
+                "height": 91
+            }
+        },
+        {
+            "text": "missing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2965,
+                "top": 1413,
+                "width": 376,
+                "height": 116
+            }
+        },
+        {
+            "text": "ones",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3375,
+                "top": 1442,
+                "width": 220,
+                "height": 61
+            }
+        },
+        {
+            "text": "arrive.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3628,
+                "top": 1414,
+                "width": 304,
+                "height": 90
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 34.0,
+            "bbox": {
+                "left": 4998,
+                "top": 1245,
+                "width": 45,
+                "height": 217
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 338,
+                "top": 1632,
+                "width": 72,
+                "height": 82
+            }
+        },
+        {
+            "text": "Sender",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 479,
+                "top": 1631,
+                "width": 334,
+                "height": 90
+            }
+        },
+        {
+            "text": "window",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 845,
+                "top": 1630,
+                "width": 392,
+                "height": 90
+            }
+        },
+        {
+            "text": "size",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1271,
+                "top": 1630,
+                "width": 184,
+                "height": 90
+            }
+        },
+        {
+            "text": "=",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1489,
+                "top": 1660,
+                "width": 67,
+                "height": 30
+            }
+        },
+        {
+            "text": "receiver",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1591,
+                "top": 1631,
+                "width": 389,
+                "height": 89
+            }
+        },
+        {
+            "text": "window",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2014,
+                "top": 1630,
+                "width": 393,
+                "height": 92
+            }
+        },
+        {
+            "text": "size",
+            "confidence": 78.0,
+            "bbox": {
+                "left": 2436,
+                "top": 1630,
+                "width": 186,
+                "height": 92
+            }
+        },
+        {
+            "text": "—~",
+            "confidence": 71.0,
+            "bbox": {
+                "left": 2708,
+                "top": 1606,
+                "width": 199,
+                "height": 98
+            }
+        },
+        {
+            "text": "(Setup",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 526,
+                "top": 1855,
+                "width": 315,
+                "height": 113
+            }
+        },
+        {
+            "text": "during",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 876,
+                "top": 1852,
+                "width": 316,
+                "height": 116
+            }
+        },
+        {
+            "text": "connection",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1224,
+                "top": 1852,
+                "width": 534,
+                "height": 91
+            }
+        },
+        {
+            "text": "establishment.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1791,
+                "top": 1853,
+                "width": 688,
+                "height": 92
+            }
+        },
+        {
+            "text": "Both",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2527,
+                "top": 1852,
+                "width": 231,
+                "height": 90
+            }
+        },
+        {
+            "text": "sender",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2793,
+                "top": 1853,
+                "width": 315,
+                "height": 89
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3142,
+                "top": 1853,
+                "width": 170,
+                "height": 89
+            }
+        },
+        {
+            "text": "receiver",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3349,
+                "top": 1853,
+                "width": 390,
+                "height": 90
+            }
+        },
+        {
+            "text": "advertise",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3771,
+                "top": 1853,
+                "width": 437,
+                "height": 90
+            }
+        },
+        {
+            "text": "their",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4242,
+                "top": 1852,
+                "width": 225,
+                "height": 90
+            }
+        },
+        {
+            "text": "windows)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4497,
+                "top": 1853,
+                "width": 480,
+                "height": 106
+            }
+        },
+        {
+            "text": "Differences",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 131,
+                "top": 2068,
+                "width": 557,
+                "height": 91
+            }
+        },
+        {
+            "text": "between",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 727,
+                "top": 2070,
+                "width": 398,
+                "height": 89
+            }
+        },
+        {
+            "text": "TCP",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1160,
+                "top": 2072,
+                "width": 147,
+                "height": 87
+            }
+        },
+        {
+            "text": "sliding",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1412,
+                "top": 2070,
+                "width": 328,
+                "height": 114
+            }
+        },
+        {
+            "text": "window",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1773,
+                "top": 2069,
+                "width": 393,
+                "height": 92
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2196,
+                "top": 2070,
+                "width": 170,
+                "height": 89
+            }
+        },
+        {
+            "text": "sliding",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2406,
+                "top": 2070,
+                "width": 328,
+                "height": 114
+            }
+        },
+        {
+            "text": "window",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2768,
+                "top": 2069,
+                "width": 391,
+                "height": 89
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3192,
+                "top": 2085,
+                "width": 82,
+                "height": 73
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3311,
+                "top": 2070,
+                "width": 200,
+                "height": 89
+            }
+        },
+        {
+            "text": "link",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3548,
+                "top": 2070,
+                "width": 181,
+                "height": 86
+            }
+        },
+        {
+            "text": "layer:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3770,
+                "top": 2069,
+                "width": 259,
+                "height": 115
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 141,
+                "top": 2294,
+                "width": 65,
+                "height": 86
+            }
+        },
+        {
+            "text": "Sliding",
+            "confidence": 71.0,
+            "bbox": {
+                "left": 329,
+                "top": 2291,
+                "width": 349,
+                "height": 115
+            }
+        },
+        {
+            "text": "window",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 710,
+                "top": 2291,
+                "width": 392,
+                "height": 90
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1133,
+                "top": 2291,
+                "width": 114,
+                "height": 90
+            }
+        },
+        {
+            "text": "while",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2343,
+                "top": 2291,
+                "width": 266,
+                "height": 90
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2650,
+                "top": 2292,
+                "width": 87,
+                "height": 87
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2771,
+                "top": 2292,
+                "width": 200,
+                "height": 89
+            }
+        },
+        {
+            "text": "link",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3008,
+                "top": 2292,
+                "width": 183,
+                "height": 87
+            }
+        },
+        {
+            "text": "layer",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3228,
+                "top": 2292,
+                "width": 240,
+                "height": 114
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3506,
+                "top": 2291,
+                "width": 59,
+                "height": 90
+            }
+        },
+        {
+            "text": "1s",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 3604,
+                "top": 2292,
+                "width": 72,
+                "height": 89
+            }
+        },
+        {
+            "text": "frame-oriented.",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 3712,
+                "top": 2290,
+                "width": 743,
+                "height": 92
+            }
+        },
+        {
+            "text": "2.",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 126,
+                "top": 2515,
+                "width": 80,
+                "height": 87
+            }
+        },
+        {
+            "text": "TCP's",
+            "confidence": 12.0,
+            "bbox": {
+                "left": 326,
+                "top": 2516,
+                "width": 288,
+                "height": 88
+            }
+        },
+        {
+            "text": "sliding",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 652,
+                "top": 2514,
+                "width": 327,
+                "height": 115
+            }
+        },
+        {
+            "text": "window",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1013,
+                "top": 2514,
+                "width": 393,
+                "height": 89
+            }
+        },
+        {
+            "text": "ts",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 1443,
+                "top": 2514,
+                "width": 71,
+                "height": 89
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1549,
+                "top": 2512,
+                "width": 114,
+                "height": 91
+            }
+        },
+        {
+            "text": "variable",
+            "confidence": 34.0,
+            "bbox": {
+                "left": 1664,
+                "top": 2464,
+                "width": 386,
+                "height": 185
+            }
+        },
+        {
+            "text": "size.",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2095,
+                "top": 2464,
+                "width": 248,
+                "height": 185
+            }
+        },
+        {
+            "text": "while",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2389,
+                "top": 2514,
+                "width": 268,
+                "height": 89
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2697,
+                "top": 2514,
+                "width": 87,
+                "height": 87
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2817,
+                "top": 2514,
+                "width": 202,
+                "height": 90
+            }
+        },
+        {
+            "text": "link",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3057,
+                "top": 2513,
+                "width": 181,
+                "height": 88
+            }
+        },
+        {
+            "text": "layer",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3276,
+                "top": 2514,
+                "width": 240,
+                "height": 115
+            }
+        },
+        {
+            "text": "was",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3547,
+                "top": 2542,
+                "width": 187,
+                "height": 62
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3767,
+                "top": 2512,
+                "width": 115,
+                "height": 91
+            }
+        },
+        {
+            "text": "fixed",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3901,
+                "top": 2513,
+                "width": 244,
+                "height": 90
+            }
+        },
+        {
+            "text": "size.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4184,
+                "top": 2514,
+                "width": 206,
+                "height": 90
+            }
+        }
+    ]
+}

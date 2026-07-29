@@ -1,13 +1,11 @@
-import base64
-
-from ollama import Client
-
-from config import (
-    OLLAMA_HOST,
-    VISION_MODEL
-)
 import json
+import tempfile
 import cv2
+from PIL import Image
+
+from google import genai
+from dotenv import load_dotenv
+import os
 
 from config import (
     RENDERED_PAGES_DIR,
@@ -23,11 +21,34 @@ class GraphAnalyzer:
 
     def __init__(self):
 
+        load_dotenv()
+
+        self.client = genai.Client(
+            api_key=os.getenv("GEMINI_API_KEY")
+        )
+
         self.padding = 40
 
         self.ocr = OCRProcessor()
 
-        self.client = Client(host=OLLAMA_HOST)
+    # ------------------------------------------------------------
+
+    @staticmethod
+    def compress_image(image_path):
+
+        img = Image.open(image_path)
+
+        img.thumbnail((1024, 1024))
+
+        temp = tempfile.NamedTemporaryFile(
+            suffix=".png",
+            delete=False
+        )
+
+        img.save(temp.name)
+
+        return temp.name
+
     # ------------------------------------------------------------
 
     def crop_graph(self, document, page):
@@ -101,25 +122,23 @@ class GraphAnalyzer:
 
         print("\nRunning OCR...")
 
-        print("\nRunning OCR...")
-
         text = self.ocr.process_crop(crop)
 
-        print("\nRunning Vision...")
+        print("\nRunning Gemini Vision...")
 
         vision = self.understand_graph(crop)
 
         graph = {
 
-    "document": document,
+            "document": document,
 
-    "page": page,
+            "page": page,
 
-    "ocr_text": text,
+            "ocr_text": text,
 
-    "vision_summary": vision
+            "vision_summary": vision
 
-}
+        }
 
         output = (
 
@@ -145,63 +164,66 @@ class GraphAnalyzer:
         print(f"\nSaved Graph JSON : {output}")
 
         return graph
-    
-    # ------------------------------------------------------------
-
-    def encode(self, image):
-
-        ok, buffer = cv2.imencode(".png", image)
-
-        if not ok:
-            return None
-
-        return base64.b64encode(buffer).decode()
 
     # ------------------------------------------------------------
 
     def understand_graph(self, crop):
 
-        encoded = self.encode(crop)
+        temp = tempfile.NamedTemporaryFile(
+            suffix=".png",
+            delete=False
+        )
 
-        response = self.client.generate(
+        cv2.imwrite(temp.name, crop)
 
-            model=VISION_MODEL,
+        image_path = self.compress_image(temp.name)
 
-            prompt="""
-    You are an aerospace engineering expert.
+        uploaded = self.client.files.upload(
+            file=image_path
+        )
 
-    Analyze ONLY this engineering graph.
+        prompt = """
+You are an aerospace engineering expert.
 
-    Return EXACTLY in this format.
+Analyze ONLY this engineering graph.
 
-    Graph Title:
-    <graph title>
+Return EXACTLY in this format.
 
-    X Axis:
-    <label>
+Graph Title:
+<graph title>
 
-    Y Axis:
-    <label>
+X Axis:
+<label>
 
-    Legend:
-    - ...
+Y Axis:
+<label>
 
-    Graph Type:
-    (Line / Bar / Scatter)
+Legend:
+- ...
 
-    Trend:
-    Describe what happens in the graph.
+Graph Type:
+(Line / Bar / Scatter)
 
-    Engineering Interpretation:
-    Explain the engineering meaning.
+Trend:
+Describe what happens in the graph.
 
-    Do NOT invent values.
+Engineering Interpretation:
+Explain the engineering meaning.
 
-    Read visible labels carefully.
-    """,
+Do NOT invent values.
 
-            images=[encoded]
+Read visible labels carefully.
+"""
+
+        response = self.client.models.generate_content(
+
+            model=GEMINI_MODEL,
+
+            contents=[
+                prompt,
+                uploaded
+            ]
 
         )
 
-        return response["response"]
+        return response.text

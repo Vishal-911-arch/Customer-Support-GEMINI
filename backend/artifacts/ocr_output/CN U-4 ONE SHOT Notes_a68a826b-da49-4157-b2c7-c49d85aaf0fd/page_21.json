@@ -1,0 +1,758 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_21",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_21.png",
+    "text": "” Control: defines 6 different control bits or flags One or more of thesé bits can be set at a time. \\ | \\ \\y on a4 Flag Description: ee [S RJ URG _ The value of the urgent pointer field ts valid.” A ACK _ The value of the acknowledgment field is valid. PSH — Push the data. RST Reset the connection. dena SYN Synchronize sequence numbers during connection. FN FIN Terminate the connection.",
+    "words": [
+        {
+            "text": "”",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 107,
+                "top": 183,
+                "width": 67,
+                "height": 79
+            }
+        },
+        {
+            "text": "Control:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 244,
+                "top": 182,
+                "width": 391,
+                "height": 86
+            }
+        },
+        {
+            "text": "defines",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 681,
+                "top": 181,
+                "width": 348,
+                "height": 88
+            }
+        },
+        {
+            "text": "6",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 1064,
+                "top": 184,
+                "width": 54,
+                "height": 84
+            }
+        },
+        {
+            "text": "different",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1156,
+                "top": 180,
+                "width": 412,
+                "height": 89
+            }
+        },
+        {
+            "text": "control",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1607,
+                "top": 182,
+                "width": 333,
+                "height": 87
+            }
+        },
+        {
+            "text": "bits",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1985,
+                "top": 182,
+                "width": 170,
+                "height": 86
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2190,
+                "top": 209,
+                "width": 99,
+                "height": 59
+            }
+        },
+        {
+            "text": "flags",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2325,
+                "top": 181,
+                "width": 230,
+                "height": 113
+            }
+        },
+        {
+            "text": "One",
+            "confidence": 79.0,
+            "bbox": {
+                "left": 2597,
+                "top": 183,
+                "width": 221,
+                "height": 85
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2855,
+                "top": 209,
+                "width": 99,
+                "height": 59
+            }
+        },
+        {
+            "text": "more",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2988,
+                "top": 209,
+                "width": 242,
+                "height": 60
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 3268,
+                "top": 181,
+                "width": 112,
+                "height": 87
+            }
+        },
+        {
+            "text": "thesé",
+            "confidence": 79.0,
+            "bbox": {
+                "left": 3401,
+                "top": 182,
+                "width": 244,
+                "height": 87
+            }
+        },
+        {
+            "text": "bits",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3685,
+                "top": 181,
+                "width": 168,
+                "height": 87
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3889,
+                "top": 210,
+                "width": 107,
+                "height": 59
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4091,
+                "top": 182,
+                "width": 106,
+                "height": 87
+            }
+        },
+        {
+            "text": "set",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4237,
+                "top": 198,
+                "width": 128,
+                "height": 71
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4400,
+                "top": 197,
+                "width": 84,
+                "height": 72
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4521,
+                "top": 210,
+                "width": 49,
+                "height": 59
+            }
+        },
+        {
+            "text": "time.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4605,
+                "top": 182,
+                "width": 231,
+                "height": 87
+            }
+        },
+        {
+            "text": "\\",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1269,
+                "top": 793,
+                "width": 45,
+                "height": 93
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 77.0,
+            "bbox": {
+                "left": 1754,
+                "top": 783,
+                "width": 22,
+                "height": 100
+            }
+        },
+        {
+            "text": "\\",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 2242,
+                "top": 774,
+                "width": 34,
+                "height": 114
+            }
+        },
+        {
+            "text": "\\y",
+            "confidence": 60.0,
+            "bbox": {
+                "left": 2759,
+                "top": 775,
+                "width": 213,
+                "height": 129
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 64.0,
+            "bbox": {
+                "left": 3168,
+                "top": 765,
+                "width": 183,
+                "height": 157
+            }
+        },
+        {
+            "text": "a4",
+            "confidence": 61.0,
+            "bbox": {
+                "left": 3601,
+                "top": 782,
+                "width": 166,
+                "height": 86
+            }
+        },
+        {
+            "text": "Flag",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 181,
+                "top": 971,
+                "width": 205,
+                "height": 112
+            }
+        },
+        {
+            "text": "Description:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 430,
+                "top": 971,
+                "width": 580,
+                "height": 112
+            }
+        },
+        {
+            "text": "ee",
+            "confidence": 21.0,
+            "bbox": {
+                "left": 1878,
+                "top": 1187,
+                "width": 781,
+                "height": 9
+            }
+        },
+        {
+            "text": "[S",
+            "confidence": 30.0,
+            "bbox": {
+                "left": 3662,
+                "top": 1033,
+                "width": 169,
+                "height": 176
+            }
+        },
+        {
+            "text": "RJ",
+            "confidence": 46.0,
+            "bbox": {
+                "left": 4465,
+                "top": 1014,
+                "width": 205,
+                "height": 214
+            }
+        },
+        {
+            "text": "URG",
+            "confidence": 32.0,
+            "bbox": {
+                "left": 180,
+                "top": 1189,
+                "width": 243,
+                "height": 84
+            }
+        },
+        {
+            "text": "_",
+            "confidence": 32.0,
+            "bbox": {
+                "left": 442,
+                "top": 1182,
+                "width": 42,
+                "height": 123
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 575,
+                "top": 1187,
+                "width": 185,
+                "height": 88
+            }
+        },
+        {
+            "text": "value",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 795,
+                "top": 1187,
+                "width": 259,
+                "height": 88
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1092,
+                "top": 1186,
+                "width": 112,
+                "height": 87
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1223,
+                "top": 1187,
+                "width": 144,
+                "height": 87
+            }
+        },
+        {
+            "text": "urgent",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1405,
+                "top": 1203,
+                "width": 304,
+                "height": 97
+            }
+        },
+        {
+            "text": "pointer",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1746,
+                "top": 1202,
+                "width": 341,
+                "height": 98
+            }
+        },
+        {
+            "text": "field",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2125,
+                "top": 1187,
+                "width": 213,
+                "height": 88
+            }
+        },
+        {
+            "text": "ts",
+            "confidence": 76.0,
+            "bbox": {
+                "left": 2382,
+                "top": 1216,
+                "width": 71,
+                "height": 58
+            }
+        },
+        {
+            "text": "valid.”",
+            "confidence": 66.0,
+            "bbox": {
+                "left": 2489,
+                "top": 1138,
+                "width": 455,
+                "height": 169
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 33.0,
+            "bbox": {
+                "left": 4286,
+                "top": 1233,
+                "width": 116,
+                "height": 154
+            }
+        },
+        {
+            "text": "ACK",
+            "confidence": 28.0,
+            "bbox": {
+                "left": 178,
+                "top": 1411,
+                "width": 157,
+                "height": 85
+            }
+        },
+        {
+            "text": "_",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 448,
+                "top": 1412,
+                "width": 1,
+                "height": 83
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 575,
+                "top": 1409,
+                "width": 185,
+                "height": 88
+            }
+        },
+        {
+            "text": "value",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 795,
+                "top": 1409,
+                "width": 259,
+                "height": 88
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1092,
+                "top": 1409,
+                "width": 112,
+                "height": 87
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1223,
+                "top": 1410,
+                "width": 144,
+                "height": 86
+            }
+        },
+        {
+            "text": "acknowledgment",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1403,
+                "top": 1409,
+                "width": 828,
+                "height": 113
+            }
+        },
+        {
+            "text": "field",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2271,
+                "top": 1408,
+                "width": 214,
+                "height": 89
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 2529,
+                "top": 1409,
+                "width": 71,
+                "height": 88
+            }
+        },
+        {
+            "text": "valid.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2636,
+                "top": 1409,
+                "width": 260,
+                "height": 88
+            }
+        },
+        {
+            "text": "PSH",
+            "confidence": 73.0,
+            "bbox": {
+                "left": 181,
+                "top": 1628,
+                "width": 205,
+                "height": 84
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 7.0,
+            "bbox": {
+                "left": 447,
+                "top": 1622,
+                "width": 60,
+                "height": 120
+            }
+        },
+        {
+            "text": "Push",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 580,
+                "top": 1626,
+                "width": 227,
+                "height": 87
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 844,
+                "top": 1626,
+                "width": 141,
+                "height": 88
+            }
+        },
+        {
+            "text": "data.",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1023,
+                "top": 1626,
+                "width": 221,
+                "height": 88
+            }
+        },
+        {
+            "text": "RST",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 181,
+                "top": 1851,
+                "width": 213,
+                "height": 83
+            }
+        },
+        {
+            "text": "Reset",
+            "confidence": 45.0,
+            "bbox": {
+                "left": 580,
+                "top": 1850,
+                "width": 261,
+                "height": 86
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 876,
+                "top": 1849,
+                "width": 143,
+                "height": 87
+            }
+        },
+        {
+            "text": "connection.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1057,
+                "top": 1848,
+                "width": 551,
+                "height": 88
+            }
+        },
+        {
+            "text": "dena",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 3916,
+                "top": 1735,
+                "width": 527,
+                "height": 243
+            }
+        },
+        {
+            "text": "SYN",
+            "confidence": 29.0,
+            "bbox": {
+                "left": 179,
+                "top": 2072,
+                "width": 227,
+                "height": 84
+            }
+        },
+        {
+            "text": "Synchronize",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 578,
+                "top": 2071,
+                "width": 602,
+                "height": 112
+            }
+        },
+        {
+            "text": "sequence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1217,
+                "top": 2098,
+                "width": 441,
+                "height": 86
+            }
+        },
+        {
+            "text": "numbers",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1696,
+                "top": 2071,
+                "width": 412,
+                "height": 89
+            }
+        },
+        {
+            "text": "during",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2143,
+                "top": 2070,
+                "width": 318,
+                "height": 114
+            }
+        },
+        {
+            "text": "connection.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2495,
+                "top": 2071,
+                "width": 552,
+                "height": 87
+            }
+        },
+        {
+            "text": "FN",
+            "confidence": 36.0,
+            "bbox": {
+                "left": 4458,
+                "top": 2089,
+                "width": 178,
+                "height": 32
+            }
+        },
+        {
+            "text": "FIN",
+            "confidence": 78.0,
+            "bbox": {
+                "left": 182,
+                "top": 2289,
+                "width": 177,
+                "height": 84
+            }
+        },
+        {
+            "text": "Terminate",
+            "confidence": 28.0,
+            "bbox": {
+                "left": 576,
+                "top": 2287,
+                "width": 485,
+                "height": 88
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1098,
+                "top": 2288,
+                "width": 145,
+                "height": 87
+            }
+        },
+        {
+            "text": "connection.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1278,
+                "top": 2288,
+                "width": 555,
+                "height": 87
+            }
+        }
+    ]
+}

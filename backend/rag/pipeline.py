@@ -1,11 +1,9 @@
+import os
 import time
-from rag.figure_vision import FigureVision
-from ollama import Client
 
-from config import (
-    OLLAMA_HOST,
-    LLM_MODEL
-)
+from dotenv import load_dotenv
+from google import genai
+from config import GEMINI_MODEL
 from rag.graph_retriever import GraphRetriever
 from rag.context_linker import ContextLinker
 from rag.retriever import Retriever
@@ -13,34 +11,50 @@ from rag.prompt import PromptBuilder
 from rag.vision_retriever import VisionRetriever
 from rag.vision_gate import VisionGate
 from rag.figure_retriever import FigureRetriever
-from rag.query_router import QueryRouter
+
 
 class RAGPipeline:
     """
     Complete Multimodal RAG Pipeline
 
-    Priority:
+    Pipeline priority:
 
-    1. Figure Retriever
-    2. Vector Retrieval
-    3. Vision Gate
-    4. Vision Retriever
-    5. Prompt Builder
-    6. LLM
+    1. Graph Retrieval
+    2. Figure Retrieval
+    3. Normal Vector Retrieval
+    4. Vision Gate
+    5. Vision Retrieval
+    6. Prompt Builder
+    7. Gemini LLM
     """
 
     def __init__(self):
-        
 
-        self.router = QueryRouter()
+        # -------------------------------------------------
+        # Load Gemini API key
+        # -------------------------------------------------
+
+        load_dotenv()
+
+        api_key = os.getenv("GEMINI_API_KEY")
+
+        if not api_key:
+            raise ValueError(
+                "GEMINI_API_KEY is not configured in the .env file."
+            )
+
+        self.client = genai.Client(
+            api_key=api_key
+        )
+
+        # -------------------------------------------------
+        # RAG Components
+        # -------------------------------------------------
+
         self.graph = GraphRetriever()
 
         self.context_linker = ContextLinker()
 
-        self.figure_vision = FigureVision()
-
-        self.client = Client(host=OLLAMA_HOST)
-        self.client = Client(host=OLLAMA_HOST)
         self.retriever = Retriever()
 
         self.prompt_builder = PromptBuilder()
@@ -51,12 +65,18 @@ class RAGPipeline:
 
         self.figure = FigureRetriever()
 
-    # =======================================================
+    # =====================================================
     # MAIN PIPELINE
-    # =======================================================
+    # =====================================================
 
     def ask(self, question: str):
+
         total_start = time.time()
+
+        # -------------------------------------------------
+        # SMALL TALK
+        # -------------------------------------------------
+
         SMALL_TALK = [
 
             "hi",
@@ -72,518 +92,835 @@ class RAGPipeline:
         ]
 
         q = question.lower().strip()
-        print("QUESTION =", q)
-        if any(x in q for x in SMALL_TALK):
+
+        print("=" * 60)
+        print("RAG REQUEST")
+        print("=" * 60)
+        print("QUESTION :", question)
+
+        # -------------------------------------------------
+        # Small Talk Detection
+        # -------------------------------------------------
+
+        if any(
+            phrase == q
+            for phrase in SMALL_TALK
+        ):
 
             print("\n✓ SMALL TALK DETECTED\n")
 
-            response = self.client.chat(
+            prompt = f"""
+You are a friendly AI assistant.
 
-                model=LLM_MODEL,
+Answer the user normally.
 
-                messages=[
+Rules:
+- Do not use the knowledge base.
+- Do not mention documents.
+- Do not mention figures.
+- Do not mention graphs.
+- Do not mention PDFs.
+- Do not mention manuals.
 
-                    {
-                        "role": "system",
-                        "content":
-                        """
-                        You are a friendly AI assistant.
+User:
+{question}
+"""
 
-                        Answer normally.
+            start = time.time()
 
-                        Never use the knowledge base.
+            response = self.client.models.generate_content(
 
-                        Never mention documents,
-                        figures,
-                        graphs,
-                        PDFs,
-                        manuals.
-                        """
-                    },
+                model=GEMINI_MODEL,
 
-                    {
-                        "role": "user",
-                        "content": question
-                    }
+                contents=prompt
 
-                ]
+            )
 
+            llm_time = time.time() - start
+
+            print(
+                f"Gemini Time : {llm_time:.2f} sec"
             )
 
             return {
 
-                "answer": response["message"]["content"],
+                "answer":
+                    response.text.strip(),
 
-                "sources": [],
+                "sources":
+                    [],
 
-                "vision": [],
+                "vision":
+                    [],
 
-                "chat_title": question
+                "graph":
+                    None,
+
+                "chat_title":
+                    question
 
             }
-        retrieval_time = 0
-        vision_time = 0
-        prompt_time = 0
-        llm_time = 0
+
+        # -------------------------------------------------
+        # Performance Timers
+        # -------------------------------------------------
+
+        retrieval_time = 0.0
+
+        vision_time = 0.0
+
+        prompt_time = 0.0
+
+        llm_time = 0.0
+
+        # -------------------------------------------------
+        # Runtime Data
+        # -------------------------------------------------
 
         vision_context = []
+
         sources = []
-        
 
         graph_context = ""
-        print("\nRetrieving relevant documents...\n")
 
+        linked_text = ""
 
-        # ==========================================
+        # =================================================
+        # STEP 1
         # GRAPH RETRIEVAL
-        # ==========================================
+        # =================================================
 
-        graph = self.graph.retrieve(question)
+        print(
+            "\nRetrieving graph information...\n"
+        )
+
+        graph_start = time.time()
+
+        graph = self.graph.retrieve(
+            question
+        )
+
+        graph_time = (
+            time.time() -
+            graph_start
+        )
+
+        print(
+            f"Graph Retrieval : {graph_time:.2f} sec"
+        )
 
         if graph:
 
-            print("✓ Graph Retrieved")
+            print(
+                "\n✓ GRAPH RETRIEVED\n"
+            )
 
-            metadata = graph["metadatas"][0][0]
-            graph_text = graph["documents"][0][0]
+            metadata = (
+                graph["metadatas"][0][0]
+            )
+
+            graph_text = (
+                graph["documents"][0][0]
+            )
 
             prompt = f"""
-        You are an aerospace engineering assistant.
+You are an aerospace engineering assistant.
 
-        Use ONLY the graph information below.
+Use ONLY the graph information provided below.
 
-        {graph_text}
+Do not invent numerical values.
 
-        Question:
-        {question}
-        """
+GRAPH INFORMATION:
 
-            response = self.client.chat(
+{graph_text}
 
-                model=LLM_MODEL,
+USER QUESTION:
 
-                messages=[
+{question}
 
-                    {
+Answer clearly using only the provided graph information.
+"""
 
-                        "role": "user",
+            llm_start = time.time()
 
-                        "content": prompt
+            response = self.client.models.generate_content(
 
-                    }
+                model=GEMINI_MODEL,
 
-                ]
+                contents=prompt
 
             )
+
+            llm_time = (
+                time.time() -
+                llm_start
+            )
+
+            print(
+                f"Graph Gemini Time : {llm_time:.2f} sec"
+            )
+
+            total_time = (
+                time.time() -
+                total_start
+            )
+
+            print(
+                f"Total Graph Request : "
+                f"{total_time:.2f} sec"
+            )
+
             return {
 
-                "answer": response["message"]["content"],
+                "answer":
+                    response.text.strip(),
 
                 "sources": [
+
                     {
-                        "filename": metadata["document"] + ".pdf",
-                        "page": metadata["page"],
-                        "type": "graph"
+
+                        "filename":
+                            metadata.get(
+                                "document",
+                                "Unknown"
+                            ) + ".pdf",
+
+                        "page":
+                            metadata.get(
+                                "page",
+                                "Unknown"
+                            ),
+
+                        "type":
+                            "graph"
+
                     }
+
                 ],
 
+                "vision":
+                    [],
+
                 "graph": {
-                    "title": metadata.get("title", ""),
-                    "summary": graph_text,
-                    "page": metadata["page"]
+
+                    "title":
+                        metadata.get(
+                            "title",
+                            ""
+                        ),
+
+                    "summary":
+                        graph_text,
+
+                    "page":
+                        metadata.get(
+                            "page",
+                            "Unknown"
+                        )
+
                 },
 
-                "chat_title": question
+                "chat_title":
+                    question
 
             }
-            
 
-        # =======================================================
-        # STEP 1
-        # FIGURE RETRIEVER
-        # =======================================================
+        # =================================================
+        # STEP 2
+        # FIGURE RETRIEVAL
+        # =================================================
 
-        figure = self.figure.retrieve(question)
-        linked_text = ""
+        print(
+            "\nChecking Figure Retriever...\n"
+        )
+
+        figure_start = time.time()
+
+        figure = self.figure.retrieve(
+            question
+        )
+
+        figure_time = (
+            time.time() -
+            figure_start
+        )
+
+        print(
+            f"Figure Retrieval : "
+            f"{figure_time:.2f} sec"
+        )
+
+        # -------------------------------------------------
+        # Figure Found
+        # -------------------------------------------------
 
         if figure:
 
-            linked_text = self.context_linker.link(
-
-                figure["document"],
-                figure["page"]
-
+            print(
+                f"\n✓ FIGURE FOUND"
             )
 
-            print("\n" + "=" * 80)
-            print("LINKED CONTEXT")
-            print("=" * 80)
-            print(linked_text)
-            print("=" * 80)
+            print(
+                f"Figure : "
+                f"{figure.get('figure', 'Unknown')}"
+            )
 
-            print("\nLinked Context\n")
-            print(linked_text[:1000])
+            print(
+                f"Document : "
+                f"{figure.get('document', 'Unknown')}"
+            )
 
-        # =========================================================
-# FIGURE RETRIEVAL
-# =========================================================
+            print(
+                f"Page : "
+                f"{figure.get('page', 'Unknown')}"
+            )
 
+            # ---------------------------------------------
+            # Link Figure to Surrounding Context
+            # ---------------------------------------------
 
+            link_start = time.time()
 
-        if figure:
+            linked_text = (
+                self.context_linker.link(
 
-            print(f"\nFigure {figure['figure']} found!")
-            print(f"Page : {figure['page']}")
+                    figure["document"],
 
-            # --------------------------------------------
-            # FULL PAGE VISION
-            # --------------------------------------------
+                    figure["page"]
 
-            vision_description = figure["description"]
+                )
+            )
+
+            link_time = (
+                time.time() -
+                link_start
+            )
+
+            print(
+                f"Context Linking : "
+                f"{link_time:.2f} sec"
+            )
+
+            # ---------------------------------------------
+            # Vision Context
+            # ---------------------------------------------
+
+            figure_description = (
+                figure.get(
+                    "description",
+                    ""
+                )
+            )
 
             vision_context = [
 
-    {
+                {
 
-        "document": figure["document"],
+                    "document":
+                        figure["document"],
 
-        "page": figure["page"],
+                    "page":
+                        figure["page"],
 
-        "images": [
+                    "images": [
 
-            {
+                        {
 
-                "type": "figure",
+                            "type":
+                                "figure",
 
-                "description": figure["description"]
+                            "description":
+                                figure_description
 
-            }
+                        }
 
-        ]
-
-    }
-
-]
-
-            retrieved_results = {
-
-    "documents": [[
-
-        f"""
-Figure Number : {figure['figure']}
-
-Figure Title : {figure['title']}
-
-Figure Description :
-
-{figure['description']}
-"""
-
-    ]],
-
-    "metadatas": [[
-
-        {
-
-            "filename": figure["document"] + ".pdf",
-
-            "document": figure["document"],
-
-            "page": figure["page"],
-
-            "type": "figure"
-
-        }
-
-    ]]
-
-}
-
-            prompt = self.prompt_builder.build_prompt(
-
-                question,
-
-                retrieved_results,
-
-                vision_context,
-
-                linked_text,
-
-                graph_context=""
-            )
-
-            response = self.client.chat(
-
-                model=LLM_MODEL,
-
-                messages=[
-
-                    {
-
-                        "role": "user",
-
-                        "content": prompt
-
-                    }
-
-                ],
-
-                options={
-
-                    "temperature": 0,
-
-                    "num_predict": 350,
-
-                    "num_ctx": 4096
+                    ]
 
                 }
 
-            )
+            ]
 
-            return {
+            # ---------------------------------------------
+            # Construct Retrieved Results
+            # ---------------------------------------------
 
-                "answer": response["message"]["content"],
-
-                "sources": [
-
-                    {
-                        "filename": figure["document"] + ".pdf",
-                        "page": figure["page"],
-                        "type": "figure"
-                    }
-
-                ],
-
-                "vision": vision_context,
-
-                "chat_title": question
-
-            }
-
-            if images:
-
-                vision_context.append(
-                    {
-                        "document": figure["document"],
-                        "page": figure["page"],
-                        "images": images
-                    }
-                )
-
-            results = {
+            retrieved_results = {
 
                 "documents": [
+
                     [
-                        figure["text"]
+
+                        f"""
+Figure Number:
+{figure.get("figure", "")}
+
+Figure Title:
+{figure.get("title", "")}
+
+Figure Description:
+
+{figure_description}
+"""
+
                     ]
+
                 ],
 
                 "metadatas": [
+
                     [
+
                         {
 
                             "filename":
-                            figure["document"] + ".pdf",
-
-                            "page":
-                            figure["page"],
+                                figure["document"]
+                                + ".pdf",
 
                             "document":
-                            figure["document"],
+                                figure["document"],
+
+                            "page":
+                                figure["page"],
 
                             "type":
-                            "ocr"
+                                "figure"
 
                         }
+
                     ]
+
                 ]
 
             }
 
-            sources.append(
-                {
-                    "filename":
-                    figure["document"] + ".pdf",
+            # ---------------------------------------------
+            # Build Prompt
+            # ---------------------------------------------
 
-                    "page":
-                    figure["page"],
+            prompt_start = time.time()
 
-                    "type":
-                    "ocr"
-                }
+            prompt = (
+                self.prompt_builder.build_prompt(
+
+                    question,
+
+                    retrieved_results,
+
+                    vision_context,
+
+                    linked_text,
+
+                    graph_context=""
+
+                )
             )
 
-        # =======================================================
-        # STEP 2
-        # NORMAL RETRIEVAL
-        # =======================================================
+            prompt_time = (
+                time.time() -
+                prompt_start
+            )
 
-        else:
+            print(
+                f"Prompt Builder : "
+                f"{prompt_time:.2f} sec"
+            )
 
-            t = time.time()
+            # ---------------------------------------------
+            # Gemini Answer
+            # ---------------------------------------------
 
-            results = self.retriever.retrieve(
+            print(
+                "\nGenerating Figure Answer...\n"
+            )
+
+            llm_start = time.time()
+
+            response = (
+                self.client.models.generate_content(
+
+                    model=GEMINI_MODEL,
+
+                    contents=prompt
+
+                )
+            )
+
+            llm_time = (
+                time.time() -
+                llm_start
+            )
+
+            answer = (
+                response.text.strip()
+            )
+
+            total_time = (
+                time.time() -
+                total_start
+            )
+
+            print(
+                "\n" + "=" * 60
+            )
+
+            print(
+                "FIGURE RAG PERFORMANCE"
+            )
+
+            print(
+                "=" * 60
+            )
+
+            print(
+                f"Figure Retrieval : "
+                f"{figure_time:.2f} sec"
+            )
+
+            print(
+                f"Context Linking  : "
+                f"{link_time:.2f} sec"
+            )
+
+            print(
+                f"Prompt Builder    : "
+                f"{prompt_time:.2f} sec"
+            )
+
+            print(
+                f"Gemini            : "
+                f"{llm_time:.2f} sec"
+            )
+
+            print(
+                "-" * 60
+            )
+
+            print(
+                f"TOTAL             : "
+                f"{total_time:.2f} sec"
+            )
+
+            print(
+                "=" * 60
+            )
+
+            return {
+
+                "answer":
+                    answer,
+
+                "sources": [
+
+                    {
+
+                        "filename":
+                            figure["document"]
+                            + ".pdf",
+
+                        "page":
+                            figure["page"],
+
+                        "type":
+                            "figure"
+
+                    }
+
+                ],
+
+                "vision":
+                    vision_context,
+
+                "graph":
+                    None,
+
+                "chat_title":
+                    question
+
+            }
+
+        # =================================================
+        # STEP 3
+        # NORMAL VECTOR RETRIEVAL
+        # =================================================
+
+        print(
+            "\nRetrieving relevant documents...\n"
+        )
+
+        retrieval_start = time.time()
+
+        results = (
+            self.retriever.retrieve(
 
                 question,
 
                 top_k=5
 
             )
+        )
 
-            retrieval_time = time.time() - t
+        retrieval_time = (
+            time.time() -
+            retrieval_start
+        )
 
-            print("\nChecking Vision Gate...\n")
+        print(
+            f"Retrieval : "
+            f"{retrieval_time:.2f} sec"
+        )
 
-            if self.vision_gate.requires_vision(question):
+        # =================================================
+        # STEP 4
+        # VISION GATE
+        # =================================================
 
-                print("✓ Vision Required\n")
+        print(
+            "\nChecking Vision Gate...\n"
+        )
 
-                t = time.time()
+        if (
+            self.vision_gate.requires_vision(
+                question
+            )
+        ):
 
-                vision_context = self.vision.analyze_results(
+            print(
+                "✓ Vision Required\n"
+            )
+
+            vision_start = time.time()
+
+            vision_context = (
+                self.vision.analyze_results(
+
                     results
+
                 )
+            )
 
-                vision_time = time.time() - t
+            vision_time = (
+                time.time() -
+                vision_start
+            )
 
-            else:
+            print(
+                f"Vision : "
+                f"{vision_time:.2f} sec"
+            )
 
-                print("✓ Vision Skipped")
+        else:
 
-            # -----------------------------------------------
-            # Sources
-            # -----------------------------------------------
+            print(
+                "✓ Vision Skipped"
+            )
 
-            seen = set()
+        # =================================================
+        # STEP 5
+        # COLLECT SOURCES
+        # =================================================
 
-            if results["metadatas"]:
+        seen = set()
 
-                for meta in results["metadatas"][0]:
+        metadatas = (
+            results.get(
+                "metadatas",
+                []
+            )
+        )
 
-                    filename = meta.get(
+        if metadatas:
+
+            for meta in metadatas[0]:
+
+                filename = (
+                    meta.get(
                         "filename",
                         "Unknown"
                     )
+                )
 
-                    page = meta.get(
+                page = (
+                    meta.get(
                         "page",
                         "Unknown"
                     )
+                )
 
-                    src = (filename, page)
+                source_key = (
 
-                    if src in seen:
-                        continue
+                    filename,
 
-                    seen.add(src)
+                    page
 
-                    sources.append(
-                        {
-                            "filename": filename,
-                            "page": page,
-                            "type": meta.get(
+                )
+
+                if source_key in seen:
+                    continue
+
+                seen.add(
+                    source_key
+                )
+
+                sources.append(
+
+                    {
+
+                        "filename":
+                            filename,
+
+                        "page":
+                            page,
+
+                        "type":
+                            meta.get(
                                 "type",
                                 "pdf"
                             )
-                        }
-                    )
 
-        # =======================================================
-        # STEP 3
-        # BUILD PROMPT
-        # =======================================================
+                    }
 
-        print("\nBuilding Prompt...\n")
+                )
 
-        t = time.time()
+        # =================================================
+        # STEP 6
+        # BUILD FINAL PROMPT
+        # =================================================
 
-        prompt = self.prompt_builder.build_prompt(
-
-            question,
-
-            results,
-
-            vision_context,
-
-            linked_text,
-
-            graph_context=""
-
+        print(
+            "\nBuilding Prompt...\n"
         )
 
-        prompt_time = time.time() - t
-        # =======================================================
-        # STEP 4
-        # ASK LLM
-        # =======================================================
+        prompt_start = time.time()
 
-        print("\nGenerating Answer...\n")
+        prompt = (
+            self.prompt_builder.build_prompt(
 
-        t = time.time()
+                question,
 
-        response = self.client.chat(
+                results,
 
-            model=LLM_MODEL,
+                vision_context,
 
-            messages=[
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ],
+                linked_text,
 
-            options={
+                graph_context=""
 
-                "temperature": 0,
-
-                "num_predict": 300,
-
-                "num_ctx": 4096
-
-            }
-
+            )
         )
 
-        llm_time = time.time() - t
+        prompt_time = (
+            time.time() -
+            prompt_start
+        )
 
-        answer = response["message"]["content"]
+        print(
+            f"Prompt Builder : "
+            f"{prompt_time:.2f} sec"
+        )
 
-        # =======================================================
+        # =================================================
+        # STEP 7
+        # GEMINI GENERATION
+        # =================================================
+
+        print(
+            "\nGenerating Answer...\n"
+        )
+
+        llm_start = time.time()
+
+        response = (
+            self.client.models.generate_content(
+
+                model=GEMINI_MODEL,
+
+                contents=prompt
+
+            )
+        )
+
+        llm_time = (
+            time.time() -
+            llm_start
+        )
+
+        answer = (
+            response.text.strip()
+        )
+
+        # =================================================
         # PERFORMANCE
-        # =======================================================
+        # =================================================
 
-        total_time = time.time() - total_start
+        total_time = (
+            time.time() -
+            total_start
+        )
 
-        print("\n" + "=" * 60)
-        print("MULTIMODAL RAG PERFORMANCE")
-        print("=" * 60)
+        print(
+            "\n" + "=" * 60
+        )
 
-        print(f"Retrieval       : {retrieval_time:.2f} sec")
-        print(f"Vision          : {vision_time:.2f} sec")
-        print(f"Prompt Builder  : {prompt_time:.2f} sec")
-        print(f"LLM             : {llm_time:.2f} sec")
+        print(
+            "MULTIMODAL RAG PERFORMANCE"
+        )
 
-        print("-" * 60)
+        print(
+            "=" * 60
+        )
 
-        print(f"TOTAL           : {total_time:.2f} sec")
+        print(
+            f"Retrieval       : "
+            f"{retrieval_time:.2f} sec"
+        )
 
-        print("=" * 60)
+        print(
+            f"Vision          : "
+            f"{vision_time:.2f} sec"
+        )
 
-        # =======================================================
+        print(
+            f"Prompt Builder  : "
+            f"{prompt_time:.2f} sec"
+        )
+
+        print(
+            f"LLM             : "
+            f"{llm_time:.2f} sec"
+        )
+
+        print(
+            "-" * 60
+        )
+
+        print(
+            f"TOTAL           : "
+            f"{total_time:.2f} sec"
+        )
+
+        print(
+            "=" * 60
+        )
+
+        # =================================================
         # RETURN
-        # =======================================================
+        # =================================================
 
         return {
 
-            "answer": answer,
+            "answer":
+                answer,
 
-            "sources": sources,
+            "sources":
+                sources,
 
-            "vision": vision_context,
+            "vision":
+                vision_context,
 
-            "chat_title": question
+            "graph":
+                None,
 
-
-
+            "chat_title":
+                question
 
         }

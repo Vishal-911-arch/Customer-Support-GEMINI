@@ -1,0 +1,708 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_101",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_101.png",
+    "text": "Leaky bucket implementation Leaky bucket algorithm Remove packets taconstant rate , N Arrival Ki) : LETT Ty. Departure Queue Y Discard 7 FIFO queue holds the packets. y It the traffic consists of fixed-size packets.the process removes a fixed number of packets from the queue at each tick of the clock. y If traffic consists of variable-length packets. fixed output rate must be based on no. of bvtes or bits.",
+    "words": [
+        {
+            "text": "Leaky",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 1713,
+                "top": 117,
+                "width": 286,
+                "height": 108
+            }
+        },
+        {
+            "text": "bucket",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2046,
+                "top": 117,
+                "width": 310,
+                "height": 83
+            }
+        },
+        {
+            "text": "implementation",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 2407,
+                "top": 117,
+                "width": 746,
+                "height": 109
+            }
+        },
+        {
+            "text": "Leaky",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2283,
+                "top": 451,
+                "width": 201,
+                "height": 79
+            }
+        },
+        {
+            "text": "bucket",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2516,
+                "top": 451,
+                "width": 242,
+                "height": 61
+            }
+        },
+        {
+            "text": "algorithm",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2787,
+                "top": 451,
+                "width": 359,
+                "height": 79
+            }
+        },
+        {
+            "text": "Remove",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2415,
+                "top": 604,
+                "width": 295,
+                "height": 60
+            }
+        },
+        {
+            "text": "packets",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2740,
+                "top": 604,
+                "width": 273,
+                "height": 76
+            }
+        },
+        {
+            "text": "taconstant",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 2430,
+                "top": 717,
+                "width": 426,
+                "height": 51
+            }
+        },
+        {
+            "text": "rate",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2890,
+                "top": 718,
+                "width": 131,
+                "height": 50
+            }
+        },
+        {
+            "text": ",",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 1143,
+                "top": 998,
+                "width": 5,
+                "height": 2
+            }
+        },
+        {
+            "text": "N",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1891,
+                "top": 938,
+                "width": 44,
+                "height": 58
+            }
+        },
+        {
+            "text": "Arrival",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1026,
+                "top": 990,
+                "width": 229,
+                "height": 83
+            }
+        },
+        {
+            "text": "Ki)",
+            "confidence": 36.0,
+            "bbox": {
+                "left": 1506,
+                "top": 862,
+                "width": 333,
+                "height": 333
+            }
+        },
+        {
+            "text": ":",
+            "confidence": 7.0,
+            "bbox": {
+                "left": 2062,
+                "top": 967,
+                "width": 3,
+                "height": 92
+            }
+        },
+        {
+            "text": "LETT",
+            "confidence": 24.0,
+            "bbox": {
+                "left": 2208,
+                "top": 955,
+                "width": 296,
+                "height": 150
+            }
+        },
+        {
+            "text": "Ty.",
+            "confidence": 5.0,
+            "bbox": {
+                "left": 2541,
+                "top": 955,
+                "width": 88,
+                "height": 150
+            }
+        },
+        {
+            "text": "Departure",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3515,
+                "top": 1000,
+                "width": 370,
+                "height": 75
+            }
+        },
+        {
+            "text": "Queue",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2262,
+                "top": 1134,
+                "width": 242,
+                "height": 66
+            }
+        },
+        {
+            "text": "Y",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 1716,
+                "top": 1225,
+                "width": 35,
+                "height": 56
+            }
+        },
+        {
+            "text": "Discard",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1345,
+                "top": 1354,
+                "width": 263,
+                "height": 62
+            }
+        },
+        {
+            "text": "7",
+            "confidence": 40.0,
+            "bbox": {
+                "left": 165,
+                "top": 1774,
+                "width": 66,
+                "height": 76
+            }
+        },
+        {
+            "text": "FIFO",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 308,
+                "top": 1773,
+                "width": 252,
+                "height": 83
+            }
+        },
+        {
+            "text": "queue",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 599,
+                "top": 1800,
+                "width": 283,
+                "height": 83
+            }
+        },
+        {
+            "text": "holds",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 923,
+                "top": 1772,
+                "width": 256,
+                "height": 85
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1218,
+                "top": 1772,
+                "width": 138,
+                "height": 85
+            }
+        },
+        {
+            "text": "packets.",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1399,
+                "top": 1772,
+                "width": 378,
+                "height": 111
+            }
+        },
+        {
+            "text": "y",
+            "confidence": 59.0,
+            "bbox": {
+                "left": 165,
+                "top": 1996,
+                "width": 66,
+                "height": 76
+            }
+        },
+        {
+            "text": "It",
+            "confidence": 67.0,
+            "bbox": {
+                "left": 308,
+                "top": 1995,
+                "width": 64,
+                "height": 83
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 377,
+                "top": 1993,
+                "width": 179,
+                "height": 86
+            }
+        },
+        {
+            "text": "traffic",
+            "confidence": 73.0,
+            "bbox": {
+                "left": 596,
+                "top": 1993,
+                "width": 284,
+                "height": 86
+            }
+        },
+        {
+            "text": "consists",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 923,
+                "top": 1994,
+                "width": 378,
+                "height": 85
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1340,
+                "top": 1994,
+                "width": 109,
+                "height": 84
+            }
+        },
+        {
+            "text": "fixed-size",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1476,
+                "top": 1993,
+                "width": 469,
+                "height": 86
+            }
+        },
+        {
+            "text": "packets.the",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1988,
+                "top": 1994,
+                "width": 534,
+                "height": 112
+            }
+        },
+        {
+            "text": "process",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2565,
+                "top": 2022,
+                "width": 355,
+                "height": 83
+            }
+        },
+        {
+            "text": "removes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2961,
+                "top": 2022,
+                "width": 402,
+                "height": 57
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 3402,
+                "top": 2023,
+                "width": 48,
+                "height": 56
+            }
+        },
+        {
+            "text": "fixed",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 3493,
+                "top": 1994,
+                "width": 235,
+                "height": 85
+            }
+        },
+        {
+            "text": "number",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3772,
+                "top": 1994,
+                "width": 363,
+                "height": 85
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 4174,
+                "top": 2000,
+                "width": 90,
+                "height": 78
+            }
+        },
+        {
+            "text": "packets",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4268,
+                "top": 1994,
+                "width": 397,
+                "height": 111
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4709,
+                "top": 1994,
+                "width": 219,
+                "height": 84
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4973,
+                "top": 1994,
+                "width": 138,
+                "height": 85
+            }
+        },
+        {
+            "text": "queue",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 302,
+                "top": 2239,
+                "width": 284,
+                "height": 83
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 624,
+                "top": 2227,
+                "width": 79,
+                "height": 69
+            }
+        },
+        {
+            "text": "each",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 743,
+                "top": 2211,
+                "width": 215,
+                "height": 85
+            }
+        },
+        {
+            "text": "tick",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 999,
+                "top": 2211,
+                "width": 173,
+                "height": 85
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1212,
+                "top": 2210,
+                "width": 109,
+                "height": 84
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1347,
+                "top": 2211,
+                "width": 137,
+                "height": 85
+            }
+        },
+        {
+            "text": "clock.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1524,
+                "top": 2211,
+                "width": 279,
+                "height": 86
+            }
+        },
+        {
+            "text": "y",
+            "confidence": 42.0,
+            "bbox": {
+                "left": 165,
+                "top": 2435,
+                "width": 65,
+                "height": 76
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 307,
+                "top": 2434,
+                "width": 63,
+                "height": 83
+            }
+        },
+        {
+            "text": "traffic",
+            "confidence": 79.0,
+            "bbox": {
+                "left": 375,
+                "top": 2432,
+                "width": 326,
+                "height": 86
+            }
+        },
+        {
+            "text": "consists",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 743,
+                "top": 2433,
+                "width": 379,
+                "height": 85
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1160,
+                "top": 2432,
+                "width": 109,
+                "height": 85
+            }
+        },
+        {
+            "text": "variable-length",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1293,
+                "top": 2433,
+                "width": 730,
+                "height": 110
+            }
+        },
+        {
+            "text": "packets.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2066,
+                "top": 2433,
+                "width": 383,
+                "height": 111
+            }
+        },
+        {
+            "text": "fixed",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2496,
+                "top": 2433,
+                "width": 234,
+                "height": 85
+            }
+        },
+        {
+            "text": "output",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2773,
+                "top": 2450,
+                "width": 302,
+                "height": 94
+            }
+        },
+        {
+            "text": "rate",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3118,
+                "top": 2450,
+                "width": 172,
+                "height": 68
+            }
+        },
+        {
+            "text": "must",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3332,
+                "top": 2451,
+                "width": 225,
+                "height": 67
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3601,
+                "top": 2433,
+                "width": 102,
+                "height": 85
+            }
+        },
+        {
+            "text": "based",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3746,
+                "top": 2433,
+                "width": 265,
+                "height": 85
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4051,
+                "top": 2461,
+                "width": 113,
+                "height": 56
+            }
+        },
+        {
+            "text": "no.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4208,
+                "top": 2461,
+                "width": 133,
+                "height": 56
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 4389,
+                "top": 2432,
+                "width": 109,
+                "height": 85
+            }
+        },
+        {
+            "text": "bvtes",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 4523,
+                "top": 2433,
+                "width": 247,
+                "height": 110
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4809,
+                "top": 2461,
+                "width": 95,
+                "height": 56
+            }
+        },
+        {
+            "text": "bits.",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 4943,
+                "top": 2433,
+                "width": 188,
+                "height": 84
+            }
+        }
+    ]
+}

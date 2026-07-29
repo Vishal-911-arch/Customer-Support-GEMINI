@@ -1,0 +1,968 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_11",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_11.png",
+    "text": "Transmission Control Protocol (TCP) > TCP is a process-to-process protocol. > TCP is aconnection oriented protocol; it creates a virtual connection between two TCPs to send data. > TCP uses flow and error control mechanisms at the transport level. > It adds connection-oriented and reliability features to the services of IP. TCP is called a connection-oriented, reliable transport protocol. TCP Services: 1. Process-to-Process Communication _~ 2. Stream Delivery Service: -’ > TCP allows sending process to deliver data as a stream of bytes and allows the receiving process to obtain data as a stream of bytes.",
+    "words": [
+        {
+            "text": "Transmission",
+            "confidence": 56.0,
+            "bbox": {
+                "left": 1714,
+                "top": 0,
+                "width": 680,
+                "height": 164
+            }
+        },
+        {
+            "text": "Control",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2433,
+                "top": 54,
+                "width": 364,
+                "height": 88
+            }
+        },
+        {
+            "text": "Protocol",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2841,
+                "top": 54,
+                "width": 400,
+                "height": 88
+            }
+        },
+        {
+            "text": "(TCP)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3283,
+                "top": 49,
+                "width": 330,
+                "height": 160
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 117,
+                "top": 276,
+                "width": 73,
+                "height": 82
+            }
+        },
+        {
+            "text": "TCP",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 255,
+                "top": 277,
+                "width": 221,
+                "height": 88
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 71.0,
+            "bbox": {
+                "left": 511,
+                "top": 275,
+                "width": 72,
+                "height": 89
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 617,
+                "top": 303,
+                "width": 51,
+                "height": 61
+            }
+        },
+        {
+            "text": "process-to-process",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 703,
+                "top": 289,
+                "width": 904,
+                "height": 101
+            }
+        },
+        {
+            "text": "protocol.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1645,
+                "top": 275,
+                "width": 424,
+                "height": 115
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 117,
+                "top": 498,
+                "width": 73,
+                "height": 83
+            }
+        },
+        {
+            "text": "TCP",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 255,
+                "top": 499,
+                "width": 221,
+                "height": 88
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 511,
+                "top": 497,
+                "width": 72,
+                "height": 89
+            }
+        },
+        {
+            "text": "aconnection",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 619,
+                "top": 497,
+                "width": 616,
+                "height": 90
+            }
+        },
+        {
+            "text": "oriented",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1269,
+                "top": 497,
+                "width": 394,
+                "height": 90
+            }
+        },
+        {
+            "text": "protocol;",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1702,
+                "top": 497,
+                "width": 432,
+                "height": 115
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2178,
+                "top": 497,
+                "width": 60,
+                "height": 89
+            }
+        },
+        {
+            "text": "creates",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2271,
+                "top": 512,
+                "width": 335,
+                "height": 75
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2642,
+                "top": 525,
+                "width": 51,
+                "height": 61
+            }
+        },
+        {
+            "text": "virtual",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2727,
+                "top": 497,
+                "width": 310,
+                "height": 89
+            }
+        },
+        {
+            "text": "connection",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3077,
+                "top": 497,
+                "width": 532,
+                "height": 94
+            }
+        },
+        {
+            "text": "between",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3644,
+                "top": 497,
+                "width": 401,
+                "height": 90
+            }
+        },
+        {
+            "text": "two",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 4080,
+                "top": 512,
+                "width": 180,
+                "height": 74
+            }
+        },
+        {
+            "text": "TCPs",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 4291,
+                "top": 499,
+                "width": 269,
+                "height": 88
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4593,
+                "top": 511,
+                "width": 92,
+                "height": 75
+            }
+        },
+        {
+            "text": "send",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4721,
+                "top": 498,
+                "width": 217,
+                "height": 89
+            }
+        },
+        {
+            "text": "data.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4973,
+                "top": 498,
+                "width": 223,
+                "height": 89
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 71.0,
+            "bbox": {
+                "left": 117,
+                "top": 715,
+                "width": 73,
+                "height": 83
+            }
+        },
+        {
+            "text": "TCP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 255,
+                "top": 716,
+                "width": 149,
+                "height": 87
+            }
+        },
+        {
+            "text": "uses",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 508,
+                "top": 742,
+                "width": 204,
+                "height": 61
+            }
+        },
+        {
+            "text": "flow",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 748,
+                "top": 712,
+                "width": 221,
+                "height": 91
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1000,
+                "top": 714,
+                "width": 173,
+                "height": 89
+            }
+        },
+        {
+            "text": "error",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1208,
+                "top": 741,
+                "width": 236,
+                "height": 63
+            }
+        },
+        {
+            "text": "control",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1477,
+                "top": 714,
+                "width": 337,
+                "height": 89
+            }
+        },
+        {
+            "text": "mechanisms",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1856,
+                "top": 714,
+                "width": 596,
+                "height": 89
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2488,
+                "top": 728,
+                "width": 84,
+                "height": 75
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2606,
+                "top": 714,
+                "width": 146,
+                "height": 89
+            }
+        },
+        {
+            "text": "transport",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2785,
+                "top": 728,
+                "width": 432,
+                "height": 101
+            }
+        },
+        {
+            "text": "level.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 3254,
+                "top": 713,
+                "width": 255,
+                "height": 93
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 117,
+                "top": 937,
+                "width": 73,
+                "height": 83
+            }
+        },
+        {
+            "text": "It",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 259,
+                "top": 938,
+                "width": 68,
+                "height": 87
+            }
+        },
+        {
+            "text": "adds",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 361,
+                "top": 936,
+                "width": 220,
+                "height": 90
+            }
+        },
+        {
+            "text": "connection-oriented",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 615,
+                "top": 936,
+                "width": 974,
+                "height": 90
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1625,
+                "top": 936,
+                "width": 171,
+                "height": 90
+            }
+        },
+        {
+            "text": "reliability",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1834,
+                "top": 936,
+                "width": 468,
+                "height": 115
+            }
+        },
+        {
+            "text": "features",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2342,
+                "top": 935,
+                "width": 380,
+                "height": 91
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2757,
+                "top": 951,
+                "width": 91,
+                "height": 74
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2881,
+                "top": 936,
+                "width": 147,
+                "height": 90
+            }
+        },
+        {
+            "text": "services",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3066,
+                "top": 933,
+                "width": 388,
+                "height": 97
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3488,
+                "top": 935,
+                "width": 114,
+                "height": 90
+            }
+        },
+        {
+            "text": "IP.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3624,
+                "top": 938,
+                "width": 111,
+                "height": 86
+            }
+        },
+        {
+            "text": "TCP",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1008,
+                "top": 1155,
+                "width": 240,
+                "height": 86
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1278,
+                "top": 1155,
+                "width": 75,
+                "height": 85
+            }
+        },
+        {
+            "text": "called",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1389,
+                "top": 1155,
+                "width": 297,
+                "height": 87
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1725,
+                "top": 1181,
+                "width": 51,
+                "height": 61
+            }
+        },
+        {
+            "text": "connection-oriented,",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1817,
+                "top": 1153,
+                "width": 1065,
+                "height": 102
+            }
+        },
+        {
+            "text": "reliable",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 2918,
+                "top": 1153,
+                "width": 385,
+                "height": 92
+            }
+        },
+        {
+            "text": "transport",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3341,
+                "top": 1165,
+                "width": 491,
+                "height": 102
+            }
+        },
+        {
+            "text": "protocol.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3872,
+                "top": 1155,
+                "width": 447,
+                "height": 112
+            }
+        },
+        {
+            "text": "TCP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2266,
+                "top": 1601,
+                "width": 178,
+                "height": 101
+            }
+        },
+        {
+            "text": "Services:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2558,
+                "top": 1601,
+                "width": 498,
+                "height": 97
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 77.0,
+            "bbox": {
+                "left": 122,
+                "top": 1838,
+                "width": 63,
+                "height": 87
+            }
+        },
+        {
+            "text": "Process-to-Process",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 310,
+                "top": 1838,
+                "width": 916,
+                "height": 88
+            }
+        },
+        {
+            "text": "Communication",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1259,
+                "top": 1836,
+                "width": 782,
+                "height": 90
+            }
+        },
+        {
+            "text": "_~",
+            "confidence": 54.0,
+            "bbox": {
+                "left": 2135,
+                "top": 1851,
+                "width": 188,
+                "height": 101
+            }
+        },
+        {
+            "text": "2.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 105,
+                "top": 2054,
+                "width": 80,
+                "height": 88
+            }
+        },
+        {
+            "text": "Stream",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 310,
+                "top": 2055,
+                "width": 333,
+                "height": 87
+            }
+        },
+        {
+            "text": "Delivery",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 686,
+                "top": 2053,
+                "width": 417,
+                "height": 114
+            }
+        },
+        {
+            "text": "Service:",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1144,
+                "top": 2053,
+                "width": 384,
+                "height": 89
+            }
+        },
+        {
+            "text": "-’",
+            "confidence": 17.0,
+            "bbox": {
+                "left": 1612,
+                "top": 2063,
+                "width": 130,
+                "height": 91
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 317,
+                "top": 2276,
+                "width": 73,
+                "height": 83
+            }
+        },
+        {
+            "text": "TCP",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 455,
+                "top": 2277,
+                "width": 149,
+                "height": 88
+            }
+        },
+        {
+            "text": "allows",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 705,
+                "top": 2275,
+                "width": 317,
+                "height": 89
+            }
+        },
+        {
+            "text": "sending",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1057,
+                "top": 2275,
+                "width": 377,
+                "height": 115
+            }
+        },
+        {
+            "text": "process",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1467,
+                "top": 2299,
+                "width": 363,
+                "height": 91
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1861,
+                "top": 2290,
+                "width": 96,
+                "height": 78
+            }
+        },
+        {
+            "text": "deliver",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1984,
+                "top": 2272,
+                "width": 341,
+                "height": 93
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2358,
+                "top": 2275,
+                "width": 202,
+                "height": 90
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2592,
+                "top": 2303,
+                "width": 98,
+                "height": 61
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2725,
+                "top": 2303,
+                "width": 51,
+                "height": 61
+            }
+        },
+        {
+            "text": "stream",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2809,
+                "top": 2290,
+                "width": 318,
+                "height": 75
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3166,
+                "top": 2274,
+                "width": 113,
+                "height": 90
+            }
+        },
+        {
+            "text": "bytes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3298,
+                "top": 2275,
+                "width": 254,
+                "height": 115
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3586,
+                "top": 2275,
+                "width": 170,
+                "height": 89
+            }
+        },
+        {
+            "text": "allows",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3792,
+                "top": 2275,
+                "width": 316,
+                "height": 89
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4141,
+                "top": 2275,
+                "width": 144,
+                "height": 90
+            }
+        },
+        {
+            "text": "receiving",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4322,
+                "top": 2275,
+                "width": 452,
+                "height": 115
+            }
+        },
+        {
+            "text": "process",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4808,
+                "top": 2303,
+                "width": 361,
+                "height": 87
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 455,
+                "top": 2512,
+                "width": 91,
+                "height": 74
+            }
+        },
+        {
+            "text": "obtain",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 582,
+                "top": 2497,
+                "width": 301,
+                "height": 90
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 916,
+                "top": 2497,
+                "width": 203,
+                "height": 90
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1152,
+                "top": 2525,
+                "width": 98,
+                "height": 61
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1283,
+                "top": 2525,
+                "width": 52,
+                "height": 61
+            }
+        },
+        {
+            "text": "stream",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1371,
+                "top": 2512,
+                "width": 315,
+                "height": 75
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1725,
+                "top": 2492,
+                "width": 114,
+                "height": 94
+            }
+        },
+        {
+            "text": "bytes.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1859,
+                "top": 2497,
+                "width": 275,
+                "height": 115
+            }
+        }
+    ]
+}

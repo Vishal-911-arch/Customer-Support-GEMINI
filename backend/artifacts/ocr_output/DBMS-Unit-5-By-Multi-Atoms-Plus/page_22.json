@@ -1,0 +1,2248 @@
+{
+    "document": "DBMS-Unit-5-By-Multi-Atoms-Plus",
+    "page": "page_22",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\DBMS-Unit-5-By-Multi-Atoms-Plus\\page_22.png",
+    "text": "Steps in Graph-Based Locking 1. Identify the hierarchy of data items and arrange them ina DAG. (Example: Database — Table — Row — Column.) 2.A transaction locks data items starting from the highest node in the hierarchy. 3. The transaction can only lock children of a locked parent. 4. When finished, the transaction releases locks in a reverse order (from leaf to root). iB) Hierarchy of Data Items in a Library System: Database — Section — Book — Page 5 B Transactions: 1. Ti: Read a specific page (P1) of a book (B1): p - Lock order: Database — Section — Book (B1) — Page (P1). 2. T2: Modify a book (B2): - Lock order: Database — Section — Book (B2). 3. T3: Read all books in a section: - Lock order: Database — Section. Deadlock Prevention: - If T1 locks Page P1, T2 cannot directly jump to modify Page P1 without following the lock hierarchy. - Transactions must respect the lock order, preventing circular dependencies. Advantages of Graph-Based Locking - Deadlock-Free: Ensures no circular waits by enforcing a strict locking order. - Efficient Use of Resources: Transactions lock only the required data. - Improved Concurrency: Minimizes unnecessary locking. Disadvantages + Complex Implementation: Managing a DAG for large datasets can be challenging. - Reduced Flexibility: Transactions are forced to follow a rigid locking order.",
+    "words": [
+        {
+            "text": "Steps",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 172,
+                "top": 216,
+                "width": 136,
+                "height": 50
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 335,
+                "top": 215,
+                "width": 36,
+                "height": 39
+            }
+        },
+        {
+            "text": "Graph-Based",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 395,
+                "top": 212,
+                "width": 314,
+                "height": 54
+            }
+        },
+        {
+            "text": "Locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 734,
+                "top": 212,
+                "width": 173,
+                "height": 54
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 62.0,
+            "bbox": {
+                "left": 248,
+                "top": 358,
+                "width": 23,
+                "height": 28
+            }
+        },
+        {
+            "text": "Identify",
+            "confidence": 62.0,
+            "bbox": {
+                "left": 285,
+                "top": 347,
+                "width": 188,
+                "height": 51
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 490,
+                "top": 347,
+                "width": 73,
+                "height": 39
+            }
+        },
+        {
+            "text": "hierarchy",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 582,
+                "top": 347,
+                "width": 210,
+                "height": 50
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 809,
+                "top": 347,
+                "width": 45,
+                "height": 41
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 873,
+                "top": 347,
+                "width": 97,
+                "height": 39
+            }
+        },
+        {
+            "text": "items",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 989,
+                "top": 349,
+                "width": 116,
+                "height": 38
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1123,
+                "top": 347,
+                "width": 74,
+                "height": 39
+            }
+        },
+        {
+            "text": "arrange",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1215,
+                "top": 359,
+                "width": 169,
+                "height": 38
+            }
+        },
+        {
+            "text": "them",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1401,
+                "top": 347,
+                "width": 109,
+                "height": 40
+            }
+        },
+        {
+            "text": "ina",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1531,
+                "top": 349,
+                "width": 72,
+                "height": 37
+            }
+        },
+        {
+            "text": "DAG.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1622,
+                "top": 347,
+                "width": 107,
+                "height": 39
+            }
+        },
+        {
+            "text": "(Example:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 301,
+                "top": 442,
+                "width": 208,
+                "height": 52
+            }
+        },
+        {
+            "text": "Database",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 533,
+                "top": 443,
+                "width": 202,
+                "height": 39
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 752,
+                "top": 460,
+                "width": 44,
+                "height": 16
+            }
+        },
+        {
+            "text": "Table",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 815,
+                "top": 442,
+                "width": 121,
+                "height": 40
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 953,
+                "top": 460,
+                "width": 44,
+                "height": 16
+            }
+        },
+        {
+            "text": "Row",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1016,
+                "top": 444,
+                "width": 84,
+                "height": 38
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 1117,
+                "top": 460,
+                "width": 44,
+                "height": 16
+            }
+        },
+        {
+            "text": "Column.)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1180,
+                "top": 442,
+                "width": 180,
+                "height": 48
+            }
+        },
+        {
+            "text": "2.A",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 247,
+                "top": 541,
+                "width": 68,
+                "height": 36
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 334,
+                "top": 540,
+                "width": 250,
+                "height": 37
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 604,
+                "top": 537,
+                "width": 106,
+                "height": 40
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 728,
+                "top": 538,
+                "width": 97,
+                "height": 39
+            }
+        },
+        {
+            "text": "items",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 844,
+                "top": 540,
+                "width": 116,
+                "height": 38
+            }
+        },
+        {
+            "text": "starting",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 977,
+                "top": 540,
+                "width": 177,
+                "height": 48
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1172,
+                "top": 538,
+                "width": 106,
+                "height": 41
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1296,
+                "top": 538,
+                "width": 73,
+                "height": 39
+            }
+        },
+        {
+            "text": "highest",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1388,
+                "top": 538,
+                "width": 161,
+                "height": 50
+            }
+        },
+        {
+            "text": "node",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1567,
+                "top": 538,
+                "width": 101,
+                "height": 39
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1687,
+                "top": 540,
+                "width": 33,
+                "height": 37
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1738,
+                "top": 538,
+                "width": 73,
+                "height": 39
+            }
+        },
+        {
+            "text": "hierarchy.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1830,
+                "top": 538,
+                "width": 220,
+                "height": 51
+            }
+        },
+        {
+            "text": "3.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 247,
+                "top": 646,
+                "width": 24,
+                "height": 27
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 97.0,
+            "bbox": {
+                "left": 286,
+                "top": 634,
+                "width": 83,
+                "height": 38
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 386,
+                "top": 636,
+                "width": 249,
+                "height": 37
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 654,
+                "top": 646,
+                "width": 70,
+                "height": 27
+            }
+        },
+        {
+            "text": "only",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 741,
+                "top": 633,
+                "width": 86,
+                "height": 52
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 846,
+                "top": 633,
+                "width": 84,
+                "height": 40
+            }
+        },
+        {
+            "text": "children",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 947,
+                "top": 633,
+                "width": 177,
+                "height": 40
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1142,
+                "top": 634,
+                "width": 45,
+                "height": 41
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1205,
+                "top": 647,
+                "width": 22,
+                "height": 25
+            }
+        },
+        {
+            "text": "locked",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1247,
+                "top": 633,
+                "width": 136,
+                "height": 40
+            }
+        },
+        {
+            "text": "parent.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1402,
+                "top": 638,
+                "width": 153,
+                "height": 47
+            }
+        },
+        {
+            "text": "4.",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 245,
+                "top": 740,
+                "width": 26,
+                "height": 28
+            }
+        },
+        {
+            "text": "When",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 287,
+                "top": 729,
+                "width": 123,
+                "height": 39
+            }
+        },
+        {
+            "text": "finished,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 428,
+                "top": 729,
+                "width": 191,
+                "height": 45
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 637,
+                "top": 729,
+                "width": 73,
+                "height": 39
+            }
+        },
+        {
+            "text": "transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 727,
+                "top": 731,
+                "width": 250,
+                "height": 37
+            }
+        },
+        {
+            "text": "releases",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 996,
+                "top": 728,
+                "width": 180,
+                "height": 40
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1197,
+                "top": 728,
+                "width": 105,
+                "height": 40
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1323,
+                "top": 731,
+                "width": 32,
+                "height": 37
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1373,
+                "top": 742,
+                "width": 22,
+                "height": 25
+            }
+        },
+        {
+            "text": "reverse",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1413,
+                "top": 739,
+                "width": 167,
+                "height": 29
+            }
+        },
+        {
+            "text": "order",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1597,
+                "top": 729,
+                "width": 122,
+                "height": 39
+            }
+        },
+        {
+            "text": "(from",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1737,
+                "top": 729,
+                "width": 123,
+                "height": 47
+            }
+        },
+        {
+            "text": "leaf",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1880,
+                "top": 728,
+                "width": 81,
+                "height": 42
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1980,
+                "top": 733,
+                "width": 43,
+                "height": 35
+            }
+        },
+        {
+            "text": "root).",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 2043,
+                "top": 729,
+                "width": 119,
+                "height": 47
+            }
+        },
+        {
+            "text": "iB)",
+            "confidence": 21.0,
+            "bbox": {
+                "left": 2044,
+                "top": 1077,
+                "width": 20,
+                "height": 24
+            }
+        },
+        {
+            "text": "Hierarchy",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 185,
+                "top": 1117,
+                "width": 239,
+                "height": 54
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 446,
+                "top": 1117,
+                "width": 50,
+                "height": 44
+            }
+        },
+        {
+            "text": "Data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 523,
+                "top": 1119,
+                "width": 112,
+                "height": 40
+            }
+        },
+        {
+            "text": "Items",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 659,
+                "top": 1120,
+                "width": 141,
+                "height": 40
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 827,
+                "top": 1120,
+                "width": 36,
+                "height": 39
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 887,
+                "top": 1131,
+                "width": 26,
+                "height": 28
+            }
+        },
+        {
+            "text": "Library",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 937,
+                "top": 1118,
+                "width": 176,
+                "height": 53
+            }
+        },
+        {
+            "text": "System:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1136,
+                "top": 1121,
+                "width": 193,
+                "height": 50
+            }
+        },
+        {
+            "text": "Database",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 185,
+                "top": 1208,
+                "width": 223,
+                "height": 41
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 434,
+                "top": 1225,
+                "width": 47,
+                "height": 18
+            }
+        },
+        {
+            "text": "Section",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 505,
+                "top": 1210,
+                "width": 178,
+                "height": 39
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 709,
+                "top": 1225,
+                "width": 47,
+                "height": 18
+            }
+        },
+        {
+            "text": "Book",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 782,
+                "top": 1207,
+                "width": 109,
+                "height": 41
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 915,
+                "top": 1225,
+                "width": 47,
+                "height": 18
+            }
+        },
+        {
+            "text": "Page",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 987,
+                "top": 1208,
+                "width": 107,
+                "height": 53
+            }
+        },
+        {
+            "text": "5",
+            "confidence": 61.0,
+            "bbox": {
+                "left": 1836,
+                "top": 1244,
+                "width": 19,
+                "height": 25
+            }
+        },
+        {
+            "text": "B",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 2016,
+                "top": 1386,
+                "width": 19,
+                "height": 24
+            }
+        },
+        {
+            "text": "Transactions:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 177,
+                "top": 1423,
+                "width": 323,
+                "height": 39
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 181,
+                "top": 1498,
+                "width": 29,
+                "height": 40
+            }
+        },
+        {
+            "text": "Ti:",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 230,
+                "top": 1498,
+                "width": 64,
+                "height": 38
+            }
+        },
+        {
+            "text": "Read",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 318,
+                "top": 1497,
+                "width": 109,
+                "height": 41
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 446,
+                "top": 1510,
+                "width": 24,
+                "height": 28
+            }
+        },
+        {
+            "text": "specific",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 487,
+                "top": 1496,
+                "width": 182,
+                "height": 54
+            }
+        },
+        {
+            "text": "page",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 689,
+                "top": 1509,
+                "width": 104,
+                "height": 41
+            }
+        },
+        {
+            "text": "(P1)",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 812,
+                "top": 1496,
+                "width": 82,
+                "height": 51
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 912,
+                "top": 1496,
+                "width": 48,
+                "height": 44
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 979,
+                "top": 1510,
+                "width": 24,
+                "height": 28
+            }
+        },
+        {
+            "text": "book",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1023,
+                "top": 1496,
+                "width": 106,
+                "height": 41
+            }
+        },
+        {
+            "text": "(B1):",
+            "confidence": 74.0,
+            "bbox": {
+                "left": 1147,
+                "top": 1496,
+                "width": 99,
+                "height": 51
+            }
+        },
+        {
+            "text": "p",
+            "confidence": 59.0,
+            "bbox": {
+                "left": 2210,
+                "top": 1526,
+                "width": 19,
+                "height": 24
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 73.0,
+            "bbox": {
+                "left": 247,
+                "top": 1629,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 291,
+                "top": 1606,
+                "width": 106,
+                "height": 42
+            }
+        },
+        {
+            "text": "order:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 414,
+                "top": 1607,
+                "width": 141,
+                "height": 41
+            }
+        },
+        {
+            "text": "Database",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 579,
+                "top": 1607,
+                "width": 215,
+                "height": 41
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 812,
+                "top": 1624,
+                "width": 47,
+                "height": 18
+            }
+        },
+        {
+            "text": "Section",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 879,
+                "top": 1609,
+                "width": 175,
+                "height": 39
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 55.0,
+            "bbox": {
+                "left": 1073,
+                "top": 1624,
+                "width": 47,
+                "height": 18
+            }
+        },
+        {
+            "text": "Book",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1142,
+                "top": 1606,
+                "width": 107,
+                "height": 41
+            }
+        },
+        {
+            "text": "(B1)",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1267,
+                "top": 1606,
+                "width": 87,
+                "height": 51
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 1373,
+                "top": 1624,
+                "width": 47,
+                "height": 18
+            }
+        },
+        {
+            "text": "Page",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1438,
+                "top": 1607,
+                "width": 105,
+                "height": 53
+            }
+        },
+        {
+            "text": "(P1).",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 1561,
+                "top": 1606,
+                "width": 94,
+                "height": 51
+            }
+        },
+        {
+            "text": "2.",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 181,
+                "top": 1717,
+                "width": 37,
+                "height": 40
+            }
+        },
+        {
+            "text": "T2:",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 238,
+                "top": 1717,
+                "width": 73,
+                "height": 38
+            }
+        },
+        {
+            "text": "Modify",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 334,
+                "top": 1715,
+                "width": 163,
+                "height": 54
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 514,
+                "top": 1729,
+                "width": 24,
+                "height": 28
+            }
+        },
+        {
+            "text": "book",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 558,
+                "top": 1715,
+                "width": 106,
+                "height": 41
+            }
+        },
+        {
+            "text": "(B2):",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 683,
+                "top": 1715,
+                "width": 106,
+                "height": 51
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 247,
+                "top": 1848,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 291,
+                "top": 1825,
+                "width": 106,
+                "height": 42
+            }
+        },
+        {
+            "text": "order:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 414,
+                "top": 1826,
+                "width": 141,
+                "height": 41
+            }
+        },
+        {
+            "text": "Database",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 579,
+                "top": 1826,
+                "width": 215,
+                "height": 41
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 812,
+                "top": 1843,
+                "width": 47,
+                "height": 18
+            }
+        },
+        {
+            "text": "Section",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 879,
+                "top": 1828,
+                "width": 175,
+                "height": 39
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1073,
+                "top": 1843,
+                "width": 47,
+                "height": 18
+            }
+        },
+        {
+            "text": "Book",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1142,
+                "top": 1825,
+                "width": 107,
+                "height": 41
+            }
+        },
+        {
+            "text": "(B2).",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 1267,
+                "top": 1825,
+                "width": 107,
+                "height": 51
+            }
+        },
+        {
+            "text": "3.",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 181,
+                "top": 1937,
+                "width": 37,
+                "height": 40
+            }
+        },
+        {
+            "text": "T3:",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 238,
+                "top": 1937,
+                "width": 73,
+                "height": 39
+            }
+        },
+        {
+            "text": "Read",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 334,
+                "top": 1936,
+                "width": 109,
+                "height": 41
+            }
+        },
+        {
+            "text": "all",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 462,
+                "top": 1935,
+                "width": 49,
+                "height": 42
+            }
+        },
+        {
+            "text": "books",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 534,
+                "top": 1935,
+                "width": 129,
+                "height": 42
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 684,
+                "top": 1938,
+                "width": 35,
+                "height": 39
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 737,
+                "top": 1949,
+                "width": 24,
+                "height": 28
+            }
+        },
+        {
+            "text": "section:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 778,
+                "top": 1938,
+                "width": 178,
+                "height": 39
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 40.0,
+            "bbox": {
+                "left": 247,
+                "top": 2067,
+                "width": 11,
+                "height": 12
+            }
+        },
+        {
+            "text": "Lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 291,
+                "top": 2044,
+                "width": 106,
+                "height": 42
+            }
+        },
+        {
+            "text": "order:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 414,
+                "top": 2045,
+                "width": 141,
+                "height": 41
+            }
+        },
+        {
+            "text": "Database",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 579,
+                "top": 2045,
+                "width": 215,
+                "height": 41
+            }
+        },
+        {
+            "text": "—",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 812,
+                "top": 2062,
+                "width": 47,
+                "height": 18
+            }
+        },
+        {
+            "text": "Section.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 879,
+                "top": 2047,
+                "width": 187,
+                "height": 39
+            }
+        },
+        {
+            "text": "Deadlock",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 183,
+                "top": 2218,
+                "width": 213,
+                "height": 43
+            }
+        },
+        {
+            "text": "Prevention:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 419,
+                "top": 2219,
+                "width": 264,
+                "height": 41
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 72.0,
+            "bbox": {
+                "left": 250,
+                "top": 2331,
+                "width": 11,
+                "height": 12
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 294,
+                "top": 2308,
+                "width": 49,
+                "height": 44
+            }
+        },
+        {
+            "text": "T1",
+            "confidence": 69.0,
+            "bbox": {
+                "left": 363,
+                "top": 2309,
+                "width": 52,
+                "height": 39
+            }
+        },
+        {
+            "text": "locks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 437,
+                "top": 2308,
+                "width": 112,
+                "height": 42
+            }
+        },
+        {
+            "text": "Page",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 568,
+                "top": 2309,
+                "width": 104,
+                "height": 53
+            }
+        },
+        {
+            "text": "P1,",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 690,
+                "top": 2309,
+                "width": 59,
+                "height": 48
+            }
+        },
+        {
+            "text": "T2",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 769,
+                "top": 2310,
+                "width": 59,
+                "height": 38
+            }
+        },
+        {
+            "text": "cannot",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 850,
+                "top": 2313,
+                "width": 150,
+                "height": 37
+            }
+        },
+        {
+            "text": "directly",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1019,
+                "top": 2308,
+                "width": 183,
+                "height": 54
+            }
+        },
+        {
+            "text": "jump",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1218,
+                "top": 2311,
+                "width": 111,
+                "height": 52
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1348,
+                "top": 2313,
+                "width": 46,
+                "height": 37
+            }
+        },
+        {
+            "text": "modify",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1415,
+                "top": 2308,
+                "width": 157,
+                "height": 54
+            }
+        },
+        {
+            "text": "Page",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1591,
+                "top": 2309,
+                "width": 104,
+                "height": 53
+            }
+        },
+        {
+            "text": "P1",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1712,
+                "top": 2309,
+                "width": 45,
+                "height": 40
+            }
+        },
+        {
+            "text": "without",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1777,
+                "top": 2308,
+                "width": 174,
+                "height": 42
+            }
+        },
+        {
+            "text": "following",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1970,
+                "top": 2308,
+                "width": 205,
+                "height": 54
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2194,
+                "top": 2308,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 296,
+                "top": 2364,
+                "width": 89,
+                "height": 42
+            }
+        },
+        {
+            "text": "hierarchy.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 405,
+                "top": 2364,
+                "width": 233,
+                "height": 54
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 250,
+                "top": 2444,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 295,
+                "top": 2424,
+                "width": 299,
+                "height": 39
+            }
+        },
+        {
+            "text": "must",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 613,
+                "top": 2426,
+                "width": 109,
+                "height": 38
+            }
+        },
+        {
+            "text": "respect",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 742,
+                "top": 2426,
+                "width": 177,
+                "height": 49
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 938,
+                "top": 2421,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1036,
+                "top": 2421,
+                "width": 89,
+                "height": 42
+            }
+        },
+        {
+            "text": "order,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1142,
+                "top": 2422,
+                "width": 143,
+                "height": 48
+            }
+        },
+        {
+            "text": "preventing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1305,
+                "top": 2424,
+                "width": 244,
+                "height": 51
+            }
+        },
+        {
+            "text": "circular",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1569,
+                "top": 2421,
+                "width": 177,
+                "height": 42
+            }
+        },
+        {
+            "text": "dependencies.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1764,
+                "top": 2422,
+                "width": 323,
+                "height": 53
+            }
+        },
+        {
+            "text": "Advantages",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 179,
+                "top": 2635,
+                "width": 274,
+                "height": 53
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 477,
+                "top": 2634,
+                "width": 50,
+                "height": 44
+            }
+        },
+        {
+            "text": "Graph-Based",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 551,
+                "top": 2634,
+                "width": 314,
+                "height": 54
+            }
+        },
+        {
+            "text": "Locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 890,
+                "top": 2634,
+                "width": 173,
+                "height": 54
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 46.0,
+            "bbox": {
+                "left": 247,
+                "top": 2747,
+                "width": 11,
+                "height": 11
+            }
+        },
+        {
+            "text": "Deadlock-Free:",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 292,
+                "top": 2724,
+                "width": 371,
+                "height": 43
+            }
+        },
+        {
+            "text": "Ensures",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 695,
+                "top": 2724,
+                "width": 181,
+                "height": 43
+            }
+        },
+        {
+            "text": "no",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 895,
+                "top": 2737,
+                "width": 48,
+                "height": 29
+            }
+        },
+        {
+            "text": "circular",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 964,
+                "top": 2724,
+                "width": 176,
+                "height": 42
+            }
+        },
+        {
+            "text": "waits",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1158,
+                "top": 2727,
+                "width": 120,
+                "height": 39
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1299,
+                "top": 2725,
+                "width": 51,
+                "height": 53
+            }
+        },
+        {
+            "text": "enforcing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1368,
+                "top": 2724,
+                "width": 220,
+                "height": 54
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1606,
+                "top": 2738,
+                "width": 24,
+                "height": 28
+            }
+        },
+        {
+            "text": "strict",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1647,
+                "top": 2727,
+                "width": 134,
+                "height": 39
+            }
+        },
+        {
+            "text": "locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1802,
+                "top": 2724,
+                "width": 156,
+                "height": 54
+            }
+        },
+        {
+            "text": "order.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1977,
+                "top": 2725,
+                "width": 140,
+                "height": 41
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 247,
+                "top": 2803,
+                "width": 11,
+                "height": 12
+            }
+        },
+        {
+            "text": "Efficient",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 291,
+                "top": 2780,
+                "width": 213,
+                "height": 44
+            }
+        },
+        {
+            "text": "Use",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 529,
+                "top": 2783,
+                "width": 86,
+                "height": 39
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 640,
+                "top": 2780,
+                "width": 50,
+                "height": 44
+            }
+        },
+        {
+            "text": "Resources:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 715,
+                "top": 2782,
+                "width": 255,
+                "height": 40
+            }
+        },
+        {
+            "text": "Transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1001,
+                "top": 2783,
+                "width": 299,
+                "height": 39
+            }
+        },
+        {
+            "text": "lock",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1321,
+                "top": 2780,
+                "width": 89,
+                "height": 42
+            }
+        },
+        {
+            "text": "only",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1428,
+                "top": 2780,
+                "width": 90,
+                "height": 54
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1536,
+                "top": 2780,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "required",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1633,
+                "top": 2781,
+                "width": 195,
+                "height": 53
+            }
+        },
+        {
+            "text": "data.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1847,
+                "top": 2781,
+                "width": 114,
+                "height": 41
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 32.0,
+            "bbox": {
+                "left": 247,
+                "top": 2859,
+                "width": 11,
+                "height": 12
+            }
+        },
+        {
+            "text": "Improved",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 290,
+                "top": 2837,
+                "width": 225,
+                "height": 53
+            }
+        },
+        {
+            "text": "Concurrency:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 539,
+                "top": 2838,
+                "width": 308,
+                "height": 52
+            }
+        },
+        {
+            "text": "Minimizes",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 872,
+                "top": 2838,
+                "width": 228,
+                "height": 41
+            }
+        },
+        {
+            "text": "unnecessary",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1120,
+                "top": 2848,
+                "width": 282,
+                "height": 42
+            }
+        },
+        {
+            "text": "locking.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1423,
+                "top": 2836,
+                "width": 167,
+                "height": 54
+            }
+        },
+        {
+            "text": "Disadvantages",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 180,
+                "top": 2927,
+                "width": 339,
+                "height": 53
+            }
+        },
+        {
+            "text": "+",
+            "confidence": 38.0,
+            "bbox": {
+                "left": 247,
+                "top": 3039,
+                "width": 11,
+                "height": 12
+            }
+        },
+        {
+            "text": "Complex",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 290,
+                "top": 3016,
+                "width": 195,
+                "height": 54
+            }
+        },
+        {
+            "text": "Implementation:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 508,
+                "top": 3016,
+                "width": 387,
+                "height": 54
+            }
+        },
+        {
+            "text": "Managing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 927,
+                "top": 3018,
+                "width": 213,
+                "height": 52
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1158,
+                "top": 3030,
+                "width": 24,
+                "height": 28
+            }
+        },
+        {
+            "text": "DAG",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1202,
+                "top": 3017,
+                "width": 102,
+                "height": 41
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1323,
+                "top": 3016,
+                "width": 73,
+                "height": 44
+            }
+        },
+        {
+            "text": "large",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1416,
+                "top": 3016,
+                "width": 114,
+                "height": 54
+            }
+        },
+        {
+            "text": "datasets",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1548,
+                "top": 3017,
+                "width": 202,
+                "height": 41
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1770,
+                "top": 3029,
+                "width": 74,
+                "height": 29
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1865,
+                "top": 3017,
+                "width": 53,
+                "height": 40
+            }
+        },
+        {
+            "text": "challenging.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1936,
+                "top": 3016,
+                "width": 265,
+                "height": 54
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 68.0,
+            "bbox": {
+                "left": 247,
+                "top": 3095,
+                "width": 11,
+                "height": 12
+            }
+        },
+        {
+            "text": "Reduced",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 291,
+                "top": 3073,
+                "width": 197,
+                "height": 41
+            }
+        },
+        {
+            "text": "Flexibility:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 514,
+                "top": 3072,
+                "width": 253,
+                "height": 54
+            }
+        },
+        {
+            "text": "Transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 799,
+                "top": 3075,
+                "width": 299,
+                "height": 39
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1116,
+                "top": 3086,
+                "width": 76,
+                "height": 28
+            }
+        },
+        {
+            "text": "forced",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1210,
+                "top": 3072,
+                "width": 155,
+                "height": 44
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1385,
+                "top": 3077,
+                "width": 46,
+                "height": 37
+            }
+        },
+        {
+            "text": "follow",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1450,
+                "top": 3072,
+                "width": 138,
+                "height": 44
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1606,
+                "top": 3086,
+                "width": 24,
+                "height": 28
+            }
+        },
+        {
+            "text": "rigid",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1649,
+                "top": 3073,
+                "width": 103,
+                "height": 53
+            }
+        },
+        {
+            "text": "locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1774,
+                "top": 3072,
+                "width": 155,
+                "height": 54
+            }
+        },
+        {
+            "text": "order.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1948,
+                "top": 3073,
+                "width": 141,
+                "height": 41
+            }
+        }
+    ]
+}

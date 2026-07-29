@@ -1,0 +1,1648 @@
+{
+    "document": "DBMS-Unit-5-By-Multi-Atoms-Plus",
+    "page": "page_1",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\DBMS-Unit-5-By-Multi-Atoms-Plus\\page_1.png",
+    "text": "Syllabus Concurrency Control Techniques: Concurrency Control, Locking Techniques for Concurrency Control, Time Stamping Protocols for Concurrency Control, Validation Based Protocol, Multiple Granularity, Multi Version Schemes, Recovery with Concurrent Transaction, Case Study of Oracle. $$ ¢ Concurrency Control ¢ Concurrency Problems ¢ Lock-Based Protocols in Concurrency Control ¢ Time Stamping Protocols for C.C. - 2PYQ e Validation Based Protocol - 3PYQ |. Multiple Granularity e Multi Version Schemes - 2PYQ ¢ Recovery with Concurrent Transaction ¢ Case Study of Oracle Concurrency control is a mechanism in database systems to manage simultaneous transactions while ensuring data consistency, integrity, and isolation. It prevents problems that can arise when multiple transactions access and manipulate the same data concurrently. 1. Data Consistency: Ensures the database remains accurate and reliable despite simultaneous transactions. 2. Isolation: Guarantees that one transaction's intermediate states are not visible to others. 3.Fair Resource Sharing: Allows multiple users to perform transactions efficiently. 4.Prevention of Anomalies: Resolves conflicts like lost updates, dirty reads, and other concurrency-related issues.",
+    "words": [
+        {
+            "text": "Syllabus",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 118,
+                "top": 402,
+                "width": 228,
+                "height": 69
+            }
+        },
+        {
+            "text": "Concurrency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 131,
+                "top": 482,
+                "width": 321,
+                "height": 55
+            }
+        },
+        {
+            "text": "Control",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 475,
+                "top": 481,
+                "width": 189,
+                "height": 42
+            }
+        },
+        {
+            "text": "Techniques:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 684,
+                "top": 481,
+                "width": 296,
+                "height": 55
+            }
+        },
+        {
+            "text": "Concurrency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1008,
+                "top": 482,
+                "width": 296,
+                "height": 54
+            }
+        },
+        {
+            "text": "Control,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1323,
+                "top": 482,
+                "width": 186,
+                "height": 46
+            }
+        },
+        {
+            "text": "Locking",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1533,
+                "top": 482,
+                "width": 190,
+                "height": 54
+            }
+        },
+        {
+            "text": "Techniques",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1741,
+                "top": 482,
+                "width": 266,
+                "height": 53
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2027,
+                "top": 481,
+                "width": 64,
+                "height": 42
+            }
+        },
+        {
+            "text": "Concurrency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2132,
+                "top": 482,
+                "width": 291,
+                "height": 54
+            }
+        },
+        {
+            "text": "Control,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 132,
+                "top": 561,
+                "width": 184,
+                "height": 46
+            }
+        },
+        {
+            "text": "Time",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 336,
+                "top": 562,
+                "width": 118,
+                "height": 39
+            }
+        },
+        {
+            "text": "Stamping",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 473,
+                "top": 561,
+                "width": 218,
+                "height": 54
+            }
+        },
+        {
+            "text": "Protocols",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 709,
+                "top": 561,
+                "width": 216,
+                "height": 40
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 941,
+                "top": 560,
+                "width": 67,
+                "height": 41
+            }
+        },
+        {
+            "text": "Concurrency",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1024,
+                "top": 561,
+                "width": 296,
+                "height": 54
+            }
+        },
+        {
+            "text": "Control,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1338,
+                "top": 561,
+                "width": 184,
+                "height": 46
+            }
+        },
+        {
+            "text": "Validation",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1542,
+                "top": 560,
+                "width": 243,
+                "height": 42
+            }
+        },
+        {
+            "text": "Based",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1801,
+                "top": 561,
+                "width": 139,
+                "height": 40
+            }
+        },
+        {
+            "text": "Protocol,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1956,
+                "top": 561,
+                "width": 205,
+                "height": 46
+            }
+        },
+        {
+            "text": "Multiple",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2182,
+                "top": 561,
+                "width": 196,
+                "height": 53
+            }
+        },
+        {
+            "text": "Granularity,",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 132,
+                "top": 636,
+                "width": 274,
+                "height": 54
+            }
+        },
+        {
+            "text": "Multi",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 425,
+                "top": 636,
+                "width": 126,
+                "height": 41
+            }
+        },
+        {
+            "text": "Version",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 565,
+                "top": 637,
+                "width": 182,
+                "height": 40
+            }
+        },
+        {
+            "text": "Schemes,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 762,
+                "top": 636,
+                "width": 214,
+                "height": 47
+            }
+        },
+        {
+            "text": "Recovery",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 996,
+                "top": 637,
+                "width": 219,
+                "height": 53
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1228,
+                "top": 636,
+                "width": 101,
+                "height": 41
+            }
+        },
+        {
+            "text": "Concurrent",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1346,
+                "top": 637,
+                "width": 256,
+                "height": 40
+            }
+        },
+        {
+            "text": "Transaction,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1617,
+                "top": 637,
+                "width": 283,
+                "height": 45
+            }
+        },
+        {
+            "text": "Case",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1920,
+                "top": 637,
+                "width": 108,
+                "height": 40
+            }
+        },
+        {
+            "text": "Study",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2045,
+                "top": 636,
+                "width": 133,
+                "height": 54
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2193,
+                "top": 636,
+                "width": 49,
+                "height": 41
+            }
+        },
+        {
+            "text": "Oracle.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2255,
+                "top": 636,
+                "width": 161,
+                "height": 41
+            }
+        },
+        {
+            "text": "$$",
+            "confidence": 14.0,
+            "bbox": {
+                "left": 846,
+                "top": 880,
+                "width": 181,
+                "height": 56
+            }
+        },
+        {
+            "text": "¢",
+            "confidence": 34.0,
+            "bbox": {
+                "left": 1222,
+                "top": 899,
+                "width": 14,
+                "height": 14
+            }
+        },
+        {
+            "text": "Concurrency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1271,
+                "top": 885,
+                "width": 259,
+                "height": 46
+            }
+        },
+        {
+            "text": "Control",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1552,
+                "top": 883,
+                "width": 149,
+                "height": 37
+            }
+        },
+        {
+            "text": "¢",
+            "confidence": 32.0,
+            "bbox": {
+                "left": 1222,
+                "top": 969,
+                "width": 14,
+                "height": 14
+            }
+        },
+        {
+            "text": "Concurrency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1271,
+                "top": 955,
+                "width": 259,
+                "height": 46
+            }
+        },
+        {
+            "text": "Problems",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1552,
+                "top": 953,
+                "width": 187,
+                "height": 38
+            }
+        },
+        {
+            "text": "¢",
+            "confidence": 46.0,
+            "bbox": {
+                "left": 1222,
+                "top": 1039,
+                "width": 14,
+                "height": 14
+            }
+        },
+        {
+            "text": "Lock-Based",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1271,
+                "top": 1024,
+                "width": 247,
+                "height": 37
+            }
+        },
+        {
+            "text": "Protocols",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1540,
+                "top": 1024,
+                "width": 192,
+                "height": 36
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1757,
+                "top": 1026,
+                "width": 32,
+                "height": 35
+            }
+        },
+        {
+            "text": "Concurrency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1810,
+                "top": 1026,
+                "width": 260,
+                "height": 46
+            }
+        },
+        {
+            "text": "Control",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2091,
+                "top": 1024,
+                "width": 150,
+                "height": 37
+            }
+        },
+        {
+            "text": "¢",
+            "confidence": 75.0,
+            "bbox": {
+                "left": 1222,
+                "top": 1109,
+                "width": 14,
+                "height": 14
+            }
+        },
+        {
+            "text": "Time",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1270,
+                "top": 1096,
+                "width": 102,
+                "height": 36
+            }
+        },
+        {
+            "text": "Stamping",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1394,
+                "top": 1096,
+                "width": 195,
+                "height": 46
+            }
+        },
+        {
+            "text": "Protocols",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1610,
+                "top": 1094,
+                "width": 192,
+                "height": 36
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1824,
+                "top": 1094,
+                "width": 67,
+                "height": 38
+            }
+        },
+        {
+            "text": "C.C.",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 1912,
+                "top": 1096,
+                "width": 87,
+                "height": 35
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 2030,
+                "top": 1114,
+                "width": 18,
+                "height": 6
+            }
+        },
+        {
+            "text": "2PYQ",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 2075,
+                "top": 1095,
+                "width": 116,
+                "height": 44
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 1222,
+                "top": 1179,
+                "width": 14,
+                "height": 14
+            }
+        },
+        {
+            "text": "Validation",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1271,
+                "top": 1164,
+                "width": 210,
+                "height": 37
+            }
+        },
+        {
+            "text": "Based",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1504,
+                "top": 1164,
+                "width": 123,
+                "height": 36
+            }
+        },
+        {
+            "text": "Protocol",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1649,
+                "top": 1164,
+                "width": 169,
+                "height": 36
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1845,
+                "top": 1184,
+                "width": 18,
+                "height": 6
+            }
+        },
+        {
+            "text": "3PYQ",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1890,
+                "top": 1165,
+                "width": 117,
+                "height": 44
+            }
+        },
+        {
+            "text": "|.",
+            "confidence": 65.0,
+            "bbox": {
+                "left": 1157,
+                "top": 1213,
+                "width": 79,
+                "height": 51
+            }
+        },
+        {
+            "text": "Multiple",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1271,
+                "top": 1234,
+                "width": 167,
+                "height": 48
+            }
+        },
+        {
+            "text": "Granularity",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1461,
+                "top": 1234,
+                "width": 240,
+                "height": 48
+            }
+        },
+        {
+            "text": "e",
+            "confidence": 86.0,
+            "bbox": {
+                "left": 1222,
+                "top": 1320,
+                "width": 14,
+                "height": 14
+            }
+        },
+        {
+            "text": "Multi",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1271,
+                "top": 1305,
+                "width": 106,
+                "height": 37
+            }
+        },
+        {
+            "text": "Version",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1400,
+                "top": 1306,
+                "width": 156,
+                "height": 36
+            }
+        },
+        {
+            "text": "Schemes",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1578,
+                "top": 1305,
+                "width": 184,
+                "height": 38
+            }
+        },
+        {
+            "text": "-",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 1788,
+                "top": 1325,
+                "width": 18,
+                "height": 6
+            }
+        },
+        {
+            "text": "2PYQ",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1833,
+                "top": 1306,
+                "width": 116,
+                "height": 44
+            }
+        },
+        {
+            "text": "¢",
+            "confidence": 46.0,
+            "bbox": {
+                "left": 1222,
+                "top": 1390,
+                "width": 14,
+                "height": 14
+            }
+        },
+        {
+            "text": "Recovery",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1271,
+                "top": 1376,
+                "width": 192,
+                "height": 47
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1484,
+                "top": 1375,
+                "width": 88,
+                "height": 37
+            }
+        },
+        {
+            "text": "Concurrent",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1594,
+                "top": 1377,
+                "width": 233,
+                "height": 35
+            }
+        },
+        {
+            "text": "Transaction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1847,
+                "top": 1377,
+                "width": 252,
+                "height": 35
+            }
+        },
+        {
+            "text": "¢",
+            "confidence": 34.0,
+            "bbox": {
+                "left": 1222,
+                "top": 1460,
+                "width": 14,
+                "height": 14
+            }
+        },
+        {
+            "text": "Case",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1271,
+                "top": 1447,
+                "width": 97,
+                "height": 34
+            }
+        },
+        {
+            "text": "Study",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1390,
+                "top": 1445,
+                "width": 125,
+                "height": 48
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1536,
+                "top": 1445,
+                "width": 44,
+                "height": 38
+            }
+        },
+        {
+            "text": "Oracle",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1603,
+                "top": 1445,
+                "width": 140,
+                "height": 36
+            }
+        },
+        {
+            "text": "Concurrency",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 198,
+                "top": 1997,
+                "width": 320,
+                "height": 58
+            }
+        },
+        {
+            "text": "control",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 539,
+                "top": 1995,
+                "width": 179,
+                "height": 46
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 744,
+                "top": 1998,
+                "width": 36,
+                "height": 43
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 817,
+                "top": 2010,
+                "width": 10,
+                "height": 31
+            }
+        },
+        {
+            "text": "mechanism",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 848,
+                "top": 1995,
+                "width": 275,
+                "height": 47
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1147,
+                "top": 1998,
+                "width": 39,
+                "height": 43
+            }
+        },
+        {
+            "text": "database",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1207,
+                "top": 1995,
+                "width": 234,
+                "height": 46
+            }
+        },
+        {
+            "text": "systems",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1459,
+                "top": 2001,
+                "width": 209,
+                "height": 54
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1689,
+                "top": 2001,
+                "width": 52,
+                "height": 40
+            }
+        },
+        {
+            "text": "manage",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1763,
+                "top": 2009,
+                "width": 188,
+                "height": 46
+            }
+        },
+        {
+            "text": "simultaneous",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1969,
+                "top": 1995,
+                "width": 330,
+                "height": 47
+            }
+        },
+        {
+            "text": "transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 198,
+                "top": 2066,
+                "width": 321,
+                "height": 43
+            }
+        },
+        {
+            "text": "while",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 540,
+                "top": 2063,
+                "width": 130,
+                "height": 46
+            }
+        },
+        {
+            "text": "ensuring",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 690,
+                "top": 2066,
+                "width": 215,
+                "height": 57
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 926,
+                "top": 2063,
+                "width": 114,
+                "height": 46
+            }
+        },
+        {
+            "text": "consistency,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1060,
+                "top": 2066,
+                "width": 314,
+                "height": 57
+            }
+        },
+        {
+            "text": "integrity,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1398,
+                "top": 2066,
+                "width": 239,
+                "height": 57
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1657,
+                "top": 2063,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "isolation.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1769,
+                "top": 2063,
+                "width": 224,
+                "height": 47
+            }
+        },
+        {
+            "text": "It",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2014,
+                "top": 2066,
+                "width": 54,
+                "height": 43
+            }
+        },
+        {
+            "text": "prevents",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2089,
+                "top": 2069,
+                "width": 224,
+                "height": 54
+            }
+        },
+        {
+            "text": "problems",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 199,
+                "top": 2130,
+                "width": 232,
+                "height": 60
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 452,
+                "top": 2130,
+                "width": 111,
+                "height": 46
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 584,
+                "top": 2144,
+                "width": 83,
+                "height": 32
+            }
+        },
+        {
+            "text": "arise",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 686,
+                "top": 2133,
+                "width": 128,
+                "height": 43
+            }
+        },
+        {
+            "text": "when",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 834,
+                "top": 2130,
+                "width": 127,
+                "height": 46
+            }
+        },
+        {
+            "text": "multiple",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 983,
+                "top": 2130,
+                "width": 202,
+                "height": 60
+            }
+        },
+        {
+            "text": "transactions",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1205,
+                "top": 2133,
+                "width": 321,
+                "height": 43
+            }
+        },
+        {
+            "text": "access",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1546,
+                "top": 2143,
+                "width": 169,
+                "height": 33
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1735,
+                "top": 2130,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "manipulate",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1845,
+                "top": 2130,
+                "width": 274,
+                "height": 60
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2139,
+                "top": 2130,
+                "width": 87,
+                "height": 46
+            }
+        },
+        {
+            "text": "same",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 197,
+                "top": 2210,
+                "width": 129,
+                "height": 34
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 347,
+                "top": 2197,
+                "width": 113,
+                "height": 46
+            }
+        },
+        {
+            "text": "concurrently.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 481,
+                "top": 2197,
+                "width": 339,
+                "height": 60
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 229,
+                "top": 2572,
+                "width": 23,
+                "height": 28
+            }
+        },
+        {
+            "text": "Data",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 267,
+                "top": 2560,
+                "width": 112,
+                "height": 40
+            }
+        },
+        {
+            "text": "Consistency:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 403,
+                "top": 2560,
+                "width": 295,
+                "height": 52
+            }
+        },
+        {
+            "text": "Ensures",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 729,
+                "top": 2558,
+                "width": 181,
+                "height": 43
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 929,
+                "top": 2558,
+                "width": 78,
+                "height": 42
+            }
+        },
+        {
+            "text": "database",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1025,
+                "top": 2559,
+                "width": 211,
+                "height": 41
+            }
+        },
+        {
+            "text": "remains",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1255,
+                "top": 2561,
+                "width": 177,
+                "height": 40
+            }
+        },
+        {
+            "text": "accurate",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1450,
+                "top": 2563,
+                "width": 204,
+                "height": 37
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1671,
+                "top": 2559,
+                "width": 79,
+                "height": 41
+            }
+        },
+        {
+            "text": "reliable",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1770,
+                "top": 2558,
+                "width": 174,
+                "height": 42
+            }
+        },
+        {
+            "text": "despite",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1962,
+                "top": 2559,
+                "width": 172,
+                "height": 53
+            }
+        },
+        {
+            "text": "simultaneous",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 2634,
+                "width": 297,
+                "height": 43
+            }
+        },
+        {
+            "text": "transactions.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 581,
+                "top": 2637,
+                "width": 300,
+                "height": 39
+            }
+        },
+        {
+            "text": "2.",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 228,
+                "top": 2725,
+                "width": 24,
+                "height": 27
+            }
+        },
+        {
+            "text": "Isolation:",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 265,
+                "top": 2710,
+                "width": 226,
+                "height": 42
+            }
+        },
+        {
+            "text": "Guarantees",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 522,
+                "top": 2711,
+                "width": 263,
+                "height": 41
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 804,
+                "top": 2710,
+                "width": 99,
+                "height": 42
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 922,
+                "top": 2723,
+                "width": 78,
+                "height": 29
+            }
+        },
+        {
+            "text": "transaction's",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 1018,
+                "top": 2709,
+                "width": 308,
+                "height": 43
+            }
+        },
+        {
+            "text": "intermediate",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1347,
+                "top": 2711,
+                "width": 300,
+                "height": 42
+            }
+        },
+        {
+            "text": "states",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1664,
+                "top": 2715,
+                "width": 148,
+                "height": 37
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1829,
+                "top": 2724,
+                "width": 77,
+                "height": 28
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1924,
+                "top": 2715,
+                "width": 72,
+                "height": 37
+            }
+        },
+        {
+            "text": "visible",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2015,
+                "top": 2710,
+                "width": 147,
+                "height": 42
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2180,
+                "top": 2715,
+                "width": 45,
+                "height": 37
+            }
+        },
+        {
+            "text": "others.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 2786,
+                "width": 164,
+                "height": 42
+            }
+        },
+        {
+            "text": "3.Fair",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 227,
+                "top": 2863,
+                "width": 133,
+                "height": 42
+            }
+        },
+        {
+            "text": "Resource",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 385,
+                "top": 2864,
+                "width": 213,
+                "height": 40
+            }
+        },
+        {
+            "text": "Sharing:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 623,
+                "top": 2862,
+                "width": 198,
+                "height": 54
+            }
+        },
+        {
+            "text": "Allows",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 846,
+                "top": 2862,
+                "width": 146,
+                "height": 42
+            }
+        },
+        {
+            "text": "multiple",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1012,
+                "top": 2862,
+                "width": 182,
+                "height": 54
+            }
+        },
+        {
+            "text": "users",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1213,
+                "top": 2874,
+                "width": 123,
+                "height": 30
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1354,
+                "top": 2867,
+                "width": 46,
+                "height": 37
+            }
+        },
+        {
+            "text": "perform",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1421,
+                "top": 2862,
+                "width": 190,
+                "height": 54
+            }
+        },
+        {
+            "text": "transactions",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1630,
+                "top": 2865,
+                "width": 289,
+                "height": 39
+            }
+        },
+        {
+            "text": "efficiently.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1938,
+                "top": 2862,
+                "width": 259,
+                "height": 54
+            }
+        },
+        {
+            "text": "4.Prevention",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 226,
+                "top": 2939,
+                "width": 286,
+                "height": 41
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 537,
+                "top": 2938,
+                "width": 49,
+                "height": 44
+            }
+        },
+        {
+            "text": "Anomalies:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 612,
+                "top": 2938,
+                "width": 251,
+                "height": 43
+            }
+        },
+        {
+            "text": "Resolves",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 895,
+                "top": 2938,
+                "width": 197,
+                "height": 42
+            }
+        },
+        {
+            "text": "conflicts",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1112,
+                "top": 2938,
+                "width": 202,
+                "height": 44
+            }
+        },
+        {
+            "text": "like",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1335,
+                "top": 2938,
+                "width": 78,
+                "height": 41
+            }
+        },
+        {
+            "text": "lost",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1433,
+                "top": 2938,
+                "width": 83,
+                "height": 42
+            }
+        },
+        {
+            "text": "updates,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1536,
+                "top": 2939,
+                "width": 194,
+                "height": 53
+            }
+        },
+        {
+            "text": "dirty",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1749,
+                "top": 2939,
+                "width": 115,
+                "height": 53
+            }
+        },
+        {
+            "text": "reads,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1884,
+                "top": 2939,
+                "width": 141,
+                "height": 47
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2043,
+                "top": 2939,
+                "width": 79,
+                "height": 41
+            }
+        },
+        {
+            "text": "other",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2141,
+                "top": 2938,
+                "width": 129,
+                "height": 42
+            }
+        },
+        {
+            "text": "concurrency-related",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 267,
+                "top": 3013,
+                "width": 475,
+                "height": 54
+            }
+        },
+        {
+            "text": "issues.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 763,
+                "top": 3016,
+                "width": 148,
+                "height": 39
+            }
+        }
+    ]
+}

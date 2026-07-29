@@ -1,0 +1,1188 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_33",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_33.png",
+    "text": "The three steps in this phase are as follows. Step-1: The client sends the first segment, a SYN segment, in which only the SYN flag Is set. > This segment is for synchronization of sequence numbers. > It consumes one sequence number. > is the data transfer starts, the sequence number is incremented by 1. A SYN segment cannot carry data} but it consumes one sequence number. Step-2: The server sends second segment, a SYN +ACK segment, with 2 flag bits set: SYN and ACK. > ItisaSYN segment for communication in other direction and serves as the ack for the SYN. > It consumes one sequence number. SYN +ACK segment cannot carry data, but consume one sequence number.",
+    "words": [
+        {
+            "text": "The",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 79,
+                "top": 147,
+                "width": 187,
+                "height": 90
+            }
+        },
+        {
+            "text": "three",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 299,
+                "top": 147,
+                "width": 241,
+                "height": 90
+            }
+        },
+        {
+            "text": "steps",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 578,
+                "top": 161,
+                "width": 238,
+                "height": 101
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 57.0,
+            "bbox": {
+                "left": 856,
+                "top": 146,
+                "width": 84,
+                "height": 88
+            }
+        },
+        {
+            "text": "this",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 975,
+                "top": 147,
+                "width": 175,
+                "height": 89
+            }
+        },
+        {
+            "text": "phase",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1184,
+                "top": 148,
+                "width": 271,
+                "height": 114
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1491,
+                "top": 175,
+                "width": 144,
+                "height": 62
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1671,
+                "top": 176,
+                "width": 98,
+                "height": 61
+            }
+        },
+        {
+            "text": "follows.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1805,
+                "top": 147,
+                "width": 383,
+                "height": 89
+            }
+        },
+        {
+            "text": "Step-1:",
+            "confidence": 50.0,
+            "bbox": {
+                "left": 83,
+                "top": 371,
+                "width": 338,
+                "height": 113
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 522,
+                "top": 369,
+                "width": 186,
+                "height": 90
+            }
+        },
+        {
+            "text": "client",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 744,
+                "top": 369,
+                "width": 269,
+                "height": 90
+            }
+        },
+        {
+            "text": "sends",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1048,
+                "top": 370,
+                "width": 266,
+                "height": 89
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1345,
+                "top": 370,
+                "width": 146,
+                "height": 88
+            }
+        },
+        {
+            "text": "first",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1530,
+                "top": 368,
+                "width": 191,
+                "height": 90
+            }
+        },
+        {
+            "text": "segment,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1756,
+                "top": 384,
+                "width": 428,
+                "height": 100
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2266,
+                "top": 398,
+                "width": 8,
+                "height": 61
+            }
+        },
+        {
+            "text": "SYN",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2311,
+                "top": 371,
+                "width": 232,
+                "height": 87
+            }
+        },
+        {
+            "text": "segment,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2584,
+                "top": 384,
+                "width": 428,
+                "height": 100
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 3057,
+                "top": 369,
+                "width": 84,
+                "height": 88
+            }
+        },
+        {
+            "text": "which",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3177,
+                "top": 369,
+                "width": 293,
+                "height": 90
+            }
+        },
+        {
+            "text": "only",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3505,
+                "top": 370,
+                "width": 210,
+                "height": 114
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3752,
+                "top": 369,
+                "width": 144,
+                "height": 90
+            }
+        },
+        {
+            "text": "SYN",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3936,
+                "top": 371,
+                "width": 232,
+                "height": 87
+            }
+        },
+        {
+            "text": "flag",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4208,
+                "top": 368,
+                "width": 187,
+                "height": 116
+            }
+        },
+        {
+            "text": "Is",
+            "confidence": 48.0,
+            "bbox": {
+                "left": 4435,
+                "top": 369,
+                "width": 71,
+                "height": 89
+            }
+        },
+        {
+            "text": "set.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4541,
+                "top": 384,
+                "width": 153,
+                "height": 75
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 70.0,
+            "bbox": {
+                "left": 692,
+                "top": 588,
+                "width": 72,
+                "height": 81
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 830,
+                "top": 586,
+                "width": 214,
+                "height": 88
+            }
+        },
+        {
+            "text": "segment",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1079,
+                "top": 601,
+                "width": 401,
+                "height": 100
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1520,
+                "top": 587,
+                "width": 75,
+                "height": 88
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1630,
+                "top": 584,
+                "width": 139,
+                "height": 91
+            }
+        },
+        {
+            "text": "synchronization",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1802,
+                "top": 586,
+                "width": 776,
+                "height": 115
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2611,
+                "top": 584,
+                "width": 114,
+                "height": 91
+            }
+        },
+        {
+            "text": "sequence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2746,
+                "top": 614,
+                "width": 441,
+                "height": 87
+            }
+        },
+        {
+            "text": "numbers.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3225,
+                "top": 587,
+                "width": 435,
+                "height": 92
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 692,
+                "top": 810,
+                "width": 72,
+                "height": 81
+            }
+        },
+        {
+            "text": "It",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 833,
+                "top": 810,
+                "width": 67,
+                "height": 87
+            }
+        },
+        {
+            "text": "consumes",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 935,
+                "top": 836,
+                "width": 478,
+                "height": 62
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1447,
+                "top": 836,
+                "width": 173,
+                "height": 62
+            }
+        },
+        {
+            "text": "sequence",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1656,
+                "top": 836,
+                "width": 440,
+                "height": 87
+            }
+        },
+        {
+            "text": "number.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2134,
+                "top": 809,
+                "width": 383,
+                "height": 89
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 692,
+                "top": 1032,
+                "width": 68,
+                "height": 82
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 33.0,
+            "bbox": {
+                "left": 831,
+                "top": 1031,
+                "width": 288,
+                "height": 428
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1152,
+                "top": 1030,
+                "width": 145,
+                "height": 90
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1332,
+                "top": 1031,
+                "width": 201,
+                "height": 89
+            }
+        },
+        {
+            "text": "transfer",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1567,
+                "top": 1029,
+                "width": 371,
+                "height": 91
+            }
+        },
+        {
+            "text": "starts,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1972,
+                "top": 1045,
+                "width": 280,
+                "height": 91
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2289,
+                "top": 1031,
+                "width": 144,
+                "height": 89
+            }
+        },
+        {
+            "text": "sequence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2471,
+                "top": 1059,
+                "width": 440,
+                "height": 86
+            }
+        },
+        {
+            "text": "number",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2948,
+                "top": 1027,
+                "width": 370,
+                "height": 97
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 78.0,
+            "bbox": {
+                "left": 3356,
+                "top": 1031,
+                "width": 72,
+                "height": 89
+            }
+        },
+        {
+            "text": "incremented",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3468,
+                "top": 1031,
+                "width": 592,
+                "height": 89
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4099,
+                "top": 1030,
+                "width": 114,
+                "height": 115
+            }
+        },
+        {
+            "text": "1.",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 4266,
+                "top": 1033,
+                "width": 63,
+                "height": 86
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 871,
+                "top": 1251,
+                "width": 82,
+                "height": 84
+            }
+        },
+        {
+            "text": "SYN",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 985,
+                "top": 1249,
+                "width": 234,
+                "height": 87
+            }
+        },
+        {
+            "text": "segment",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1259,
+                "top": 1262,
+                "width": 400,
+                "height": 100
+            }
+        },
+        {
+            "text": "cannot",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1694,
+                "top": 1261,
+                "width": 324,
+                "height": 76
+            }
+        },
+        {
+            "text": "carry",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2050,
+                "top": 1275,
+                "width": 246,
+                "height": 87
+            }
+        },
+        {
+            "text": "data}",
+            "confidence": 56.0,
+            "bbox": {
+                "left": 2332,
+                "top": 1248,
+                "width": 203,
+                "height": 88
+            }
+        },
+        {
+            "text": "but",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2599,
+                "top": 1247,
+                "width": 151,
+                "height": 92
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 2790,
+                "top": 1244,
+                "width": 56,
+                "height": 92
+            }
+        },
+        {
+            "text": "consumes",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2882,
+                "top": 1272,
+                "width": 477,
+                "height": 67
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3393,
+                "top": 1275,
+                "width": 174,
+                "height": 62
+            }
+        },
+        {
+            "text": "sequence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3602,
+                "top": 1275,
+                "width": 441,
+                "height": 88
+            }
+        },
+        {
+            "text": "number.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4081,
+                "top": 1247,
+                "width": 381,
+                "height": 90
+            }
+        },
+        {
+            "text": "Step-2:",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 83,
+                "top": 1688,
+                "width": 338,
+                "height": 113
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 463,
+                "top": 1687,
+                "width": 185,
+                "height": 89
+            }
+        },
+        {
+            "text": "server",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 685,
+                "top": 1714,
+                "width": 294,
+                "height": 62
+            }
+        },
+        {
+            "text": "sends",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1013,
+                "top": 1686,
+                "width": 266,
+                "height": 90
+            }
+        },
+        {
+            "text": "second",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1315,
+                "top": 1687,
+                "width": 331,
+                "height": 89
+            }
+        },
+        {
+            "text": "segment,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1685,
+                "top": 1700,
+                "width": 428,
+                "height": 101
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2191,
+                "top": 1714,
+                "width": 11,
+                "height": 62
+            }
+        },
+        {
+            "text": "SYN",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 2239,
+                "top": 1686,
+                "width": 232,
+                "height": 90
+            }
+        },
+        {
+            "text": "+ACK",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 2509,
+                "top": 1688,
+                "width": 323,
+                "height": 88
+            }
+        },
+        {
+            "text": "segment,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2869,
+                "top": 1700,
+                "width": 428,
+                "height": 101
+            }
+        },
+        {
+            "text": "with",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3336,
+                "top": 1687,
+                "width": 213,
+                "height": 88
+            }
+        },
+        {
+            "text": "2",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3582,
+                "top": 1688,
+                "width": 53,
+                "height": 86
+            }
+        },
+        {
+            "text": "flag",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3678,
+                "top": 1685,
+                "width": 184,
+                "height": 116
+            }
+        },
+        {
+            "text": "bits",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3898,
+                "top": 1686,
+                "width": 170,
+                "height": 90
+            }
+        },
+        {
+            "text": "set:",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 4105,
+                "top": 1701,
+                "width": 153,
+                "height": 75
+            }
+        },
+        {
+            "text": "SYN",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4306,
+                "top": 1688,
+                "width": 232,
+                "height": 87
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4578,
+                "top": 1687,
+                "width": 169,
+                "height": 89
+            }
+        },
+        {
+            "text": "ACK.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4778,
+                "top": 1688,
+                "width": 274,
+                "height": 88
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 492,
+                "top": 1910,
+                "width": 72,
+                "height": 82
+            }
+        },
+        {
+            "text": "ItisaSYN",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 633,
+                "top": 1908,
+                "width": 537,
+                "height": 90
+            }
+        },
+        {
+            "text": "segment",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1210,
+                "top": 1923,
+                "width": 400,
+                "height": 100
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1646,
+                "top": 1907,
+                "width": 140,
+                "height": 90
+            }
+        },
+        {
+            "text": "communication",
+            "confidence": 79.0,
+            "bbox": {
+                "left": 1819,
+                "top": 1908,
+                "width": 753,
+                "height": 90
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2615,
+                "top": 1909,
+                "width": 85,
+                "height": 87
+            }
+        },
+        {
+            "text": "other",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2736,
+                "top": 1909,
+                "width": 249,
+                "height": 89
+            }
+        },
+        {
+            "text": "direction",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3017,
+                "top": 1909,
+                "width": 429,
+                "height": 89
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3483,
+                "top": 1909,
+                "width": 169,
+                "height": 89
+            }
+        },
+        {
+            "text": "serves",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3691,
+                "top": 1936,
+                "width": 300,
+                "height": 62
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4025,
+                "top": 1936,
+                "width": 98,
+                "height": 62
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4156,
+                "top": 1909,
+                "width": 146,
+                "height": 89
+            }
+        },
+        {
+            "text": "ack",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4336,
+                "top": 1909,
+                "width": 164,
+                "height": 89
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4539,
+                "top": 1907,
+                "width": 138,
+                "height": 91
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4710,
+                "top": 1909,
+                "width": 144,
+                "height": 89
+            }
+        },
+        {
+            "text": "SYN.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4894,
+                "top": 1910,
+                "width": 259,
+                "height": 87
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 492,
+                "top": 2132,
+                "width": 72,
+                "height": 82
+            }
+        },
+        {
+            "text": "It",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 632,
+                "top": 2133,
+                "width": 69,
+                "height": 87
+            }
+        },
+        {
+            "text": "consumes",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 735,
+                "top": 2158,
+                "width": 477,
+                "height": 62
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1247,
+                "top": 2158,
+                "width": 172,
+                "height": 63
+            }
+        },
+        {
+            "text": "sequence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1455,
+                "top": 2158,
+                "width": 443,
+                "height": 87
+            }
+        },
+        {
+            "text": "number.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1930,
+                "top": 2128,
+                "width": 387,
+                "height": 95
+            }
+        },
+        {
+            "text": "SYN",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 824,
+                "top": 2349,
+                "width": 233,
+                "height": 88
+            }
+        },
+        {
+            "text": "+ACK",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 1094,
+                "top": 2349,
+                "width": 232,
+                "height": 88
+            }
+        },
+        {
+            "text": "segment",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1454,
+                "top": 2359,
+                "width": 400,
+                "height": 103
+            }
+        },
+        {
+            "text": "cannot",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1886,
+                "top": 2361,
+                "width": 326,
+                "height": 76
+            }
+        },
+        {
+            "text": "carry",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2247,
+                "top": 2376,
+                "width": 243,
+                "height": 86
+            }
+        },
+        {
+            "text": "data,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2528,
+                "top": 2347,
+                "width": 228,
+                "height": 105
+            }
+        },
+        {
+            "text": "but",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2795,
+                "top": 2347,
+                "width": 151,
+                "height": 90
+            }
+        },
+        {
+            "text": "consume",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2980,
+                "top": 2375,
+                "width": 429,
+                "height": 62
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3445,
+                "top": 2375,
+                "width": 171,
+                "height": 61
+            }
+        },
+        {
+            "text": "sequence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3652,
+                "top": 2375,
+                "width": 443,
+                "height": 87
+            }
+        },
+        {
+            "text": "number.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4133,
+                "top": 2347,
+                "width": 380,
+                "height": 90
+            }
+        }
+    ]
+}

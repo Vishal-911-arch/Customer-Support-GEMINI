@@ -1,0 +1,978 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_9",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_9.png",
+    "text": "Reliable Versus Unreliable: > The transport layer service can be reliable or unreliable. > Ifthe application layer program needs reliability, we use a reliable transport layer protocol by implementing flow and error control at the transport layer. > If application program does not need reliability because it uses its own flow and error control mechanism or it needs fast service or the nature of the service does not demand flow and error control (real-time applications), then an unreliable protocol can be used. > UDP 1s connectionless and unreliable. > TCP and SCTP are connection oriented and reliable.",
+    "words": [
+        {
+            "text": "Reliable",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 84,
+                "top": 97,
+                "width": 398,
+                "height": 89
+            }
+        },
+        {
+            "text": "Versus",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 518,
+                "top": 99,
+                "width": 318,
+                "height": 87
+            }
+        },
+        {
+            "text": "Unreliable:",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 874,
+                "top": 98,
+                "width": 533,
+                "height": 88
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 69,
+                "top": 238,
+                "width": 85,
+                "height": 203
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 204,
+                "top": 238,
+                "width": 187,
+                "height": 203
+            }
+        },
+        {
+            "text": "transport",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 441,
+                "top": 238,
+                "width": 424,
+                "height": 203
+            }
+        },
+        {
+            "text": "layer",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 914,
+                "top": 238,
+                "width": 221,
+                "height": 203
+            }
+        },
+        {
+            "text": "service",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1185,
+                "top": 238,
+                "width": 339,
+                "height": 203
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1567,
+                "top": 347,
+                "width": 167,
+                "height": 62
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1769,
+                "top": 319,
+                "width": 109,
+                "height": 90
+            }
+        },
+        {
+            "text": "reliable",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1915,
+                "top": 319,
+                "width": 359,
+                "height": 90
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2310,
+                "top": 347,
+                "width": 100,
+                "height": 62
+            }
+        },
+        {
+            "text": "unreliable.",
+            "confidence": 69.0,
+            "bbox": {
+                "left": 2445,
+                "top": 319,
+                "width": 506,
+                "height": 90
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 76.0,
+            "bbox": {
+                "left": 90,
+                "top": 543,
+                "width": 74,
+                "height": 82
+            }
+        },
+        {
+            "text": "Ifthe",
+            "confidence": 78.0,
+            "bbox": {
+                "left": 233,
+                "top": 540,
+                "width": 253,
+                "height": 91
+            }
+        },
+        {
+            "text": "application",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 522,
+                "top": 542,
+                "width": 539,
+                "height": 114
+            }
+        },
+        {
+            "text": "layer",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1100,
+                "top": 541,
+                "width": 240,
+                "height": 115
+            }
+        },
+        {
+            "text": "program",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1372,
+                "top": 569,
+                "width": 405,
+                "height": 87
+            }
+        },
+        {
+            "text": "needs",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1816,
+                "top": 542,
+                "width": 273,
+                "height": 89
+            }
+        },
+        {
+            "text": "reliability,",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2126,
+                "top": 541,
+                "width": 490,
+                "height": 115
+            }
+        },
+        {
+            "text": "we",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2652,
+                "top": 569,
+                "width": 138,
+                "height": 62
+            }
+        },
+        {
+            "text": "use",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2827,
+                "top": 570,
+                "width": 157,
+                "height": 61
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3002,
+                "top": 536,
+                "width": 43,
+                "height": 125
+            }
+        },
+        {
+            "text": "reliable",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3104,
+                "top": 542,
+                "width": 362,
+                "height": 89
+            }
+        },
+        {
+            "text": "transport",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3499,
+                "top": 556,
+                "width": 433,
+                "height": 100
+            }
+        },
+        {
+            "text": "layer",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3969,
+                "top": 541,
+                "width": 240,
+                "height": 115
+            }
+        },
+        {
+            "text": "protocol",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4241,
+                "top": 542,
+                "width": 398,
+                "height": 114
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4680,
+                "top": 541,
+                "width": 115,
+                "height": 115
+            }
+        },
+        {
+            "text": "implementing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 235,
+                "top": 758,
+                "width": 670,
+                "height": 115
+            }
+        },
+        {
+            "text": "flow",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 941,
+                "top": 757,
+                "width": 223,
+                "height": 90
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1195,
+                "top": 758,
+                "width": 170,
+                "height": 90
+            }
+        },
+        {
+            "text": "error",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1400,
+                "top": 786,
+                "width": 236,
+                "height": 62
+            }
+        },
+        {
+            "text": "control",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1669,
+                "top": 758,
+                "width": 337,
+                "height": 90
+            }
+        },
+        {
+            "text": "at",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2047,
+                "top": 773,
+                "width": 85,
+                "height": 75
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2164,
+                "top": 758,
+                "width": 145,
+                "height": 90
+            }
+        },
+        {
+            "text": "transport",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2344,
+                "top": 773,
+                "width": 432,
+                "height": 100
+            }
+        },
+        {
+            "text": "layer.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2813,
+                "top": 758,
+                "width": 254,
+                "height": 115
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 77.0,
+            "bbox": {
+                "left": 91,
+                "top": 982,
+                "width": 73,
+                "height": 82
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 232,
+                "top": 979,
+                "width": 91,
+                "height": 89
+            }
+        },
+        {
+            "text": "application",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 343,
+                "top": 980,
+                "width": 539,
+                "height": 115
+            }
+        },
+        {
+            "text": "program",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 917,
+                "top": 1008,
+                "width": 406,
+                "height": 87
+            }
+        },
+        {
+            "text": "does",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1361,
+                "top": 980,
+                "width": 220,
+                "height": 90
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1617,
+                "top": 995,
+                "width": 150,
+                "height": 75
+            }
+        },
+        {
+            "text": "need",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1802,
+                "top": 980,
+                "width": 224,
+                "height": 90
+            }
+        },
+        {
+            "text": "reliability",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2065,
+                "top": 980,
+                "width": 467,
+                "height": 115
+            }
+        },
+        {
+            "text": "because",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2571,
+                "top": 980,
+                "width": 379,
+                "height": 90
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2991,
+                "top": 980,
+                "width": 59,
+                "height": 89
+            }
+        },
+        {
+            "text": "uses",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3081,
+                "top": 1003,
+                "width": 210,
+                "height": 70
+            }
+        },
+        {
+            "text": "its",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3331,
+                "top": 977,
+                "width": 104,
+                "height": 93
+            }
+        },
+        {
+            "text": "own",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3469,
+                "top": 1008,
+                "width": 208,
+                "height": 61
+            }
+        },
+        {
+            "text": "flow",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3712,
+                "top": 979,
+                "width": 223,
+                "height": 91
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3966,
+                "top": 980,
+                "width": 170,
+                "height": 90
+            }
+        },
+        {
+            "text": "error",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4173,
+                "top": 1008,
+                "width": 236,
+                "height": 62
+            }
+        },
+        {
+            "text": "control",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4442,
+                "top": 980,
+                "width": 337,
+                "height": 90
+            }
+        },
+        {
+            "text": "mechanism",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 231,
+                "top": 1198,
+                "width": 548,
+                "height": 89
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 816,
+                "top": 1225,
+                "width": 102,
+                "height": 61
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 954,
+                "top": 1198,
+                "width": 60,
+                "height": 88
+            }
+        },
+        {
+            "text": "needs",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1050,
+                "top": 1198,
+                "width": 272,
+                "height": 89
+            }
+        },
+        {
+            "text": "fast",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1357,
+                "top": 1196,
+                "width": 172,
+                "height": 92
+            }
+        },
+        {
+            "text": "service",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1565,
+                "top": 1198,
+                "width": 338,
+                "height": 89
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1939,
+                "top": 1225,
+                "width": 101,
+                "height": 61
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2071,
+                "top": 1198,
+                "width": 145,
+                "height": 89
+            }
+        },
+        {
+            "text": "nature",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2254,
+                "top": 1212,
+                "width": 298,
+                "height": 75
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2588,
+                "top": 1196,
+                "width": 114,
+                "height": 90
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2720,
+                "top": 1198,
+                "width": 144,
+                "height": 89
+            }
+        },
+        {
+            "text": "service",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2899,
+                "top": 1193,
+                "width": 342,
+                "height": 97
+            }
+        },
+        {
+            "text": "does",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3277,
+                "top": 1198,
+                "width": 219,
+                "height": 89
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3532,
+                "top": 1212,
+                "width": 151,
+                "height": 75
+            }
+        },
+        {
+            "text": "demand",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3717,
+                "top": 1198,
+                "width": 380,
+                "height": 89
+            }
+        },
+        {
+            "text": "flow",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4135,
+                "top": 1196,
+                "width": 222,
+                "height": 90
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4389,
+                "top": 1198,
+                "width": 171,
+                "height": 89
+            }
+        },
+        {
+            "text": "error",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4595,
+                "top": 1225,
+                "width": 236,
+                "height": 62
+            }
+        },
+        {
+            "text": "control",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4863,
+                "top": 1197,
+                "width": 338,
+                "height": 90
+            }
+        },
+        {
+            "text": "(real-time",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 229,
+                "top": 1420,
+                "width": 476,
+                "height": 109
+            }
+        },
+        {
+            "text": "applications),",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 743,
+                "top": 1419,
+                "width": 656,
+                "height": 115
+            }
+        },
+        {
+            "text": "then",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1434,
+                "top": 1420,
+                "width": 209,
+                "height": 89
+            }
+        },
+        {
+            "text": "an",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1676,
+                "top": 1447,
+                "width": 111,
+                "height": 62
+            }
+        },
+        {
+            "text": "unreliable",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1825,
+                "top": 1420,
+                "width": 480,
+                "height": 89
+            }
+        },
+        {
+            "text": "protocol",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2346,
+                "top": 1415,
+                "width": 396,
+                "height": 119
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2778,
+                "top": 1443,
+                "width": 169,
+                "height": 66
+            }
+        },
+        {
+            "text": "be",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2981,
+                "top": 1420,
+                "width": 109,
+                "height": 89
+            }
+        },
+        {
+            "text": "used.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3128,
+                "top": 1419,
+                "width": 241,
+                "height": 90
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 92,
+                "top": 1644,
+                "width": 71,
+                "height": 81
+            }
+        },
+        {
+            "text": "UDP",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 232,
+                "top": 1644,
+                "width": 239,
+                "height": 88
+            }
+        },
+        {
+            "text": "1s",
+            "confidence": 80.0,
+            "bbox": {
+                "left": 506,
+                "top": 1643,
+                "width": 73,
+                "height": 87
+            }
+        },
+        {
+            "text": "connectionless",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 614,
+                "top": 1643,
+                "width": 713,
+                "height": 88
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1362,
+                "top": 1643,
+                "width": 170,
+                "height": 88
+            }
+        },
+        {
+            "text": "unreliable.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 1572,
+                "top": 1643,
+                "width": 503,
+                "height": 88
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 93,
+                "top": 1860,
+                "width": 70,
+                "height": 81
+            }
+        },
+        {
+            "text": "TCP",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 230,
+                "top": 1861,
+                "width": 220,
+                "height": 86
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 481,
+                "top": 1859,
+                "width": 169,
+                "height": 88
+            }
+        },
+        {
+            "text": "SCTP",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 691,
+                "top": 1860,
+                "width": 285,
+                "height": 88
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1006,
+                "top": 1887,
+                "width": 143,
+                "height": 61
+            }
+        },
+        {
+            "text": "connection",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1186,
+                "top": 1859,
+                "width": 530,
+                "height": 88
+            }
+        },
+        {
+            "text": "oriented",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1753,
+                "top": 1859,
+                "width": 393,
+                "height": 89
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2183,
+                "top": 1857,
+                "width": 172,
+                "height": 94
+            }
+        },
+        {
+            "text": "reliable.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2387,
+                "top": 1859,
+                "width": 387,
+                "height": 89
+            }
+        }
+    ]
+}

@@ -47,7 +47,7 @@ class KnowledgeIndexer:
     # BUILD MULTIMODAL DOCUMENTS
     # ==========================================================
 
-    def build_multimodal_documents(self, pdf_path):
+    def build_multimodal_documents(self, pdf_path, include_multimodal=False):
 
         pdf_path = Path(pdf_path)
 
@@ -76,6 +76,13 @@ class KnowledgeIndexer:
             f"Text Pages : {len(text_docs)}"
         )
 
+        # PDFs with a native text layer can be indexed immediately. Rendering,
+        # image classification, and OCR duplicate that content and dominate
+        # upload time, so only use them for scans or explicit enrichment.
+        if text_docs and not include_multimodal:
+            print("Native PDF text found; skipping page rendering and OCR.")
+            return text_docs
+
         # --------------------------------------------------
         # PAGE RENDERING
         # --------------------------------------------------
@@ -100,13 +107,8 @@ class KnowledgeIndexer:
         )
         upload_status["progress"] = 40
 
-        print(
-            "\nRunning Image Classification..."
-        )
-
-        self.image_classifier.process_document(
-            document_name
-        )
+        # Figure indexing is currently disabled, so classification has no
+        # effect on search results. Skip this costly pass for OCR fallbacks.
 
         # --------------------------------------------------
         # OCR
@@ -280,7 +282,7 @@ class KnowledgeIndexer:
     # INDEX SINGLE PDF
     # ==========================================================
 
-    def index_file(self, pdf_path):
+    def index_file(self, pdf_path, include_multimodal=False):
 
         print("=" * 60)
         print("INDEXING NEW DOCUMENT")
@@ -288,7 +290,8 @@ class KnowledgeIndexer:
 
         documents = (
             self.build_multimodal_documents(
-                pdf_path
+                pdf_path,
+                include_multimodal=include_multimodal
             )
         )
 

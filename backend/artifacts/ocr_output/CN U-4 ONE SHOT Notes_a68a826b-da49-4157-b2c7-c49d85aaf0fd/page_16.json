@@ -1,0 +1,948 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_16",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_16.png",
+    "text": "Example: Suppose a TCP connection is transferring a file of 5000 bytes. The first byte is numbered 10,001. What are sequence numbers for each segment if data are sent in five segments, each carrying 1000 bytes? Solution oO The following shows the sequence number for each segment: _Segment 1 Sequence Number: 0,001 jrange: 10,001 to 11,000) _ Segment 2 Sequence Number: 11,001 (range: 11,001 to 12,000) —-Segment 3 Sequence Number: 12,001 (range: 12,001 to 13,000) Segment 4 Sequence Number: 13,001 (range: 13,001 to 14,000) \\._ Sefment 5 Sequence Number: 14,001 (range: 14,001 to 15,000)",
+    "words": [
+        {
+            "text": "Example:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 80,
+                "top": 98,
+                "width": 449,
+                "height": 114
+            }
+        },
+        {
+            "text": "Suppose",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 79,
+                "top": 321,
+                "width": 407,
+                "height": 113
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 521,
+                "top": 347,
+                "width": 52,
+                "height": 62
+            }
+        },
+        {
+            "text": "TCP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 601,
+                "top": 321,
+                "width": 223,
+                "height": 88
+            }
+        },
+        {
+            "text": "connection",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 854,
+                "top": 319,
+                "width": 532,
+                "height": 90
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 1426,
+                "top": 319,
+                "width": 72,
+                "height": 89
+            }
+        },
+        {
+            "text": "transferring",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1531,
+                "top": 318,
+                "width": 569,
+                "height": 116
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2110,
+                "top": 314,
+                "width": 50,
+                "height": 148
+            }
+        },
+        {
+            "text": "file",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2219,
+                "top": 318,
+                "width": 156,
+                "height": 91
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2412,
+                "top": 318,
+                "width": 113,
+                "height": 90
+            }
+        },
+        {
+            "text": "5000",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2545,
+                "top": 321,
+                "width": 237,
+                "height": 88
+            }
+        },
+        {
+            "text": "bytes.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2821,
+                "top": 320,
+                "width": 275,
+                "height": 114
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3135,
+                "top": 320,
+                "width": 185,
+                "height": 89
+            }
+        },
+        {
+            "text": "first",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3358,
+                "top": 318,
+                "width": 192,
+                "height": 91
+            }
+        },
+        {
+            "text": "byte",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3586,
+                "top": 320,
+                "width": 205,
+                "height": 114
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3831,
+                "top": 319,
+                "width": 71,
+                "height": 89
+            }
+        },
+        {
+            "text": "numbered",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3938,
+                "top": 320,
+                "width": 481,
+                "height": 89
+            }
+        },
+        {
+            "text": "10,001.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4459,
+                "top": 321,
+                "width": 367,
+                "height": 137
+            }
+        },
+        {
+            "text": "What",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 77,
+                "top": 542,
+                "width": 261,
+                "height": 89
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 372,
+                "top": 570,
+                "width": 144,
+                "height": 61
+            }
+        },
+        {
+            "text": "sequence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 551,
+                "top": 569,
+                "width": 443,
+                "height": 87
+            }
+        },
+        {
+            "text": "numbers",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1032,
+                "top": 542,
+                "width": 414,
+                "height": 89
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1483,
+                "top": 541,
+                "width": 138,
+                "height": 89
+            }
+        },
+        {
+            "text": "each",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1654,
+                "top": 542,
+                "width": 219,
+                "height": 89
+            }
+        },
+        {
+            "text": "segment",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1910,
+                "top": 557,
+                "width": 400,
+                "height": 100
+            }
+        },
+        {
+            "text": "if",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 2350,
+                "top": 540,
+                "width": 81,
+                "height": 89
+            }
+        },
+        {
+            "text": "data",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2450,
+                "top": 542,
+                "width": 202,
+                "height": 89
+            }
+        },
+        {
+            "text": "are",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2684,
+                "top": 570,
+                "width": 145,
+                "height": 61
+            }
+        },
+        {
+            "text": "sent",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2865,
+                "top": 556,
+                "width": 192,
+                "height": 75
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 69.0,
+            "bbox": {
+                "left": 3097,
+                "top": 541,
+                "width": 86,
+                "height": 88
+            }
+        },
+        {
+            "text": "five",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3219,
+                "top": 541,
+                "width": 182,
+                "height": 90
+            }
+        },
+        {
+            "text": "segments,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3439,
+                "top": 556,
+                "width": 477,
+                "height": 103
+            }
+        },
+        {
+            "text": "each",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3953,
+                "top": 542,
+                "width": 220,
+                "height": 89
+            }
+        },
+        {
+            "text": "carrying",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4206,
+                "top": 541,
+                "width": 406,
+                "height": 115
+            }
+        },
+        {
+            "text": "1000",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4663,
+                "top": 543,
+                "width": 223,
+                "height": 87
+            }
+        },
+        {
+            "text": "bytes?",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4925,
+                "top": 541,
+                "width": 305,
+                "height": 115
+            }
+        },
+        {
+            "text": "Solution",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 80,
+                "top": 759,
+                "width": 407,
+                "height": 87
+            }
+        },
+        {
+            "text": "oO",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 3422,
+                "top": 699,
+                "width": 430,
+                "height": 168
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 76,
+                "top": 981,
+                "width": 186,
+                "height": 89
+            }
+        },
+        {
+            "text": "following",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 298,
+                "top": 979,
+                "width": 472,
+                "height": 116
+            }
+        },
+        {
+            "text": "shows",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 805,
+                "top": 981,
+                "width": 300,
+                "height": 89
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1139,
+                "top": 981,
+                "width": 144,
+                "height": 89
+            }
+        },
+        {
+            "text": "sequence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1321,
+                "top": 1008,
+                "width": 440,
+                "height": 87
+            }
+        },
+        {
+            "text": "number",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1796,
+                "top": 981,
+                "width": 372,
+                "height": 89
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2201,
+                "top": 979,
+                "width": 141,
+                "height": 90
+            }
+        },
+        {
+            "text": "each",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2372,
+                "top": 980,
+                "width": 221,
+                "height": 90
+            }
+        },
+        {
+            "text": "segment:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2628,
+                "top": 995,
+                "width": 427,
+                "height": 100
+            }
+        },
+        {
+            "text": "_Segment",
+            "confidence": 39.0,
+            "bbox": {
+                "left": 961,
+                "top": 1401,
+                "width": 562,
+                "height": 133
+            }
+        },
+        {
+            "text": "1",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 1573,
+                "top": 1422,
+                "width": 26,
+                "height": 85
+            }
+        },
+        {
+            "text": "Sequence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1654,
+                "top": 1422,
+                "width": 458,
+                "height": 112
+            }
+        },
+        {
+            "text": "Number:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2147,
+                "top": 1420,
+                "width": 420,
+                "height": 89
+            }
+        },
+        {
+            "text": "0,001",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2674,
+                "top": 1399,
+                "width": 257,
+                "height": 139
+            }
+        },
+        {
+            "text": "jrange:",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2980,
+                "top": 1354,
+                "width": 329,
+                "height": 222
+            }
+        },
+        {
+            "text": "10,001",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3372,
+                "top": 1422,
+                "width": 300,
+                "height": 104
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3723,
+                "top": 1434,
+                "width": 91,
+                "height": 75
+            }
+        },
+        {
+            "text": "11,000)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3863,
+                "top": 1422,
+                "width": 366,
+                "height": 131
+            }
+        },
+        {
+            "text": "_",
+            "confidence": 78.0,
+            "bbox": {
+                "left": 952,
+                "top": 1614,
+                "width": 74,
+                "height": 147
+            }
+        },
+        {
+            "text": "Segment",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 956,
+                "top": 1618,
+                "width": 570,
+                "height": 138
+            }
+        },
+        {
+            "text": "2",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1561,
+                "top": 1643,
+                "width": 53,
+                "height": 86
+            }
+        },
+        {
+            "text": "Sequence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1656,
+                "top": 1644,
+                "width": 460,
+                "height": 112
+            }
+        },
+        {
+            "text": "Number:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2149,
+                "top": 1642,
+                "width": 425,
+                "height": 92
+            }
+        },
+        {
+            "text": "11,001",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2624,
+                "top": 1636,
+                "width": 300,
+                "height": 144
+            }
+        },
+        {
+            "text": "(range:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2978,
+                "top": 1636,
+                "width": 332,
+                "height": 144
+            }
+        },
+        {
+            "text": "11,001",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3370,
+                "top": 1644,
+                "width": 297,
+                "height": 130
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3716,
+                "top": 1656,
+                "width": 92,
+                "height": 75
+            }
+        },
+        {
+            "text": "12,000)",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3858,
+                "top": 1643,
+                "width": 357,
+                "height": 112
+            }
+        },
+        {
+            "text": "—-Segment",
+            "confidence": 56.0,
+            "bbox": {
+                "left": 933,
+                "top": 1830,
+                "width": 589,
+                "height": 143
+            }
+        },
+        {
+            "text": "3",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1559,
+                "top": 1860,
+                "width": 48,
+                "height": 88
+            }
+        },
+        {
+            "text": "Sequence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1652,
+                "top": 1860,
+                "width": 459,
+                "height": 113
+            }
+        },
+        {
+            "text": "Number:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2146,
+                "top": 1855,
+                "width": 419,
+                "height": 96
+            }
+        },
+        {
+            "text": "12,001",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2627,
+                "top": 1860,
+                "width": 301,
+                "height": 143
+            }
+        },
+        {
+            "text": "(range:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2978,
+                "top": 1864,
+                "width": 332,
+                "height": 109
+            }
+        },
+        {
+            "text": "12,001",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3370,
+                "top": 1860,
+                "width": 302,
+                "height": 124
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3719,
+                "top": 1873,
+                "width": 93,
+                "height": 75
+            }
+        },
+        {
+            "text": "13,000)",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3863,
+                "top": 1859,
+                "width": 357,
+                "height": 106
+            }
+        },
+        {
+            "text": "Segment",
+            "confidence": 16.0,
+            "bbox": {
+                "left": 942,
+                "top": 2072,
+                "width": 579,
+                "height": 123
+            }
+        },
+        {
+            "text": "4",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1555,
+                "top": 2082,
+                "width": 56,
+                "height": 86
+            }
+        },
+        {
+            "text": "Sequence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1652,
+                "top": 2083,
+                "width": 459,
+                "height": 112
+            }
+        },
+        {
+            "text": "Number:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2146,
+                "top": 2080,
+                "width": 419,
+                "height": 90
+            }
+        },
+        {
+            "text": "13,001",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2627,
+                "top": 2082,
+                "width": 301,
+                "height": 103
+            }
+        },
+        {
+            "text": "(range:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2978,
+                "top": 2086,
+                "width": 332,
+                "height": 109
+            }
+        },
+        {
+            "text": "13,001",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3370,
+                "top": 2082,
+                "width": 302,
+                "height": 104
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3719,
+                "top": 2095,
+                "width": 93,
+                "height": 75
+            }
+        },
+        {
+            "text": "14,000)",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3863,
+                "top": 2082,
+                "width": 357,
+                "height": 106
+            }
+        },
+        {
+            "text": "\\._",
+            "confidence": 6.0,
+            "bbox": {
+                "left": 944,
+                "top": 2241,
+                "width": 134,
+                "height": 200
+            }
+        },
+        {
+            "text": "Sefment",
+            "confidence": 22.0,
+            "bbox": {
+                "left": 948,
+                "top": 2246,
+                "width": 573,
+                "height": 191
+            }
+        },
+        {
+            "text": "5",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1559,
+                "top": 2299,
+                "width": 49,
+                "height": 88
+            }
+        },
+        {
+            "text": "Sequence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1649,
+                "top": 2297,
+                "width": 462,
+                "height": 115
+            }
+        },
+        {
+            "text": "Number:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2145,
+                "top": 2297,
+                "width": 421,
+                "height": 90
+            }
+        },
+        {
+            "text": "14,001",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2628,
+                "top": 2299,
+                "width": 301,
+                "height": 103
+            }
+        },
+        {
+            "text": "(range:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2978,
+                "top": 2304,
+                "width": 332,
+                "height": 108
+            }
+        },
+        {
+            "text": "14,001",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3370,
+                "top": 2299,
+                "width": 302,
+                "height": 101
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3719,
+                "top": 2312,
+                "width": 93,
+                "height": 75
+            }
+        },
+        {
+            "text": "15,000)",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3863,
+                "top": 2299,
+                "width": 358,
+                "height": 104
+            }
+        }
+    ]
+}

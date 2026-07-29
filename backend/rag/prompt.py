@@ -24,7 +24,6 @@ class PromptBuilder:
         metadatas = retrieved_results["metadatas"][0]
 
         context = ""
-
         length = 0
 
         # ---------------------------------------------
@@ -34,20 +33,16 @@ class PromptBuilder:
         for doc, meta in zip(documents, metadatas):
 
             chunk = (
-
                 f"[Document : {meta['filename']} | "
                 f"Page : {meta['page']} | "
-                f"Type : {meta.get('type','pdf')}]\n"
-
+                f"Type : {meta.get('type', 'pdf')}]\n"
                 f"{doc.strip()}\n\n"
-
             )
 
             if length + len(chunk) > self.MAX_CONTEXT_CHARS:
                 break
 
             context += chunk
-
             length += len(chunk)
 
         # ---------------------------------------------
@@ -63,21 +58,15 @@ class PromptBuilder:
             for page in vision_context:
 
                 vision_text += (
-
                     f"\nDocument : {page['document']}"
-
                     f"\nPage : {page['page']}\n"
-
                 )
 
                 for image in page["images"]:
 
                     vision_text += (
-
                         f"\n[{image['type'].upper()}]\n"
-
                         f"{image['description']}\n"
-
                     )
 
         # ---------------------------------------------
@@ -89,17 +78,22 @@ You are an aerospace engineering assistant.
 
 Use ONLY the provided context.
 
+Follow these formatting rules exactly:
+- Write the answer in clean Markdown.
+- Use bold section headings.
+- Keep the tone clear, professional, and GPT-like.
+- Use short paragraphs and bullet points where helpful.
+- Do not write in all caps.
+- Do not add unnecessary filler.
+- If information is missing, say so clearly.
+- Do not invent numerical values.
+
 Priority of information:
 
 1. Graph Context
 2. Linked Context
 3. Document Context
 4. Vision Analysis
-
-Never invent numerical values.
-
-If information is unavailable,
-say so clearly.
 
 ------------------------------------------------
 
@@ -133,66 +127,94 @@ VISION ANALYSIS
 
 ------------------------------------------------
 
-Provide:
+Return the answer in exactly this format:
 
-• Direct Answer
+**Direct Answer**
 
-• Engineering Explanation
+<one short direct response>
 
-• References Used
+**Engineering Explanation**
+
+<clear explanation with bullets if needed>
+
+**References Used**
+
+- <document name and page>
+- <document name and page>
+
+If no references are available, write:
+- Not available from the provided context
 """
         return prompt
-    
+
+    # --------------------------------------------------
 
     def build_graph_prompt(
-    self,
-    question,
-    graph
-):
+        self,
+        question,
+        graph
+    ):
 
         return f"""
-    You are an aerospace engineering assistant.
+You are an aerospace engineering assistant.
 
-    Answer ONLY using the graph below.
+Answer ONLY using the graph below.
 
-    ===========================
-    GRAPH
-    ===========================
+Follow these formatting rules exactly:
+- Write the answer in clean Markdown.
+- Use bold section headings.
+- Keep the tone clear, professional, and GPT-like.
+- Use short paragraphs and bullet points where helpful.
+- Do not invent numerical values.
+- Always mention the graph title.
+- If information is unavailable, say so clearly.
 
-    Title:
-    {graph.get("title","")}
+===========================
+GRAPH
+===========================
 
-    Domain:
-    {graph.get("engineering_domain","")}
+Title:
+{graph.get("title", "")}
 
-    X Axis:
-    {graph.get("x_axis","")}
+Domain:
+{graph.get("engineering_domain", "")}
 
-    Y Axis:
-    {graph.get("y_axis","")}
+X Axis:
+{graph.get("x_axis", "")}
 
-    Summary:
+Y Axis:
+{graph.get("y_axis", "")}
 
-    {graph.get("llm_summary","")}
+Summary:
 
-    ===========================
+{graph.get("llm_summary", "")}
 
-    User Question
+===========================
 
-    {question}
+User Question
 
-    ===========================
+{question}
 
-    Rules
+===========================
 
-    Answer ONLY from graph information.
+Return the answer in exactly this format:
 
-    Do not invent numerical values.
+**Direct Answer**
 
-    If information is unavailable,
-    say:
+<short direct response>
 
-    "I couldn't find that information in this graph."
+**Engineering Explanation**
 
-    Always mention the graph title.
-    """
+<clear explanation of the graph>
+
+**References Used**
+
+- Graph title: <title>
+- Graph page/context if available
+
+If the answer is not in the graph, write:
+
+**Direct Answer**
+
+I couldn't find that information in this graph.
+"""

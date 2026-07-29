@@ -1,0 +1,728 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_59",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_59.png",
+    "text": "Retransmission: > Error control mechanism is achieved through retransmission of segments. > When a segment !s corrupted, lost, or delayed, it is retransmitted. A segment Is retransmitted on two occasions: ¥ when aretransmission timer expires SL 3 R _—> Y when the sender veceives three duplicate AC Ks.( put Retramamaitiing > No retransmission occurs for segments that do not consume sequence numbers. > No retransmission timer is set for an ACK segment.",
+    "words": [
+        {
+            "text": "Retransmission:",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 89,
+                "top": 48,
+                "width": 766,
+                "height": 88
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 95,
+                "top": 271,
+                "width": 73,
+                "height": 82
+            }
+        },
+        {
+            "text": "Error",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 236,
+                "top": 271,
+                "width": 254,
+                "height": 87
+            }
+        },
+        {
+            "text": "control",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 522,
+                "top": 269,
+                "width": 338,
+                "height": 90
+            }
+        },
+        {
+            "text": "mechanism",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 902,
+                "top": 269,
+                "width": 547,
+                "height": 90
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 55.0,
+            "bbox": {
+                "left": 1493,
+                "top": 269,
+                "width": 71,
+                "height": 89
+            }
+        },
+        {
+            "text": "achieved",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1599,
+                "top": 269,
+                "width": 429,
+                "height": 90
+            }
+        },
+        {
+            "text": "through",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2062,
+                "top": 269,
+                "width": 380,
+                "height": 115
+            }
+        },
+        {
+            "text": "retransmission",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2476,
+                "top": 269,
+                "width": 704,
+                "height": 90
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3217,
+                "top": 268,
+                "width": 114,
+                "height": 90
+            }
+        },
+        {
+            "text": "segments.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3350,
+                "top": 283,
+                "width": 471,
+                "height": 101
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 95,
+                "top": 488,
+                "width": 72,
+                "height": 82
+            }
+        },
+        {
+            "text": "When",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 234,
+                "top": 487,
+                "width": 288,
+                "height": 89
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 556,
+                "top": 514,
+                "width": 51,
+                "height": 62
+            }
+        },
+        {
+            "text": "segment",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 643,
+                "top": 500,
+                "width": 401,
+                "height": 101
+            }
+        },
+        {
+            "text": "!s",
+            "confidence": 5.0,
+            "bbox": {
+                "left": 1084,
+                "top": 487,
+                "width": 73,
+                "height": 88
+            }
+        },
+        {
+            "text": "corrupted,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1191,
+                "top": 487,
+                "width": 491,
+                "height": 114
+            }
+        },
+        {
+            "text": "lost,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1725,
+                "top": 486,
+                "width": 196,
+                "height": 105
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1958,
+                "top": 514,
+                "width": 100,
+                "height": 61
+            }
+        },
+        {
+            "text": "delayed,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2089,
+                "top": 486,
+                "width": 404,
+                "height": 114
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2536,
+                "top": 486,
+                "width": 60,
+                "height": 89
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2636,
+                "top": 486,
+                "width": 71,
+                "height": 89
+            }
+        },
+        {
+            "text": "retransmitted.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2743,
+                "top": 486,
+                "width": 659,
+                "height": 91
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3494,
+                "top": 489,
+                "width": 32,
+                "height": 86
+            }
+        },
+        {
+            "text": "segment",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3556,
+                "top": 500,
+                "width": 401,
+                "height": 101
+            }
+        },
+        {
+            "text": "Is",
+            "confidence": 47.0,
+            "bbox": {
+                "left": 3998,
+                "top": 486,
+                "width": 73,
+                "height": 90
+            }
+        },
+        {
+            "text": "retransmitted",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4106,
+                "top": 486,
+                "width": 636,
+                "height": 90
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4778,
+                "top": 514,
+                "width": 119,
+                "height": 62
+            }
+        },
+        {
+            "text": "two",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4932,
+                "top": 500,
+                "width": 179,
+                "height": 75
+            }
+        },
+        {
+            "text": "occasions:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 233,
+                "top": 708,
+                "width": 497,
+                "height": 91
+            }
+        },
+        {
+            "text": "¥",
+            "confidence": 32.0,
+            "bbox": {
+                "left": 291,
+                "top": 874,
+                "width": 81,
+                "height": 76
+            }
+        },
+        {
+            "text": "when",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 434,
+                "top": 880,
+                "width": 260,
+                "height": 90
+            }
+        },
+        {
+            "text": "aretransmission",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 730,
+                "top": 880,
+                "width": 791,
+                "height": 90
+            }
+        },
+        {
+            "text": "timer",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1556,
+                "top": 880,
+                "width": 256,
+                "height": 90
+            }
+        },
+        {
+            "text": "expires",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1846,
+                "top": 880,
+                "width": 348,
+                "height": 115
+            }
+        },
+        {
+            "text": "SL",
+            "confidence": 40.0,
+            "bbox": {
+                "left": 2237,
+                "top": 744,
+                "width": 351,
+                "height": 232
+            }
+        },
+        {
+            "text": "3",
+            "confidence": 27.0,
+            "bbox": {
+                "left": 2644,
+                "top": 944,
+                "width": 6,
+                "height": 6
+            }
+        },
+        {
+            "text": "R",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1444,
+                "top": 1032,
+                "width": 76,
+                "height": 86
+            }
+        },
+        {
+            "text": "_—>",
+            "confidence": 4.0,
+            "bbox": {
+                "left": 4169,
+                "top": 1067,
+                "width": 224,
+                "height": 36
+            }
+        },
+        {
+            "text": "Y",
+            "confidence": 6.0,
+            "bbox": {
+                "left": 292,
+                "top": 1168,
+                "width": 80,
+                "height": 77
+            }
+        },
+        {
+            "text": "when",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 433,
+                "top": 1175,
+                "width": 262,
+                "height": 90
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 729,
+                "top": 1175,
+                "width": 145,
+                "height": 90
+            }
+        },
+        {
+            "text": "sender",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 911,
+                "top": 1175,
+                "width": 316,
+                "height": 90
+            }
+        },
+        {
+            "text": "veceives",
+            "confidence": 8.0,
+            "bbox": {
+                "left": 1259,
+                "top": 1028,
+                "width": 394,
+                "height": 256
+            }
+        },
+        {
+            "text": "three",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1689,
+                "top": 1175,
+                "width": 238,
+                "height": 90
+            }
+        },
+        {
+            "text": "duplicate",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1963,
+                "top": 1175,
+                "width": 444,
+                "height": 115
+            }
+        },
+        {
+            "text": "AC",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2434,
+                "top": 1177,
+                "width": 163,
+                "height": 88
+            }
+        },
+        {
+            "text": "Ks.(",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 2607,
+                "top": 1123,
+                "width": 247,
+                "height": 180
+            }
+        },
+        {
+            "text": "put",
+            "confidence": 46.0,
+            "bbox": {
+                "left": 2933,
+                "top": 1093,
+                "width": 363,
+                "height": 256
+            }
+        },
+        {
+            "text": "Retramamaitiing",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 3392,
+                "top": 996,
+                "width": 1121,
+                "height": 409
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 95,
+                "top": 1370,
+                "width": 73,
+                "height": 84
+            }
+        },
+        {
+            "text": "No",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 232,
+                "top": 1372,
+                "width": 147,
+                "height": 86
+            }
+        },
+        {
+            "text": "retransmission",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 416,
+                "top": 1369,
+                "width": 705,
+                "height": 90
+            }
+        },
+        {
+            "text": "occurs",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1155,
+                "top": 1397,
+                "width": 317,
+                "height": 62
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1508,
+                "top": 1369,
+                "width": 138,
+                "height": 90
+            }
+        },
+        {
+            "text": "segments",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1681,
+                "top": 1384,
+                "width": 448,
+                "height": 100
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2163,
+                "top": 1369,
+                "width": 181,
+                "height": 90
+            }
+        },
+        {
+            "text": "do",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2378,
+                "top": 1369,
+                "width": 119,
+                "height": 90
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2533,
+                "top": 1384,
+                "width": 150,
+                "height": 74
+            }
+        },
+        {
+            "text": "consume",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2714,
+                "top": 1394,
+                "width": 432,
+                "height": 69
+            }
+        },
+        {
+            "text": "sequence",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3183,
+                "top": 1397,
+                "width": 441,
+                "height": 87
+            }
+        },
+        {
+            "text": "numbers.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3662,
+                "top": 1369,
+                "width": 437,
+                "height": 90
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 85.0,
+            "bbox": {
+                "left": 95,
+                "top": 1587,
+                "width": 73,
+                "height": 83
+            }
+        },
+        {
+            "text": "No",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 232,
+                "top": 1588,
+                "width": 147,
+                "height": 87
+            }
+        },
+        {
+            "text": "retransmission",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 416,
+                "top": 1585,
+                "width": 705,
+                "height": 91
+            }
+        },
+        {
+            "text": "timer",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1155,
+                "top": 1585,
+                "width": 257,
+                "height": 91
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 61.0,
+            "bbox": {
+                "left": 1452,
+                "top": 1586,
+                "width": 72,
+                "height": 90
+            }
+        },
+        {
+            "text": "set",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1560,
+                "top": 1601,
+                "width": 130,
+                "height": 75
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1724,
+                "top": 1585,
+                "width": 139,
+                "height": 91
+            }
+        },
+        {
+            "text": "an",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1897,
+                "top": 1614,
+                "width": 112,
+                "height": 62
+            }
+        },
+        {
+            "text": "ACK",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2036,
+                "top": 1588,
+                "width": 254,
+                "height": 88
+            }
+        },
+        {
+            "text": "segment.",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2326,
+                "top": 1601,
+                "width": 423,
+                "height": 100
+            }
+        }
+    ]
+}

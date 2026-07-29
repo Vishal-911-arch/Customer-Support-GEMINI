@@ -1,0 +1,1258 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_86",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_86.png",
+    "text": "Encapsulation and Decapsulation: To send a message from one process to another, the UDP protocol encapsulates and decapsulates messages in an IP datagram. Queuing: At client site, when a process starts, it obtains one port number, one outgoing and one incoming queue. > Client process send messages to outgoing queue, UDP removes them one by one, adds UDP header, delivers them to IP. > If outgoing queue overflows, OS ask client process to wait before sending any more messages. > When a message arrives for a client, UDP sends the received datagram to end of incoming queue. > If there is no such queue or incoming queue overflows, UDP discards user datagram and asks ICMP protocol to send a port unreachable message to the server.",
+    "words": [
+        {
+            "text": "Encapsulation",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 120,
+                "top": 132,
+                "width": 682,
+                "height": 113
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 840,
+                "top": 132,
+                "width": 169,
+                "height": 87
+            }
+        },
+        {
+            "text": "Decapsulation:",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 1049,
+                "top": 132,
+                "width": 714,
+                "height": 113
+            }
+        },
+        {
+            "text": "To",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 115,
+                "top": 355,
+                "width": 124,
+                "height": 87
+            }
+        },
+        {
+            "text": "send",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 276,
+                "top": 354,
+                "width": 214,
+                "height": 89
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 528,
+                "top": 381,
+                "width": 52,
+                "height": 61
+            }
+        },
+        {
+            "text": "message",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 615,
+                "top": 380,
+                "width": 404,
+                "height": 87
+            }
+        },
+        {
+            "text": "from",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1058,
+                "top": 352,
+                "width": 228,
+                "height": 90
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1325,
+                "top": 380,
+                "width": 171,
+                "height": 62
+            }
+        },
+        {
+            "text": "process",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1534,
+                "top": 381,
+                "width": 361,
+                "height": 86
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1927,
+                "top": 367,
+                "width": 91,
+                "height": 75
+            }
+        },
+        {
+            "text": "another,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2054,
+                "top": 354,
+                "width": 386,
+                "height": 106
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2475,
+                "top": 353,
+                "width": 145,
+                "height": 90
+            }
+        },
+        {
+            "text": "UDP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2659,
+                "top": 355,
+                "width": 238,
+                "height": 88
+            }
+        },
+        {
+            "text": "protocol",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2928,
+                "top": 353,
+                "width": 397,
+                "height": 115
+            }
+        },
+        {
+            "text": "encapsulates",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3364,
+                "top": 353,
+                "width": 614,
+                "height": 114
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 4012,
+                "top": 353,
+                "width": 170,
+                "height": 89
+            }
+        },
+        {
+            "text": "decapsulates",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 4222,
+                "top": 353,
+                "width": 612,
+                "height": 114
+            }
+        },
+        {
+            "text": "messages",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4869,
+                "top": 380,
+                "width": 456,
+                "height": 87
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 121,
+                "top": 569,
+                "width": 86,
+                "height": 88
+            }
+        },
+        {
+            "text": "an",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 241,
+                "top": 597,
+                "width": 111,
+                "height": 62
+            }
+        },
+        {
+            "text": "IP",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 390,
+                "top": 571,
+                "width": 103,
+                "height": 86
+            }
+        },
+        {
+            "text": "datagram.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 522,
+                "top": 569,
+                "width": 471,
+                "height": 115
+            }
+        },
+        {
+            "text": "Queuing:",
+            "confidence": 34.0,
+            "bbox": {
+                "left": 116,
+                "top": 792,
+                "width": 479,
+                "height": 122
+            }
+        },
+        {
+            "text": "At",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 117,
+                "top": 1012,
+                "width": 116,
+                "height": 85
+            }
+        },
+        {
+            "text": "client",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 269,
+                "top": 1009,
+                "width": 265,
+                "height": 88
+            }
+        },
+        {
+            "text": "site,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 572,
+                "top": 1009,
+                "width": 190,
+                "height": 101
+            }
+        },
+        {
+            "text": "when",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 802,
+                "top": 1008,
+                "width": 259,
+                "height": 90
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1097,
+                "top": 1037,
+                "width": 52,
+                "height": 61
+            }
+        },
+        {
+            "text": "process",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1183,
+                "top": 1036,
+                "width": 362,
+                "height": 87
+            }
+        },
+        {
+            "text": "starts,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1579,
+                "top": 1023,
+                "width": 281,
+                "height": 91
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 60.0,
+            "bbox": {
+                "left": 1902,
+                "top": 1008,
+                "width": 59,
+                "height": 89
+            }
+        },
+        {
+            "text": "obtains",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1994,
+                "top": 1008,
+                "width": 351,
+                "height": 90
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2378,
+                "top": 1036,
+                "width": 172,
+                "height": 62
+            }
+        },
+        {
+            "text": "port",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2586,
+                "top": 1023,
+                "width": 191,
+                "height": 100
+            }
+        },
+        {
+            "text": "number,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2814,
+                "top": 1008,
+                "width": 393,
+                "height": 110
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3238,
+                "top": 1036,
+                "width": 176,
+                "height": 62
+            }
+        },
+        {
+            "text": "outgoing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3449,
+                "top": 1009,
+                "width": 433,
+                "height": 114
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3914,
+                "top": 1009,
+                "width": 170,
+                "height": 89
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4119,
+                "top": 1036,
+                "width": 174,
+                "height": 62
+            }
+        },
+        {
+            "text": "incoming",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 4332,
+                "top": 1009,
+                "width": 453,
+                "height": 114
+            }
+        },
+        {
+            "text": "queue.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4819,
+                "top": 1036,
+                "width": 310,
+                "height": 87
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 73.0,
+            "bbox": {
+                "left": 126,
+                "top": 1231,
+                "width": 73,
+                "height": 84
+            }
+        },
+        {
+            "text": "Client",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 265,
+                "top": 1230,
+                "width": 296,
+                "height": 91
+            }
+        },
+        {
+            "text": "process",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 596,
+                "top": 1258,
+                "width": 361,
+                "height": 87
+            }
+        },
+        {
+            "text": "send",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 993,
+                "top": 1231,
+                "width": 217,
+                "height": 89
+            }
+        },
+        {
+            "text": "messages",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1246,
+                "top": 1258,
+                "width": 455,
+                "height": 87
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1734,
+                "top": 1246,
+                "width": 92,
+                "height": 74
+            }
+        },
+        {
+            "text": "outgoing",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1861,
+                "top": 1230,
+                "width": 434,
+                "height": 115
+            }
+        },
+        {
+            "text": "queue,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2327,
+                "top": 1259,
+                "width": 316,
+                "height": 86
+            }
+        },
+        {
+            "text": "UDP",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2681,
+                "top": 1230,
+                "width": 241,
+                "height": 93
+            }
+        },
+        {
+            "text": "removes",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 2947,
+                "top": 1255,
+                "width": 412,
+                "height": 67
+            }
+        },
+        {
+            "text": "them",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 3392,
+                "top": 1231,
+                "width": 239,
+                "height": 89
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3667,
+                "top": 1259,
+                "width": 174,
+                "height": 61
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3877,
+                "top": 1231,
+                "width": 114,
+                "height": 114
+            }
+        },
+        {
+            "text": "one,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4027,
+                "top": 1258,
+                "width": 202,
+                "height": 78
+            }
+        },
+        {
+            "text": "adds",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4266,
+                "top": 1231,
+                "width": 219,
+                "height": 89
+            }
+        },
+        {
+            "text": "UDP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4522,
+                "top": 1232,
+                "width": 238,
+                "height": 88
+            }
+        },
+        {
+            "text": "header,",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4792,
+                "top": 1230,
+                "width": 342,
+                "height": 104
+            }
+        },
+        {
+            "text": "delivers",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 266,
+                "top": 1453,
+                "width": 384,
+                "height": 90
+            }
+        },
+        {
+            "text": "them",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 683,
+                "top": 1453,
+                "width": 236,
+                "height": 89
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 957,
+                "top": 1468,
+                "width": 94,
+                "height": 74
+            }
+        },
+        {
+            "text": "IP.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1086,
+                "top": 1455,
+                "width": 110,
+                "height": 87
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 126,
+                "top": 1670,
+                "width": 73,
+                "height": 83
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 269,
+                "top": 1669,
+                "width": 88,
+                "height": 88
+            }
+        },
+        {
+            "text": "outgoing",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 378,
+                "top": 1670,
+                "width": 433,
+                "height": 114
+            }
+        },
+        {
+            "text": "queue",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 843,
+                "top": 1697,
+                "width": 286,
+                "height": 87
+            }
+        },
+        {
+            "text": "overflows,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1165,
+                "top": 1668,
+                "width": 512,
+                "height": 109
+            }
+        },
+        {
+            "text": "OS",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1716,
+                "top": 1671,
+                "width": 146,
+                "height": 88
+            }
+        },
+        {
+            "text": "ask",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1900,
+                "top": 1669,
+                "width": 158,
+                "height": 90
+            }
+        },
+        {
+            "text": "client",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2094,
+                "top": 1669,
+                "width": 268,
+                "height": 93
+            }
+        },
+        {
+            "text": "process",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2395,
+                "top": 1693,
+                "width": 364,
+                "height": 91
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2792,
+                "top": 1684,
+                "width": 92,
+                "height": 75
+            }
+        },
+        {
+            "text": "wait",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2919,
+                "top": 1670,
+                "width": 207,
+                "height": 89
+            }
+        },
+        {
+            "text": "before",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3162,
+                "top": 1668,
+                "width": 305,
+                "height": 91
+            }
+        },
+        {
+            "text": "sending",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3504,
+                "top": 1669,
+                "width": 376,
+                "height": 115
+            }
+        },
+        {
+            "text": "any",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3912,
+                "top": 1698,
+                "width": 171,
+                "height": 86
+            }
+        },
+        {
+            "text": "more",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4125,
+                "top": 1697,
+                "width": 242,
+                "height": 62
+            }
+        },
+        {
+            "text": "messages.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4406,
+                "top": 1697,
+                "width": 476,
+                "height": 87
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 84.0,
+            "bbox": {
+                "left": 126,
+                "top": 1892,
+                "width": 73,
+                "height": 83
+            }
+        },
+        {
+            "text": "When",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 266,
+                "top": 1892,
+                "width": 288,
+                "height": 89
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 587,
+                "top": 1920,
+                "width": 53,
+                "height": 62
+            }
+        },
+        {
+            "text": "message",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 675,
+                "top": 1919,
+                "width": 404,
+                "height": 87
+            }
+        },
+        {
+            "text": "arrives",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1116,
+                "top": 1892,
+                "width": 328,
+                "height": 90
+            }
+        },
+        {
+            "text": "for",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1483,
+                "top": 1890,
+                "width": 138,
+                "height": 90
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1653,
+                "top": 1920,
+                "width": 51,
+                "height": 62
+            }
+        },
+        {
+            "text": "client,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1738,
+                "top": 1892,
+                "width": 294,
+                "height": 105
+            }
+        },
+        {
+            "text": "UDP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2070,
+                "top": 1892,
+                "width": 244,
+                "height": 93
+            }
+        },
+        {
+            "text": "sends",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2341,
+                "top": 1892,
+                "width": 266,
+                "height": 91
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2640,
+                "top": 1892,
+                "width": 147,
+                "height": 89
+            }
+        },
+        {
+            "text": "received",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2823,
+                "top": 1891,
+                "width": 405,
+                "height": 91
+            }
+        },
+        {
+            "text": "datagram",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3266,
+                "top": 1892,
+                "width": 447,
+                "height": 115
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3750,
+                "top": 1906,
+                "width": 91,
+                "height": 75
+            }
+        },
+        {
+            "text": "end",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3878,
+                "top": 1892,
+                "width": 170,
+                "height": 89
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4086,
+                "top": 1890,
+                "width": 114,
+                "height": 91
+            }
+        },
+        {
+            "text": "incoming",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4223,
+                "top": 1891,
+                "width": 453,
+                "height": 115
+            }
+        },
+        {
+            "text": "queue.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4711,
+                "top": 1920,
+                "width": 310,
+                "height": 87
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 82.0,
+            "bbox": {
+                "left": 126,
+                "top": 2115,
+                "width": 73,
+                "height": 83
+            }
+        },
+        {
+            "text": "If",
+            "confidence": 65.0,
+            "bbox": {
+                "left": 269,
+                "top": 2113,
+                "width": 89,
+                "height": 88
+            }
+        },
+        {
+            "text": "there",
+            "confidence": 65.0,
+            "bbox": {
+                "left": 378,
+                "top": 2114,
+                "width": 240,
+                "height": 90
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 658,
+                "top": 2114,
+                "width": 73,
+                "height": 89
+            }
+        },
+        {
+            "text": "no",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 766,
+                "top": 2142,
+                "width": 118,
+                "height": 61
+            }
+        },
+        {
+            "text": "such",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 919,
+                "top": 2114,
+                "width": 218,
+                "height": 90
+            }
+        },
+        {
+            "text": "queue",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1171,
+                "top": 2142,
+                "width": 288,
+                "height": 87
+            }
+        },
+        {
+            "text": "or",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1493,
+                "top": 2142,
+                "width": 100,
+                "height": 61
+            }
+        },
+        {
+            "text": "incoming",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1632,
+                "top": 2114,
+                "width": 455,
+                "height": 115
+            }
+        },
+        {
+            "text": "queue",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2115,
+                "top": 2142,
+                "width": 290,
+                "height": 87
+            }
+        },
+        {
+            "text": "overflows,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2439,
+                "top": 2113,
+                "width": 513,
+                "height": 106
+            }
+        },
+        {
+            "text": "UDP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2992,
+                "top": 2116,
+                "width": 238,
+                "height": 88
+            }
+        },
+        {
+            "text": "discards",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3260,
+                "top": 2114,
+                "width": 398,
+                "height": 89
+            }
+        },
+        {
+            "text": "user",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3693,
+                "top": 2142,
+                "width": 201,
+                "height": 62
+            }
+        },
+        {
+            "text": "datagram",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3925,
+                "top": 2114,
+                "width": 446,
+                "height": 115
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4410,
+                "top": 2114,
+                "width": 170,
+                "height": 90
+            }
+        },
+        {
+            "text": "asks",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4617,
+                "top": 2114,
+                "width": 206,
+                "height": 90
+            }
+        },
+        {
+            "text": "ICMP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4859,
+                "top": 2116,
+                "width": 293,
+                "height": 88
+            }
+        },
+        {
+            "text": "protocol",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 267,
+                "top": 2330,
+                "width": 397,
+                "height": 115
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 703,
+                "top": 2345,
+                "width": 92,
+                "height": 76
+            }
+        },
+        {
+            "text": "send",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 831,
+                "top": 2330,
+                "width": 216,
+                "height": 90
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1084,
+                "top": 2359,
+                "width": 52,
+                "height": 61
+            }
+        },
+        {
+            "text": "port",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1156,
+                "top": 2350,
+                "width": 217,
+                "height": 95
+            }
+        },
+        {
+            "text": "unreachable",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1406,
+                "top": 2327,
+                "width": 598,
+                "height": 96
+            }
+        },
+        {
+            "text": "message",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2042,
+                "top": 2358,
+                "width": 403,
+                "height": 87
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2483,
+                "top": 2345,
+                "width": 91,
+                "height": 75
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2607,
+                "top": 2331,
+                "width": 146,
+                "height": 89
+            }
+        },
+        {
+            "text": "server.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2789,
+                "top": 2359,
+                "width": 310,
+                "height": 62
+            }
+        }
+    ]
+}

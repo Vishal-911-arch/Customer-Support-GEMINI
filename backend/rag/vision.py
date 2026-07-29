@@ -1,18 +1,16 @@
 from pathlib import Path
 import json
-import base64
 from PIL import Image
 import tempfile
 import cv2
-
-from ollama import Client
+from google import genai
+from dotenv import load_dotenv
+import os
 
 from config import (
     IMAGE_CLASSIFIER_OUTPUT_DIR,
     RENDERED_PAGES_DIR,
     VISION_OUTPUT_DIR,
-    OLLAMA_HOST,
-    VISION_MODEL
 )
 
 
@@ -20,18 +18,23 @@ class VisionProcessor:
 
     def __init__(self):
 
-        self.client = Client(host=OLLAMA_HOST)
+        load_dotenv()
+
+        self.client = genai.Client(
+            api_key=os.getenv("GEMINI_API_KEY")
+        )
 
         # Ignore tiny detections
         self.min_area = 60000
 
     # ---------------------------------------------------------
+
     @staticmethod
     def compress_image(image_path):
 
         img = Image.open(image_path)
 
-        img.thumbnail((1024,1024))
+        img.thumbnail((1024, 1024))
 
         temp = tempfile.NamedTemporaryFile(
             suffix=".png",
@@ -41,14 +44,6 @@ class VisionProcessor:
         img.save(temp.name)
 
         return temp.name
-    def encode_image(self, image):
-
-        success, buffer = cv2.imencode(".png", image)
-
-        if not success:
-            raise RuntimeError("Unable to encode image.")
-
-        return base64.b64encode(buffer).decode("utf-8")
 
     # ---------------------------------------------------------
 
@@ -61,33 +56,34 @@ class VisionProcessor:
 
         cv2.imwrite(temp.name, crop)
 
-        small_img = self.compress_image(temp.name)
+        image_path = self.compress_image(temp.name)
 
-        with open(small_img, "rb") as f:
-
-            encoded = base64.b64encode(
-                f.read()
-            ).decode("utf-8")
-
-        response = self.client.generate(
-
-            model=VISION_MODEL,
-
-            prompt = """
+        prompt = """
 Describe this engineering image briefly.
 
-Return:
+Return exactly:
 
 1. Image type
 2. Visible labels
 3. Short explanation
-""",
+"""
 
-            images=[encoded]
+        uploaded_file = self.client.files.upload(
+            file=image_path
+        )
+
+        response = self.client.models.generate_content(
+
+            model=GEMINI_MODEL,
+
+            contents=[
+                prompt,
+                uploaded_file
+            ]
 
         )
 
-        return response["response"]
+        return response.text
 
     # ---------------------------------------------------------
 
@@ -159,9 +155,7 @@ Return:
                 if crop.size == 0:
                     continue
 
-                print(
-                    f"{json_file.stem} -> Image {idx+1}"
-                )
+                print(f"{json_file.stem} -> Image {idx+1}")
 
                 description = self.describe_image(crop)
 

@@ -9,6 +9,8 @@ from config import (
 
 class VectorDatabase:
 
+    WRITE_BATCH_SIZE = 100
+
     def __init__(self):
 
         self.client = chromadb.PersistentClient(
@@ -53,55 +55,37 @@ class VectorDatabase:
     # Add Documents
     # ==========================================================
 
-    def add_documents(
-        self,
-        chunks,
-        embeddings
-    ):
+    def add_documents(self, chunks, embeddings):
 
         ids = []
         docs = []
         metas = []
         embs = []
-
-        existing = set(
-            self.collection.get()["ids"]
-        )
-
         skipped = 0
 
         for chunk, embedding in zip(chunks, embeddings):
 
             doc_id = self.generate_id(chunk)
 
-            if doc_id in existing:
-                print("Duplicate graph found.")
-                skipped += 1
-                continue
-
             ids.append(doc_id)
             docs.append(chunk.page_content)
             metas.append(chunk.metadata)
             embs.append(embedding)
+
             print("\nMetadata :", chunk.metadata)
-
-            doc_id = self.generate_id(chunk)
-
             print("Generated ID :", doc_id[:25])
 
         if ids:
             print("\nAdding to ChromaDB...")
-            self.collection.add(
 
+            # upsert avoids crashing if the same chunk ID already exists
+            self.collection.upsert(
                 ids=ids,
-
                 documents=docs,
-
                 metadatas=metas,
-
                 embeddings=embs
-
             )
+
             print("Added successfully.")
 
         print(f"\nAdded   : {len(ids)} chunks")

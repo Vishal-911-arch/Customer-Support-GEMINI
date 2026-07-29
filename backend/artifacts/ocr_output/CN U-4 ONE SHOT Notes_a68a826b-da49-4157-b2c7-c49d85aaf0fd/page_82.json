@@ -1,0 +1,978 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_82",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_82.png",
+    "text": "Source port number: 16 bits long port number used by the process running on the source host. Destination port number: 16 bits long port number used by the process running on the destination host. Length: This ts a 16-bit field that defines the total length of the user datagram, header plus data. The 16 bits can define a total length of 0 to 65,535 bytes. Length field in a UDP user datagram is not necessary as user datagram 1s encapsulated in IP datagram. A field in IP datagram defines total length and another field defines header length.",
+    "words": [
+        {
+            "text": "Source",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 115,
+                "top": 133,
+                "width": 330,
+                "height": 87
+            }
+        },
+        {
+            "text": "port",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 484,
+                "top": 147,
+                "width": 190,
+                "height": 98
+            }
+        },
+        {
+            "text": "number:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 712,
+                "top": 132,
+                "width": 389,
+                "height": 87
+            }
+        },
+        {
+            "text": "16",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1164,
+                "top": 133,
+                "width": 101,
+                "height": 87
+            }
+        },
+        {
+            "text": "bits",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1302,
+                "top": 131,
+                "width": 172,
+                "height": 89
+            }
+        },
+        {
+            "text": "long",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1511,
+                "top": 131,
+                "width": 212,
+                "height": 114
+            }
+        },
+        {
+            "text": "port",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1758,
+                "top": 145,
+                "width": 191,
+                "height": 100
+            }
+        },
+        {
+            "text": "number",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1984,
+                "top": 131,
+                "width": 368,
+                "height": 89
+            }
+        },
+        {
+            "text": "used",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2390,
+                "top": 131,
+                "width": 216,
+                "height": 89
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2643,
+                "top": 131,
+                "width": 114,
+                "height": 114
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2792,
+                "top": 131,
+                "width": 147,
+                "height": 89
+            }
+        },
+        {
+            "text": "process",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2976,
+                "top": 158,
+                "width": 359,
+                "height": 87
+            }
+        },
+        {
+            "text": "running",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3371,
+                "top": 131,
+                "width": 377,
+                "height": 114
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3780,
+                "top": 158,
+                "width": 119,
+                "height": 61
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3931,
+                "top": 131,
+                "width": 147,
+                "height": 89
+            }
+        },
+        {
+            "text": "source",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4113,
+                "top": 159,
+                "width": 313,
+                "height": 61
+            }
+        },
+        {
+            "text": "host.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4464,
+                "top": 131,
+                "width": 221,
+                "height": 89
+            }
+        },
+        {
+            "text": "Destination",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 116,
+                "top": 420,
+                "width": 552,
+                "height": 88
+            }
+        },
+        {
+            "text": "port",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 709,
+                "top": 436,
+                "width": 189,
+                "height": 98
+            }
+        },
+        {
+            "text": "number:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 936,
+                "top": 420,
+                "width": 390,
+                "height": 88
+            }
+        },
+        {
+            "text": "16",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1388,
+                "top": 422,
+                "width": 101,
+                "height": 86
+            }
+        },
+        {
+            "text": "bits",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1527,
+                "top": 419,
+                "width": 171,
+                "height": 90
+            }
+        },
+        {
+            "text": "long",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1735,
+                "top": 419,
+                "width": 211,
+                "height": 115
+            }
+        },
+        {
+            "text": "port",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1980,
+                "top": 435,
+                "width": 192,
+                "height": 99
+            }
+        },
+        {
+            "text": "number",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2208,
+                "top": 419,
+                "width": 369,
+                "height": 90
+            }
+        },
+        {
+            "text": "used",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2612,
+                "top": 419,
+                "width": 216,
+                "height": 90
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2866,
+                "top": 419,
+                "width": 113,
+                "height": 115
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3016,
+                "top": 419,
+                "width": 146,
+                "height": 90
+            }
+        },
+        {
+            "text": "process",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3200,
+                "top": 447,
+                "width": 360,
+                "height": 87
+            }
+        },
+        {
+            "text": "running",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3595,
+                "top": 419,
+                "width": 378,
+                "height": 115
+            }
+        },
+        {
+            "text": "on",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 4005,
+                "top": 447,
+                "width": 117,
+                "height": 62
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 4156,
+                "top": 420,
+                "width": 146,
+                "height": 89
+            }
+        },
+        {
+            "text": "destination",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4336,
+                "top": 419,
+                "width": 533,
+                "height": 90
+            }
+        },
+        {
+            "text": "host.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4905,
+                "top": 420,
+                "width": 220,
+                "height": 89
+            }
+        },
+        {
+            "text": "Length:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 116,
+                "top": 637,
+                "width": 362,
+                "height": 113
+            }
+        },
+        {
+            "text": "This",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 521,
+                "top": 636,
+                "width": 213,
+                "height": 89
+            }
+        },
+        {
+            "text": "ts",
+            "confidence": 69.0,
+            "bbox": {
+                "left": 775,
+                "top": 636,
+                "width": 71,
+                "height": 89
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 880,
+                "top": 664,
+                "width": 52,
+                "height": 61
+            }
+        },
+        {
+            "text": "16-bit",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 981,
+                "top": 636,
+                "width": 274,
+                "height": 89
+            }
+        },
+        {
+            "text": "field",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1290,
+                "top": 634,
+                "width": 215,
+                "height": 92
+            }
+        },
+        {
+            "text": "that",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1542,
+                "top": 636,
+                "width": 181,
+                "height": 90
+            }
+        },
+        {
+            "text": "defines",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1758,
+                "top": 635,
+                "width": 349,
+                "height": 90
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2141,
+                "top": 636,
+                "width": 144,
+                "height": 90
+            }
+        },
+        {
+            "text": "total",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2318,
+                "top": 636,
+                "width": 208,
+                "height": 89
+            }
+        },
+        {
+            "text": "length",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2571,
+                "top": 636,
+                "width": 298,
+                "height": 115
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2905,
+                "top": 635,
+                "width": 113,
+                "height": 90
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3035,
+                "top": 636,
+                "width": 146,
+                "height": 89
+            }
+        },
+        {
+            "text": "user",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3218,
+                "top": 664,
+                "width": 200,
+                "height": 65
+            }
+        },
+        {
+            "text": "datagram,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3451,
+                "top": 636,
+                "width": 478,
+                "height": 115
+            }
+        },
+        {
+            "text": "header",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3967,
+                "top": 635,
+                "width": 323,
+                "height": 91
+            }
+        },
+        {
+            "text": "plus",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4325,
+                "top": 636,
+                "width": 198,
+                "height": 115
+            }
+        },
+        {
+            "text": "data.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4556,
+                "top": 636,
+                "width": 223,
+                "height": 89
+            }
+        },
+        {
+            "text": "The",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 111,
+                "top": 859,
+                "width": 186,
+                "height": 89
+            }
+        },
+        {
+            "text": "16",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 347,
+                "top": 860,
+                "width": 101,
+                "height": 87
+            }
+        },
+        {
+            "text": "bits",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 488,
+                "top": 858,
+                "width": 169,
+                "height": 90
+            }
+        },
+        {
+            "text": "can",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 693,
+                "top": 887,
+                "width": 164,
+                "height": 61
+            }
+        },
+        {
+            "text": "define",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 891,
+                "top": 857,
+                "width": 301,
+                "height": 91
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1228,
+                "top": 887,
+                "width": 52,
+                "height": 61
+            }
+        },
+        {
+            "text": "total",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1313,
+                "top": 858,
+                "width": 208,
+                "height": 90
+            }
+        },
+        {
+            "text": "length",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1564,
+                "top": 858,
+                "width": 297,
+                "height": 115
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1897,
+                "top": 858,
+                "width": 114,
+                "height": 89
+            }
+        },
+        {
+            "text": "0",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2028,
+                "top": 861,
+                "width": 56,
+                "height": 86
+            }
+        },
+        {
+            "text": "to",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2119,
+                "top": 872,
+                "width": 93,
+                "height": 75
+            }
+        },
+        {
+            "text": "65,535",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2247,
+                "top": 860,
+                "width": 326,
+                "height": 105
+            }
+        },
+        {
+            "text": "bytes.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2614,
+                "top": 858,
+                "width": 275,
+                "height": 115
+            }
+        },
+        {
+            "text": "Length",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 114,
+                "top": 1081,
+                "width": 340,
+                "height": 114
+            }
+        },
+        {
+            "text": "field",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 491,
+                "top": 1080,
+                "width": 216,
+                "height": 90
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 68.0,
+            "bbox": {
+                "left": 749,
+                "top": 1081,
+                "width": 86,
+                "height": 87
+            }
+        },
+        {
+            "text": "a",
+            "confidence": 68.0,
+            "bbox": {
+                "left": 869,
+                "top": 1109,
+                "width": 51,
+                "height": 61
+            }
+        },
+        {
+            "text": "UDP",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 956,
+                "top": 1082,
+                "width": 239,
+                "height": 88
+            }
+        },
+        {
+            "text": "user",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1226,
+                "top": 1109,
+                "width": 201,
+                "height": 61
+            }
+        },
+        {
+            "text": "datagram",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1458,
+                "top": 1081,
+                "width": 446,
+                "height": 114
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 45.0,
+            "bbox": {
+                "left": 1949,
+                "top": 1081,
+                "width": 71,
+                "height": 89
+            }
+        },
+        {
+            "text": "not",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2056,
+                "top": 1095,
+                "width": 151,
+                "height": 75
+            }
+        },
+        {
+            "text": "necessary",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2243,
+                "top": 1109,
+                "width": 466,
+                "height": 86
+            }
+        },
+        {
+            "text": "as",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2749,
+                "top": 1109,
+                "width": 98,
+                "height": 64
+            }
+        },
+        {
+            "text": "user",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2883,
+                "top": 1105,
+                "width": 200,
+                "height": 69
+            }
+        },
+        {
+            "text": "datagram",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3112,
+                "top": 1080,
+                "width": 451,
+                "height": 115
+            }
+        },
+        {
+            "text": "1s",
+            "confidence": 66.0,
+            "bbox": {
+                "left": 3605,
+                "top": 1081,
+                "width": 73,
+                "height": 88
+            }
+        },
+        {
+            "text": "encapsulated",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3712,
+                "top": 1080,
+                "width": 624,
+                "height": 115
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 66.0,
+            "bbox": {
+                "left": 4378,
+                "top": 1081,
+                "width": 86,
+                "height": 87
+            }
+        },
+        {
+            "text": "IP",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 4502,
+                "top": 1083,
+                "width": 100,
+                "height": 85
+            }
+        },
+        {
+            "text": "datagram.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4632,
+                "top": 1081,
+                "width": 473,
+                "height": 114
+            }
+        },
+        {
+            "text": "A",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 112,
+                "top": 1300,
+                "width": 81,
+                "height": 85
+            }
+        },
+        {
+            "text": "field",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 227,
+                "top": 1296,
+                "width": 216,
+                "height": 91
+            }
+        },
+        {
+            "text": "in",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 483,
+                "top": 1297,
+                "width": 85,
+                "height": 88
+            }
+        },
+        {
+            "text": "IP",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 607,
+                "top": 1299,
+                "width": 103,
+                "height": 86
+            }
+        },
+        {
+            "text": "datagram",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 739,
+                "top": 1297,
+                "width": 447,
+                "height": 115
+            }
+        },
+        {
+            "text": "defines",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1224,
+                "top": 1296,
+                "width": 350,
+                "height": 91
+            }
+        },
+        {
+            "text": "total",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1607,
+                "top": 1297,
+                "width": 209,
+                "height": 89
+            }
+        },
+        {
+            "text": "length",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1859,
+                "top": 1297,
+                "width": 299,
+                "height": 115
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2193,
+                "top": 1297,
+                "width": 171,
+                "height": 89
+            }
+        },
+        {
+            "text": "another",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2400,
+                "top": 1297,
+                "width": 365,
+                "height": 94
+            }
+        },
+        {
+            "text": "field",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2800,
+                "top": 1294,
+                "width": 216,
+                "height": 96
+            }
+        },
+        {
+            "text": "defines",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3050,
+                "top": 1296,
+                "width": 352,
+                "height": 91
+            }
+        },
+        {
+            "text": "header",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3438,
+                "top": 1297,
+                "width": 323,
+                "height": 89
+            }
+        },
+        {
+            "text": "length.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 3795,
+                "top": 1297,
+                "width": 321,
+                "height": 115
+            }
+        }
+    ]
+}

@@ -1,17 +1,16 @@
-from ollama import Client
-
-from config import (
-    OLLAMA_HOST,
-    LLM_MODEL
-)
+from google import genai
+from dotenv import load_dotenv
+import os
 
 
 class GraphLLM:
 
     def __init__(self):
 
-        self.client = Client(
-            host=OLLAMA_HOST
+        load_dotenv()
+
+        self.client = genai.Client(
+            api_key=os.getenv("GEMINI_API_KEY")
         )
 
     # ---------------------------------------------------------
@@ -86,94 +85,76 @@ Do not mention image processing.
 Speak as if you are explaining the engineering graph to an aerospace engineer.
 """
 
-        response = self.client.generate(
-
-            model=LLM_MODEL,
-
-            prompt=prompt,
-
-            options={
-
-                "temperature": 0,
-
-                "num_predict": 400
-
-            }
-
+        response = self.client.models.generate_content(
+            model=GEMINI_MODEL,
+            contents=prompt
         )
 
-        return response["response"]
+        return response.text
+
+    # ---------------------------------------------------------
+
     def answer_question(
-                self,
-                graph,
-                question
-        ):
+        self,
+        graph,
+        question
+    ):
 
-            prompt = f"""
-        You are an aerospace engineering expert.
+        prompt = f"""
+You are an aerospace engineering expert.
 
-        You are given structured graph information.
+You are given structured graph information.
 
-        Use ONLY this information.
+Use ONLY this information.
 
-        ================================================
+================================================
 
-        GRAPH DATA
+GRAPH DATA
 
-        Title:
-        {graph["title"]}
+Title:
+{graph["title"]}
 
-        Type:
-        {graph["graph_type"]}
+Type:
+{graph["graph_type"]}
 
-        Engineering Domain:
-        {graph["engineering_domain"]}
+Engineering Domain:
+{graph["engineering_domain"]}
 
-        X Axis:
-        {graph["x_axis"]}
+X Axis:
+{graph["x_axis"]}
 
-        Y Axis:
-        {graph["y_axis"]}
+Y Axis:
+{graph["y_axis"]}
 
-        Curve Names:
-        {graph["curve_names"]}
+Curve Names:
+{graph["curve_names"]}
 
-        Curve Count:
-        {graph["curve_count"]}
+Curve Count:
+{graph["curve_count"]}
 
-        X Ticks:
-        {graph["ticks"]["x"]}
+X Ticks:
+{graph["ticks"]["x"]}
 
-        Y Ticks:
-        {graph["ticks"]["y"]}
+Y Ticks:
+{graph["ticks"]["y"]}
 
-        Summary:
-        {graph.get("llm_summary","")}
+Summary:
+{graph.get("llm_summary", "")}
 
-        ================================================
+================================================
 
-        USER QUESTION:
+USER QUESTION:
 
-        {question}
+{question}
 
-        Answer only from graph information.
-        Do not invent values.
-        """
+Answer only from graph information.
 
-            response = self.client.generate(
+Do not invent values.
+"""
 
-                model=LLM_MODEL,
+        response = self.client.models.generate_content(
+            model=GEMINI_MODEL,
+            contents=prompt
+        )
 
-                prompt=prompt,
-
-                options={
-
-                    "temperature": 0,
-
-                    "num_predict": 300
-
-                }
-
-            )
-
-            return response["response"]
+        return response.text

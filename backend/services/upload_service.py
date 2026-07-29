@@ -1,3 +1,5 @@
+import asyncio
+import os
 import shutil
 from PIL import Image
 from pathlib import Path
@@ -32,6 +34,12 @@ class UploadService:
         ".webp"
 
     }
+
+    # Native extraction is substantially faster than rendering and OCR. Enable
+    # full visual enrichment only when it is specifically needed.
+    ENABLE_MULTIMODAL_PDF_INGESTION = os.getenv(
+        "ENABLE_MULTIMODAL_PDF_INGESTION", "false"
+    ).lower() in {"1", "true", "yes"}
 
     # ==========================================================
     # ==========================================================
@@ -305,10 +313,10 @@ class UploadService:
         )
         upload_status["progress"] = 65
 
-        import asyncio
         stats = await asyncio.to_thread(
             indexer.index_file,
-            destination
+            destination,
+            UploadService.ENABLE_MULTIMODAL_PDF_INGESTION,
         )
         upload_status["stage"] = (
             "💾 Updating knowledge base..."

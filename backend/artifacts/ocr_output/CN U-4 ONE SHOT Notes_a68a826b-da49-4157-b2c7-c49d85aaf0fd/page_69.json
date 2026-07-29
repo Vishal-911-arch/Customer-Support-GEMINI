@@ -1,0 +1,878 @@
+{
+    "document": "CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd",
+    "page": "page_69",
+    "image_path": "C:\\Users\\Vishal Sharma\\Desktop\\AI-Customer-Support - GEmini\\backend\\artifacts\\rendered_pages\\CN U-4 ONE SHOT Notes_a68a826b-da49-4157-b2c7-c49d85aaf0fd\\page_69.png",
+    "text": "Congestion Avoidance: Additive Increase > To avoid congestion before it happens; one must slow down this exponential growth. > When size of congestion window reaches slow-start threshold, slow-start phase stops and additive phase begins. > Now, each time the whole window of segments is acknowledged (one round), the size of congestion window Is increased by |. Start cwnd=I_ After round | cwnd= 1+ 1 =2 After round 2 cwnd=2+ 1=3_ After round 3 cwnd=3+ | =4_ Size of the congestion window increases additively until congestion is detected.",
+    "words": [
+        {
+            "text": "Congestion",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 80,
+                "top": 81,
+                "width": 552,
+                "height": 114
+            }
+        },
+        {
+            "text": "Avoidance:",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 661,
+                "top": 81,
+                "width": 539,
+                "height": 89
+            }
+        },
+        {
+            "text": "Additive",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1239,
+                "top": 81,
+                "width": 421,
+                "height": 88
+            }
+        },
+        {
+            "text": "Increase",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1701,
+                "top": 83,
+                "width": 396,
+                "height": 87
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 71.0,
+            "bbox": {
+                "left": 91,
+                "top": 299,
+                "width": 73,
+                "height": 82
+            }
+        },
+        {
+            "text": "To",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 229,
+                "top": 299,
+                "width": 125,
+                "height": 88
+            }
+        },
+        {
+            "text": "avoid",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 389,
+                "top": 297,
+                "width": 265,
+                "height": 90
+            }
+        },
+        {
+            "text": "congestion",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 689,
+                "top": 297,
+                "width": 525,
+                "height": 115
+            }
+        },
+        {
+            "text": "before",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1252,
+                "top": 296,
+                "width": 305,
+                "height": 91
+            }
+        },
+        {
+            "text": "it",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1600,
+                "top": 297,
+                "width": 56,
+                "height": 89
+            }
+        },
+        {
+            "text": "happens;",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1693,
+                "top": 297,
+                "width": 425,
+                "height": 115
+            }
+        },
+        {
+            "text": "one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2156,
+                "top": 325,
+                "width": 171,
+                "height": 61
+            }
+        },
+        {
+            "text": "must",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2365,
+                "top": 311,
+                "width": 231,
+                "height": 75
+            }
+        },
+        {
+            "text": "slow",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2632,
+                "top": 298,
+                "width": 228,
+                "height": 88
+            }
+        },
+        {
+            "text": "down",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2891,
+                "top": 297,
+                "width": 269,
+                "height": 89
+            }
+        },
+        {
+            "text": "this",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3192,
+                "top": 297,
+                "width": 176,
+                "height": 89
+            }
+        },
+        {
+            "text": "exponential",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3400,
+                "top": 297,
+                "width": 562,
+                "height": 115
+            }
+        },
+        {
+            "text": "growth.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4001,
+                "top": 298,
+                "width": 365,
+                "height": 114
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 73.0,
+            "bbox": {
+                "left": 91,
+                "top": 521,
+                "width": 73,
+                "height": 82
+            }
+        },
+        {
+            "text": "When",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 231,
+                "top": 519,
+                "width": 287,
+                "height": 90
+            }
+        },
+        {
+            "text": "size",
+            "confidence": 94.0,
+            "bbox": {
+                "left": 554,
+                "top": 519,
+                "width": 183,
+                "height": 90
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 772,
+                "top": 519,
+                "width": 114,
+                "height": 89
+            }
+        },
+        {
+            "text": "congestion",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 904,
+                "top": 519,
+                "width": 526,
+                "height": 115
+            }
+        },
+        {
+            "text": "window",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1466,
+                "top": 519,
+                "width": 392,
+                "height": 90
+            }
+        },
+        {
+            "text": "reaches",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 1891,
+                "top": 520,
+                "width": 359,
+                "height": 89
+            }
+        },
+        {
+            "text": "slow-start",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 2285,
+                "top": 519,
+                "width": 480,
+                "height": 90
+            }
+        },
+        {
+            "text": "threshold,",
+            "confidence": 93.0,
+            "bbox": {
+                "left": 2798,
+                "top": 519,
+                "width": 481,
+                "height": 104
+            }
+        },
+        {
+            "text": "slow-start",
+            "confidence": 92.0,
+            "bbox": {
+                "left": 3317,
+                "top": 520,
+                "width": 477,
+                "height": 90
+            }
+        },
+        {
+            "text": "phase",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3831,
+                "top": 520,
+                "width": 271,
+                "height": 114
+            }
+        },
+        {
+            "text": "stops",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4138,
+                "top": 534,
+                "width": 246,
+                "height": 100
+            }
+        },
+        {
+            "text": "and",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4417,
+                "top": 520,
+                "width": 171,
+                "height": 89
+            }
+        },
+        {
+            "text": "additive",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4625,
+                "top": 519,
+                "width": 388,
+                "height": 90
+            }
+        },
+        {
+            "text": "phase",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 231,
+                "top": 742,
+                "width": 272,
+                "height": 114
+            }
+        },
+        {
+            "text": "begins.",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 539,
+                "top": 742,
+                "width": 337,
+                "height": 114
+            }
+        },
+        {
+            "text": ">",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 92,
+                "top": 960,
+                "width": 72,
+                "height": 82
+            }
+        },
+        {
+            "text": "Now,",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 230,
+                "top": 960,
+                "width": 254,
+                "height": 101
+            }
+        },
+        {
+            "text": "each",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 521,
+                "top": 958,
+                "width": 219,
+                "height": 90
+            }
+        },
+        {
+            "text": "time",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 772,
+                "top": 959,
+                "width": 214,
+                "height": 89
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1022,
+                "top": 958,
+                "width": 146,
+                "height": 90
+            }
+        },
+        {
+            "text": "whole",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1202,
+                "top": 958,
+                "width": 293,
+                "height": 90
+            }
+        },
+        {
+            "text": "window",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1532,
+                "top": 959,
+                "width": 392,
+                "height": 89
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1956,
+                "top": 957,
+                "width": 114,
+                "height": 90
+            }
+        },
+        {
+            "text": "segments",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2089,
+                "top": 972,
+                "width": 448,
+                "height": 101
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2579,
+                "top": 959,
+                "width": 71,
+                "height": 88
+            }
+        },
+        {
+            "text": "acknowledged",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2684,
+                "top": 955,
+                "width": 700,
+                "height": 120
+            }
+        },
+        {
+            "text": "(one",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3422,
+                "top": 963,
+                "width": 211,
+                "height": 104
+            }
+        },
+        {
+            "text": "round),",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3669,
+                "top": 959,
+                "width": 350,
+                "height": 108
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4055,
+                "top": 958,
+                "width": 145,
+                "height": 90
+            }
+        },
+        {
+            "text": "size",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4238,
+                "top": 959,
+                "width": 182,
+                "height": 89
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4456,
+                "top": 957,
+                "width": 114,
+                "height": 90
+            }
+        },
+        {
+            "text": "congestion",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4588,
+                "top": 958,
+                "width": 525,
+                "height": 115
+            }
+        },
+        {
+            "text": "window",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 230,
+                "top": 1181,
+                "width": 393,
+                "height": 89
+            }
+        },
+        {
+            "text": "Is",
+            "confidence": 89.0,
+            "bbox": {
+                "left": 660,
+                "top": 1181,
+                "width": 73,
+                "height": 88
+            }
+        },
+        {
+            "text": "increased",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 773,
+                "top": 1180,
+                "width": 447,
+                "height": 91
+            }
+        },
+        {
+            "text": "by",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1260,
+                "top": 1181,
+                "width": 114,
+                "height": 114
+            }
+        },
+        {
+            "text": "|.",
+            "confidence": 67.0,
+            "bbox": {
+                "left": 1427,
+                "top": 1183,
+                "width": 63,
+                "height": 86
+            }
+        },
+        {
+            "text": "Start",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1160,
+                "top": 1316,
+                "width": 220,
+                "height": 122
+            }
+        },
+        {
+            "text": "cwnd=I_",
+            "confidence": 0.0,
+            "bbox": {
+                "left": 2308,
+                "top": 1319,
+                "width": 419,
+                "height": 141
+            }
+        },
+        {
+            "text": "After",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1158,
+                "top": 1535,
+                "width": 253,
+                "height": 90
+            }
+        },
+        {
+            "text": "round",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1445,
+                "top": 1537,
+                "width": 279,
+                "height": 88
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1778,
+                "top": 1539,
+                "width": 21,
+                "height": 84
+            }
+        },
+        {
+            "text": "cwnd=",
+            "confidence": 90.0,
+            "bbox": {
+                "left": 2308,
+                "top": 1536,
+                "width": 334,
+                "height": 91
+            }
+        },
+        {
+            "text": "1+",
+            "confidence": 81.0,
+            "bbox": {
+                "left": 2689,
+                "top": 1538,
+                "width": 109,
+                "height": 85
+            }
+        },
+        {
+            "text": "1",
+            "confidence": 60.0,
+            "bbox": {
+                "left": 2847,
+                "top": 1538,
+                "width": 26,
+                "height": 85
+            }
+        },
+        {
+            "text": "=2",
+            "confidence": 88.0,
+            "bbox": {
+                "left": 2923,
+                "top": 1538,
+                "width": 123,
+                "height": 85
+            }
+        },
+        {
+            "text": "After",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1158,
+                "top": 1758,
+                "width": 253,
+                "height": 89
+            }
+        },
+        {
+            "text": "round",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 1445,
+                "top": 1759,
+                "width": 279,
+                "height": 89
+            }
+        },
+        {
+            "text": "2",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1760,
+                "top": 1760,
+                "width": 52,
+                "height": 85
+            }
+        },
+        {
+            "text": "cwnd=2+",
+            "confidence": 83.0,
+            "bbox": {
+                "left": 2308,
+                "top": 1753,
+                "width": 458,
+                "height": 126
+            }
+        },
+        {
+            "text": "1=3_",
+            "confidence": 23.0,
+            "bbox": {
+                "left": 2818,
+                "top": 1695,
+                "width": 308,
+                "height": 220
+            }
+        },
+        {
+            "text": "After",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1157,
+                "top": 1975,
+                "width": 254,
+                "height": 89
+            }
+        },
+        {
+            "text": "round",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1446,
+                "top": 1976,
+                "width": 278,
+                "height": 88
+            }
+        },
+        {
+            "text": "3",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1764,
+                "top": 1977,
+                "width": 47,
+                "height": 87
+            }
+        },
+        {
+            "text": "cwnd=3+",
+            "confidence": 91.0,
+            "bbox": {
+                "left": 2308,
+                "top": 1974,
+                "width": 459,
+                "height": 91
+            }
+        },
+        {
+            "text": "|",
+            "confidence": 87.0,
+            "bbox": {
+                "left": 2818,
+                "top": 1977,
+                "width": 26,
+                "height": 85
+            }
+        },
+        {
+            "text": "=4_",
+            "confidence": 59.0,
+            "bbox": {
+                "left": 2853,
+                "top": 1977,
+                "width": 237,
+                "height": 129
+            }
+        },
+        {
+            "text": "Size",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 674,
+                "top": 2382,
+                "width": 204,
+                "height": 88
+            }
+        },
+        {
+            "text": "of",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 915,
+                "top": 2382,
+                "width": 109,
+                "height": 88
+            }
+        },
+        {
+            "text": "the",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1046,
+                "top": 2382,
+                "width": 157,
+                "height": 89
+            }
+        },
+        {
+            "text": "congestion",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1241,
+                "top": 2381,
+                "width": 542,
+                "height": 114
+            }
+        },
+        {
+            "text": "window",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 1822,
+                "top": 2382,
+                "width": 402,
+                "height": 91
+            }
+        },
+        {
+            "text": "increases",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 2260,
+                "top": 2382,
+                "width": 466,
+                "height": 88
+            }
+        },
+        {
+            "text": "additively",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 2762,
+                "top": 2382,
+                "width": 512,
+                "height": 113
+            }
+        },
+        {
+            "text": "until",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3313,
+                "top": 2382,
+                "width": 234,
+                "height": 88
+            }
+        },
+        {
+            "text": "congestion",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 3586,
+                "top": 2382,
+                "width": 542,
+                "height": 113
+            }
+        },
+        {
+            "text": "is",
+            "confidence": 95.0,
+            "bbox": {
+                "left": 4166,
+                "top": 2382,
+                "width": 75,
+                "height": 88
+            }
+        },
+        {
+            "text": "detected.",
+            "confidence": 96.0,
+            "bbox": {
+                "left": 4277,
+                "top": 2382,
+                "width": 454,
+                "height": 89
+            }
+        }
+    ]
+}

@@ -5,35 +5,27 @@ import Sidebar from "../components/Sidebar";
 import ChatWindow from "../components/ChatWindow";
 import ChatInput from "../components/ChatInput";
 
-function ChatPage() {
-
-    const [activeImage, setActiveImage] =
-        useState(null);
+function ChatPage({ onLogout }) {
+    const [activeImage, setActiveImage] = useState(null);
 
     return (
-
         <div className="h-screen bg-slate-900 flex flex-col">
-
-            <Navbar />
+            <Navbar onLogout={onLogout} />
 
             <div className="flex flex-1 overflow-hidden">
-
                 <Sidebar />
 
                 <div className="flex flex-col flex-1">
-<ChatWindow />
+                    <ChatWindow />
 
-<ChatInput
-    activeImage={activeImage}
-    setActiveImage={setActiveImage}
-/>
-
+                    <ChatInput
+                        activeImage={activeImage}
+                        setActiveImage={setActiveImage}
+                    />
                 </div>
-
             </div>
-
         </div>
-
     );
 }
+
 export default ChatPage;

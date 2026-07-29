@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-
-from config import LLM_MODEL
+from api.auth import router as auth_router
 
 from api.chat import router as chat_router
 from api.health import router as health_router
@@ -50,6 +49,8 @@ app.include_router(health_router)
 app.include_router(status_router)
 
 app.include_router(knowledge_router)
+
+app.include_router(auth_router)
 # ----------------------------------------------------
 # Home
 # ----------------------------------------------------
@@ -68,8 +69,7 @@ def home():
         "status":
             "Running",
 
-        "llm":
-            LLM_MODEL,
+
 
         "rag":
             True
