@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local database / vector store / generated data
+chroma_db/
+*.db
+*.sqlite3
+*.sqlite
+
+# Generated artifacts
+artifacts/
+outputs/
+output/
+debug_*.png
+debug_*.jpg
+debug_*.jpeg
+debug_*.webp
+
+# Uploaded / processed documents and images
+documents/uploaded/
+documents/images/
+
+# OCR / rendered pages / analysis outputs
+rendered_pages/
+ocr_output/
+image_classifier/
+vision_output/
+graph_output/
+table_output/
+embedding_cache/
+figure_index/
+graph_analysis/
+graph_json/
+multimodal_chunks/
+
+# Node / frontend build
+node_modules/
+dist/
+build/
+.vite/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
