@@ -7,7 +7,7 @@ const api = axios.create({
 
 api.interceptors.request.use(
     (config) => {
-        const token = localStorage.getItem("chatbot_token");
+        const token = sessionStorage.getItem("chatbot_token");
         if (token) {
             config.headers.Authorization = `Bearer ${token}`;
         }
@@ -29,8 +29,8 @@ export const login = async (username, password) => {
 };
 
 export const clearAuth = () => {
-    localStorage.removeItem("chatbot_token");
-    localStorage.removeItem("chatbot_auth");
+    sessionStorage.removeItem("chatbot_token");
+    sessionStorage.removeItem("chatbot_auth");
 };
 
 // =========================
