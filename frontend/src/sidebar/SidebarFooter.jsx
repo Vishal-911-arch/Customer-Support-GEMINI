@@ -1,62 +1,30 @@
 import {
-
-    FaCircle,
     FaDatabase,
     FaCog
-
 } from "react-icons/fa";
 
 function SidebarFooter() {
-
     return (
-
-        <div className="border-t border-slate-700 p-4 space-y-4">
-
-            <div className="space-y-2 text-sm">
-
-                <div className="flex justify-between">
-
-                    <span>Ollama</span>
-
-                    <span className="text-green-400 flex items-center gap-2">
-
-                        <FaCircle size={8}/>
-
-                        Running
-
-                    </span>
-
-                </div>
-
-                <div className="flex justify-between">
-
-                    <span>Knowledge Base</span>
-
-                    <span>
-
+        <div className="border-t border-slate-700 px-4 py-3">
+            <div className="space-y-3 text-sm">
+                <div className="flex items-center justify-between">
+                    <span className="text-slate-200">Knowledge Base</span>
+                    <span className="text-slate-100 font-medium">
                         1058 Chunks
-
                     </span>
-
                 </div>
 
-                <div className="flex justify-between">
-
-                    <span>Documents</span>
-
-                    <span>
-
+                <div className="flex items-center justify-between">
+                    <span className="text-slate-200">Documents</span>
+                    <span className="text-slate-100 font-medium">
                         26 PDFs
-
                     </span>
-
                 </div>
-
             </div>
 
             <button
-
                 className="
+                    mt-4
                     w-full
                     flex
                     items-center
@@ -66,20 +34,14 @@ function SidebarFooter() {
                     px-4
                     py-3
                     hover:bg-slate-600
+                    transition
                 "
-
             >
-
-                <FaCog/>
-
+                <FaCog />
                 Settings
-
             </button>
-
         </div>
-
     );
-
 }
 
 export default SidebarFooter;

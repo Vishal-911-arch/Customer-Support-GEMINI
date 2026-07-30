@@ -36,7 +36,7 @@ function SidebarHeader({ sidebarOpen, setSidebarOpen }) {
 
                         <p className="text-xs text-slate-400">
 
-                            Offline Assistant
+                             Assistant
 
                         </p>
 

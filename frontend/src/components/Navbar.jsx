@@ -29,7 +29,7 @@ function Navbar({ onLogout }) {
                         AI Customer Support
                     </h1>
                     <p className="text-sm text-gray-400 truncate">
-                        Offline AI Assistant
+                         AI Assistant
                     </p>
                 </div>
             </div>
