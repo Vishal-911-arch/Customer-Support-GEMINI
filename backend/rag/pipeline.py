@@ -79,20 +79,20 @@ class RAGPipeline:
             print("\n✓ SMALL TALK DETECTED\n")
 
             return {
-                "answer": (
-                    "Hello! I’m AI Customer Support.\n\n"
-                    "I can help you with:\n"
-                    "- answering questions from uploaded PDFs\n"
-                    "- analyzing uploaded images\n"
-                    "- explaining document content clearly\n"
-                    "- finding useful information from the knowledge base\n\n"
-                    "Upload a file or ask me a question to begin."
-                ),
-                "sources": [],
-                "vision": [],
-                "graph": None,
-                "chat_title": "Welcome"
-            }
+            "answer": (
+                "Hello! I’m AI Customer Support.\n"
+                "I can help you with:\n"
+                "• answering questions from uploaded PDFs\n"
+                "• analyzing uploaded images\n"
+                "• explaining document content clearly\n"
+                "• finding useful information from the knowledge base\n"
+                "Upload a file or ask me a question to begin."
+            ),
+            "sources": [],
+            "vision": [],
+            "graph": None,
+            "chat_title": "Welcome"
+        }
         # -------------------------------------------------
         # Performance Timers
         # -------------------------------------------------
