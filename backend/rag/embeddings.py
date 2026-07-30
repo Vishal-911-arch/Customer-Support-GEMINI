@@ -12,7 +12,9 @@ class EmbeddingGenerator:
     def __init__(self, batch_size=32, min_delay_seconds=0.75, max_retries=5):
 
         load_dotenv()
-
+        key = os.getenv("GEMINI_API_KEY")
+        print("GEMINI_API_KEY present:", bool(key))
+        print("GEMINI_API_KEY prefix:", repr(key[:8] if key else None))
         self.client = genai.Client(
             api_key=os.getenv("GEMINI_API_KEY")
         )

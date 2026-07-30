@@ -25,11 +25,11 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
-
         "http://localhost:4173",
         "http://127.0.0.1:4173",
-
         "http://192.168.172.219:4173",
+        "https://customer-support-gemini-b9fj1whiu-codex-921a.vercel.app",
+        "https://customer-support-gemini.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
