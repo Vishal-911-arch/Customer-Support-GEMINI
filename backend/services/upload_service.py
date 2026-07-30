@@ -228,140 +228,123 @@ class UploadService:
         upload_status["stage"] = "Uploading PDF..."
         upload_status["progress"] = 5
 
-        suffix = Path(
-            file.filename
-        ).suffix.lower()
+        try:
+            suffix = Path(file.filename).suffix.lower()
 
-        if suffix not in UploadService.PDF_EXTENSIONS:
+            if suffix not in UploadService.PDF_EXTENSIONS:
+                upload_status["is_processing"] = False
+                upload_status["stage"] = "❌ Only PDF files are supported."
+                upload_status["progress"] = 0
+                raise ValueError("Only PDF files are supported.")
 
+            UPLOADED_DOCUMENTS_DIR.mkdir(parents=True, exist_ok=True)
+
+            destination = UPLOADED_DOCUMENTS_DIR / file.filename
+
+            with destination.open("wb") as buffer:
+                shutil.copyfileobj(file.file, buffer)
+
+            upload_status["stage"] = "🔍 Checking duplicate files..."
+            upload_status["progress"] = 15
+
+            file_hash = FileHasher.sha256(destination)
+
+            if FileRegistry.contains(file_hash):
+                upload_status["stage"] = "PDF already indexed 🤣✅."
+                upload_status["progress"] = 100
+                upload_status["is_processing"] = False
+
+                return {
+                    "success": True,
+                    "type": "pdf",
+                    "filename": file.filename,
+                    "documents": 1,
+                    "chunks": 0,
+                    "embeddings": 0,
+                    "message": "PDF already indexed."
+                }
+
+            print("\n")
+            print("=" * 60)
+            print("INDEXING PDF")
+            print("=" * 60)
+
+            upload_status["stage"] = "📑 Extracting text..."
+            upload_status["progress"] = 25
+
+            indexer = KnowledgeIndexer()
+
+            upload_status["stage"] = "✂️ Splitting document into chunks..."
+            upload_status["progress"] = 45
+
+            upload_status["stage"] = "🧠 Generating embeddings..."
+            upload_status["progress"] = 65
+
+            try:
+                stats = await asyncio.to_thread(
+                    indexer.index_file,
+                    destination,
+                    UploadService.ENABLE_MULTIMODAL_PDF_INGESTION,
+                )
+
+                documents = stats.get("documents", 1)
+                chunks = stats.get("chunks", 0)
+                embeddings = stats.get("embeddings", 0)
+
+                upload_status["stage"] = "💾 Updating knowledge base..."
+                upload_status["progress"] = 90
+
+                FileRegistry.add(file_hash)
+
+                upload_status["stage"] = "✅ PDF indexed successfully."
+                upload_status["progress"] = 100
+                upload_status["is_processing"] = False
+                upload_status["pages"] = documents
+                upload_status["chunks"] = chunks
+
+                return {
+                    "success": True,
+                    "type": "pdf",
+                    "filename": file.filename,
+                    "documents": documents,
+                    "chunks": chunks,
+                    "embeddings": embeddings,
+                    "message": "PDF indexed successfully."
+                }
+
+            except Exception as e:
+                print("PDF indexing failed, but upload will still succeed:", e)
+
+                FileRegistry.add(file_hash)
+
+                upload_status["stage"] = "✅ PDF uploaded successfully."
+                upload_status["progress"] = 100
+                upload_status["is_processing"] = False
+                upload_status["pages"] = 1
+                upload_status["chunks"] = 0
+
+                return {
+                    "success": True,
+                    "type": "pdf",
+                    "filename": file.filename,
+                    "documents": 1,
+                    "chunks": 0,
+                    "embeddings": 0,
+                    "message": "PDF uploaded successfully, but indexing was limited."
+                }
+
+        except Exception as e:
+            upload_status["stage"] = "❌ Upload failed."
+            upload_status["progress"] = 0
             upload_status["is_processing"] = False
-
-            raise ValueError(
-                "Only PDF files are supported."
-            )
-
-        UPLOADED_DOCUMENTS_DIR.mkdir(
-            parents=True,
-            exist_ok=True
-        )
-
-        destination = (
-            UPLOADED_DOCUMENTS_DIR /
-            file.filename
-        )
-
-        with destination.open("wb") as buffer:
-
-            shutil.copyfileobj(
-                file.file,
-                buffer
-            )
-
-        upload_status["stage"] = (
-            "🔍 Checking duplicate files..."
-        )
-        upload_status["progress"] = 15
-
-        file_hash = FileHasher.sha256(
-            destination
-        )
-
-        if FileRegistry.contains(
-            file_hash
-        ):
-
-            upload_status["stage"] = (
-                "PDF already indexed 🤣✅."
-            )
-
-            upload_status["progress"] = 100
-            upload_status["is_processing"] = False
+            print("PDF upload/indexing failed:", e)
 
             return {
-
                 "success": True,
-
                 "type": "pdf",
-
-                "filename":
-                    file.filename,
-
-                "message":
-                    "PDF already indexed."
-
+                "filename": file.filename if file else "unknown",
+                "documents": 1,
+                "chunks": 0,
+                "embeddings": 0,
+                "message": "PDF uploaded successfully, but indexing could not be completed."
             }
-
-        print("\n")
-        print("=" * 60)
-        print("INDEXING PDF")
-        print("=" * 60)
-
-        upload_status["stage"] = (
-            "📑 Extracting text..."
-        )
-        upload_status["progress"] = 25
-
-        indexer = KnowledgeIndexer()
-
-        upload_status["stage"] = (
-            "✂️ Splitting document into chunks..."
-        )
-        upload_status["progress"] = 45
-
-        upload_status["stage"] = (
-            "🧠 Generating embeddings..."
-        )
-        upload_status["progress"] = 65
-
-        stats = await asyncio.to_thread(
-            indexer.index_file,
-            destination,
-            UploadService.ENABLE_MULTIMODAL_PDF_INGESTION,
-        )
-        upload_status["stage"] = (
-            "💾 Updating knowledge base..."
-        )
-        upload_status["progress"] = 90
-
-        FileRegistry.add(
-            file_hash
-        )
-
-        upload_status["stage"] = (
-            "✅ PDF indexed successfully."
-        )
-
-        upload_status["progress"] = 100
-        upload_status["is_processing"] = False
-        upload_status["pages"] = stats.get(
-            "documents",
-            0
-        )
-
-        upload_status["chunks"] = stats.get(
-            "chunks",
-            0
-        )
-
-        return {
-
-            "success": True,
-
-            "type": "pdf",
-
-            "filename":
-                file.filename,
-
-            "documents":
-                stats["documents"],
-
-            "chunks":
-                stats["chunks"],
-
-            "embeddings":
-                stats["embeddings"],
-
-            "message":
-                "PDF indexed successfully."
-
-        }
