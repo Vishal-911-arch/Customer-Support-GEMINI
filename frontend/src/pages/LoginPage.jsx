@@ -16,8 +16,8 @@ function LoginPage({ onLogin }) {
     try {
       const data = await login(username, password);
 
-      localStorage.setItem("chatbot_token", data.access_token);
-      localStorage.setItem("chatbot_auth", "true");
+      sessionStorage.setItem("chatbot_token", data.access_token);
+      sessionStorage.setItem("chatbot_auth", "true");
 
       onLogin();
     } catch (err) {

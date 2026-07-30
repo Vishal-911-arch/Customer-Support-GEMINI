@@ -4,11 +4,11 @@ import LoginPage from "./pages/LoginPage";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(
-    localStorage.getItem("chatbot_token") !== null
+    sessionStorage.getItem("chatbot_token") !== null
   );
 
   useEffect(() => {
-    setIsLoggedIn(localStorage.getItem("chatbot_token") !== null);
+    setIsLoggedIn(sessionStorage.getItem("chatbot_token") !== null);
   }, []);
 
   function handleLogin() {
@@ -16,8 +16,8 @@ function App() {
   }
 
   function handleLogout() {
-    localStorage.removeItem("chatbot_token");
-    localStorage.removeItem("chatbot_auth");
+    sessionStorage.removeItem("chatbot_token");
+    sessionStorage.removeItem("chatbot_auth");
     setIsLoggedIn(false);
   }
 
