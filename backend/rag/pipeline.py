@@ -78,42 +78,21 @@ class RAGPipeline:
         if any(phrase == q for phrase in SMALL_TALK):
             print("\n✓ SMALL TALK DETECTED\n")
 
-            prompt = f"""
-You are a friendly AI assistant.
-
-Answer the user normally.
-
-Rules:
-- Do not use the knowledge base.
-- Do not mention documents.
-- Do not mention figures.
-- Do not mention graphs.
-- Do not mention PDFs.
-- Do not mention manuals.
-
-User:
-{question}
-"""
-
-            start = time.time()
-
-            response = self.client.models.generate_content(
-                model=GEMINI_MODEL,
-                contents=prompt
-            )
-
-            llm_time = time.time() - start
-
-            print(f"Gemini Time : {llm_time:.2f} sec")
-
             return {
-                "answer": response.text.strip(),
+                "answer": (
+                    "Hello! I’m AI Customer Support.\n\n"
+                    "I can help you with:\n"
+                    "- answering questions from uploaded PDFs\n"
+                    "- analyzing uploaded images\n"
+                    "- explaining document content clearly\n"
+                    "- finding useful information from the knowledge base\n\n"
+                    "Upload a file or ask me a question to begin."
+                ),
                 "sources": [],
                 "vision": [],
                 "graph": None,
-                "chat_title": question
+                "chat_title": "Welcome"
             }
-
         # -------------------------------------------------
         # Performance Timers
         # -------------------------------------------------
